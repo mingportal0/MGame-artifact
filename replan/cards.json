@@ -1,0 +1,235 @@
+[
+  {
+    "code": "P1-R01",
+    "id": "t_36dc4075",
+    "title": "업그레이드 중심 구조·집계 기준·해금 로드맵",
+    "owner": "james",
+    "parents": [
+      "t_56f0f69e"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R01.md",
+    "goal": "새 업그레이드를 다음 플레이 목표로 만드는 구조를 제안한다.",
+    "acceptance": "대표 기준 전수 추적, 독립 항목/변형/반복레벨 집계 구분, 최소100개 정도 목표의 분류별 배분안, 모든 업그레이드 도달 가능 전제, 보스 없는 진척·종료 대안과 권고를 제시. 상세100개 작성은 후속 카드.",
+    "verification": "원문 대조, 분류 합계와 중복 집계 검사, 목표→전투→보상→구매→새 목표 흐름 추적.",
+    "risk": "수치만 채우는 반복 강화·보스 없는 종료 조건 미결정"
+  },
+  {
+    "code": "P1-R02",
+    "id": "t_3b4a9ea0",
+    "title": "대표 중간 확인: 집계·진척 기준",
+    "owner": "sophie",
+    "parents": [
+      "t_36dc4075"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R02.md",
+    "goal": "상세 카탈로그 전 불확실한 설계 기준을 실제 대표 결정으로 확정한다.",
+    "acceptance": "R01의 집계·배분·보스 없는 진척/종료 대안을 상신하고 실제 응답·승인 범위·보류 항목을 기록. 모든 획득 가능을 구매 의무로 해석 금지.",
+    "verification": "실제 대표 응답 인용과 제안의 차이 대조. 응답 전 완료 금지.",
+    "risk": "대표 응답 부재·의도하지 않은 범위 확대"
+  },
+  {
+    "code": "P1-R03",
+    "id": "t_419eb84e",
+    "title": "정령3종·일반적4종·전투 상태 명세",
+    "owner": "james",
+    "parents": [
+      "t_3b4a9ea0"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R03.md",
+    "goal": "새 범위의 전투와 업그레이드 효과 적용 대상을 정의한다.",
+    "acceptance": "화염/번개/얼음3종·일반적4종의 역할/ID/공격/상태이상/상호작용, 커서 지휘와30초 경계·자동지급·배치/상한·입력 예외 정의. 보스 제외.",
+    "verification": "개체수·고유ID·상태 전이·턴 종료/동시 처치/타깃 부재 수기 사례 대조.",
+    "risk": "얼음 상태이상·다수 개체의 규칙 복잡도"
+  },
+  {
+    "code": "P1-R04",
+    "id": "t_8ea248e8",
+    "title": "공통·경제·지휘 업그레이드 카탈로그",
+    "owner": "james",
+    "parents": [
+      "t_3b4a9ea0",
+      "t_419eb84e"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R04.md",
+    "goal": "전체 카탈로그의 공통 스키마와 공통 계열을 작성한다.",
+    "acceptance": "R02 승인 배분에 맞는 공통/경제/지휘 항목 작성. ID/효과/수치·상한/가격/전제/해금/적용순서/표현/목표변화/검증 필드와 전 계열 ID 영역 정의. 반복레벨로 독립항목 수 대체 금지.",
+    "verification": "ID·필수필드·집계·중복 효과·참조 검사, 구매 전후 사례.",
+    "risk": "공통 강화가 원소 계열을 무의미하게 함"
+  },
+  {
+    "code": "P1-R05",
+    "id": "t_437f8ec6",
+    "title": "화염 업그레이드 카탈로그",
+    "owner": "james",
+    "parents": [
+      "t_8ea248e8"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R05.md",
+    "goal": "화염에서 기대할 새 목표와 성장 변화를 설계한다.",
+    "acceptance": "R02 배분과 R04 스키마에 맞는 화염 계열 작성. 단순 수치 차이/반복레벨 집계 구분, 전제·가격·상호작용·구매 전후 플레이 예시.",
+    "verification": "ID/필드/전제 참조/중복 점검, 최소·최대 효과 사례.",
+    "risk": "유사 항목 양산·상태이상 중첩 폭증"
+  },
+  {
+    "code": "P1-R06",
+    "id": "t_ff0c631d",
+    "title": "번개 업그레이드 카탈로그",
+    "owner": "james",
+    "parents": [
+      "t_8ea248e8"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R06.md",
+    "goal": "번개의 새 목표와 화염과 다른 성장 경험을 설계한다.",
+    "acceptance": "R02 배분과 R04 스키마에 맞는 번개 계열 작성. 연쇄/빈도 등 효과는 제안으로 명시, 전제·가격·중첩·구매 전후 예시.",
+    "verification": "ID/필드/전제 참조/중복 점검, 다중 타깃 경계 사례.",
+    "risk": "연쇄 대상·공격 빈도의 비용과 효과 과다"
+  },
+  {
+    "code": "P1-R07",
+    "id": "t_1381bca6",
+    "title": "얼음 업그레이드 카탈로그",
+    "owner": "james",
+    "parents": [
+      "t_8ea248e8"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R07.md",
+    "goal": "얼음의 역할과 새 목표를 구체화한다.",
+    "acceptance": "R02 배분과 R04 스키마에 맞는 얼음 계열 작성. 상태이상 면역/상한/중첩과 전제·가격·구매 전후 예시.3종 외 신규 아군 추가 금지.",
+    "verification": "ID/필드/참조 검사, 둔화·빙결 중첩/해제 경계 사례.",
+    "risk": "얼음이 화력/경제 진행에서 불리하거나 필수화"
+  },
+  {
+    "code": "P1-R08",
+    "id": "t_968ff516",
+    "title": "전체 카탈로그·자연경제·전수 도달성 검증",
+    "owner": "james",
+    "parents": [
+      "t_419eb84e",
+      "t_8ea248e8",
+      "t_437f8ec6",
+      "t_ff0c631d",
+      "t_1381bca6"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R08.md",
+    "goal": "모든 업그레이드 획득 가능성과 다음 목표의 비용을 검토한다.",
+    "acceptance": "전 계열 통합 집계가 최소100개 정도 목표와 승인 집계에 부합, 선행순환·상호배타·영구잠금 없음 점검. 시작 상태의 실제 전투 규칙에 따른 공급 모델·가격/반올림/구매순서·유한 최대 성장·목표시간 가정·민감도·악용·잔여결함 기록. 외생 킬수만으로 자연경제 입증 금지.",
+    "verification": "문서/데이터 산술·그래프 도달성·합법 구매 경로와 골드 원장 검사. 모델 계산과 실제 플레이 구분.",
+    "risk": "구매 경로 교착·무료 강화 악용·제로효과 레벨·목표시간 미승인"
+  },
+  {
+    "code": "P1-R09",
+    "id": "t_1630829e",
+    "title": "100개 상점 UX·목표 안내·성장 표현",
+    "owner": "mia",
+    "parents": [
+      "t_968ff516"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R09.md",
+    "goal": "다음 업그레이드를 찾고 성장 변화를 이해할 UX를 설계한다.",
+    "acceptance": "탐색/분류/필터/해금 예고/비교/구매 불가/최대 성장·진척/종료 화면의 텍스트 와이어프레임, 입력 우선순위·접근성·성장 피드백·아트 목록과 비용 가정. James에 규칙 영향 질문.",
+    "verification": "초기/중간/후반·100개 탐색·구매연타·턴경계 워크스루. 실제 사용자 검증 아님 명시.",
+    "risk": "탐색 피로·효과 과밀·UI입력과 지휘 충돌"
+  },
+  {
+    "code": "P1-R10",
+    "id": "t_86ea60a7",
+    "title": "기술·데이터·저장·성능·총비용 재검토",
+    "owner": "sam",
+    "parents": [
+      "t_968ff516",
+      "t_1630829e"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R10.md",
+    "goal": "새100개 규모의 제작 가능성과 저비용 대안을 검토한다.",
+    "acceptance": "데이터 구동/효과 조합/저장 버전·전 항목 획득 기록/동시효과·개체상한 후보/시험 계획, 작업량 범위·아트/UI/QA 포함 비용과 전제·위험·최소2안. 엔진은 후보, 실행 게임코드·프로젝트 초기화 금지.",
+    "verification": "요구→기술대안→테스트 대응 검사. 이전5항목 견적 전용 금지. 추정/실측 분리.",
+    "risk": "효과 조합 폭증·저장 호환·실측 없는 성능/견적"
+  },
+  {
+    "code": "P1-R11",
+    "id": "t_a87993fa",
+    "title": "재미 가설·MVP 완료 기준·실제 테스트 계획",
+    "owner": "james",
+    "parents": [
+      "t_968ff516",
+      "t_1630829e",
+      "t_86ea60a7"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R11.md",
+    "goal": "업그레이드를 목표로 계속 플레이하는 재미를 검증할 계획을 세운다.",
+    "acceptance": "새 목표 기대/성장 체감/선택·탐색 피로/전체획득 도달성 가설과 관찰지표·성공실패/중단 기준, 보스 없는MVP 완료 기준·제외범위·대상/표본/시간 가정. 계획만 작성, 모집/구현 금지.",
+    "verification": "요구→가설→지표→판정 대응, 기능·게임성·UX·성능 테스트 구분.",
+    "risk": "AI모델을 사람 재미 증거로 오인·미승인 목표시간"
+  },
+  {
+    "code": "P1-R12",
+    "id": "t_e54ab663",
+    "title": "재기획 GDD 통합·변경 및 기존결함 추적",
+    "owner": "james",
+    "parents": [
+      "t_a87993fa"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R12.md",
+    "goal": "새 기준과 문서를 일관된 검토 패키지로 통합한다.",
+    "acceptance": "R01~11 최신본 통합·대표 기준 추적, 기존27건 발견의 유지/재작업/보스 범위제외 매핑과 근거 보존. 보스 제외를 결함 해결로 처리 금지. ID·용어·경제·UX·기술·범위·가정·미결정 연결.",
+    "verification": "문서버전/지문·참조·집계·수치·상태 전이 검사, 기존GDD와 변경표.",
+    "risk": "문서별 상충·과거 검증을 새100개 설계에 전용"
+  },
+  {
+    "code": "P1-R13",
+    "id": "t_076987b4",
+    "title": "동일 버전 전문 교차검토·결함 원장",
+    "owner": "sophie",
+    "parents": [
+      "t_e54ab663"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R13.md",
+    "goal": "James·Mia·Sam의 실제 검토를 같은 버전에서 확보한다.",
+    "acceptance": "고정버전·지문에 대한3영역 실제 응답·질문/근거/위치 보존, 중복 포함 원문발견·심각도·담당1명·수정 기준·이견 원장. 검토 수집만으로 제품 승인 아님.",
+    "verification": "응답 실재·검토버전·범위 대조, 미응답은 검토 대기. Sophie의 추정 리뷰 금지.",
+    "risk": "검토자 미응답·중대한 전문 이견"
+  },
+  {
+    "code": "P1-R14",
+    "id": "t_c853a7ca",
+    "title": "지적 보완·담당자 재검토·G2 제출본",
+    "owner": "james",
+    "parents": [
+      "t_076987b4"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R14.md",
+    "goal": "대표가 채택/수정/보류를 판단할 패키지를 제출한다.",
+    "acceptance": "전 발견의 채택/미채택·이유·전후위치·검증/미검증·잔여위험, 필요한 실제 전문 재검토 확보. 최종GDD·핵심권고·비용/범위·미결정·중단조건. 상태 review, G3 미승인.",
+    "verification": "원장 전수 대조·수정 항목 재검증·대표 기준 누락 검사. 치명 잔여 우선 공개.",
+    "risk": "고위험 미해결·수정으로 인한 새 충돌"
+  },
+  {
+    "code": "P1-R15",
+    "id": "t_8ac23d19",
+    "title": "대표 G2 재확인·결정 및 후속 분리",
+    "owner": "sophie",
+    "parents": [
+      "t_c853a7ca"
+    ],
+    "status": "blocked",
+    "artifact": "/home/mj/.hermes/company/kanban/game-planning-phase1/replan/artifacts/R15.md",
+    "goal": "실제 대표의 재기획 판단과 개발 권한을 구분하여 기록한다.",
+    "acceptance": "제출버전과 실제 대표 채택/수정/보류/폐기 응답·범위·조건·미결정·후속 담당 기록. GDD채택과G3개발허가 별개. 수정/보류면 재작업 카드 분해도 승인 범위 확인.",
+    "verification": "대표 실제 응답과 버전 대조. 미응답은 blocked, 자동 승인 금지.",
+    "risk": "G2채택을 개발/예산/공개허가로 오인"
+  }
+]
