@@ -1,0 +1,522 @@
+{
+  "scope": "Document/link/privacy and conditional arithmetic checks only; no game implementation, gameplay, performance, random simulation or real-player test.",
+  "checks_passed": 80,
+  "checks_total": 80,
+  "checks": [
+    {
+      "check": "12 unique independent upgrade rows",
+      "pass": true
+    },
+    {
+      "check": "three independent enemy upgrade rows",
+      "pass": true
+    },
+    {
+      "check": "afford U01",
+      "pass": true
+    },
+    {
+      "check": "not already owned U01",
+      "pass": true
+    },
+    {
+      "check": "unlock prerequisite U01",
+      "pass": true
+    },
+    {
+      "check": "afford U05",
+      "pass": true
+    },
+    {
+      "check": "not already owned U05",
+      "pass": true
+    },
+    {
+      "check": "unlock prerequisite U05",
+      "pass": true
+    },
+    {
+      "check": "afford U06",
+      "pass": true
+    },
+    {
+      "check": "not already owned U06",
+      "pass": true
+    },
+    {
+      "check": "unlock prerequisite U06",
+      "pass": true
+    },
+    {
+      "check": "afford U02",
+      "pass": true
+    },
+    {
+      "check": "not already owned U02",
+      "pass": true
+    },
+    {
+      "check": "unlock prerequisite U02",
+      "pass": true
+    },
+    {
+      "check": "afford U04",
+      "pass": true
+    },
+    {
+      "check": "not already owned U04",
+      "pass": true
+    },
+    {
+      "check": "unlock prerequisite U04",
+      "pass": true
+    },
+    {
+      "check": "first two purchases fire/common only",
+      "pass": true
+    },
+    {
+      "check": "path cash and grants",
+      "pass": true
+    },
+    {
+      "check": "cash conservation",
+      "pass": true
+    },
+    {
+      "check": "conditional fire kills",
+      "pass": true
+    },
+    {
+      "check": "single enemy comparisons",
+      "pass": true
+    },
+    {
+      "check": "elite expectation and variance",
+      "pass": true
+    },
+    {
+      "check": "no elite has nonzero probability",
+      "pass": true
+    },
+    {
+      "check": "first round net is not gross",
+      "pass": true
+    },
+    {
+      "check": "capacity counterexamples",
+      "pass": true
+    },
+    {
+      "check": "composition 000",
+      "pass": true
+    },
+    {
+      "check": "composition 001",
+      "pass": true
+    },
+    {
+      "check": "composition 010",
+      "pass": true
+    },
+    {
+      "check": "composition 011",
+      "pass": true
+    },
+    {
+      "check": "composition 100",
+      "pass": true
+    },
+    {
+      "check": "composition 101",
+      "pass": true
+    },
+    {
+      "check": "composition 110",
+      "pass": true
+    },
+    {
+      "check": "composition 111",
+      "pass": true
+    },
+    {
+      "check": "combined capacity not guaranteed by 900",
+      "pass": true
+    },
+    {
+      "check": "scope and full target",
+      "pass": true
+    },
+    {
+      "check": "input and temporal boundary",
+      "pass": true
+    },
+    {
+      "check": "reward once and unlock",
+      "pass": true
+    },
+    {
+      "check": "technical candidates",
+      "pass": true
+    },
+    {
+      "check": "execution and stop",
+      "pass": true
+    },
+    {
+      "check": "proposal and untested",
+      "pass": true
+    },
+    {
+      "check": "risk and trials",
+      "pass": true
+    },
+    {
+      "check": "toggle agreed",
+      "pass": true
+    },
+    {
+      "check": "actual response james-response.txt",
+      "pass": true
+    },
+    {
+      "check": "actual response mia-response.txt",
+      "pass": true
+    },
+    {
+      "check": "actual response sam-response.txt",
+      "pass": true
+    },
+    {
+      "check": "actual response james-clarification.txt",
+      "pass": true
+    },
+    {
+      "check": "actual response mia-boundary.txt",
+      "pass": true
+    },
+    {
+      "check": "actual response sam-boundary.txt",
+      "pass": true
+    },
+    {
+      "check": "actual response james-toggle.txt",
+      "pass": true
+    },
+    {
+      "check": "R03 through R15 still blocked",
+      "pass": true
+    },
+    {
+      "check": "Slack completion routing exists",
+      "pass": true
+    },
+    {
+      "check": "public privacy README.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/artifacts/D01.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/artifacts/D01-evidence.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/artifacts/D01-validation.json",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/D01-authorization.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/artifacts/R01.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/artifacts/R01-validation.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/artifacts/R02.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/demo-first-plan.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/plan.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/cards.json",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/board-validation.json",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/authorization.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> replan/baseline-decision.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> artifacts/23.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> artifacts/22-submit.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> artifacts/22.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> artifacts/22-addendum.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> artifacts/22-resolutions.md",
+      "pass": true
+    },
+    {
+      "check": "relative link README.md -> artifacts/",
+      "pass": true
+    },
+    {
+      "check": "public privacy replan/D01-authorization.md",
+      "pass": true
+    },
+    {
+      "check": "relative link replan/D01-authorization.md -> artifacts/D01.md",
+      "pass": true
+    },
+    {
+      "check": "relative link replan/D01-authorization.md -> artifacts/D01-evidence.md",
+      "pass": true
+    },
+    {
+      "check": "public privacy replan/artifacts/D01.md",
+      "pass": true
+    },
+    {
+      "check": "relative link replan/artifacts/D01.md -> D01-evidence.md",
+      "pass": true
+    },
+    {
+      "check": "public privacy replan/artifacts/D01-evidence.md",
+      "pass": true
+    },
+    {
+      "check": "relative link replan/artifacts/D01-evidence.md -> D01.md",
+      "pass": true
+    },
+    {
+      "check": "relative link replan/artifacts/D01-evidence.md -> D01-validation.json",
+      "pass": true
+    }
+  ],
+  "prices_total_proposed": 330,
+  "conditional_path": [
+    {
+      "income": 20,
+      "purchase": "U01",
+      "cash_after": 10,
+      "owned_count": 1,
+      "grants": {
+        "fire": 1,
+        "ice": 0,
+        "lightning": 0
+      }
+    },
+    {
+      "income": 30,
+      "purchase": "U05",
+      "cash_after": 25,
+      "owned_count": 2,
+      "grants": {
+        "fire": 1,
+        "ice": 1,
+        "lightning": 0
+      }
+    },
+    {
+      "income": 0,
+      "purchase": "U06",
+      "cash_after": 5,
+      "owned_count": 3,
+      "grants": {
+        "fire": 1,
+        "ice": 1,
+        "lightning": 0
+      }
+    },
+    {
+      "income": 30,
+      "purchase": "U02",
+      "cash_after": 10,
+      "owned_count": 4,
+      "grants": {
+        "fire": 1,
+        "ice": 1,
+        "lightning": 0
+      }
+    },
+    {
+      "income": 30,
+      "purchase": "U04",
+      "cash_after": 10,
+      "owned_count": 5,
+      "grants": {
+        "fire": 1,
+        "ice": 1,
+        "lightning": 1
+      }
+    }
+  ],
+  "enemy_combinations_conditional": [
+    {
+      "U10": false,
+      "U11": false,
+      "U12": false,
+      "slots_ABCD": [
+        15,
+        15,
+        0,
+        0
+      ],
+      "base_hp": 300,
+      "base_reward": 30,
+      "expected_hp_if_elite": 300,
+      "expected_reward_if_all_killed": 30,
+      "maximum_hp": 300
+    },
+    {
+      "U10": false,
+      "U11": false,
+      "U12": true,
+      "slots_ABCD": [
+        15,
+        15,
+        0,
+        0
+      ],
+      "base_hp": 300,
+      "base_reward": 30,
+      "expected_hp_if_elite": 420.0,
+      "expected_reward_if_all_killed": 54.0,
+      "maximum_hp": 900
+    },
+    {
+      "U10": false,
+      "U11": true,
+      "U12": false,
+      "slots_ABCD": [
+        10,
+        10,
+        5,
+        5
+      ],
+      "base_hp": 400,
+      "base_reward": 50,
+      "expected_hp_if_elite": 400,
+      "expected_reward_if_all_killed": 50,
+      "maximum_hp": 400
+    },
+    {
+      "U10": false,
+      "U11": true,
+      "U12": true,
+      "slots_ABCD": [
+        10,
+        10,
+        5,
+        5
+      ],
+      "base_hp": 400,
+      "base_reward": 50,
+      "expected_hp_if_elite": 560.0,
+      "expected_reward_if_all_killed": 90.0,
+      "maximum_hp": 1200
+    },
+    {
+      "U10": true,
+      "U11": false,
+      "U12": false,
+      "slots_ABCD": [
+        23,
+        22,
+        0,
+        0
+      ],
+      "base_hp": 450,
+      "base_reward": 45,
+      "expected_hp_if_elite": 450,
+      "expected_reward_if_all_killed": 45,
+      "maximum_hp": 450
+    },
+    {
+      "U10": true,
+      "U11": false,
+      "U12": true,
+      "slots_ABCD": [
+        23,
+        22,
+        0,
+        0
+      ],
+      "base_hp": 450,
+      "base_reward": 45,
+      "expected_hp_if_elite": 630.0,
+      "expected_reward_if_all_killed": 81.0,
+      "maximum_hp": 1350
+    },
+    {
+      "U10": true,
+      "U11": true,
+      "U12": false,
+      "slots_ABCD": [
+        15,
+        15,
+        8,
+        7
+      ],
+      "base_hp": 600,
+      "base_reward": 75,
+      "expected_hp_if_elite": 600,
+      "expected_reward_if_all_killed": 75,
+      "maximum_hp": 600
+    },
+    {
+      "U10": true,
+      "U11": true,
+      "U12": true,
+      "slots_ABCD": [
+        15,
+        15,
+        8,
+        7
+      ],
+      "base_hp": 600,
+      "base_reward": 75,
+      "expected_hp_if_elite": 840.0,
+      "expected_reward_if_all_killed": 135.0,
+      "maximum_hp": 1800
+    }
+  ],
+  "source_sha256": {
+    "D01.md": "66e3952d93d843443d2ddd7f97b082f033b12769873b471d40a8e2406e182213",
+    "D01-evidence.md": "14cc6f471ee985ad736a4b88b28911baaafce260990d942b59226c22c690bb34"
+  },
+  "representative_adoption": false,
+  "development_authorized": false,
+  "next_execution_authorized": false
+}
