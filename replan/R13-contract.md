@@ -1,3 +1,7 @@
+## 최신 대표 결정·데모 우선 (2026-10-25)
+정본: /home/mj/.hermes/company/decisions/2026-10-25_demo-first-r02_approved_v01.md 및 replan/artifacts/R02.md. 전체 목표는 빠른 데모 우선. 독립 업그레이드 방식 확정, 배분 예산은 긍정 평가·고정 확정 아님. 화염1개→얼음1개→번개1개 순차 해금 자동 지급, 문턱 재제안. 종료A 승인(전부 구매 선택·완성 표시·자동종료 없음). 잠긴 원소 재고/기존3종 시작 전력으로 도달성 계산 금지. 해금/저장 중복지급 및 잠금UX 경계 검토 필요.
+이 카드는 기존 장기계획 보류 이력이며 별도 실행 승인 전 blocked 유지. 원계약의 전체100개 상세화·통합GDD를 첫 데모 선행조건으로 자동 실행하지 않는다. 데모 축소 범위/새 경로는 demo-first-plan.md 승인 후 재조정. 개발/기술/예산/공개 권한 발생 아님.
+
 ## 最新基準 / 최신 기준
 /home/mj/.hermes/company/decisions/2026-10-25_phase1-g2_hold-upgrade-first_v01.md 및 /home/mj/.hermes/company/decisions/2026-10-25_upgrade-replan-decomposition_approved_v01.md 우선. 기존5항목·보스 중심GDD는 보류. 정령1직업·화염/번개/얼음3종·일반적4종·최소100개 정도 업그레이드 목표·현재 보스 제외·모든 업그레이드 획득 가능 방향. G1의 자동지급·커서 지휘/확대·30초 고정·무한/환생 제외 유지.
 

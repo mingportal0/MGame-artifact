@@ -1,3 +1,9 @@
+## 최신: 대표 응답 기록 마감
+D-20261025-DEMO-FIRST-R02 및 artifacts/R02.md 우선. 독립 업그레이드·Q2 권고·A안 응답 확보. 배분 긍정 평가와 확정 구분, 데모 우선 목표 및 별도 범위/개발 승인 필요 기록. 아래 추가응답 대기는 당시 기록.
+
+## 최신 실행·수정 기준 (2026-10-25)
+R02 실행 승인 근거: /home/mj/.hermes/company/decisions/2026-10-25_phase1-r02-execution_approved_v01.md. 화염1개 기본 지급, 얼음/번개 순차 해금 후 지급 방향이 기존 초기3종 가안보다 우선. 현재 실행승인 부족이 아닌 집계·배분·해금 세부·종료의 실제 대표 응답 대기이며 응답 전 완료 금지. 질문/부분 결정: artifacts/R02.md. 아래 실행 미승인 문구는 이번 R02에 한해 대체되며 후속 카드는 별도 승인 필요.
+
 ## 最新基準 / 최신 기준
 /home/mj/.hermes/company/decisions/2026-10-25_phase1-g2_hold-upgrade-first_v01.md 및 /home/mj/.hermes/company/decisions/2026-10-25_upgrade-replan-decomposition_approved_v01.md 우선. 기존5항목·보스 중심GDD는 보류. 정령1직업·화염/번개/얼음3종·일반적4종·최소100개 정도 업그레이드 목표·현재 보스 제외·모든 업그레이드 획득 가능 방향. G1의 자동지급·커서 지휘/확대·30초 고정·무한/환생 제외 유지.
 
