@@ -1,0 +1,23 @@
+{
+  "document_id": "P1-R01-v01",
+  "status": "proposal_not_adopted",
+  "detailed_catalogue_count": 0,
+  "independent_slot_target": 100,
+  "variant_added_to_target": 0,
+  "repeat_levels_added_to_target": 0,
+  "categories": [
+    {"id":"common","name":"공통 전투","independent":16,"behavior":8,"numeric":8,"stages":[4,4,4,4]},
+    {"id":"economy","name":"경제·성장","independent":12,"behavior":4,"numeric":8,"stages":[3,3,3,3]},
+    {"id":"command","name":"커서 지휘","independent":12,"behavior":8,"numeric":4,"stages":[3,3,3,3]},
+    {"id":"fire","name":"화염","independent":20,"behavior":12,"numeric":8,"stages":[5,5,5,5]},
+    {"id":"lightning","name":"번개","independent":20,"behavior":12,"numeric":8,"stages":[5,5,5,5]},
+    {"id":"ice","name":"얼음","independent":20,"behavior":12,"numeric":8,"stages":[5,5,5,5]}
+  ],
+  "stages": [
+    {"id":"S1","minimum_owned":0,"new_inventory":25,"total_inventory":25},
+    {"id":"S2","minimum_owned":12,"new_inventory":25,"total_inventory":50},
+    {"id":"S3","minimum_owned":35,"new_inventory":25,"total_inventory":75},
+    {"id":"S4","minimum_owned":65,"new_inventory":25,"total_inventory":100}
+  ],
+  "not_proven": ["catalogue_independence","actual_prerequisite_graph","natural_income","prices","all_purchase_orders","target_time","fun","ux","performance","cost"]
+}

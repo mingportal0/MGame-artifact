@@ -1,0 +1,23 @@
+{
+  "scope": "최신 대표 기준/승인경계 추적. 원래399행 원문 재통합은 R12 범위.",
+  "criteria": [
+    {"id":"C01","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":7,"anchor":"현22.md","sections":[1,10]},
+    {"id":"C02","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":10,"anchor":"새로운 업그레이드","sections":[3]},
+    {"id":"C03","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":16,"anchor":"최소 100개 정도","sections":[4,5]},
+    {"id":"C04","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":17,"anchor":"정령1직업","sections":[6]},
+    {"id":"C05","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":17,"anchor":"화염/번개/얼음","sections":[5,6]},
+    {"id":"C06","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":17,"anchor":"일반 적4종","sections":[6]},
+    {"id":"C07","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":18,"anchor":"보스","sections":[7,10]},
+    {"id":"C08","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":19,"anchor":"도달 가능한","sections":[4,8]},
+    {"id":"C09","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":23,"anchor":"모든 구매 의무","sections":[7]},
+    {"id":"C10","source":"2026-10-25_phase1-g1_approved_v01.md","line":22,"anchor":"즉시 자동 수집","sections":[3]},
+    {"id":"C11","source":"2026-10-25_phase1-g1_approved_v01.md","line":23,"anchor":"지정 범위","sections":[3,5]},
+    {"id":"C12","source":"2026-10-25_phase1-g1_approved_v01.md","line":25,"anchor":"30초 고정","sections":[3,6]},
+    {"id":"C13","source":"2026-10-25_phase1-g1_approved_v01.md","line":24,"anchor":"성장 체감","sections":[3,5,9]},
+    {"id":"C14","source":"2026-10-25_phase1-g1_approved_v01.md","line":27,"anchor":"환생","sections":[4,7]},
+    {"id":"C15","source":"2026-10-25_phase1-g2_hold-upgrade-first_v01.md","line":20,"anchor":"역사 승인","sections":[7,10]},
+    {"id":"C16","source":"2026-10-25_phase1-r01-execution_approved_v01.md","line":17,"anchor":"R02~R15","sections":[10,11]},
+    {"id":"C17","source":"2026-10-25_phase1-r01-execution_approved_v01.md","line":19,"anchor":"검토용 배포","sections":[11]}
+  ],
+  "status": "기준 유지. 세부 제안은 대표 미채택. 신규 전문 검토 미수집."
+}

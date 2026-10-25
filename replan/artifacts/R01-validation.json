@@ -1,0 +1,996 @@
+{
+  "kind": "document_arithmetic_trace_and_count_only_roadmap",
+  "sources_checked": true,
+  "source_fingerprints": {
+    "2026-10-25_phase1-g2_hold-upgrade-first_v01.md": "1b23b6286554c8c717a3989589b9d23033242809c13a78dd334a49a062f815c9",
+    "2026-10-25_phase1-g1_approved_v01.md": "2df0fd534b1d46a94520fffe1ec8a077aee25c46b5a2337701d6787cca348d05",
+    "2026-10-25_phase1-r01-execution_approved_v01.md": "b79b82f14f8c04ad33fa69301fef1b55e98c1d4bb8dcc77e561e226cef9d440d"
+  },
+  "inputs": {
+    "R01.md": "8cb3ffa7b8b8cfb89143463591b2480147dd1c6afe81dcf20590141909a967c3",
+    "R01-data.json": "db05163afb5a07289eb3516589934f25790b855d547ccf14c2887d9a2a48d56a",
+    "R01-trace.json": "5a9e3c5b2065e9ad52c98c3fd9f957e907e89170b30672032b46512c260313ca",
+    "R01-validate.py": "5134340c439730c89104c7985666d96ef14899c3b440a40b7153f627225436ed"
+  },
+  "checks": [
+    {
+      "check": "proposal status, not adopted",
+      "passed": true
+    },
+    {
+      "check": "no detailed catalogue claimed",
+      "passed": true
+    },
+    {
+      "check": "six unique category owners",
+      "passed": true
+    },
+    {
+      "check": "independent target 100",
+      "passed": true
+    },
+    {
+      "check": "behavior total 56",
+      "passed": true
+    },
+    {
+      "check": "numeric total 44",
+      "passed": true
+    },
+    {
+      "check": "variants do not inflate count",
+      "passed": true
+    },
+    {
+      "check": "repeat levels do not inflate count",
+      "passed": true
+    },
+    {
+      "check": "common: B+N=I",
+      "passed": true
+    },
+    {
+      "check": "common: stages sum=I",
+      "passed": true
+    },
+    {
+      "check": "common: nonnegative integer budgets",
+      "passed": true
+    },
+    {
+      "check": "common: markdown matches JSON allocation",
+      "passed": true
+    },
+    {
+      "check": "economy: B+N=I",
+      "passed": true
+    },
+    {
+      "check": "economy: stages sum=I",
+      "passed": true
+    },
+    {
+      "check": "economy: nonnegative integer budgets",
+      "passed": true
+    },
+    {
+      "check": "economy: markdown matches JSON allocation",
+      "passed": true
+    },
+    {
+      "check": "command: B+N=I",
+      "passed": true
+    },
+    {
+      "check": "command: stages sum=I",
+      "passed": true
+    },
+    {
+      "check": "command: nonnegative integer budgets",
+      "passed": true
+    },
+    {
+      "check": "command: markdown matches JSON allocation",
+      "passed": true
+    },
+    {
+      "check": "fire: B+N=I",
+      "passed": true
+    },
+    {
+      "check": "fire: stages sum=I",
+      "passed": true
+    },
+    {
+      "check": "fire: nonnegative integer budgets",
+      "passed": true
+    },
+    {
+      "check": "fire: markdown matches JSON allocation",
+      "passed": true
+    },
+    {
+      "check": "lightning: B+N=I",
+      "passed": true
+    },
+    {
+      "check": "lightning: stages sum=I",
+      "passed": true
+    },
+    {
+      "check": "lightning: nonnegative integer budgets",
+      "passed": true
+    },
+    {
+      "check": "lightning: markdown matches JSON allocation",
+      "passed": true
+    },
+    {
+      "check": "ice: B+N=I",
+      "passed": true
+    },
+    {
+      "check": "ice: stages sum=I",
+      "passed": true
+    },
+    {
+      "check": "ice: nonnegative integer budgets",
+      "passed": true
+    },
+    {
+      "check": "ice: markdown matches JSON allocation",
+      "passed": true
+    },
+    {
+      "check": "three allied elements only",
+      "passed": true
+    },
+    {
+      "check": "four unique roadmap stages",
+      "passed": true
+    },
+    {
+      "check": "S1: column inventory matches",
+      "passed": true
+    },
+    {
+      "check": "S1: cumulative inventory",
+      "passed": true
+    },
+    {
+      "check": "S1: threshold fits previous inventory",
+      "passed": true
+    },
+    {
+      "check": "S1: monotonic threshold",
+      "passed": true
+    },
+    {
+      "check": "S1: threshold documented",
+      "passed": true
+    },
+    {
+      "check": "S2: column inventory matches",
+      "passed": true
+    },
+    {
+      "check": "S2: cumulative inventory",
+      "passed": true
+    },
+    {
+      "check": "S2: threshold fits previous inventory",
+      "passed": true
+    },
+    {
+      "check": "S2: monotonic threshold",
+      "passed": true
+    },
+    {
+      "check": "S2: threshold documented",
+      "passed": true
+    },
+    {
+      "check": "S3: column inventory matches",
+      "passed": true
+    },
+    {
+      "check": "S3: cumulative inventory",
+      "passed": true
+    },
+    {
+      "check": "S3: threshold fits previous inventory",
+      "passed": true
+    },
+    {
+      "check": "S3: monotonic threshold",
+      "passed": true
+    },
+    {
+      "check": "S3: threshold documented",
+      "passed": true
+    },
+    {
+      "check": "S4: column inventory matches",
+      "passed": true
+    },
+    {
+      "check": "S4: cumulative inventory",
+      "passed": true
+    },
+    {
+      "check": "S4: threshold fits previous inventory",
+      "passed": true
+    },
+    {
+      "check": "S4: monotonic threshold",
+      "passed": true
+    },
+    {
+      "check": "S4: threshold documented",
+      "passed": true
+    },
+    {
+      "check": "roadmap final inventory equals target",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=0",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=1",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=2",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=3",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=4",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=5",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=6",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=7",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=8",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=9",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=10",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=11",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=12",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=13",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=14",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=15",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=16",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=17",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=18",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=19",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=20",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=21",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=22",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=23",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=24",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=25",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=26",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=27",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=28",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=29",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=30",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=31",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=32",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=33",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=34",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=35",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=36",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=37",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=38",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=39",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=40",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=41",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=42",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=43",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=44",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=45",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=46",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=47",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=48",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=49",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=50",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=51",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=52",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=53",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=54",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=55",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=56",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=57",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=58",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=59",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=60",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=61",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=62",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=63",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=64",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=65",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=66",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=67",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=68",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=69",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=70",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=71",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=72",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=73",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=74",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=75",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=76",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=77",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=78",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=79",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=80",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=81",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=82",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=83",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=84",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=85",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=86",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=87",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=88",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=89",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=90",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=91",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=92",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=93",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=94",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=95",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=96",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=97",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=98",
+      "passed": true
+    },
+    {
+      "check": "count-only progression from k=99",
+      "passed": true
+    },
+    {
+      "check": "count-only path reaches 100",
+      "passed": true
+    },
+    {
+      "check": "17 unique latest criteria",
+      "passed": true
+    },
+    {
+      "check": "criteria C01-C17 complete",
+      "passed": true
+    },
+    {
+      "check": "C01: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C01: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C01: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C02: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C02: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C02: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C03: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C03: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C03: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C04: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C04: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C04: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C05: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C05: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C05: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C06: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C06: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C06: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C07: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C07: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C07: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C08: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C08: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C08: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C09: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C09: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C09: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C10: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C10: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C10: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C11: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C11: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C11: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C12: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C12: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C12: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C13: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C13: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C13: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C14: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C14: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C14: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C15: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C15: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C15: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C16: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C16: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C16: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "C17: trace row in document",
+      "passed": true
+    },
+    {
+      "check": "C17: sections exist",
+      "passed": true
+    },
+    {
+      "check": "C17: exact source line anchor",
+      "passed": true
+    },
+    {
+      "check": "U01 unresolved ownership documented",
+      "passed": true
+    },
+    {
+      "check": "U02 unresolved ownership documented",
+      "passed": true
+    },
+    {
+      "check": "U03 unresolved ownership documented",
+      "passed": true
+    },
+    {
+      "check": "U04 unresolved ownership documented",
+      "passed": true
+    },
+    {
+      "check": "U05 unresolved ownership documented",
+      "passed": true
+    },
+    {
+      "check": "U06 unresolved ownership documented",
+      "passed": true
+    },
+    {
+      "check": "U07 unresolved ownership documented",
+      "passed": true
+    },
+    {
+      "check": "U08 unresolved ownership documented",
+      "passed": true
+    },
+    {
+      "check": "U09 unresolved ownership documented",
+      "passed": true
+    },
+    {
+      "check": "boundary text: 즉시 자동지급",
+      "passed": true
+    },
+    {
+      "check": "boundary text: 커서",
+      "passed": true
+    },
+    {
+      "check": "boundary text: 30초",
+      "passed": true
+    },
+    {
+      "check": "boundary text: 상호배타",
+      "passed": true
+    },
+    {
+      "check": "boundary text: 선택 종료",
+      "passed": true
+    },
+    {
+      "check": "boundary text: 자동 종료하지 않음",
+      "passed": true
+    },
+    {
+      "check": "boundary text: 게임코드",
+      "passed": true
+    },
+    {
+      "check": "boundary text: R02~15 blocked",
+      "passed": true
+    },
+    {
+      "check": "boundary text: 실험은 제안이며 실행하지 않았다",
+      "passed": true
+    },
+    {
+      "check": "boundary text: 이전5항목/69항목 수치 전용 불가",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: catalogue_independence",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: actual_prerequisite_graph",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: natural_income",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: prices",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: all_purchase_orders",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: target_time",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: fun",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: ux",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: performance",
+      "passed": true
+    },
+    {
+      "check": "unproven scope: cost",
+      "passed": true
+    },
+    {
+      "check": "R01.md: review privacy screening",
+      "passed": true
+    },
+    {
+      "check": "R01-data.json: review privacy screening",
+      "passed": true
+    },
+    {
+      "check": "R01-trace.json: review privacy screening",
+      "passed": true
+    }
+  ],
+  "passed": 241,
+  "total": 241,
+  "failed": [],
+  "not_verified": [
+    "catalogue_independence",
+    "actual_prerequisite_graph",
+    "natural_income",
+    "prices",
+    "all_purchase_orders",
+    "target_time",
+    "fun",
+    "ux",
+    "performance",
+    "cost"
+  ]
+}
