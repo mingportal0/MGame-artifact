@@ -1,0 +1,4802 @@
+{
+  "scope": "static planning arithmetic; no actual kills observed",
+  "passed": 47,
+  "total": 47,
+  "checks": [
+    {
+      "name": "budget factorial 5 classes 5 strategies 3 budgets",
+      "pass": true
+    },
+    {
+      "name": "time factorial 5 classes 5 strategies 3 profiles 3 checkpoints",
+      "pass": true
+    },
+    {
+      "name": "no negative balances",
+      "pass": true
+    },
+    {
+      "name": "purchase caps",
+      "pass": true
+    },
+    {
+      "name": "purchase costs correct",
+      "pass": true
+    },
+    {
+      "name": "ledger delta each purchase",
+      "pass": true
+    },
+    {
+      "name": "budget conservation",
+      "pass": true
+    },
+    {
+      "name": "turn conservation",
+      "pass": true
+    },
+    {
+      "name": "purchase prerequisites",
+      "pass": true
+    },
+    {
+      "name": "unique purchase IDs",
+      "pass": true
+    },
+    {
+      "name": "ELM finite fixture winning path found",
+      "pass": true
+    },
+    {
+      "name": "DRG finite fixture winning path found",
+      "pass": true
+    },
+    {
+      "name": "BST finite fixture winning path found",
+      "pass": true
+    },
+    {
+      "name": "DMN finite fixture winning path found",
+      "pass": true
+    },
+    {
+      "name": "NEC finite fixture winning path found",
+      "pass": true
+    },
+    {
+      "name": "prior required damage agreement",
+      "pass": true
+    },
+    {
+      "name": "independent formulas reproduce 14 ten damage states",
+      "pass": true
+    },
+    {
+      "name": "zero eligible damage all classes",
+      "pass": true
+    },
+    {
+      "name": "T30 excluded",
+      "pass": true
+    },
+    {
+      "name": "exact hit-count boundary",
+      "pass": true
+    },
+    {
+      "name": "zero K no gold",
+      "pass": true
+    },
+    {
+      "name": "supply reserved counts obeyed",
+      "pass": true
+    },
+    {
+      "name": "all 69 max and negative level rejected",
+      "pass": true
+    },
+    {
+      "name": "all levels prerequisites references exist",
+      "pass": true
+    },
+    {
+      "name": "no prerequisite cycles",
+      "pass": true
+    },
+    {
+      "name": "s2 no kill spawn limit48 reservation49",
+      "pass": true
+    },
+    {
+      "name": "radius same K same G",
+      "pass": true
+    },
+    {
+      "name": "gold s0 all levels dead",
+      "pass": true
+    },
+    {
+      "name": "gold s1 L1 dead",
+      "pass": true
+    },
+    {
+      "name": "dedup arithmetic fixture",
+      "pass": true
+    },
+    {
+      "name": "failed retries balance invariant arithmetic",
+      "pass": true
+    },
+    {
+      "name": "failed retries HP no carry arithmetic",
+      "pass": true
+    },
+    {
+      "name": "no time upgrade present",
+      "pass": true
+    },
+    {
+      "name": "NEC max permanent count5",
+      "pass": true
+    },
+    {
+      "name": "gold exclusion recalculated",
+      "pass": true
+    },
+    {
+      "name": "ELM path ends matching required plus route",
+      "pass": true
+    },
+    {
+      "name": "DRG path ends matching required plus route",
+      "pass": true
+    },
+    {
+      "name": "BST path ends matching required plus route",
+      "pass": true
+    },
+    {
+      "name": "DMN path ends matching required plus route",
+      "pass": true
+    },
+    {
+      "name": "NEC path ends matching required plus route",
+      "pass": true
+    },
+    {
+      "name": "sensitivity full Cartesian",
+      "pass": true
+    },
+    {
+      "name": "ELM full route ledger and fixed6 time",
+      "pass": true
+    },
+    {
+      "name": "DRG full route ledger and fixed6 time",
+      "pass": true
+    },
+    {
+      "name": "BST full route ledger and fixed6 time",
+      "pass": true
+    },
+    {
+      "name": "DMN full route ledger and fixed6 time",
+      "pass": true
+    },
+    {
+      "name": "NEC full route ledger and fixed6 time",
+      "pass": true
+    },
+    {
+      "name": "gold exclusion 30 same-budget recalculations",
+      "pass": true
+    }
+  ],
+  "row_counts": {
+    "budget": 75,
+    "turns": 225,
+    "purchases": 2154,
+    "path_purchases": 10,
+    "sensitivity": 90
+  },
+  "path_sensitivity": [
+    {
+      "class": "ELM",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1080.3,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "ELM",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 803.4,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "ELM",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 526.5,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "ELM",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 830.7,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "ELM",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 587.6,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "ELM",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 396.5,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "DRG",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1028.04,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "DRG",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 761.28,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "DRG",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 507.52,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "DRG",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 824.72,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "DRG",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 583.96,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "DRG",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 393.64,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "BST",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1179.36,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "BST",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 884.52,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "BST",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 589.68,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "BST",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 926.64,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "BST",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 673.92,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "BST",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 463.32,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "DMN",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1435.2,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "DMN",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 1060.8,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "DMN",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 686.4,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "DMN",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 1123.2,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "DMN",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 811.2,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "DMN",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 561.6,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "NEC",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1042.6,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "NEC",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 772.2,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "NEC",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 514.8,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "NEC",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 820.95,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true
+    },
+    {
+      "class": "NEC",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 599.3,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    },
+    {
+      "class": "NEC",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 397.15,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true
+    }
+  ],
+  "full_path_rows": 50,
+  "gold_exclusion_rows": 30,
+  "minimum_paths": [
+    {
+      "class": "ELM",
+      "required_cost": 140,
+      "required_damage": 478.4,
+      "minimum_extra_fixture_cost": 70,
+      "total_fixture_cost": 210,
+      "damage": 1080.3,
+      "visited_states": 14,
+      "route": [
+        "UPG_ELM_TIDE",
+        "UPG_ELM_STONE"
+      ],
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_ELM_POWER": 3,
+        "UPG_ELM_BLOOM": 1,
+        "UPG_ELM_TIDE": 1,
+        "UPG_ELM_STONE": 1
+      },
+      "scope": "minimum after required in stationary basic-only fixture, not minimum run or real victory",
+      "fixed_6G_turns": 35,
+      "fixed_6G_wall_s": 1400,
+      "fixed_12G_turns": 18,
+      "fixed_12G_wall_s": 720,
+      "fixed_24G_turns": 9,
+      "fixed_24G_wall_s": 360
+    },
+    {
+      "class": "DRG",
+      "required_cost": 540,
+      "required_damage": 599.04,
+      "minimum_extra_fixture_cost": 220,
+      "total_fixture_cost": 760,
+      "damage": 1028.04,
+      "visited_states": 26,
+      "route": [
+        "UPG_DRG_WYVERN",
+        "UPG_DRG_RAPID",
+        "UPG_DRG_RAPID",
+        "UPG_DRG_WING"
+      ],
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_DRG_POWER": 3,
+        "UPG_DRG_ADULT": 1,
+        "UPG_DRG_ANCIENT": 1,
+        "UPG_DRG_WYVERN": 1,
+        "UPG_DRG_WING": 1,
+        "UPG_DRG_RAPID": 2
+      },
+      "scope": "minimum after required in stationary basic-only fixture, not minimum run or real victory",
+      "fixed_6G_turns": 127,
+      "fixed_6G_wall_s": 5080,
+      "fixed_12G_turns": 64,
+      "fixed_12G_wall_s": 2560,
+      "fixed_24G_turns": 32,
+      "fixed_24G_wall_s": 1280
+    },
+    {
+      "class": "BST",
+      "required_cost": 345,
+      "required_damage": 1179.36,
+      "minimum_extra_fixture_cost": 0,
+      "total_fixture_cost": 345,
+      "damage": 1179.36,
+      "visited_states": 1,
+      "route": [],
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_BST_PACK": 2,
+        "UPG_BST_FANG": 3,
+        "UPG_BST_WOLF_LEADER": 1,
+        "UPG_BST_CROWN": 1
+      },
+      "scope": "minimum after required in stationary basic-only fixture, not minimum run or real victory",
+      "fixed_6G_turns": 58,
+      "fixed_6G_wall_s": 2320,
+      "fixed_12G_turns": 29,
+      "fixed_12G_wall_s": 1160,
+      "fixed_24G_turns": 15,
+      "fixed_24G_wall_s": 600
+    },
+    {
+      "class": "DMN",
+      "required_cost": 195,
+      "required_damage": 1435.2,
+      "minimum_extra_fixture_cost": 0,
+      "total_fixture_cost": 195,
+      "damage": 1435.2,
+      "visited_states": 1,
+      "route": [],
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_DMN_POWER": 3,
+        "UPG_DMN_IMP_CROWN": 1,
+        "UPG_DMN_IMP_TWIN": 1
+      },
+      "scope": "minimum after required in stationary basic-only fixture, not minimum run or real victory",
+      "fixed_6G_turns": 33,
+      "fixed_6G_wall_s": 1320,
+      "fixed_12G_turns": 17,
+      "fixed_12G_wall_s": 680,
+      "fixed_24G_turns": 9,
+      "fixed_24G_wall_s": 360
+    },
+    {
+      "class": "NEC",
+      "required_cost": 132,
+      "required_damage": 327.6,
+      "minimum_extra_fixture_cost": 104,
+      "total_fixture_cost": 236,
+      "damage": 1042.6,
+      "visited_states": 86,
+      "route": [
+        "UPG_NEC_ARCHER",
+        "UPG_NEC_LICH",
+        "UPG_NEC_REVENANT",
+        "UPG_NEC_ARCHLICH"
+      ],
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_NEC_BONE": 3,
+        "UPG_NEC_GUARD": 1,
+        "UPG_NEC_LICH": 1,
+        "UPG_NEC_ARCHLICH": 1,
+        "UPG_NEC_ARCHER": 1,
+        "UPG_NEC_REVENANT": 1
+      },
+      "scope": "minimum after required in stationary basic-only fixture, not minimum run or real victory",
+      "fixed_6G_turns": 40,
+      "fixed_6G_wall_s": 1600,
+      "fixed_12G_turns": 20,
+      "fixed_12G_wall_s": 800,
+      "fixed_24G_turns": 10,
+      "fixed_24G_wall_s": 400
+    }
+  ],
+  "baseline": [
+    {
+      "class": "ELM",
+      "state": "required",
+      "cost": 140,
+      "damage": 478.4
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "cost": 1075,
+      "damage": 1722.5
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "cost": 540,
+      "damage": 599.04
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "cost": 2185,
+      "damage": 1383.2
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "cost": 345,
+      "damage": 1179.36
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "cost": 1090,
+      "damage": 3110.12
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "cost": 195,
+      "damage": 1435.2
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "cost": 945,
+      "damage": 4499.04
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "cost": 132,
+      "damage": 327.6
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "cost": 936,
+      "damage": 1454.7
+    }
+  ],
+  "sensitivity": [
+    {
+      "class": "ELM",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 478.4,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "104/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 23,
+          "cancelled_per_unit": 0,
+          "kept": 23,
+          "damage_sum": 478.4
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 353.6,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "104/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 23,
+          "cancelled_per_unit": 6,
+          "kept": 17,
+          "damage_sum": 353.6
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 228.8,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "104/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 23,
+          "cancelled_per_unit": 12,
+          "kept": 11,
+          "damage_sum": 228.8
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 374.4,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "104/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 18,
+          "cancelled_per_unit": 0,
+          "kept": 18,
+          "damage_sum": 374.4
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 270.4,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "104/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 18,
+          "cancelled_per_unit": 5,
+          "kept": 13,
+          "damage_sum": 270.4
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 187.2,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "104/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 18,
+          "cancelled_per_unit": 9,
+          "kept": 9,
+          "damage_sum": 187.2
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "104/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "104/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "104/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1722.5,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "247/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 23,
+          "cancelled_per_unit": 0,
+          "kept": 23,
+          "damage_sum": 568.1
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 20,
+          "cancelled_per_unit": 0,
+          "kept": 20,
+          "damage_sum": 182.0
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "52/5",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 35,
+          "cancelled_per_unit": 0,
+          "kept": 35,
+          "damage_sum": 364.0
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "11/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 12,
+          "cancelled_per_unit": 0,
+          "kept": 12,
+          "damage_sum": 374.4
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "14/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 10,
+          "cancelled_per_unit": 0,
+          "kept": 10,
+          "damage_sum": 234.0
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 1271.4,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "247/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 23,
+          "cancelled_per_unit": 6,
+          "kept": 17,
+          "damage_sum": 419.9
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 20,
+          "cancelled_per_unit": 5,
+          "kept": 15,
+          "damage_sum": 136.5
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "52/5",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 35,
+          "cancelled_per_unit": 9,
+          "kept": 26,
+          "damage_sum": 270.4
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "11/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 12,
+          "cancelled_per_unit": 3,
+          "kept": 9,
+          "damage_sum": 280.8
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "14/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 10,
+          "cancelled_per_unit": 3,
+          "kept": 7,
+          "damage_sum": 163.8
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 843.7,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "247/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 23,
+          "cancelled_per_unit": 12,
+          "kept": 11,
+          "damage_sum": 271.7
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 20,
+          "cancelled_per_unit": 10,
+          "kept": 10,
+          "damage_sum": 91.0
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "52/5",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 35,
+          "cancelled_per_unit": 18,
+          "kept": 17,
+          "damage_sum": 176.8
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "11/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 12,
+          "cancelled_per_unit": 6,
+          "kept": 6,
+          "damage_sum": 187.2
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "14/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 10,
+          "cancelled_per_unit": 5,
+          "kept": 5,
+          "damage_sum": 117.0
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 1339.0,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "247/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 18,
+          "cancelled_per_unit": 0,
+          "kept": 18,
+          "damage_sum": 444.6
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 0,
+          "kept": 16,
+          "damage_sum": 145.6
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "52/5",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 27,
+          "cancelled_per_unit": 0,
+          "kept": 27,
+          "damage_sum": 280.8
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "11/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 9,
+          "cancelled_per_unit": 0,
+          "kept": 9,
+          "damage_sum": 280.8
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "14/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 8,
+          "cancelled_per_unit": 0,
+          "kept": 8,
+          "damage_sum": 187.2
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 965.9,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "247/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 18,
+          "cancelled_per_unit": 5,
+          "kept": 13,
+          "damage_sum": 321.1
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 4,
+          "kept": 12,
+          "damage_sum": 109.2
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "52/5",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 27,
+          "cancelled_per_unit": 7,
+          "kept": 20,
+          "damage_sum": 208.0
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "11/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 9,
+          "cancelled_per_unit": 3,
+          "kept": 6,
+          "damage_sum": 187.2
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "14/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 8,
+          "cancelled_per_unit": 2,
+          "kept": 6,
+          "damage_sum": 140.4
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 648.7,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "247/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 18,
+          "cancelled_per_unit": 9,
+          "kept": 9,
+          "damage_sum": 222.3
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 8,
+          "kept": 8,
+          "damage_sum": 72.8
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "52/5",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 27,
+          "cancelled_per_unit": 14,
+          "kept": 13,
+          "damage_sum": 135.2
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "11/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 9,
+          "cancelled_per_unit": 5,
+          "kept": 4,
+          "damage_sum": 124.8
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "14/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 8,
+          "cancelled_per_unit": 4,
+          "kept": 4,
+          "damage_sum": 93.6
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "247/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "52/5",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "11/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "14/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "247/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "52/5",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "11/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "14/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "ELM",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "247/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "52/5",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "11/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "14/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 599.04,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 0,
+          "kept": 16,
+          "damage_sum": 599.04
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 449.28,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 4,
+          "kept": 12,
+          "damage_sum": 449.28
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 299.52,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 8,
+          "kept": 8,
+          "damage_sum": 299.52
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 486.72,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 0,
+          "kept": 13,
+          "damage_sum": 486.72
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 336.96,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 4,
+          "kept": 9,
+          "damage_sum": 336.96
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 224.64,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 7,
+          "kept": 6,
+          "damage_sum": 224.64
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1383.2,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 0,
+          "kept": 16,
+          "damage_sum": 599.04
+        },
+        {
+          "id": "SUM_DRG_MOON",
+          "damage": "1508/25",
+          "windup": "0.3",
+          "cd": "9/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 0,
+          "kept": 13,
+          "damage_sum": 784.16
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 992.16,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 4,
+          "kept": 12,
+          "damage_sum": 449.28
+        },
+        {
+          "id": "SUM_DRG_MOON",
+          "damage": "1508/25",
+          "windup": "0.3",
+          "cd": "9/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 4,
+          "kept": 9,
+          "damage_sum": 542.88
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 661.44,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 8,
+          "kept": 8,
+          "damage_sum": 299.52
+        },
+        {
+          "id": "SUM_DRG_MOON",
+          "damage": "1508/25",
+          "windup": "0.3",
+          "cd": "9/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 7,
+          "kept": 6,
+          "damage_sum": 361.92
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 1150.24,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 0,
+          "kept": 13,
+          "damage_sum": 486.72
+        },
+        {
+          "id": "SUM_DRG_MOON",
+          "damage": "1508/25",
+          "windup": "0.3",
+          "cd": "9/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 11,
+          "cancelled_per_unit": 0,
+          "kept": 11,
+          "damage_sum": 663.52
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 819.52,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 4,
+          "kept": 9,
+          "damage_sum": 336.96
+        },
+        {
+          "id": "SUM_DRG_MOON",
+          "damage": "1508/25",
+          "windup": "0.3",
+          "cd": "9/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 11,
+          "cancelled_per_unit": 3,
+          "kept": 8,
+          "damage_sum": 482.56
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 526.24,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "936/25",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 7,
+          "kept": 6,
+          "damage_sum": 224.64
+        },
+        {
+          "id": "SUM_DRG_MOON",
+          "damage": "1508/25",
+          "windup": "0.3",
+          "cd": "9/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 11,
+          "cancelled_per_unit": 6,
+          "kept": 5,
+          "damage_sum": 301.6
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "1989/50",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DRG_WYVERN",
+          "damage": "143/10",
+          "windup": "0.2",
+          "cd": "16/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "1989/50",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DRG_WYVERN",
+          "damage": "143/10",
+          "windup": "0.2",
+          "cd": "16/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DRG",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "1989/50",
+          "windup": "0.3",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DRG_WYVERN",
+          "damage": "143/10",
+          "windup": "0.2",
+          "cd": "16/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1179.36,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "351/25",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 28,
+          "cancelled_per_unit": 0,
+          "kept": 28,
+          "damage_sum": 1179.36
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 884.52,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "351/25",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 28,
+          "cancelled_per_unit": 7,
+          "kept": 21,
+          "damage_sum": 884.52
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 589.68,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "351/25",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 28,
+          "cancelled_per_unit": 14,
+          "kept": 14,
+          "damage_sum": 589.68
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 926.64,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "351/25",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 22,
+          "cancelled_per_unit": 0,
+          "kept": 22,
+          "damage_sum": 926.64
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 673.92,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "351/25",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 22,
+          "cancelled_per_unit": 6,
+          "kept": 16,
+          "damage_sum": 673.92
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 463.32,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "351/25",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 22,
+          "cancelled_per_unit": 11,
+          "kept": 11,
+          "damage_sum": 463.32
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "351/25",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "351/25",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "351/25",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 3110.12,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "741/50",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 28,
+          "cancelled_per_unit": 0,
+          "kept": 28,
+          "damage_sum": 1244.88
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 23,
+          "cancelled_per_unit": 0,
+          "kept": 23,
+          "damage_sum": 418.6
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "169/10",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 2,
+          "hits": 19,
+          "cancelled_per_unit": 0,
+          "kept": 19,
+          "damage_sum": 642.2
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "676/25",
+          "windup": "0.4",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 14,
+          "cancelled_per_unit": 0,
+          "kept": 14,
+          "damage_sum": 378.56
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "507/50",
+          "windup": "0.15",
+          "cd": "13/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 42,
+          "cancelled_per_unit": 0,
+          "kept": 42,
+          "damage_sum": 425.88
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 2301.0,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "741/50",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 28,
+          "cancelled_per_unit": 7,
+          "kept": 21,
+          "damage_sum": 933.66
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 23,
+          "cancelled_per_unit": 6,
+          "kept": 17,
+          "damage_sum": 309.4
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "169/10",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 2,
+          "hits": 19,
+          "cancelled_per_unit": 5,
+          "kept": 14,
+          "damage_sum": 473.2
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "676/25",
+          "windup": "0.4",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 14,
+          "cancelled_per_unit": 4,
+          "kept": 10,
+          "damage_sum": 270.4
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "507/50",
+          "windup": "0.15",
+          "cd": "13/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 42,
+          "cancelled_per_unit": 11,
+          "kept": 31,
+          "damage_sum": 314.34
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 1529.06,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "741/50",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 28,
+          "cancelled_per_unit": 14,
+          "kept": 14,
+          "damage_sum": 622.44
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 23,
+          "cancelled_per_unit": 12,
+          "kept": 11,
+          "damage_sum": 200.2
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "169/10",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 2,
+          "hits": 19,
+          "cancelled_per_unit": 10,
+          "kept": 9,
+          "damage_sum": 304.2
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "676/25",
+          "windup": "0.4",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 14,
+          "cancelled_per_unit": 7,
+          "kept": 7,
+          "damage_sum": 189.28
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "507/50",
+          "windup": "0.15",
+          "cd": "13/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 42,
+          "cancelled_per_unit": 21,
+          "kept": 21,
+          "damage_sum": 212.94
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 2444.78,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "741/50",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 22,
+          "cancelled_per_unit": 0,
+          "kept": 22,
+          "damage_sum": 978.12
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 18,
+          "cancelled_per_unit": 0,
+          "kept": 18,
+          "damage_sum": 327.6
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "169/10",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 2,
+          "hits": 15,
+          "cancelled_per_unit": 0,
+          "kept": 15,
+          "damage_sum": 507.0
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "676/25",
+          "windup": "0.4",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 11,
+          "cancelled_per_unit": 0,
+          "kept": 11,
+          "damage_sum": 297.44
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "507/50",
+          "windup": "0.15",
+          "cd": "13/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 33,
+          "cancelled_per_unit": 0,
+          "kept": 33,
+          "damage_sum": 334.62
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 1779.44,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "741/50",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 22,
+          "cancelled_per_unit": 6,
+          "kept": 16,
+          "damage_sum": 711.36
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 18,
+          "cancelled_per_unit": 5,
+          "kept": 13,
+          "damage_sum": 236.6
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "169/10",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 2,
+          "hits": 15,
+          "cancelled_per_unit": 4,
+          "kept": 11,
+          "damage_sum": 371.8
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "676/25",
+          "windup": "0.4",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 11,
+          "cancelled_per_unit": 3,
+          "kept": 8,
+          "damage_sum": 216.32
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "507/50",
+          "windup": "0.15",
+          "cd": "13/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 33,
+          "cancelled_per_unit": 9,
+          "kept": 24,
+          "damage_sum": 243.36
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 1186.9,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "741/50",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 22,
+          "cancelled_per_unit": 11,
+          "kept": 11,
+          "damage_sum": 489.06
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 18,
+          "cancelled_per_unit": 9,
+          "kept": 9,
+          "damage_sum": 163.8
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "169/10",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 2,
+          "hits": 15,
+          "cancelled_per_unit": 8,
+          "kept": 7,
+          "damage_sum": 236.6
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "676/25",
+          "windup": "0.4",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 11,
+          "cancelled_per_unit": 6,
+          "kept": 5,
+          "damage_sum": 135.2
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "507/50",
+          "windup": "0.15",
+          "cd": "13/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 33,
+          "cancelled_per_unit": 17,
+          "kept": 16,
+          "damage_sum": 162.24
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "741/50",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "169/10",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "676/25",
+          "windup": "0.4",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "507/50",
+          "windup": "0.15",
+          "cd": "13/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "741/50",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "169/10",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "676/25",
+          "windup": "0.4",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "507/50",
+          "windup": "0.15",
+          "cd": "13/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "BST",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "741/50",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "0",
+          "n": 3,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "91/10",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "169/10",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "676/25",
+          "windup": "0.4",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "507/50",
+          "windup": "0.15",
+          "cd": "13/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1435.2,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 23,
+          "cancelled_per_unit": 0,
+          "kept": 23,
+          "damage_sum": 1435.2
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 1060.8,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 23,
+          "cancelled_per_unit": 6,
+          "kept": 17,
+          "damage_sum": 1060.8
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 686.4,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 23,
+          "cancelled_per_unit": 12,
+          "kept": 11,
+          "damage_sum": 686.4
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 1123.2,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 18,
+          "cancelled_per_unit": 0,
+          "kept": 18,
+          "damage_sum": 1123.2
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 811.2,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 18,
+          "cancelled_per_unit": 5,
+          "kept": 13,
+          "damage_sum": 811.2
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 561.6,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 18,
+          "cancelled_per_unit": 9,
+          "kept": 9,
+          "damage_sum": 561.6
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 4499.04,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 28,
+          "cancelled_per_unit": 0,
+          "kept": 28,
+          "damage_sum": 1747.2
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "208/5",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 19,
+          "cancelled_per_unit": 0,
+          "kept": 19,
+          "damage_sum": 790.4
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "468/25",
+          "windup": "0.1",
+          "cd": "14/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 43,
+          "cancelled_per_unit": 0,
+          "kept": 43,
+          "damage_sum": 804.96
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "416/25",
+          "windup": "0.3",
+          "cd": "34/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 17,
+          "cancelled_per_unit": 0,
+          "kept": 17,
+          "damage_sum": 282.88
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "312/5",
+          "windup": "0.5",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 14,
+          "cancelled_per_unit": 0,
+          "kept": 14,
+          "damage_sum": 873.6
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 3315.52,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 28,
+          "cancelled_per_unit": 7,
+          "kept": 21,
+          "damage_sum": 1310.4
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "208/5",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 19,
+          "cancelled_per_unit": 5,
+          "kept": 14,
+          "damage_sum": 582.4
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "468/25",
+          "windup": "0.1",
+          "cd": "14/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 43,
+          "cancelled_per_unit": 11,
+          "kept": 32,
+          "damage_sum": 599.04
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "416/25",
+          "windup": "0.3",
+          "cd": "34/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 17,
+          "cancelled_per_unit": 5,
+          "kept": 12,
+          "damage_sum": 199.68
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "312/5",
+          "windup": "0.5",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 14,
+          "cancelled_per_unit": 4,
+          "kept": 10,
+          "damage_sum": 624.0
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 2211.04,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 28,
+          "cancelled_per_unit": 14,
+          "kept": 14,
+          "damage_sum": 873.6
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "208/5",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 19,
+          "cancelled_per_unit": 10,
+          "kept": 9,
+          "damage_sum": 374.4
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "468/25",
+          "windup": "0.1",
+          "cd": "14/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 43,
+          "cancelled_per_unit": 22,
+          "kept": 21,
+          "damage_sum": 393.12
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "416/25",
+          "windup": "0.3",
+          "cd": "34/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 17,
+          "cancelled_per_unit": 9,
+          "kept": 8,
+          "damage_sum": 133.12
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "312/5",
+          "windup": "0.5",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 14,
+          "cancelled_per_unit": 7,
+          "kept": 7,
+          "damage_sum": 436.8
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 3536.0,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 22,
+          "cancelled_per_unit": 0,
+          "kept": 22,
+          "damage_sum": 1372.8
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "208/5",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 15,
+          "cancelled_per_unit": 0,
+          "kept": 15,
+          "damage_sum": 624.0
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "468/25",
+          "windup": "0.1",
+          "cd": "14/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 34,
+          "cancelled_per_unit": 0,
+          "kept": 34,
+          "damage_sum": 636.48
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "416/25",
+          "windup": "0.3",
+          "cd": "34/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 0,
+          "kept": 13,
+          "damage_sum": 216.32
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "312/5",
+          "windup": "0.5",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 11,
+          "cancelled_per_unit": 0,
+          "kept": 11,
+          "damage_sum": 686.4
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 2572.96,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 22,
+          "cancelled_per_unit": 6,
+          "kept": 16,
+          "damage_sum": 998.4
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "208/5",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 15,
+          "cancelled_per_unit": 4,
+          "kept": 11,
+          "damage_sum": 457.6
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "468/25",
+          "windup": "0.1",
+          "cd": "14/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 34,
+          "cancelled_per_unit": 9,
+          "kept": 25,
+          "damage_sum": 468.0
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "416/25",
+          "windup": "0.3",
+          "cd": "34/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 4,
+          "kept": 9,
+          "damage_sum": 149.76
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "312/5",
+          "windup": "0.5",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 11,
+          "cancelled_per_unit": 3,
+          "kept": 8,
+          "damage_sum": 499.2
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 1707.68,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 22,
+          "cancelled_per_unit": 11,
+          "kept": 11,
+          "damage_sum": 686.4
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "208/5",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 15,
+          "cancelled_per_unit": 8,
+          "kept": 7,
+          "damage_sum": 291.2
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "468/25",
+          "windup": "0.1",
+          "cd": "14/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 34,
+          "cancelled_per_unit": 17,
+          "kept": 17,
+          "damage_sum": 318.24
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "416/25",
+          "windup": "0.3",
+          "cd": "34/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 7,
+          "kept": 6,
+          "damage_sum": 99.84
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "312/5",
+          "windup": "0.5",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 11,
+          "cancelled_per_unit": 6,
+          "kept": 5,
+          "damage_sum": 312.0
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "208/5",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "468/25",
+          "windup": "0.1",
+          "cd": "14/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "416/25",
+          "windup": "0.3",
+          "cd": "34/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "312/5",
+          "windup": "0.5",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "208/5",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "468/25",
+          "windup": "0.1",
+          "cd": "14/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "416/25",
+          "windup": "0.3",
+          "cd": "34/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "312/5",
+          "windup": "0.5",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "DMN",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "156/5",
+          "windup": "0.2",
+          "cd": "4/5",
+          "flight": "1/2",
+          "n": 2,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "208/5",
+          "windup": "0.3",
+          "cd": "6/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "468/25",
+          "windup": "0.1",
+          "cd": "14/25",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "416/25",
+          "windup": "0.3",
+          "cd": "34/25",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "312/5",
+          "windup": "0.5",
+          "cd": "8/5",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 327.6,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "273/20",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 24,
+          "cancelled_per_unit": 0,
+          "kept": 24,
+          "damage_sum": 327.6
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 245.7,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "273/20",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 24,
+          "cancelled_per_unit": 6,
+          "kept": 18,
+          "damage_sum": 245.7
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 163.8,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "273/20",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 24,
+          "cancelled_per_unit": 12,
+          "kept": 12,
+          "damage_sum": 163.8
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 259.35,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "273/20",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 19,
+          "cancelled_per_unit": 0,
+          "kept": 19,
+          "damage_sum": 259.35
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 191.1,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "273/20",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 19,
+          "cancelled_per_unit": 5,
+          "kept": 14,
+          "damage_sum": 191.1
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 122.85,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "273/20",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 19,
+          "cancelled_per_unit": 10,
+          "kept": 9,
+          "damage_sum": 122.85
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "273/20",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "273/20",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "required",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "273/20",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "0",
+      "damage": 1454.7,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "65/4",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 24,
+          "cancelled_per_unit": 0,
+          "kept": 24,
+          "damage_sum": 390.0
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "78/5",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 20,
+          "cancelled_per_unit": 0,
+          "kept": 20,
+          "damage_sum": 312.0
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "13/2",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 35,
+          "cancelled_per_unit": 0,
+          "kept": 35,
+          "damage_sum": 227.5
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup": "0.2",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 17,
+          "cancelled_per_unit": 0,
+          "kept": 17,
+          "damage_sum": 221.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 0,
+          "kept": 13,
+          "damage_sum": 304.2
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/4",
+      "damage": 1062.1,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "65/4",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 24,
+          "cancelled_per_unit": 6,
+          "kept": 18,
+          "damage_sum": 292.5
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "78/5",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 20,
+          "cancelled_per_unit": 5,
+          "kept": 15,
+          "damage_sum": 234.0
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "13/2",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 35,
+          "cancelled_per_unit": 9,
+          "kept": 26,
+          "damage_sum": 169.0
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup": "0.2",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 17,
+          "cancelled_per_unit": 5,
+          "kept": 12,
+          "damage_sum": 156.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 4,
+          "kept": 9,
+          "damage_sum": 210.6
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "delay_s": 2,
+      "cancel_fraction": "1/2",
+      "damage": 705.9,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "65/4",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 24,
+          "cancelled_per_unit": 12,
+          "kept": 12,
+          "damage_sum": 195.0
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "78/5",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 20,
+          "cancelled_per_unit": 10,
+          "kept": 10,
+          "damage_sum": 156.0
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "13/2",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 35,
+          "cancelled_per_unit": 18,
+          "kept": 17,
+          "damage_sum": 110.5
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup": "0.2",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 17,
+          "cancelled_per_unit": 9,
+          "kept": 8,
+          "damage_sum": 104.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 7,
+          "kept": 6,
+          "damage_sum": 140.4
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "0",
+      "damage": 1136.85,
+      "hp1000": true,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "65/4",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 19,
+          "cancelled_per_unit": 0,
+          "kept": 19,
+          "damage_sum": 308.75
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "78/5",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 0,
+          "kept": 16,
+          "damage_sum": 249.6
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "13/2",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 27,
+          "cancelled_per_unit": 0,
+          "kept": 27,
+          "damage_sum": 175.5
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup": "0.2",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 0,
+          "kept": 13,
+          "damage_sum": 169.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "2",
+          "flight": "0",
+          "n": 1,
+          "hits": 10,
+          "cancelled_per_unit": 0,
+          "kept": 10,
+          "damage_sum": 234.0
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/4",
+      "damage": 825.5,
+      "hp1000": false,
+      "hp600": true,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "65/4",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 19,
+          "cancelled_per_unit": 5,
+          "kept": 14,
+          "damage_sum": 227.5
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "78/5",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 4,
+          "kept": 12,
+          "damage_sum": 187.2
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "13/2",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 27,
+          "cancelled_per_unit": 7,
+          "kept": 20,
+          "damage_sum": 130.0
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup": "0.2",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 4,
+          "kept": 9,
+          "damage_sum": 117.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "2",
+          "flight": "0",
+          "n": 1,
+          "hits": 10,
+          "cancelled_per_unit": 3,
+          "kept": 7,
+          "damage_sum": 163.8
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "delay_s": 8,
+      "cancel_fraction": "1/2",
+      "damage": 550.55,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": true,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "65/4",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 19,
+          "cancelled_per_unit": 10,
+          "kept": 9,
+          "damage_sum": 146.25
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "78/5",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 16,
+          "cancelled_per_unit": 8,
+          "kept": 8,
+          "damage_sum": 124.8
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "13/2",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 27,
+          "cancelled_per_unit": 14,
+          "kept": 13,
+          "damage_sum": 84.5
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup": "0.2",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 13,
+          "cancelled_per_unit": 7,
+          "kept": 6,
+          "damage_sum": 78.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "2",
+          "flight": "0",
+          "n": 1,
+          "hits": 10,
+          "cancelled_per_unit": 5,
+          "kept": 5,
+          "damage_sum": 117.0
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "0",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "65/4",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "78/5",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "13/2",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup": "0.2",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/4",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "65/4",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "78/5",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "13/2",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup": "0.2",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    },
+    {
+      "class": "NEC",
+      "state": "maximum",
+      "delay_s": 30,
+      "cancel_fraction": "1/2",
+      "damage": 0.0,
+      "hp1000": false,
+      "hp600": false,
+      "hp300": false,
+      "details": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "65/4",
+          "windup": "0.2",
+          "cd": "1",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "78/5",
+          "windup": "0.2",
+          "cd": "6/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "13/2",
+          "windup": "0.2",
+          "cd": "3/5",
+          "flight": "1/2",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup": "0.2",
+          "cd": "3/2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "117/5",
+          "windup": "0.2",
+          "cd": "2",
+          "flight": "0",
+          "n": 1,
+          "hits": 0,
+          "cancelled_per_unit": 0,
+          "kept": 0,
+          "damage_sum": 0.0
+        }
+      ]
+    }
+  ],
+  "abuse_counterexamples": [
+    {
+      "case": "duplicate death input",
+      "bad_gold": 2,
+      "expected_gold": 1,
+      "key": "combat_id+entity_id",
+      "proposal": "count each unique death once"
+    },
+    {
+      "case": "settlement pays death again",
+      "bad_gold": 34,
+      "expected_gold": 17,
+      "key": "same earned ledger",
+      "proposal": "settlement display-only"
+    },
+    {
+      "case": "100 free failed retries",
+      "bad_gold": 100,
+      "expected_gold": 0,
+      "key": "no qualifying deaths/reward proposal0",
+      "proposal": "no reward or cost; HP1000 each retry"
+    },
+    {
+      "case": "NEC boss temporary carry",
+      "bad_units": 10,
+      "expected_units": 5,
+      "key": "temporary reset0",
+      "proposal": "permanent5 at maximum only"
+    },
+    {
+      "case": "s2 all reservations counted without kills",
+      "bad_gold": 102,
+      "expected_gold": 0,
+      "key": "K=0",
+      "proposal": "no grant on spawn/cleanup"
+    },
+    {
+      "case": "all five DRG deployed",
+      "bad_units": 5,
+      "expected_units": 2,
+      "key": "WING cap2",
+      "proposal": "score legal deployed pair"
+    }
+  ],
+  "correction_recalculation": {
+    "gold_exclusion": {
+      "old_cost": 120,
+      "new_cost": 0,
+      "high_s2_old_income": 154,
+      "high_s2_new_income": 102
+    },
+    "supply_marginal_base": [
+      12,
+      21,
+      30
+    ],
+    "supply_marginal_high": [
+      24,
+      60,
+      102
+    ],
+    "supply_no_extra_k_before_after": [
+      12,
+      12
+    ],
+    "time_hold": "not a legal time purchase; no purchases, gold held, T=30"
+  },
+  "damage_correction": [
+    {
+      "class": "ELM",
+      "before_damage": 478.4,
+      "hp300_pass": true,
+      "hp600_pass": false,
+      "hp1000_pass": false,
+      "permanent_damage_factor_exact": "625/299",
+      "after_damage_if_scaled": 1000.0,
+      "scope": "proposal only, all eligible basic damage uniformly scaled; economics not validated"
+    },
+    {
+      "class": "DRG",
+      "before_damage": 599.04,
+      "hp300_pass": true,
+      "hp600_pass": false,
+      "hp1000_pass": false,
+      "permanent_damage_factor_exact": "3125/1872",
+      "after_damage_if_scaled": 1000.0,
+      "scope": "proposal only, all eligible basic damage uniformly scaled; economics not validated"
+    },
+    {
+      "class": "BST",
+      "before_damage": 1179.36,
+      "hp300_pass": true,
+      "hp600_pass": true,
+      "hp1000_pass": true,
+      "permanent_damage_factor_exact": "1",
+      "after_damage_if_scaled": 1179.36,
+      "scope": "proposal only, all eligible basic damage uniformly scaled; economics not validated"
+    },
+    {
+      "class": "DMN",
+      "before_damage": 1435.2,
+      "hp300_pass": true,
+      "hp600_pass": true,
+      "hp1000_pass": true,
+      "permanent_damage_factor_exact": "1",
+      "after_damage_if_scaled": 1435.2,
+      "scope": "proposal only, all eligible basic damage uniformly scaled; economics not validated"
+    },
+    {
+      "class": "NEC",
+      "before_damage": 327.6,
+      "hp300_pass": true,
+      "hp600_pass": false,
+      "hp1000_pass": false,
+      "permanent_damage_factor_exact": "2500/819",
+      "after_damage_if_scaled": 1000.0,
+      "scope": "proposal only, all eligible basic damage uniformly scaled; economics not validated"
+    }
+  ],
+  "not_performed": [
+    "game/prototype/technical coding",
+    "movement/AI/cursor or event simulation",
+    "actual kills or DPS measurement",
+    "user playtest",
+    "whole-run optimal policy",
+    "peer approval",
+    "G3 development"
+  ]
+}

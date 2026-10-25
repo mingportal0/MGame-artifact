@@ -1,0 +1,169 @@
+{
+  "document": "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/06.md",
+  "checked_at": "2026-10-25T00:48:57.657212+09:00",
+  "kind": "document_structure_and_reference_only",
+  "checks": [
+    {
+      "name": "five_class_comparison",
+      "passed": true,
+      "detail": [
+        "CLS_ELM",
+        "CLS_DRG",
+        "CLS_BST",
+        "CLS_DMN",
+        "CLS_NEC"
+      ]
+    },
+    {
+      "name": "comparison_columns",
+      "passed": true,
+      "detail": "콘셉트/기제/선택/장점/단점/비용 열 검사"
+    },
+    {
+      "name": "id_unique_format",
+      "passed": true,
+      "detail": {
+        "total": 26
+      }
+    },
+    {
+      "name": "representative_summons_per_class",
+      "passed": true,
+      "detail": {
+        "CLS_ELM": 2,
+        "CLS_DRG": 2,
+        "CLS_BST": 2,
+        "CLS_DMN": 2,
+        "CLS_NEC": 2
+      }
+    },
+    {
+      "name": "starter_one_per_class",
+      "passed": true,
+      "detail": "초기 1종·1마리, 나머지는 후보"
+    },
+    {
+      "name": "summon_unlock_links",
+      "passed": true,
+      "detail": "소환수 예시가 가리킨 업그레이드 존재"
+    },
+    {
+      "name": "upgrade_columns",
+      "passed": true,
+      "detail": {
+        "upgrade_examples": 11
+      }
+    },
+    {
+      "name": "upgrade_targets_resolve",
+      "passed": true,
+      "detail": "효과 대상 소환수 참조"
+    },
+    {
+      "name": "upgrade_class_scope",
+      "passed": true,
+      "detail": "적용 직업 참조"
+    },
+    {
+      "name": "finite_levels",
+      "passed": true,
+      "detail": "반복·단발 모두 유한 최대 레벨"
+    },
+    {
+      "name": "prerequisites_resolve_acyclic",
+      "passed": true,
+      "detail": {
+        "UPG_COM_COMMAND_RADIUS": [],
+        "UPG_ELM_BLOOM": [],
+        "UPG_ELM_SPARK": [],
+        "UPG_DRG_ADULT": [],
+        "UPG_DRG_WYVERN": [],
+        "UPG_BST_PACK": [],
+        "UPG_BST_HAWK": [],
+        "UPG_DMN_EXECUTOR": [],
+        "UPG_DMN_RELAY": [
+          "UPG_DMN_EXECUTOR"
+        ],
+        "UPG_NEC_RAISE": [],
+        "UPG_NEC_LICH": []
+      }
+    },
+    {
+      "name": "scope_explicit",
+      "passed": true,
+      "detail": "전 행 MVP/확장 구분"
+    },
+    {
+      "name": "upgrade_required_fields_and_type",
+      "passed": true,
+      "detail": [
+        "id / name",
+        "category",
+        "applies_to",
+        "effects",
+        "max_level",
+        "cost",
+        "unlock_condition",
+        "prerequisites",
+        "visual_change",
+        "type"
+      ]
+    },
+    {
+      "name": "g1_rules_documented",
+      "passed": true,
+      "detail": "G1 제약 존재 검사; 의미 정합성은 별도 자체 검토"
+    },
+    {
+      "name": "no_obsolete_example_upgrades",
+      "passed": true,
+      "detail": [
+        "UPG_COM_COMMAND_RADIUS",
+        "UPG_ELM_BLOOM",
+        "UPG_ELM_SPARK",
+        "UPG_DRG_ADULT",
+        "UPG_DRG_WYVERN",
+        "UPG_BST_PACK",
+        "UPG_BST_HAWK",
+        "UPG_DMN_EXECUTOR",
+        "UPG_DMN_RELAY",
+        "UPG_NEC_RAISE",
+        "UPG_NEC_LICH"
+      ]
+    },
+    {
+      "name": "test_and_approval_limits_explicit",
+      "passed": true,
+      "detail": "검증/승인 한계 명시 여부; 사실 여부를 자동 입증하는 검사는 아님"
+    },
+    {
+      "name": "change_trace_present",
+      "passed": true,
+      "detail": "원문 수량과 이번 대표 예시 범위 차이 명시"
+    },
+    {
+      "name": "local_source_links",
+      "passed": true,
+      "detail": {
+        "links": [
+          "../source.txt",
+          "../../../decisions/2026-10-25_phase1-g1_approved_v01.md",
+          "04.md",
+          "06-validation.json"
+        ],
+        "missing": []
+      }
+    }
+  ],
+  "passed": 18,
+  "total": 18,
+  "all_passed": true,
+  "not_performed": [
+    "실제 플레이테스트",
+    "Mia UX 검토",
+    "Sam 기술 검토",
+    "성능 실측",
+    "직업 경제 밸런스 검증",
+    "대표 세부 사양 승인"
+  ]
+}

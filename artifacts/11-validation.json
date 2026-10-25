@@ -1,0 +1,274 @@
+{
+  "document": "P1-11-NEC-v01",
+  "scope": "document structure and arithmetic only",
+  "checks": [
+    {
+      "name": "summon_quantity_unique",
+      "passed": true,
+      "detail": [
+        "SUM_NEC_SKELETON",
+        "SUM_NEC_LICH",
+        "SUM_NEC_ARCHER",
+        "SUM_NEC_REVENANT",
+        "SUM_NEC_GOLEM"
+      ]
+    },
+    {
+      "name": "upgrade_quantity_unique",
+      "passed": true,
+      "detail": [
+        "UPG_NEC_RAISE",
+        "UPG_NEC_BONE",
+        "UPG_NEC_THRIFT",
+        "UPG_NEC_LEGION",
+        "UPG_NEC_GUARD",
+        "UPG_NEC_LICH",
+        "UPG_NEC_ARCHLICH",
+        "UPG_NEC_ARCHER",
+        "UPG_NEC_SENTINEL",
+        "UPG_NEC_REVENANT",
+        "UPG_NEC_REAPER",
+        "UPG_NEC_CONDUCT",
+        "UPG_NEC_GOLEM",
+        "UPG_NEC_OSSUARY"
+      ]
+    },
+    {
+      "name": "row_fields",
+      "passed": true,
+      "detail": "9 columns plus explicit shared category/applies_to/unlock_condition/currency/status/cost formula"
+    },
+    {
+      "name": "four_types",
+      "passed": true,
+      "detail": [
+        "evolve",
+        "repeat",
+        "synergy",
+        "unlock"
+      ]
+    },
+    {
+      "name": "positive_finite_levels_prices",
+      "passed": true,
+      "detail": "integer levels/base prices"
+    },
+    {
+      "name": "prerequisites_UPG_NEC_RAISE",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "prerequisites_UPG_NEC_BONE",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "prerequisites_UPG_NEC_THRIFT",
+      "passed": true,
+      "detail": [
+        [
+          "UPG_NEC_RAISE",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "prerequisites_UPG_NEC_LEGION",
+      "passed": true,
+      "detail": [
+        [
+          "UPG_NEC_RAISE",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "prerequisites_UPG_NEC_GUARD",
+      "passed": true,
+      "detail": [
+        [
+          "UPG_NEC_BONE",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "prerequisites_UPG_NEC_LICH",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "prerequisites_UPG_NEC_ARCHLICH",
+      "passed": true,
+      "detail": [
+        [
+          "UPG_NEC_LICH",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "prerequisites_UPG_NEC_ARCHER",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "prerequisites_UPG_NEC_SENTINEL",
+      "passed": true,
+      "detail": [
+        [
+          "UPG_NEC_ARCHER",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "prerequisites_UPG_NEC_REVENANT",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "prerequisites_UPG_NEC_REAPER",
+      "passed": true,
+      "detail": [
+        [
+          "UPG_NEC_REVENANT",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "prerequisites_UPG_NEC_CONDUCT",
+      "passed": true,
+      "detail": [
+        [
+          "UPG_NEC_LICH",
+          "1"
+        ],
+        [
+          "UPG_NEC_RAISE",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "prerequisites_UPG_NEC_GOLEM",
+      "passed": true,
+      "detail": [
+        [
+          "UPG_NEC_GUARD",
+          "1"
+        ],
+        [
+          "UPG_NEC_LICH",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "prerequisites_UPG_NEC_OSSUARY",
+      "passed": true,
+      "detail": [
+        [
+          "UPG_NEC_GOLEM",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "acyclic_reachable_tree",
+      "passed": true,
+      "detail": "all prerequisites exist; run_start roots; no cycles"
+    },
+    {
+      "name": "reserved_ids_retained",
+      "passed": true,
+      "detail": "P1-06 IDs unchanged"
+    },
+    {
+      "name": "summon_unlock_and_evolution_references",
+      "passed": true,
+      "detail": "summon table upgrade refs"
+    },
+    {
+      "name": "case_quantity_unique",
+      "passed": true,
+      "detail": "15 manual expected-event traces, not executed gameplay"
+    },
+    {
+      "name": "trace_quantity",
+      "passed": true,
+      "detail": "12 source/G1 mappings"
+    },
+    {
+      "name": "scope_partition",
+      "passed": true,
+      "detail": "M4 + E10 upgrades; game MVP not approved"
+    },
+    {
+      "name": "two_builds",
+      "passed": true,
+      "detail": "two purchase paths, not equal-budget efficiency proof"
+    },
+    {
+      "name": "ledger",
+      "passed": true,
+      "detail": {
+        "income": 44,
+        "spent": 28,
+        "balance": 16
+      }
+    },
+    {
+      "name": "equal_budget_candidates",
+      "passed": true,
+      "detail": "RAISE+THRIFT vs LICH+BONE1"
+    },
+    {
+      "name": "base_raise_arithmetic",
+      "passed": true,
+      "detail": "9 tokens, cost3 => temporary3/remainder0"
+    },
+    {
+      "name": "expanded_raise_arithmetic",
+      "passed": true,
+      "detail": "10 tokens, cost2 => temporary5/remainder0"
+    },
+    {
+      "name": "overflow_arithmetic",
+      "passed": true,
+      "detail": "2 existing+4 new-cap3 = 3 discarded"
+    },
+    {
+      "name": "damage_arithmetic",
+      "passed": true,
+      "detail": "GUARD+BONE3+CONDUCT = 12.5; rounding unresolved"
+    },
+    {
+      "name": "finite_summon_max",
+      "passed": true,
+      "detail": "permanent5 + temporary(base3+2 levels)=10; performance unmeasured"
+    },
+    {
+      "name": "required_boundaries_present",
+      "passed": true,
+      "detail": "literal coverage only; not semantic/runtime validation"
+    }
+  ],
+  "passed": 34,
+  "total": 34,
+  "not_performed": [
+    "game code/prototype",
+    "actual user tests",
+    "Mia/Sam expert review",
+    "runtime functionality or performance",
+    "balance or retention validation"
+  ],
+  "counts": {
+    "summons": 5,
+    "upgrades": 14,
+    "manual_cases": 15,
+    "source_traces": 12
+  }
+}

@@ -1,0 +1,2092 @@
+{
+  "document_id": "P1-21-PACKAGE-VALIDATION-v01",
+  "checked_at": "2026-10-25T11:16:54.029230+09:00",
+  "scope": "document provenance, response presence, field coverage, hashes, record counts and source location bounds; NOT defect resolution/game/user/performance test",
+  "target_sha256": "0d40dd6a5bf795b7984c742a6c8def8edce81d16d8973016a8d4a3237332ec87",
+  "findings": 27,
+  "severity_counts": {
+    "치명": 1,
+    "높음": 17,
+    "중간": 9
+  },
+  "owner_counts": {
+    "James": 13,
+    "Mia": 7,
+    "Sam": 7
+  },
+  "review_count": 3,
+  "question_count": 14,
+  "passed": 411,
+  "total": 411,
+  "checks": [
+    {
+      "name": "immutable target hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "target version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all finding IDs unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all 27 findings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james new review hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james response hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james target hash in review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james process exited",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james session record exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james session ended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james real tool messages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james metadata warning retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james finding count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james question J01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james question J02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james question J03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "james question J04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia new review hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia response hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia target hash in review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia process exited",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia session record exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia session ended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia real tool messages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia metadata warning retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia finding count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia question M01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia question M02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia question M03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia question M04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mia question M05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam new review hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam response hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam target hash in review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam process exited",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam session record exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam session ended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam real tool messages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam metadata warning retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam finding count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam question S01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam question S02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam question S03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam question S04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sam question S05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-01 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-02 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-03 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-04 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-05 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-06 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JAMES-07 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-01 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-02 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-03 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-04 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-05 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-06 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-07 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-08 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "MIA-09 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-01 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-02 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-03 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-04 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-05 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-06 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-07 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-08 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-09 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-10 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 severity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 single owner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 remains open",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 source row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 target location stated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 target ranges valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 acceptance criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 alternatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 evidence rationale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 approval boundary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 main report row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SAM-11 excerpt line number valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "open U01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "open U02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "open U03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "open U04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "open U05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "open U06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "open U07",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "I07 retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "not approval",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "next card gated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no Slack delivery claim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source snapshot arithmetic",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "severity aggregate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "severity declared",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline all pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "deliverable 21.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "deliverable 21-defects.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "deliverable 21-review-requests.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "deliverable 21-review-james.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "deliverable 21-review-mia.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "deliverable 21-review-sam.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link ../../../decisions/2026-10-25_phase1-p21-execution_approved_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link ../../../decisions/2026-10-25_phase1-g1_approved_v01.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 20.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link ../source.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 20-trace.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 20-trace.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-review-requests.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-review-james.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-response-james.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-review-mia.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-response-mia.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-review-sam.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-response-sam.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-defects.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-baseline-validation.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-baseline-check.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "local link 21-validate.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index contains21 README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index retains gate README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index contains21 plan.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index retains gate plan.md",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "artifact_sha256": {
+    "21-validate.py": "af3afcb6b18a9302d5664c4a4328e367904144dd7bd58cf7cc6a391c2a99f61e",
+    "21-review-james.md": "ab97203710e93887fe63374b9ee0cfc8cf3e686419ca9ee524499acb57ec861b",
+    "21-response-sam.txt": "d20858d080dc7a9afca6bcf82919c5221e0b5340a52a2728bdb6a14ab9a86ea3",
+    "21-defects.json": "9a33fc25c3251f0cfb76b25428a46a6fa81a52a9e0e87b3b35c82c7a81b7e49c",
+    "21.md": "6004dbd976b61f7dfe7b3431edd2737c02ab2ff213092fb59fd987dd17d89c45",
+    "21-response-james.txt": "d5cdfd6281c2aa5bee9f9baeaa5531027384687af07e99a3e44d99919d2b85c3",
+    "21-baseline-check.py": "800c0d20ed0ab7b67dc121f5749c918e4ca7707103824f3d302d772e98c47fb4",
+    "21-review-mia.md": "e26adec4d9dbfc38af2562f18526ddc104865c2d1743cec32973a032fd6a84c3",
+    "21-review-requests.json": "51256e9487c0a1084c40879d5ec9b520b7550cebb9f8366a2827cb1af3103e4a",
+    "21-response-mia.txt": "b57c4434ecc51b1b4cfb05e69668c7fd7c4aff3566780df3981d77e8f0b73e94",
+    "21-baseline-validation.json": "4b0d5bfc8299b01e371eff5a5a41b60f8112ecd09a1ecd8bb04414a393a69812",
+    "21-review-sam.md": "33938e59a0c8d4993fc0f5e9b1ffce584dec74312800128617fc1f158e29b3d1"
+  }
+}

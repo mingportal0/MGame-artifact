@@ -1,0 +1,61 @@
+{
+  "document_id": "P1-22-REVIEW-INDEX-v01",
+  "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88",
+  "reviews": [
+    {
+      "profile": "mia",
+      "session_id": "20261025_140433_dd2331",
+      "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88",
+      "exit_code": 0,
+      "session_metadata": {
+        "id": "20261025_140433_dd2331",
+        "source": "tool",
+        "profile_name": "mia",
+        "model": "gpt-6.1-sol",
+        "started_at": 1792904678.569746,
+        "ended_at": 1792904895.8501608,
+        "tool_call_count": 25
+      },
+      "message_role_counts": {
+        "assistant": 14,
+        "tool": 25,
+        "user": 1
+      },
+      "verified_session": true,
+      "hashes": {
+        "22-review-mia.json": "0e25d8d76116e8ef815db6939c2da23a8f656902981cdf4586c4f87dffa4a73e",
+        "22-review-mia.md": "28afbece2b181746e01937e3de6dc4b4d15162e6a76e3dbb937a71649a68387d",
+        "22-response-mia.txt": "3824cd06c02e5fe7a6db43cfc925d9ca60e2dc4e0bb197f157aca7eb3ddda4bf"
+      },
+      "source_warning": "Use actual CLI -p, profile-specific DB and injected-profile statement; inherited environment alone is not identity proof"
+    },
+    {
+      "profile": "sam",
+      "session_id": "20261025_140433_b831d2",
+      "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88",
+      "exit_code": 0,
+      "session_metadata": {
+        "id": "20261025_140433_b831d2",
+        "source": "tool",
+        "profile_name": "sam",
+        "model": "gpt-6.1-sol",
+        "started_at": 1792904675.2710257,
+        "ended_at": 1792904912.817221,
+        "tool_call_count": 26
+      },
+      "message_role_counts": {
+        "assistant": 11,
+        "tool": 26,
+        "user": 1
+      },
+      "verified_session": true,
+      "hashes": {
+        "22-review-sam.json": "f9618b70ce2e03335c6f378dfe5b19f7a16b4fa15180cd2824b33034700f9b67",
+        "22-review-sam.md": "b7c72cd54ec43ae7579a2436c0f835d14c52ef84724e3fbf79c931c9388cfc76",
+        "22-response-sam.txt": "2fc9e1fe2aa829b6b55234bbb96b256183506882480871e637128266b2f2fcf7"
+      },
+      "source_warning": "Use actual CLI -p, profile-specific DB and injected-profile statement; inherited environment alone is not identity proof"
+    }
+  ],
+  "previous_failure": "22-response-*-attempt1.txt preserved HTTP429; not review evidence"
+}

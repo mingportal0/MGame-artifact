@@ -1,0 +1,11 @@
+class_id,state,budget_gold,damage_30s,ideal_zero_delay_damage,hp1000_pass,hp600_pass,hp300_pass,damage_multiplier_for_1000,note
+CLS_ELM,required,140,478.4,520.0,False,False,True,2.0903010033444818,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture
+CLS_ELM,maximum,1075,1722.5,1852.5,True,True,True,0.5805515239477503,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture
+CLS_DRG,required,540,599.04,636.48,False,False,True,1.669337606837607,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture
+CLS_DRG,maximum,2185,1383.2,1541.28,True,True,True,0.7229612492770388,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture
+CLS_BST,required,345,1179.36,1263.6,True,True,True,0.8479175145841813,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture
+CLS_BST,maximum,1090,3110.12,3326.7,True,True,True,0.3215310020192147,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture
+CLS_DMN,required,195,1435.2,1560.0,True,True,True,0.6967670011148273,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture
+CLS_DMN,maximum,945,4499.04,4800.64,True,True,True,0.2222696397453679,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture
+CLS_NEC,required,132,327.6,341.25,False,False,True,3.0525030525030523,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture
+CLS_NEC,maximum,936,1454.7,1558.05,True,True,True,0.6874269608854059,DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture

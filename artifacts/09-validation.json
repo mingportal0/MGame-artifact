@@ -1,0 +1,134 @@
+{
+  "document": "P1-09-BST-v01",
+  "scope": "문서 구조·ID·참조·선행 도달성·산술만, 게임/사용자/UX/성능 검증 아님",
+  "counts": {
+    "summons": 5,
+    "upgrades": 13,
+    "builds": 2,
+    "manual_document_cases": 10,
+    "change_traces": 11
+  },
+  "arithmetic": {
+    "permanent_cap": 9,
+    "pack_build_total_gold_assumed": 210,
+    "mixed_build_total_gold_assumed": 200,
+    "pack_build_units": 3,
+    "mixed_build_units": 5,
+    "ledger_income": 70,
+    "ledger_spend": 45,
+    "ledger_final": 25
+  },
+  "passed": 25,
+  "total": 25,
+  "checks": [
+    {
+      "name": "basic1_plus_additional4",
+      "passed": true
+    },
+    {
+      "name": "upgrade_minimum10",
+      "passed": true
+    },
+    {
+      "name": "unique_ids",
+      "passed": true
+    },
+    {
+      "name": "id_format",
+      "passed": true
+    },
+    {
+      "name": "summon_attack_evolution_fields",
+      "passed": true
+    },
+    {
+      "name": "upgrade_10fields_plus_type",
+      "passed": true
+    },
+    {
+      "name": "category_class_type",
+      "passed": true
+    },
+    {
+      "name": "four_types",
+      "passed": true
+    },
+    {
+      "name": "positive_finite_levels_cost",
+      "passed": true
+    },
+    {
+      "name": "prerequisite_refs_levels",
+      "passed": true
+    },
+    {
+      "name": "no_cycles_all_reachable",
+      "passed": true
+    },
+    {
+      "name": "summon_unlock_refs",
+      "passed": true
+    },
+    {
+      "name": "evolution_refs",
+      "passed": true
+    },
+    {
+      "name": "all_bst_upgrade_references_defined",
+      "passed": true
+    },
+    {
+      "name": "reserved_06_ids_preserved",
+      "passed": true
+    },
+    {
+      "name": "builds2",
+      "passed": true
+    },
+    {
+      "name": "manual_cases10",
+      "passed": true
+    },
+    {
+      "name": "trace11",
+      "passed": true
+    },
+    {
+      "name": "g1_boundaries",
+      "passed": true
+    },
+    {
+      "name": "mvp_expansion_approval_labels",
+      "passed": true
+    },
+    {
+      "name": "local_source_links_exist",
+      "passed": true
+    },
+    {
+      "name": "ledger_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "ledger_continuity",
+      "passed": true
+    },
+    {
+      "name": "crown_no_other_species_required",
+      "passed": true
+    },
+    {
+      "name": "finite_roster_cap9",
+      "passed": true
+    }
+  ],
+  "not_performed": [
+    "게임 코드/프로토타입",
+    "실제 사용자 테스트",
+    "Mia UX 검토",
+    "Sam 기술 검토",
+    "성능 실측",
+    "빌드 균형 실측",
+    "Slack 전달 확인"
+  ]
+}

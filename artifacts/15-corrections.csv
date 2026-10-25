@@ -1,0 +1,6 @@
+class,before_damage,hp300_pass,hp600_pass,hp1000_pass,permanent_damage_factor_exact,after_damage_if_scaled,scope
+ELM,478.4,True,False,False,625/299,1000.0,"proposal only, all eligible basic damage uniformly scaled; economics not validated"
+DRG,599.04,True,False,False,3125/1872,1000.0,"proposal only, all eligible basic damage uniformly scaled; economics not validated"
+BST,1179.36,True,True,True,1,1179.36,"proposal only, all eligible basic damage uniformly scaled; economics not validated"
+DMN,1435.2,True,True,True,1,1435.2,"proposal only, all eligible basic damage uniformly scaled; economics not validated"
+NEC,327.6,True,False,False,2500/819,1000.0,"proposal only, all eligible basic damage uniformly scaled; economics not validated"

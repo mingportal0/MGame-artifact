@@ -1,0 +1,493 @@
+{
+  "document_id": "P1-20-GDD-v01",
+  "status": "draft_not_approved",
+  "generated_at": "2026-10-25T01:00:04.160424+00:00",
+  "input_sha256": {
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/source.txt": "8ae99c2a78ba5435023962378afb9383d4aa1e3558a6a7fcbafcb02b7b7d8fd2",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/01-trace.json": "f1e434fef4c9f8daeb396649796e49b1adfd10c26ebf5ec82c6abb11d07b8227",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/12-catalog.json": "2dd5c775a87ba661253df7e3421a82495f16257c2ee3107af427c648e2eca425",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/01.md": "616e861af8ed0b94f62c515ec1308f6d848656a84537ddb0932134d22b452778",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/02.md": "03ebb736c5d52a9bb3d3506b8187d845620739ed731eadb42c3b82e63e083b71",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/03.md": "6ef22431abe502465f1ffb969a228cbc717e7122428f3c5c4f70e03576dae986",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/04.md": "b58ecb53cf9eb3384b05ffde33651bd05cc47675b974c69632ec3453311d0b5f",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/05.md": "54ee4591f2f8fbe9eec8c5ccc8f7eea93ca5fb020c460eab60d03437f754fccf",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/06.md": "886f9c60b81d45df9e263c7d4e8b0e92b698ee1e0707311f066ce8151f0c8377",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/07.md": "e6d99364d70c25aa429cf56f9781445451ca9c652f29e5a24481982eaea3c965",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/08.md": "c64fcb715c95f9e8fe59557c54da5e3ff860fc19d609767fdc735cffd74c402b",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/09.md": "907285c373d3f33da7b0aa49765bf97310e1821fa5c01613b00e764d700333c1",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/10.md": "17c0deee850ac520b58a5446578a16aa28252932989e60aecc62b7c1bf780805",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/11.md": "c0e89c73d3a817fe00e273bd99cca622aebe9ccf8ca693235b0c99cefa9524f5",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/12.md": "1251ad63dcab08430b80517d75e9d310390b622d5e4e344c8b4f3b91272ce0fe",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/13.md": "911d9c9ed39c7abfb3d0c4787909088b5103dc6112f2f3e67b163d975d5a4a91",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/14.md": "bc7c87d584fbde30d54094e0e1e58c77270ff42ec582b56379a51dafb6cbf4d0",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/15.md": "46ce40eaa8c4b362f9b41a7a1dde73e3602c6c0a906b76b6f64d6038fa66d38a",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/16.md": "75369597cedb267157a120f6219522ac451e89da10ece88356df83f993611464",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/17.md": "80c56537b34003608ae041b97545ad6640626761955c24aaa8d0f50bd49906a1",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/18.md": "7491d059cdcddbc7b3a62675794a9a7be7e4a69483d829a00bdd16131abf34e3",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/19.md": "e2e0402c788eca15dcfa06c756355bc4f650e8ca8b53c838554ee85262930368",
+    "/home/mj/.hermes/company/decisions/2026-10-25_phase1-g1_approved_v01.md": "2df0fd534b1d46a94520fffe1ec8a077aee25c46b5a2337701d6787cca348d05",
+    "/home/mj/.hermes/company/decisions/2026-10-25_phase1-resume-card-gates_approved_v01.md": "662683d2eca01fd0f1172ed32b59804931ea817efd63aa25a8b885c316e5f8de"
+  },
+  "excerpts": [
+    {
+      "source": "02.md",
+      "first_line": 21,
+      "last_line": 71,
+      "text_sha256": "1d2ee6e3ad6c7075d79f26cd1e152878389691bd9afae2db01540fb0e1c5b48b",
+      "label": "참고작 출처와 사실/미확인 경계"
+    },
+    {
+      "source": "05.md",
+      "first_line": 143,
+      "last_line": 176,
+      "text_sha256": "e4ba673457eb796e2e2f85d4c43121f3925e54050dd37532da4128a767a01f48",
+      "label": "전투·소환수 상태와 시간 경계"
+    },
+    {
+      "source": "06.md",
+      "first_line": 46,
+      "last_line": 68,
+      "text_sha256": "6073c873ea23eb74e4ba512e6219a752fa16d782affbe65bc2ce911847555299",
+      "label": "직업별 행동·투자 차이 비교"
+    },
+    {
+      "source": "07.md",
+      "first_line": 36,
+      "last_line": 60,
+      "text_sha256": "1f6edde0c54afbb93fbf85641cc226a58ab4fb9e893532a12268a67067b70aef",
+      "label": "정령: 고유 기제·5종·공격과 진화"
+    },
+    {
+      "source": "07.md",
+      "first_line": 90,
+      "last_line": 125,
+      "text_sha256": "a9a0d6c7a4c18abb3d80c541773b01c897bed3c443815b31ac9a0f09ff71f615",
+      "label": "정령: 트리·2빌드·최종형태"
+    },
+    {
+      "source": "08.md",
+      "first_line": 36,
+      "last_line": 54,
+      "text_sha256": "3a0c6a198d0a0a67156f076908cc6bc4450c12a3a84ca95e23337264a6186661",
+      "label": "용: 보관/출전·진화·대안"
+    },
+    {
+      "source": "08.md",
+      "first_line": 60,
+      "last_line": 70,
+      "text_sha256": "042543b53e3cbb82d5d98ab5c983ea204855775a5ca06d657b199ba05613b512",
+      "label": "용: 기본1+추가4종 구성"
+    },
+    {
+      "source": "08.md",
+      "first_line": 101,
+      "last_line": 138,
+      "text_sha256": "267a1a3737263478e02af372e829a082962c50e889a1e0c28b5c51860e4a40d1",
+      "label": "용: 트리·최종형태·2빌드"
+    },
+    {
+      "source": "09.md",
+      "first_line": 32,
+      "last_line": 52,
+      "text_sha256": "09430f3662271641ef45227ceab1141eab9f8bad75c8cff5e285cdbf2ae14d44",
+      "label": "동물: 영구수·5종 구성"
+    },
+    {
+      "source": "09.md",
+      "first_line": 84,
+      "last_line": 113,
+      "text_sha256": "e176b846ddd70eb1880e824b86f0d1302a77cd82a7b2d1e0364a80de0ee3e433",
+      "label": "동물: 트리·2빌드·최종형태"
+    },
+    {
+      "source": "10.md",
+      "first_line": 34,
+      "last_line": 79,
+      "text_sha256": "bde8b9737729cd01ee93822cd9f830290e5bc5ea37d64930d14dc0ba6c7e2dd7",
+      "label": "악마: 표식·5종·공격"
+    },
+    {
+      "source": "10.md",
+      "first_line": 106,
+      "last_line": 142,
+      "text_sha256": "767a1eeb0210a3682c0c558b023acf19fff74d1ad467ef332b4fedf76d08653c",
+      "label": "악마: 트리·2빌드·최종형태"
+    },
+    {
+      "source": "11.md",
+      "first_line": 29,
+      "last_line": 63,
+      "text_sha256": "ea1d59ef09a690c964dbaa59f9d7d12217d83b600ffcb3d4a9ac3cbaf86c13af",
+      "label": "언데드: 5종·토큰·증식·최종형태"
+    },
+    {
+      "source": "11.md",
+      "first_line": 90,
+      "last_line": 113,
+      "text_sha256": "3bb3f0dd7944ac264b7c041f31ae34d417071b352b8f03c96aef0b8916ef7410",
+      "label": "언데드: 트리·2빌드·플레이예시"
+    },
+    {
+      "source": "12.md",
+      "first_line": 54,
+      "last_line": 113,
+      "text_sha256": "11205e4bd01ebea4416df342133e5339c8c76b987c709cdc1bc6eb8868cfcb71",
+      "label": "피해·주기·시너지·상한 연산"
+    },
+    {
+      "source": "12.md",
+      "first_line": 248,
+      "last_line": 349,
+      "text_sha256": "d9210640e1aaaa5976425961bcffba8d7b4e937906224926eabefda52bcd076d",
+      "label": "전체 공통·전용 업그레이드 전수표"
+    },
+    {
+      "source": "05.md",
+      "first_line": 27,
+      "last_line": 104,
+      "text_sha256": "12cae143e27168896460c9c8fa7639e7cc8bd010f99b684d41c4f3b3d218783e",
+      "label": "좌표·자동전투 필수 B01~B10"
+    },
+    {
+      "source": "13.md",
+      "first_line": 30,
+      "last_line": 155,
+      "text_sha256": "7cefa1f54d280e0e8b4b9a1e0c4b302e67fe6f459d80b740d630069c0fa4e347",
+      "label": "일반적·전체 공급·보스7항목·엔딩3모델"
+    },
+    {
+      "source": "14.md",
+      "first_line": 31,
+      "last_line": 210,
+      "text_sha256": "e0f419859b49545520b740dc90d43fdc898c37c66bea1e8a765210f478424593",
+      "label": "변수·6공식·공격양수가정·조건부시간"
+    },
+    {
+      "source": "15.md",
+      "first_line": 56,
+      "last_line": 208,
+      "text_sha256": "71de05791b5c1999e573edf4dfb122f7df5afeef7e281a9ef5129cc5dc5da0bd",
+      "label": "전체 카탈로그 전략·구매원장·손실·악용 계산 결과"
+    },
+    {
+      "source": "16.md",
+      "first_line": 31,
+      "last_line": 110,
+      "text_sha256": "fa55e4008e0259def73abc119ea56084c1ffd668fb17b8ca63c38598b5d47285",
+      "label": "필수 UI10·입력·직업선택/일반전·상자후보"
+    },
+    {
+      "source": "16.md",
+      "first_line": 112,
+      "last_line": 234,
+      "text_sha256": "1f81b5e843d1cfcb5b156648be0d0a2e2460444a0a1b678266d1b237961b422d",
+      "label": "상점·직업특수·보스·결과·성장피드백·접근성"
+    },
+    {
+      "source": "18.md",
+      "first_line": 20,
+      "last_line": 95,
+      "text_sha256": "73d85e1929f93be9fbd8d97e4a381f6a7f7d86864288a4eb63f823c5e01526ce",
+      "label": "첫직업 비교·정확한 포함/제외·축소공급·집합·DoD"
+    },
+    {
+      "source": "18.md",
+      "first_line": 99,
+      "last_line": 185,
+      "text_sha256": "d7e76799fc772566c6a095d195ec58b9fc43f093edec0f5ec9ed789a2f2a42b6",
+      "label": "다섯 가설의 방법·지표·판정·중단·표본·원장"
+    },
+    {
+      "source": "19.md",
+      "first_line": 19,
+      "last_line": 220,
+      "text_sha256": "7a818ca39f78b67b49d28f20a07daabf630ad8d8401eb25e2b756c8b998a8ffd",
+      "label": "원문 R01~R10·TOP5·강약점·미합의 U01~U07"
+    },
+    {
+      "source": "18.md",
+      "first_line": 187,
+      "last_line": 222,
+      "text_sha256": "4dbbd8d085e2a55a86b54c57ad43a0e827116e4591059eb7037f32569c796866",
+      "label": "James의 Mia/Sam 응답·남은 협의·경제 대안"
+    }
+  ],
+  "part_subitems": [
+    {
+      "line": 496,
+      "part": 1,
+      "text": "게임의 핵심 아이디어"
+    },
+    {
+      "line": 497,
+      "part": 1,
+      "text": "장르 및 타깃 플레이어"
+    },
+    {
+      "line": 498,
+      "part": 1,
+      "text": "핵심 재미 3가지"
+    },
+    {
+      "line": 499,
+      "part": 1,
+      "text": "Re:Blade와의 차별점"
+    },
+    {
+      "line": 500,
+      "part": 1,
+      "text": "게임의 한 줄 소개"
+    },
+    {
+      "line": 503,
+      "part": 2,
+      "text": "게임 시작부터 클리어까지의 흐름"
+    },
+    {
+      "line": 504,
+      "part": 2,
+      "text": "30초 전투 진행 방식"
+    },
+    {
+      "line": 505,
+      "part": 2,
+      "text": "플레이어가 수행하는 행동"
+    },
+    {
+      "line": 506,
+      "part": 2,
+      "text": "턴 종료 및 재시작 규칙"
+    },
+    {
+      "line": 507,
+      "part": 2,
+      "text": "핵심 시스템 흐름도"
+    },
+    {
+      "line": 510,
+      "part": 3,
+      "text": "5개 직업 비교표"
+    },
+    {
+      "line": 511,
+      "part": 3,
+      "text": "직업별 소환수 및 스킬 구성"
+    },
+    {
+      "line": 512,
+      "part": 3,
+      "text": "직업별 성장 방향"
+    },
+    {
+      "line": 513,
+      "part": 3,
+      "text": "직업별 업그레이드 트리"
+    },
+    {
+      "line": 514,
+      "part": 3,
+      "text": "직업별 최종 성장 형태"
+    },
+    {
+      "line": 517,
+      "part": 4,
+      "text": "업그레이드 분류"
+    },
+    {
+      "line": 518,
+      "part": 4,
+      "text": "공통 업그레이드 목록"
+    },
+    {
+      "line": 519,
+      "part": 4,
+      "text": "직업 전용 업그레이드 목록"
+    },
+    {
+      "line": 520,
+      "part": 4,
+      "text": "구매 조건 및 비용"
+    },
+    {
+      "line": 521,
+      "part": 4,
+      "text": "업그레이드 간 시너지"
+    },
+    {
+      "line": 524,
+      "part": 5,
+      "text": "소환수 자동 전투 규칙"
+    },
+    {
+      "line": 525,
+      "part": 5,
+      "text": "몬스터 종류 및 능력치"
+    },
+    {
+      "line": 526,
+      "part": 5,
+      "text": "몬스터 생성 및 처치 규칙"
+    },
+    {
+      "line": 527,
+      "part": 5,
+      "text": "최종 보스 구조"
+    },
+    {
+      "line": 530,
+      "part": 6,
+      "text": "성장 수치 설계"
+    },
+    {
+      "line": 531,
+      "part": 6,
+      "text": "골드 경제 구조"
+    },
+    {
+      "line": 532,
+      "part": 6,
+      "text": "업그레이드 비용 공식"
+    },
+    {
+      "line": 533,
+      "part": 6,
+      "text": "예상 플레이 시간"
+    },
+    {
+      "line": 534,
+      "part": 6,
+      "text": "초기 수치 시뮬레이션"
+    },
+    {
+      "line": 537,
+      "part": 7,
+      "text": "게임 화면 구성"
+    },
+    {
+      "line": 538,
+      "part": 7,
+      "text": "직업 선택 화면"
+    },
+    {
+      "line": 539,
+      "part": 7,
+      "text": "업그레이드 화면"
+    },
+    {
+      "line": 540,
+      "part": 7,
+      "text": "보스 및 클리어 화면"
+    },
+    {
+      "line": 541,
+      "part": 7,
+      "text": "핵심 인터랙션"
+    },
+    {
+      "line": 544,
+      "part": 8,
+      "text": "초기 구현 기능"
+    },
+    {
+      "line": 545,
+      "part": 8,
+      "text": "제외할 기능"
+    },
+    {
+      "line": 546,
+      "part": 8,
+      "text": "첫 번째 구현 직업"
+    },
+    {
+      "line": 547,
+      "part": 8,
+      "text": "개발 우선순위"
+    },
+    {
+      "line": 548,
+      "part": 8,
+      "text": "기능별 완료 기준"
+    },
+    {
+      "line": 549,
+      "part": 8,
+      "text": "플레이테스트 계획"
+    },
+    {
+      "line": 552,
+      "part": 9,
+      "text": "현재 기획의 강점"
+    },
+    {
+      "line": 553,
+      "part": 9,
+      "text": "가장 중요한 약점"
+    },
+    {
+      "line": 554,
+      "part": 9,
+      "text": "기존 게임과의 유사성 위험"
+    },
+    {
+      "line": 555,
+      "part": 9,
+      "text": "개발 난이도가 높은 요소"
+    },
+    {
+      "line": 556,
+      "part": 9,
+      "text": "개선 우선순위 TOP 5"
+    },
+    {
+      "line": 559,
+      "part": 10,
+      "text": "가장 적절한 게임 구조"
+    },
+    {
+      "line": 560,
+      "part": 10,
+      "text": "가장 적절한 성장 시스템"
+    },
+    {
+      "line": 561,
+      "part": 10,
+      "text": "우선 구현할 직업과 이유"
+    },
+    {
+      "line": 562,
+      "part": 10,
+      "text": "개발 착수 전 확정해야 할 사항"
+    },
+    {
+      "line": 563,
+      "part": 10,
+      "text": "실제 개발을 위한 첫 번째 작업 목록"
+    }
+  ],
+  "scope": "document assembly only; no new game/user/performance test",
+  "reconciliation_ids": [
+    "I01",
+    "I02",
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07",
+    "I08",
+    "I09",
+    "I10",
+    "I11",
+    "I12"
+  ],
+  "unresolved": [
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07"
+  ],
+  "reduced_boss_status": "not_evaluated_for_HP300_600_1000_or_command_loss",
+  "next_card_gate": "P1-21 blocked until separate explicit representative approval"
+}

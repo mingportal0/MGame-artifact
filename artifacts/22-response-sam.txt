@@ -1,0 +1,19 @@
+Sam 내부 재검토를 마쳤습니다. 지정된 신규 파일만 생성했습니다.
+
+  /home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/22-review-sam.md
+  /home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/22-review-sam.json
+
+SAM-01~SAM-11을 각각 보존해 판정하고, JAMES-01/U07·05 회복·06 terminal도 기술 관점에서 확인했습니다.
+
+핵심 잔여:
+- 입력 시계 매핑·시간 단위·교차 오차·과부하 임계치/복구 조건은 미정입니다.
+- B_bloom_unlock a=2/q=0은 299피해로 HP300에 부족합니다. B집합/HP300을 승인 수치나 재미·완주 합격으로 인정하지 않았습니다.
+- 실제 공급 선구매 회복, 자산별 납품 계약·품질·인일과 총비용은 열려 있습니다.
+- purchase B·복귀 B·자산 인터페이스에는 각각 조건부 동의를 기록했습니다. 18~32 개발인일은 확약이 아닙니다.
+
+JSON 구문 검사를 통과했고, 종료 시 22.md와 20/21 원본 해시가 변경되지 않았음을 확인했습니다. 칸반·설정·메모리·외부연락·게임 구현은 수행하지 않았습니다.
+
+실제 세션ID: 20261025_140433_b831d2
+프로필 근거: 주입 sam, HERMES_PROFILE=sam, sam HERMES_HOME·SOUL 일치.
+
+session_id: 20261025_140433_b831d2

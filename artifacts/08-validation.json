@@ -1,0 +1,60 @@
+{
+  "document_id": "P1-08-DRG-v01",
+  "task_id": "t_8ac66d91",
+  "status": "document_checks_complete_not_game_validation",
+  "reviewer": "James",
+  "structure_search": {
+    "tool": "search_files",
+    "path": "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/08.md",
+    "summon_rows": {"pattern": "^\\| SUM_DRG_", "actual": 5, "required": 5},
+    "upgrade_rows": {"pattern": "^\\| UPG_DRG_", "actual": 12, "required_minimum": 10},
+    "build_headings": {"pattern": "^### BUILD_DRG_", "actual": 2, "required": 2},
+    "manual_cases": {"pattern": "^\\| DRG-V", "actual": 8},
+    "change_traces": {"pattern": "^\\| DRG-TR", "actual": 10}
+  },
+  "manual_reference_review": {
+    "method": "기획자가 도구로 반환된 전체 5개 소환수 행과 12개 업그레이드 행, 05/06 원문 및 08 트리를 대조. 자동 그래프 검사 아님.",
+    "summon_ids": ["SUM_DRG_WHELP", "SUM_DRG_WYVERN", "SUM_DRG_STONE", "SUM_DRG_STORM", "SUM_DRG_MOON"],
+    "upgrade_ids": ["UPG_DRG_POWER", "UPG_DRG_ADULT", "UPG_DRG_ANCIENT", "UPG_DRG_WYVERN", "UPG_DRG_STONE", "UPG_DRG_STORM", "UPG_DRG_MOON", "UPG_DRG_WING", "UPG_DRG_CONE", "UPG_DRG_RAPID", "UPG_DRG_FOCUS", "UPG_DRG_DUET"],
+    "id_review": "소환수/업그레이드 표 안 중복 없음. 06의 WHELP/WYVERN/ADULT/WYVERN 예약 ID 유지. 고룡 단계는 추가 종으로 중복 계수하지 않음.",
+    "dependency_layers": [
+      ["UPG_DRG_POWER", "UPG_DRG_WYVERN"],
+      ["UPG_DRG_ADULT", "UPG_DRG_STONE", "UPG_DRG_RAPID"],
+      ["UPG_DRG_ANCIENT", "UPG_DRG_STORM", "UPG_DRG_WING", "UPG_DRG_CONE"],
+      ["UPG_DRG_MOON", "UPG_DRG_DUET"],
+      ["UPG_DRG_FOCUS"]
+    ],
+    "dependency_result": "위 순서에서 선행을 모두 먼저 확보할 수 있음. POWER3 요구는 최대3 이내, 나머지 선행 요구1도 해당 최대 이내. 외부 진행 조건 없음, 순환/도달 불가를 수기 대조에서 발견하지 못함. 가격 수입에 따른 실제 구매 가능 시점은 미검증.",
+    "required_fields": ["id", "name", "category", "applies_to", "effects", "max_level", "cost", "unlock_condition", "prerequisites", "visual_change", "type"],
+    "field_review": "category/applies_to/unlock_condition/cost 형식은 §4 공통값과 행별 최초비용/증가를 결합. 나머지는 각 행 명시. P1-12 통합 시 공통값을 레코드별로 펼칠 것.",
+    "type_groups": {
+      "repeat": ["UPG_DRG_POWER", "UPG_DRG_CONE", "UPG_DRG_RAPID", "UPG_DRG_FOCUS"],
+      "unlock": ["UPG_DRG_WYVERN", "UPG_DRG_STONE", "UPG_DRG_STORM", "UPG_DRG_MOON", "UPG_DRG_WING"],
+      "evolve": ["UPG_DRG_ADULT", "UPG_DRG_ANCIENT"],
+      "synergy": ["UPG_DRG_DUET"]
+    },
+    "boundary_review": "05 비행 중 이탈 즉시 무효/재진입 복원 금지, 현재 지정 후보와 피해 형상 교집합, 즉시 단일 골드 지급, 영구 성장 유지/임시 전투 상태 초기화와 일치. 용 출전 슬롯과 전장 생성 격자 슬롯 구분.",
+    "class_difference_review": "정령의 공격 조합/동물 영구 마릿수/악마 적별 표식/언데드 턴 내부 증식과 달리, 용은 유한 출전 명단과 주력 영구 진화 중심. 실제 플레이에서 구분되는지는 미검증.",
+    "scope_review": "06의 용 전체 확장 후보 유지. 조건부 최소안과 전체5종/12업그레이드 후보 구분. 개발 범위 승인 없음."
+  },
+  "arithmetic_checks": {
+    "tool": "terminal expr",
+    "workdir": "/home/mj/.hermes/kanban/boards/game-planning-phase1/workspaces/t_8ac66d91",
+    "exit_code": 0,
+    "cases": [
+      {"expression": "20 + 20 * 2", "actual": 60, "meaning": "POWER 현재레벨2의 다음 구매비용 가정"},
+      {"expression": "50 + 30 * 1", "actual": 80, "meaning": "CONE 현재레벨1의 다음 구매비용 가정"},
+      {"expression": "40 + 20 * 1", "actual": 60, "meaning": "RAPID 현재레벨1의 다음 구매비용 가정"},
+      {"expression": "80 + 40 * 2", "actual": 160, "meaning": "FOCUS 현재레벨2의 다음 구매비용 가정"},
+      {"expression": "100 - 10 * 2", "actual": 80, "meaning": "RAPID 최대레벨에서 기본 쿨다운의 잔존 비율(%)이 양수"}
+    ],
+    "limitation": "비용식 일부와 쿨다운 상한 산술만 확인. DPS/경제 균형/플레이 시간 검증 아님."
+  },
+  "tool_limitations": [
+    "첫 terminal은 잘못된 기본 작업 경로 /home/mj/.hermes/profiles/ethan/workspace 문제로 실패. 이후 카드의 정확한 workdir를 명시한 pwd가 실제 성공했으며 그 경로에서 expr 실행.",
+    "execute_code와 python -c 구조 검증은 무인 승인 정책으로 실행 전 차단. 설정 변경/우회 없이 일반 파일 도구, search_files 및 허용된 expr만 사용. 자동 그래프/필드 검사가 실행됐다고 주장하지 않음."
+  ],
+  "not_performed": ["실행 가능한 게임 코드 작성", "프로토타입/프로젝트 초기화", "실제 사용자 테스트", "Mia UX 전문 검토", "Sam 기술 전문 검토", "성능 실측", "경제/DPS 시뮬레이션", "실제 Slack 전달 확인"],
+  "unresolved": ["피해량/준비/쿨다운/사거리/효과 각도/유한 대상 상한", "비용과 수입 균형·빌드 동일예산 비교", "교체 UI 이해와 대형 용의 원 가림", "용 채택/최소 수량/최종 GDD 승인", "별도 G3 개발 승인"],
+  "downstream": "기존 P1-12(t_63e83554)에 인계. 다른 직업 선행과 Sophie 확인 후 해제 여부 판단. 후속 직접 실행 안 함."
+}

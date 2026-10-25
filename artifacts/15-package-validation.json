@@ -1,0 +1,212 @@
+{
+  "scope": "independent document/CSV/source/ledger arithmetic, not game tests",
+  "passed": 44,
+  "total": 44,
+  "checks": [
+    {
+      "name": "source unchanged 12-catalog.json",
+      "pass": true
+    },
+    {
+      "name": "source unchanged 14-inputs.json",
+      "pass": true
+    },
+    {
+      "name": "source unchanged 14-validation.json",
+      "pass": true
+    },
+    {
+      "name": "source unchanged 14.md",
+      "pass": true
+    },
+    {
+      "name": "catalog snapshot exact",
+      "pass": true
+    },
+    {
+      "name": "prior snapshot exact",
+      "pass": true
+    },
+    {
+      "name": "worksheet checks all passed",
+      "pass": true
+    },
+    {
+      "name": "15-budget.csv row count",
+      "pass": true
+    },
+    {
+      "name": "15-turns.csv row count",
+      "pass": true
+    },
+    {
+      "name": "15-purchases.csv row count",
+      "pass": true
+    },
+    {
+      "name": "15-path-purchases.csv row count",
+      "pass": true
+    },
+    {
+      "name": "15-full-path.csv row count",
+      "pass": true
+    },
+    {
+      "name": "15-baseline.csv row count",
+      "pass": true
+    },
+    {
+      "name": "15-sensitivity.csv row count",
+      "pass": true
+    },
+    {
+      "name": "15-path-sensitivity.csv row count",
+      "pass": true
+    },
+    {
+      "name": "15-gold-exclusion.csv row count",
+      "pass": true
+    },
+    {
+      "name": "15-corrections.csv row count",
+      "pass": true
+    },
+    {
+      "name": "budget full cross product",
+      "pass": true
+    },
+    {
+      "name": "turn full cross product",
+      "pass": true
+    },
+    {
+      "name": "budget all conserve",
+      "pass": true
+    },
+    {
+      "name": "time rows all conserve",
+      "pass": true
+    },
+    {
+      "name": "time breakdown",
+      "pass": true
+    },
+    {
+      "name": "time hold no growth purchases",
+      "pass": true
+    },
+    {
+      "name": "hold balance conserved",
+      "pass": true
+    },
+    {
+      "name": "no duplicate purchase id",
+      "pass": true
+    },
+    {
+      "name": "independent all purchase prices",
+      "pass": true
+    },
+    {
+      "name": "all purchase balances",
+      "pass": true
+    },
+    {
+      "name": "all purchase levels",
+      "pass": true
+    },
+    {
+      "name": "all purchase prerequisites",
+      "pass": true
+    },
+    {
+      "name": "replayed policy purchase levels",
+      "pass": true
+    },
+    {
+      "name": "ELM independent full route balances/turns/levels",
+      "pass": true
+    },
+    {
+      "name": "DRG independent full route balances/turns/levels",
+      "pass": true
+    },
+    {
+      "name": "BST independent full route balances/turns/levels",
+      "pass": true
+    },
+    {
+      "name": "DMN independent full route balances/turns/levels",
+      "pass": true
+    },
+    {
+      "name": "NEC independent full route balances/turns/levels",
+      "pass": true
+    },
+    {
+      "name": "ceil supply payback base/high",
+      "pass": true
+    },
+    {
+      "name": "late wallet illustration",
+      "pass": true
+    },
+    {
+      "name": "DRG price correction arithmetic",
+      "pass": true
+    },
+    {
+      "name": "phase time arithmetic",
+      "pass": true
+    },
+    {
+      "name": "all report local links resolve",
+      "pass": true
+    },
+    {
+      "name": "six source problems documented",
+      "pass": true
+    },
+    {
+      "name": "approval boundaries and missing tests explicit",
+      "pass": true
+    },
+    {
+      "name": "minimum figures generated from actual output",
+      "pass": true
+    },
+    {
+      "name": "25percent DRG max failure preserved",
+      "pass": true
+    }
+  ],
+  "row_counts": {
+    "15-budget.csv": 75,
+    "15-turns.csv": 225,
+    "15-purchases.csv": 2154,
+    "15-path-purchases.csv": 10,
+    "15-full-path.csv": 50,
+    "15-baseline.csv": 10,
+    "15-sensitivity.csv": 90,
+    "15-path-sensitivity.csv": 30,
+    "15-gold-exclusion.csv": 30,
+    "15-corrections.csv": 5
+  },
+  "sha256": {
+    "15.md": "46ce40eaa8c4b362f9b41a7a1dde73e3602c6c0a906b76b6f64d6038fa66d38a",
+    "15-inputs.json": "520c98783d54f54b3a0f72a86cfba6f15f1deeebf3321324aed29824aa647ea9",
+    "15-calculate.py": "402936383bcf6e3848d33be6f4b4ba1c28f4655861d01fdba63d61f6ae4b2f6b",
+    "15-report.py": "7a24e5cdfad220f3f112daca63dd844c4295bb5bfc6c1fa3eeb9293e147e4265",
+    "15-budget.csv": "7132b570674258bd3e6a81f34e52093dcb9ee2cffd939da863a478aa9dc1647c",
+    "15-turns.csv": "f7ca21f6f3e6a62943c5945d4739a2ac98881ae313e3e96acf6c3383959893df",
+    "15-purchases.csv": "f376b718aa0403d42e4a30ef101884e579b33057aada8a2a0f3c152629b68291",
+    "15-path-purchases.csv": "b0f5def6a1c20b7bc5b517519c71774403db406ee23e30fad5339ec7b8274842",
+    "15-full-path.csv": "b2b75c467484446cd694636a19afea9be07a603d3490f2fe64fa09882f370a08",
+    "15-baseline.csv": "933bd5b7a3d31720b098c5e93001a19cb8b9ba93196ebdeb3ddeb61cd687a748",
+    "15-sensitivity.csv": "be211b67f021670ac5cb52264dc57e2fe2ac64c0adf18433d957c832826c28f9",
+    "15-path-sensitivity.csv": "9b74b9a2602b8726cc529a5a2a7ddbecbe5567e5f58140223eb0a42ab910e649",
+    "15-gold-exclusion.csv": "ed6573f3948dec6f49fae0aaa8d2f0ede072d6904f32c7fee4ac3470bda0226a",
+    "15-corrections.csv": "b5a0e2c205a1281e716b26e35ab82241b567ab9a0944ad3cf00ed5f38713bd13"
+  },
+  "failed": []
+}

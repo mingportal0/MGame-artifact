@@ -1,0 +1,59 @@
+{
+  "document_id": "P1-18-MVP-TEST-v01",
+  "task_id": "t_70944175",
+  "status": "document_checks_complete_not_playtested",
+  "methods": ["read_file source/decision/peer document comparison", "search_files bounded structural enumeration", "terminal expr arithmetic", "terminal sha256sum"],
+  "document_sha256": "7491d059cdcddbc7b3a62675794a9a7be7e4a69483d829a00bdd16131abf34e3",
+  "input_sha256": {
+    "12-catalog.json": "2dd5c775a87ba661253df7e3421a82495f16257c2ee3107af427c648e2eca425",
+    "14-inputs.json": "54c56a1baabdcd01e73d17312fdaf2a21b4d42edfdad12efa6638315a2bef8de",
+    "15-inputs.json": "520c98783d54f54b3a0f72a86cfba6f15f1deeebf3321324aed29824aa647ea9",
+    "15.md": "46ce40eaa8c4b362f9b41a7a1dde73e3602c6c0a906b76b6f64d6038fa66d38a",
+    "16.md": "75369597cedb267157a120f6219522ac451e89da10ece88356df83f993611464",
+    "17.md": "80c56537b34003608ae041b97545ad6640626761955c24aaa8d0f50bd49906a1"
+  },
+  "structure_search": {
+    "tool": "search_files",
+    "total_count": 76,
+    "scope_rows": 6,
+    "upgrade_rows": 5,
+    "requirement_rows": 9,
+    "hypothesis_headings": 5,
+    "hypothesis_required_field_rows": 25,
+    "mia_response_rows": 4,
+    "sam_issue_response_rows": 8,
+    "change_trace_rows": 14,
+    "enumeration_verified": "Tool returned all 76 matching lines within limit100; H1-H5 each visibly contain method/metric/success-failure/stop-revise/target-sample. Subsequent edits only supply arithmetic text and a global judgment precedence paragraph, not enumerated rows.",
+    "arithmetic_count_check": "expr 6 + 5 + 9 + 5 + 25 + 4 + 8 + 14 returned76 exit0"
+  },
+  "arithmetic": [
+    {"expression": "15+30+45+10+20+30+20+50+20+25", "actual_output": 265, "meaning": "5 retained upgrade records full finite purchase cost G"},
+    {"expression": "10+20+30+20+25", "actual_output": 105, "meaning": "COM_POWER3+BLOOM1+SPARK1 unlock set cost G"},
+    {"expression": "6*4", "actual_output": 24, "meaning": "s0 total reservations"},
+    {"expression": "6*6", "actual_output": 36, "meaning": "s1 total reservations"},
+    {"expression": "6*8", "actual_output": 48, "meaning": "reduced s2 reservations with SPECIAL removed"},
+    {"expression": "24+12*3", "actual_output": 60, "meaning": "s1 conditional reward ceiling G"},
+    {"expression": "24+24*3", "actual_output": 96, "meaning": "reduced s2 conditional reward ceiling G"},
+    {"expression": "0+24-20", "actual_output": 4, "meaning": "hypothetical immediate reward then BLOOM cost balance"}
+  ],
+  "manual_cross_checks": [
+    "G1 remains distinct from proposed content counts/HP/time/rewards/unlock and G3 approval",
+    "Retained IDs and prices matched read_file12; no nonexistent ELM_POWER reference in reduced boss_required_set",
+    "SUPPLY maximum2 retained but SPECIAL event removed together with its reward; old49/102 ceiling not copied",
+    "Requirements map to hypotheses and Sam F/B/P groups; each hypothesis has sample assumptions and failure/stop conditions",
+    "Mia J01-J04 actual James responses and Sam issues preserved with pending reciprocal confirmation",
+    "15 full-catalog damage results explicitly not reused as reduced-MVP damage; reduced boss feasibility unresolved",
+    "17 fixed inputs predate14/15 analytical supplements; original files preserved",
+    "H5 failure override and missing-data rule clarified; early clear is not a20minute retention result",
+    "Document links point to previously read existing local source documents; no automated link validation claimed"
+  ],
+  "blocked_attempts": [
+    {"attempt": "Initial terminal default working directory", "outcome": "Failed before command at unrelated missing profile cwd; explicit task workspace succeeded, no environment configuration changes"},
+    {"attempt": "python -c document structure/link checker combined with arithmetic", "outcome": "Entire command denied by unattended approval policy before execution. No output/results claimed. No config changes or alternative Python-script execution attempted. Used permitted search_files/read_file/expr/sha256sum instead."}
+  ],
+  "not_performed": ["game/prototype/project creation", "participant contact/recruitment", "actual user/UX/gameplay/performance tests", "automated Python document/link test", "reduced-MVP boss damage recalculation", "Mia/Sam reciprocal approval", "paid work or external publication", "Slack delivery verification"],
+  "hypothesis_results": {"H1": "unmeasured", "H2": "unmeasured", "H3": "unmeasured", "H4": "unmeasured", "H5": "unmeasured"},
+  "unresolved": ["CEO first-class/MVP/HP/time/reward/unlock/target-time/engine/platform/art/G3 decisions", "reduced-power and actual K feasibility", "strict-exit input/crossing precision", "mark timing/application reciprocal review", "purchase reentry A/B and overload pause UX", "actual readability/art cost and observations"],
+  "downstream_inspected": ["t_a71cf5c7", "t_fe09df63"],
+  "approval": "G2 planning deliverable only; final MVP/GDD/P1-23/G3 and participant contact not approved"
+}

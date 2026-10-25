@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-24T15:19:41.429853+00:00",
+  "checks": {
+    "official_source_app_id": true,
+    "all_claim_quotes_exact": true,
+    "claim_ids_unique": true,
+    "expected_claims_present": true,
+    "source_snapshots_saved": true,
+    "explicit_no_play_verification": true,
+    "unconfirmed_and_risks_present": true,
+    "approval_and_next_card_boundary": true
+  },
+  "passed": 8,
+  "failed": 0,
+  "claim_count": 9,
+  "quote_count": 18,
+  "method": "Exact substring matching against browser-read official store DOM text; no gameplay or legal validation",
+  "unresolved": [
+    "Unpublished turn/collection/boss rules unverified",
+    "D1 fun/readability/cost untested",
+    "C01-C10 decisions remain open",
+    "G1/G3 approval not granted"
+  ]
+}

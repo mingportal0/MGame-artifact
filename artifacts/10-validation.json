@@ -1,0 +1,152 @@
+{
+  "document": "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/10.md",
+  "scope": "문서 구조·참조·구매 선행·산술 검사만. 게임 구현/실행 없음.",
+  "counts": {
+    "summons": 5,
+    "upgrades": 12,
+    "types": {
+      "repeat": 2,
+      "unlock": 5,
+      "synergy": 1,
+      "evolve": 4
+    },
+    "manual_cases": 14,
+    "change_traces": 12
+  },
+  "build_totals": {
+    "B01": 195,
+    "B02": 175
+  },
+  "arithmetic": {
+    "base_sequence": 40.0,
+    "simultaneous_first_hits": 30,
+    "remaining_hp": 60.0,
+    "relay_hit": 40,
+    "evolved_imp_power1": "18.00",
+    "gold_grant": 7,
+    "gold_after_grant": 17,
+    "gold_after_purchase": 7
+  },
+  "checks": [
+    {
+      "name": "summons_basic1_plus_additional4",
+      "passed": true
+    },
+    {
+      "name": "summon_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "upgrade_count_at_least10",
+      "passed": true
+    },
+    {
+      "name": "upgrade_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "ten_required_fields_plus_type_nonempty",
+      "passed": true
+    },
+    {
+      "name": "id_format",
+      "passed": true
+    },
+    {
+      "name": "class_and_category",
+      "passed": true
+    },
+    {
+      "name": "finite_positive_levels",
+      "passed": true
+    },
+    {
+      "name": "cost_positive_explicit_currency_rule",
+      "passed": true
+    },
+    {
+      "name": "all_four_types",
+      "passed": true
+    },
+    {
+      "name": "reserved_upgrades_preserved",
+      "passed": true
+    },
+    {
+      "name": "reserved_summons_preserved",
+      "passed": true
+    },
+    {
+      "name": "prerequisite_ids_levels_valid",
+      "passed": true
+    },
+    {
+      "name": "dag_and_all_reachable",
+      "passed": true
+    },
+    {
+      "name": "summon_acquisition_evolution_refs_exist",
+      "passed": true
+    },
+    {
+      "name": "upgrade_summon_refs_exist",
+      "passed": true
+    },
+    {
+      "name": "two_builds_present",
+      "passed": true
+    },
+    {
+      "name": "manual_cases14",
+      "passed": true
+    },
+    {
+      "name": "change_traces12",
+      "passed": true
+    },
+    {
+      "name": "mvp_and_expansion_explicit",
+      "passed": true
+    },
+    {
+      "name": "local_markdown_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "B01_purchase_order",
+      "passed": true
+    },
+    {
+      "name": "B01_documented_total",
+      "passed": true
+    },
+    {
+      "name": "B02_purchase_order",
+      "passed": true
+    },
+    {
+      "name": "B02_documented_total",
+      "passed": true
+    },
+    {
+      "name": "final_permanent_count",
+      "passed": true
+    },
+    {
+      "name": "document_example_arithmetic",
+      "passed": true
+    }
+  ],
+  "passed": 27,
+  "total": 27,
+  "manual_review": "James가 10.md C01~C14의 규칙을 문서상 추적. 독립 전문 검토·실제 실행 테스트 아님. 표식 생성/소비의 부가 사건 재귀 없음, 무피격/범위/골드 경계 자체 대조.",
+  "not_performed": [
+    "실제 사용자 테스트",
+    "게임 코드/프로토타입",
+    "UX 전문 검토",
+    "기술 전문 검토",
+    "성능 실측",
+    "밸런스 실측",
+    "Slack 전달 확인"
+  ]
+}

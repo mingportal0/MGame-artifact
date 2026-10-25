@@ -1,0 +1,3026 @@
+{
+  "status": "assumptions_not_approved",
+  "catalog": {
+    "document_id": "P1-12-CATALOG-v01",
+    "status": "proposed_not_approved",
+    "schema_version": "1.1-document",
+    "note": "effects는 원문 보존 문서 명세 문자열이며 게임 런타임 payload 아님. 표준 연산 계약은 12.md §4.",
+    "source_sha256": {
+      "07.md": "e6d99364d70c25aa429cf56f9781445451ca9c652f29e5a24481982eaea3c965",
+      "08.md": "c64fcb715c95f9e8fe59557c54da5e3ff860fc19d609767fdc735cffd74c402b",
+      "09.md": "907285c373d3f33da7b0aa49765bf97310e1821fa5c01613b00e764d700333c1",
+      "10.md": "17c0deee850ac520b58a5446578a16aa28252932989e60aecc62b7c1bf780805",
+      "11.md": "c0e89c73d3a817fe00e273bd99cca622aebe9ccf8ca693235b0c99cefa9524f5"
+    },
+    "upgrades": [
+      {
+        "id": "UPG_ELM_BLOOM",
+        "name": "불꽃 개화",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_EMBER_BLOOM: SUM_ELM_EMBER → stage=BLOOM, single→splash, R_fx=60, max_targets=3; 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [],
+        "visual_change": "불씨 몸체 개화·작은 폭발 고리",
+        "type": "evolve",
+        "scope": "mvp_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L72",
+        "source_effect": "EFF_EMBER_BLOOM: SUM_ELM_EMBER → stage=BLOOM, single→splash, R_fx=60, max_targets=3; 1회"
+      },
+      {
+        "id": "UPG_ELM_SPARK",
+        "name": "번개 정령 계약",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_UNLOCK_SPARK: SUM_ELM_SPARK → 영구 개체 수 0→1; 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 25,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [],
+        "visual_change": "별도 톱니 정령과 연쇄선 등장",
+        "type": "unlock",
+        "scope": "mvp_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L73",
+        "source_effect": "EFF_UNLOCK_SPARK: SUM_ELM_SPARK → 영구 개체 수 0→1; 1회"
+      },
+      {
+        "id": "UPG_ELM_TIDE",
+        "name": "물결 정령 계약",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_UNLOCK_TIDE: SUM_ELM_TIDE → 영구 개체 수 0→1; 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 25,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [],
+        "visual_change": "물방울 정령·빠른 단일 탄",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L74",
+        "source_effect": "EFF_UNLOCK_TIDE: SUM_ELM_TIDE → 영구 개체 수 0→1; 1회"
+      },
+      {
+        "id": "UPG_ELM_STONE",
+        "name": "바위 정령 계약",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_UNLOCK_STONE: SUM_ELM_STONE → 영구 개체 수 0→1; 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 45,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [],
+        "visual_change": "바위 개체·큰 탄 추가",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L75",
+        "source_effect": "EFF_UNLOCK_STONE: SUM_ELM_STONE → 영구 개체 수 0→1; 1회"
+      },
+      {
+        "id": "UPG_ELM_PRISM",
+        "name": "광휘 정령 계약",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_UNLOCK_PRISM: SUM_ELM_PRISM → 영구 개체 수 0→1; 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 100,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_ELM_BLOOM",
+            "required_level": 1
+          },
+          {
+            "upgrade_id": "UPG_ELM_SPARK_ARC",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "결정 정령·광휘 적중 고리 추가",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L76",
+        "source_effect": "EFF_UNLOCK_PRISM: SUM_ELM_PRISM → 영구 개체 수 0→1; 1회"
+      },
+      {
+        "id": "UPG_ELM_SPARK_ARC",
+        "name": "번개 가지",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_SPARK_ARC: SUM_ELM_SPARK → stage=ARC, max_targets 3→4; 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 45,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_ELM_SPARK",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "갈라진 뿔·최대 연결선 증가",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L77",
+        "source_effect": "EFF_SPARK_ARC: SUM_ELM_SPARK → stage=ARC, max_targets 3→4; 1회"
+      },
+      {
+        "id": "UPG_ELM_TIDE_WAVE",
+        "name": "물결 성숙",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_TIDE_WAVE: SUM_ELM_TIDE → stage=WAVE, 기본 피해 5→8; 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 35,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_ELM_TIDE",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "지느러미·굵은 단일 물탄, 광역처럼 오인할 바닥 원 없음",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L78",
+        "source_effect": "EFF_TIDE_WAVE: SUM_ELM_TIDE → stage=WAVE, 기본 피해 5→8; 1회"
+      },
+      {
+        "id": "UPG_ELM_STONE_MONOLITH",
+        "name": "기둥 각성",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_STONE_MONOLITH: SUM_ELM_STONE → stage=MONOLITH, single→splash, R_fx=40, max_targets=2; 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 60,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_ELM_STONE",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "기둥 몸체·작은 균열 고리",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L79",
+        "source_effect": "EFF_STONE_MONOLITH: SUM_ELM_STONE → stage=MONOLITH, single→splash, R_fx=40, max_targets=2; 1회"
+      },
+      {
+        "id": "UPG_ELM_PRISM_CROWN",
+        "name": "광휘 왕관",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_PRISM_CROWN: SUM_ELM_PRISM → stage=CROWN, R_fx 70→90, max_targets 3→4; 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 90,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_ELM_PRISM",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "왕관 외곽·폭발 고리 확대",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L80",
+        "source_effect": "EFF_PRISM_CROWN: SUM_ELM_PRISM → stage=CROWN, R_fx 70→90, max_targets 3→4; 1회"
+      },
+      {
+        "id": "UPG_ELM_POWER",
+        "name": "불씨 응축",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_EMBER_POWER: SUM_ELM_EMBER → 기본 피해10에 레벨당 +2 피해 단위, 가산; 매 레벨",
+        "max_level": 3,
+        "cost": {
+          "currency": "gold",
+          "base": 10,
+          "growth_rule": "linear",
+          "step": 10,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [],
+        "visual_change": "탄 내부 불씨 점 수로 레벨 표시, 판정 크기 변화 없음",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L81",
+        "source_effect": "EFF_EMBER_POWER: SUM_ELM_EMBER → 기본 피해10에 레벨당 +2 피해 단위, 가산; 매 레벨"
+      },
+      {
+        "id": "UPG_ELM_TEMPO",
+        "name": "번개 박동",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_SPARK_TEMPO: SUM_ELM_SPARK → CD=1.4−0.1×레벨 초, windup 유지; 매 레벨",
+        "max_level": 2,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "linear",
+          "step": 20,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_ELM_SPARK",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "몸체 박동/발사 빈도 증가, 추가 대상은 늘지 않음",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L82",
+        "source_effect": "EFF_SPARK_TEMPO: SUM_ELM_SPARK → CD=1.4−0.1×레벨 초, windup 유지; 매 레벨"
+      },
+      {
+        "id": "UPG_ELM_SPLASH",
+        "name": "불꽃 둘레",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_EMBER_SPLASH: SUM_ELM_EMBER → BLOOM R_fx=60+10×레벨 단위, max_targets=3 유지; 매 레벨",
+        "max_level": 2,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "linear",
+          "step": 20,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_ELM_BLOOM",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "폭발 고리만 확대, 커서 지정 원 변화 없음",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L83",
+        "source_effect": "EFF_EMBER_SPLASH: SUM_ELM_EMBER → BLOOM R_fx=60+10×레벨 단위, max_targets=3 유지; 매 레벨"
+      },
+      {
+        "id": "UPG_ELM_DUET",
+        "name": "불과 물의 합주",
+        "category": "summon",
+        "applies_to": "CLS_ELM",
+        "effects": "EFF_ELM_DUET: SUM_ELM_EMBER → BLOOM인 불씨와 WAVE 물결 보유 시 불씨 피해에 +3 단위 1회 가산, 조건 미충족 시 0; 부가 타격/원소 반응 없음",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 35,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가격 가정; 07 null 대체"
+        },
+        "unlock_condition": "run_start AND selected_class=ELM",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_ELM_BLOOM",
+            "required_level": 1
+          },
+          {
+            "upgrade_id": "UPG_ELM_TIDE_WAVE",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "불씨 몸체에 물결형 장식·상점 활성 아이콘, 독립 피해 이펙트 없음",
+        "type": "synergy",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "07.md:L84",
+        "source_effect": "EFF_ELM_DUET: SUM_ELM_EMBER → BLOOM인 불씨와 WAVE 물결 보유 시 불씨 피해에 +3 단위 1회 가산, 조건 미충족 시 0; 부가 타격/원소 반응 없음"
+      },
+      {
+        "id": "UPG_DRG_POWER",
+        "name": "용의 심장",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_DRG_POWER: SUM_DRG_WHELP → 기준 피해 보너스 매 레벨 +10%p",
+        "max_level": 3,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "linear",
+          "step": 20,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [],
+        "visual_change": "피해 숫자 증가, 실루엣 변화 없음",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L84",
+        "source_effect": "EFF_DRG_POWER: SUM_DRG_WHELP → 기준 피해 보너스 매 레벨 +10%p"
+      },
+      {
+        "id": "UPG_DRG_ADULT",
+        "name": "성체 진화",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_DRAGON_ADULT: SUM_DRG_WHELP → BASE를 ADULT로, single을 cone으로 1회 교체; 별도 피해 계수 추가 없음",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 60,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_POWER",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "큰 몸·날개와 부채꼴 브레스. 이전 탄 공격 동시 유지 안 함",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L85",
+        "source_effect": "EFF_DRAGON_ADULT: SUM_DRG_WHELP → BASE를 ADULT로, single을 cone으로 1회 교체; 별도 피해 계수 추가 없음"
+      },
+      {
+        "id": "UPG_DRG_ANCIENT",
+        "name": "고룡 각성",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_DRAGON_ANCIENT: SUM_DRG_WHELP → ADULT를 ANCIENT로 교체, 기준 피해 보너스 +30%p 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 300,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_ADULT",
+            "required_level": 1
+          },
+          {
+            "upgrade_id": "UPG_DRG_POWER",
+            "required_level": 3
+          }
+        ],
+        "visual_change": "뿔·날개 분절 확대, 피해는 여전히 브레스 한 번",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L86",
+        "source_effect": "EFF_DRAGON_ANCIENT: SUM_DRG_WHELP → ADULT를 ANCIENT로 교체, 기준 피해 보너스 +30%p 1회"
+      },
+      {
+        "id": "UPG_DRG_WYVERN",
+        "name": "비룡 계약",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_UNLOCK_WYVERN: SUM_DRG_WYVERN → 보유 후보 해금 1회, 자동 배치 아님",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 40,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [],
+        "visual_change": "상점 후보에 긴 날개 실루엣, 배치 후 전장 등장",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L87",
+        "source_effect": "EFF_UNLOCK_WYVERN: SUM_DRG_WYVERN → 보유 후보 해금 1회, 자동 배치 아님"
+      },
+      {
+        "id": "UPG_DRG_STONE",
+        "name": "석룡 계약",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_UNLOCK_STONE: SUM_DRG_STONE → 보유 후보 해금 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 100,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_WYVERN",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "상점 각진 등판, 배치 후 원형 충격",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L88",
+        "source_effect": "EFF_UNLOCK_STONE: SUM_DRG_STONE → 보유 후보 해금 1회"
+      },
+      {
+        "id": "UPG_DRG_STORM",
+        "name": "폭풍룡 계약",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_UNLOCK_STORM: SUM_DRG_STORM → 보유 후보 해금 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 140,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_ADULT",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "상점 긴 몸, 배치 후 적 사이 연결선",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L89",
+        "source_effect": "EFF_UNLOCK_STORM: SUM_DRG_STORM → 보유 후보 해금 1회"
+      },
+      {
+        "id": "UPG_DRG_MOON",
+        "name": "월룡 계약",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_UNLOCK_MOON: SUM_DRG_MOON → 보유 후보 해금 1회",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 220,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_STORM",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "상점 둥근 날개, 배치 후 집중 단일 탄",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L90",
+        "source_effect": "EFF_UNLOCK_MOON: SUM_DRG_MOON → 보유 후보 해금 1회"
+      },
+      {
+        "id": "UPG_DRG_WING",
+        "name": "두 번째 둥지",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_DRG_WING: CLS_DRG → 배치 슬롯1에서2로 1회 설정, 같은 종 중복 불가",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 80,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_ADULT",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "상점 슬롯 한 칸 추가, 다음 전투 배치 시에만 두 번째 개체",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L91",
+        "source_effect": "EFF_DRG_WING: CLS_DRG → 배치 슬롯1에서2로 1회 설정, 같은 종 중복 불가"
+      },
+      {
+        "id": "UPG_DRG_CONE",
+        "name": "넓은 숨결",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_DRG_CONE: SUM_DRG_WHELP ADULT/ANCIENT → 기본 반각 대비 매 레벨 +5도, 거리·대상 상한·R_cmd 불변",
+        "max_level": 2,
+        "cost": {
+          "currency": "gold",
+          "base": 50,
+          "growth_rule": "linear",
+          "step": 30,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_ADULT",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "부채꼴 각도 확대, 지정 원은 그대로",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L92",
+        "source_effect": "EFF_DRG_CONE: SUM_DRG_WHELP ADULT/ANCIENT → 기본 반각 대비 매 레벨 +5도, 거리·대상 상한·R_cmd 불변"
+      },
+      {
+        "id": "UPG_DRG_RAPID",
+        "name": "비룡 박동",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_DRG_RAPID: SUM_DRG_WYVERN → 기본 쿨다운 대비 매 레벨 10%p 감소, 준비/탄속 불변",
+        "max_level": 2,
+        "cost": {
+          "currency": "gold",
+          "base": 40,
+          "growth_rule": "linear",
+          "step": 20,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_WYVERN",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "단일 탄 발사 공백 감소, 탄 수 동시 배증 아님",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L93",
+        "source_effect": "EFF_DRG_RAPID: SUM_DRG_WYVERN → 기본 쿨다운 대비 매 레벨 10%p 감소, 준비/탄속 불변"
+      },
+      {
+        "id": "UPG_DRG_FOCUS",
+        "name": "월광 응축",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_DRG_FOCUS: SUM_DRG_MOON → 기준 피해 보너스 매 레벨 +15%p",
+        "max_level": 3,
+        "cost": {
+          "currency": "gold",
+          "base": 80,
+          "growth_rule": "linear",
+          "step": 40,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_MOON",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "피해 숫자 증가·탄 코어 굵기, 별도 폭발 없음",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L94",
+        "source_effect": "EFF_DRG_FOCUS: SUM_DRG_MOON → 기준 피해 보너스 매 레벨 +15%p"
+      },
+      {
+        "id": "UPG_DRG_DUET",
+        "name": "쌍익 공명",
+        "category": "summon",
+        "applies_to": "CLS_DRG",
+        "effects": "EFF_DRG_DUET: CLS_DRG → SUM_DRG_WHELP와 SUM_DRG_WYVERN 둘 다 배치 시 각 기준 피해 보너스 +10%p, 1회 활성",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 120,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "08 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DRG",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DRG_WING",
+            "required_level": 1
+          },
+          {
+            "upgrade_id": "UPG_DRG_WYVERN",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "명단 두 초상 연결 표시, 추가 피해 파티클/추가 공격 없음",
+        "type": "synergy",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "08.md:L95",
+        "source_effect": "EFF_DRG_DUET: CLS_DRG → SUM_DRG_WHELP와 SUM_DRG_WYVERN 둘 다 배치 시 각 기준 피해 보너스 +10%p, 1회 활성"
+      },
+      {
+        "id": "UPG_BST_PACK",
+        "name": "무리 확장",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_PACK_GROW: SUM_BST_WOLF 영구수 add 1마리/레벨, 최대3마리",
+        "max_level": 2,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "linear",
+          "step": 20,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [],
+        "visual_change": "늑대가 턴 시작부터 1마리씩 증가",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L62",
+        "source_effect": "EFF_PACK_GROW: SUM_BST_WOLF 영구수 add 1마리/레벨, 최대3마리"
+      },
+      {
+        "id": "UPG_BST_HAWK",
+        "name": "매 부르기",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_UNLOCK_HAWK: SUM_BST_HAWK 영구수 set 1마리/단발",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 25,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [],
+        "visual_change": "별도 날개 실루엣·깃털 탄",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L63",
+        "source_effect": "EFF_UNLOCK_HAWK: SUM_BST_HAWK 영구수 set 1마리/단발"
+      },
+      {
+        "id": "UPG_BST_BOAR",
+        "name": "멧돼지 부르기",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_BOAR: SUM_BST_BOAR 영구수 set 1마리/단발",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 35,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [],
+        "visual_change": "낮고 넓은 엄니 실루엣",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L64",
+        "source_effect": "EFF_BST_BOAR: SUM_BST_BOAR 영구수 set 1마리/단발"
+      },
+      {
+        "id": "UPG_BST_BEAR",
+        "name": "곰 부르기",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_BEAR: SUM_BST_BEAR 영구수 set 1마리/단발",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 45,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [],
+        "visual_change": "큰 앞발 타격 개체",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L65",
+        "source_effect": "EFF_BST_BEAR: SUM_BST_BEAR 영구수 set 1마리/단발"
+      },
+      {
+        "id": "UPG_BST_STAG",
+        "name": "사슴 부르기",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_STAG: SUM_BST_STAG 영구수 set 1마리/단발",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 35,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [],
+        "visual_change": "뿔 실루엣·짧은 찌르기",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L66",
+        "source_effect": "EFF_BST_STAG: SUM_BST_STAG 영구수 set 1마리/단발"
+      },
+      {
+        "id": "UPG_BST_FANG",
+        "name": "야성 강화",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_FANG: 보유 동물 기본 피해 가산계수 add 0.10/레벨, 기본값1에 합산",
+        "max_level": 3,
+        "cost": {
+          "currency": "gold",
+          "base": 15,
+          "growth_rule": "linear",
+          "step": 15,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [],
+        "visual_change": "공격 형태 변화 없음, 정보창 피해·적중 숫자 증가",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L67",
+        "source_effect": "EFF_BST_FANG: 보유 동물 기본 피해 가산계수 add 0.10/레벨, 기본값1에 합산"
+      },
+      {
+        "id": "UPG_BST_WOLF_LEADER",
+        "name": "우두머리 늑대",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_LEADER: SUM_BST_WOLF BASE→LEADER set, 기본 피해 가산계수 add 0.20/단발",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 45,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [],
+        "visual_change": "모든 늑대 갈기/목깃, 단일 물기는 유지",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L68",
+        "source_effect": "EFF_BST_LEADER: SUM_BST_WOLF BASE→LEADER set, 기본 피해 가산계수 add 0.20/단발"
+      },
+      {
+        "id": "UPG_BST_HAWK_TWIN",
+        "name": "쌍매 진화",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_TWIN: SUM_BST_HAWK BASE→TWIN set, 영구수 set 2마리/단발",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 50,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_BST_HAWK",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "두 마리 매·넓은 날개",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L69",
+        "source_effect": "EFF_BST_TWIN: SUM_BST_HAWK BASE→TWIN set, 영구수 set 2마리/단발"
+      },
+      {
+        "id": "UPG_BST_BOAR_TUSK",
+        "name": "쌍엄니 진화",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_TUSK: SUM_BST_BOAR BASE→TUSK set, 영구수 set 2, single→splash 최대3, 보조피해계수0.50/단발",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 60,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_BST_BOAR",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "두 멧돼지·엄니 충격환",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L70",
+        "source_effect": "EFF_BST_TUSK: SUM_BST_BOAR BASE→TUSK set, 영구수 set 2, single→splash 최대3, 보조피해계수0.50/단발"
+      },
+      {
+        "id": "UPG_BST_BEAR_SWEEP",
+        "name": "큰발 휩쓸기",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_SWEEP: SUM_BST_BEAR BASE→SWEEP set, single→cone 최대3, 보조피해계수0.50/단발",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 65,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_BST_BEAR",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "큰 앞발 부채꼴 궤적",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L71",
+        "source_effect": "EFF_BST_SWEEP: SUM_BST_BEAR BASE→SWEEP set, single→cone 최대3, 보조피해계수0.50/단발"
+      },
+      {
+        "id": "UPG_BST_STAG_ANTLER",
+        "name": "가지뿔 진화",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_ANTLER: SUM_BST_STAG BASE→ANTLER set, 기본 쿨다운 multiply 0.80/단발, 준비시간 동일",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 45,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_BST_STAG",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "가지뿔·짧아진 타격 간격",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L72",
+        "source_effect": "EFF_BST_ANTLER: SUM_BST_STAG BASE→ANTLER set, 기본 쿨다운 multiply 0.80/단발, 준비시간 동일"
+      },
+      {
+        "id": "UPG_BST_SKY_GROUND",
+        "name": "하늘과 땅",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_SKY_GROUND: 늑대+매 보유 시 양 종 기본 피해 가산계수 add 0.10/단발, 종별수 중복 적용 없음",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 30,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_BST_HAWK",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "양 종 정보 아이콘1개, 상시 연결선 없음",
+        "type": "synergy",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L73",
+        "source_effect": "EFF_BST_SKY_GROUND: 늑대+매 보유 시 양 종 기본 피해 가산계수 add 0.10/단발, 종별수 중복 적용 없음"
+      },
+      {
+        "id": "UPG_BST_CROWN",
+        "name": "숲의 왕관",
+        "category": "summon",
+        "applies_to": "CLS_BST",
+        "effects": "EFF_BST_CROWN: SUM_BST_WOLF LEADER→CROWN set, 기본 피해 가산계수 add 0.30/단발, 새 소환/추가 타격 없음",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 90,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "09 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=BST",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_BST_WOLF_LEADER",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "늑대의 왕관형 갈기·짧은 진화 연출, 원을 덮는 오라 없음",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "09.md:L74",
+        "source_effect": "EFF_BST_CROWN: SUM_BST_WOLF LEADER→CROWN set, 기본 피해 가산계수 add 0.30/단발, 새 소환/추가 타격 없음"
+      },
+      {
+        "id": "UPG_DMN_POWER",
+        "name": "악마의 화력",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "모든 악마 기본 피해에 레벨당 +20% 가산; 최대×1.6",
+        "max_level": 3,
+        "cost": {
+          "currency": "gold",
+          "base": 10,
+          "growth_rule": "exponential",
+          "step": 0,
+          "factor": 2,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [],
+        "visual_change": "타격 숫자/탄 두께 소폭 증가; 공격 분포 변화 없음",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L89",
+        "source_effect": "모든 악마 기본 피해에 레벨당 +20% 가산; 최대×1.6"
+      },
+      {
+        "id": "UPG_DMN_EXECUTOR",
+        "name": "집행 악마 계약",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "SUM_DMN_EXECUTOR 영구1 추가",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [],
+        "visual_change": "임프 옆 도끼 악마 등장·표식 소비 타격",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L90",
+        "source_effect": "SUM_DMN_EXECUTOR 영구1 추가"
+      },
+      {
+        "id": "UPG_DMN_RELAY",
+        "name": "계약 연계",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "EFF_MARK_BOOST: 소비 추가계수 0.5→1.0; 집행/폭군 공통, 기본 피해 미변경",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 30,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DMN_EXECUTOR",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "표식 제거 순간 굵은 연결 일격, 무한 추가타 없음",
+        "type": "synergy",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L91",
+        "source_effect": "EFF_MARK_BOOST: 소비 추가계수 0.5→1.0; 집행/폭군 공통, 기본 피해 미변경"
+      },
+      {
+        "id": "UPG_DMN_IMP_CROWN",
+        "name": "관각 진화",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "SUM_DMN_IMP BASE→CROWN, 해당 종 기본 피해×1.5, 표식1 유지",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 35,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DMN_POWER",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "큰 뿔/갈고리 탄, 단일 공격 유지",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L92",
+        "source_effect": "SUM_DMN_IMP BASE→CROWN, 해당 종 기본 피해×1.5, 표식1 유지"
+      },
+      {
+        "id": "UPG_DMN_HOUND",
+        "name": "사냥 악마 계약",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "SUM_DMN_HOUND 영구1 추가",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 25,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [],
+        "visual_change": "빠른 지상 물기 개체 추가",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L93",
+        "source_effect": "SUM_DMN_HOUND 영구1 추가"
+      },
+      {
+        "id": "UPG_DMN_HEXER",
+        "name": "주술 악마 계약",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "SUM_DMN_HEXER 영구1 추가; 광역 표식은 유효 피해 적만",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 45,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DMN_EXECUTOR",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "작은 표식 폭발 추가, 원 밖 효과는 비피해",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L94",
+        "source_effect": "SUM_DMN_HEXER 영구1 추가; 광역 표식은 유효 피해 적만"
+      },
+      {
+        "id": "UPG_DMN_TYRANT",
+        "name": "폭군 현현",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "SUM_DMN_TYRANT 영구1 추가; 부채꼴4대상/주대상 소비",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 100,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DMN_POWER",
+            "required_level": 2
+          }
+        ],
+        "visual_change": "큰 악마와 굵은 부채꼴 충격파",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L95",
+        "source_effect": "SUM_DMN_TYRANT 영구1 추가; 부채꼴4대상/주대상 소비"
+      },
+      {
+        "id": "UPG_DMN_EXECUTOR_CLEAVE",
+        "name": "대집행관 진화",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "SUM_DMN_EXECUTOR BASE→CLEAVER, single→splash, 반경80/최대3; 소비 피해는 주대상만",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 40,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DMN_EXECUTOR",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "도끼 충격 원, 소비 폭발의 재폭발 없음",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L96",
+        "source_effect": "SUM_DMN_EXECUTOR BASE→CLEAVER, single→splash, 반경80/최대3; 소비 피해는 주대상만"
+      },
+      {
+        "id": "UPG_DMN_HOUND_FANG",
+        "name": "흑아 진화",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "SUM_DMN_HOUND BASE→FANG, 해당 종 기본 피해×1.5, 비소비 참조 유지",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 35,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DMN_HOUND",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "큰 턱/강타 잔상, 추가 개체 없음",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L97",
+        "source_effect": "SUM_DMN_HOUND BASE→FANG, 해당 종 기본 피해×1.5, 비소비 참조 유지"
+      },
+      {
+        "id": "UPG_DMN_IMP_TWIN",
+        "name": "임프 증원",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "SUM_DMN_IMP 영구1 추가, 기존 개체 복제/전투중 증식 아님",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 30,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DMN_POWER",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "다음 턴 시작 임프 두 마리",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L98",
+        "source_effect": "SUM_DMN_IMP 영구1 추가, 기존 개체 복제/전투중 증식 아님"
+      },
+      {
+        "id": "UPG_DMN_PACT_FOCUS",
+        "name": "안정된 계약",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "모든 악마 쿨다운을 레벨당 기본값의10%씩 감소; 준비시간 불변, 최대 기본×0.8",
+        "max_level": 2,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "exponential",
+          "step": 0,
+          "factor": 2,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [],
+        "visual_change": "공격 공백 단축, 실루엣 변화 없음",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L99",
+        "source_effect": "모든 악마 쿨다운을 레벨당 기본값의10%씩 감소; 준비시간 불변, 최대 기본×0.8"
+      },
+      {
+        "id": "UPG_DMN_HEXER_SIGIL",
+        "name": "인장술 진화",
+        "category": "summon",
+        "applies_to": "CLS_DMN",
+        "effects": "SUM_DMN_HEXER BASE→SIGIL, 최대 유효 대상3→4; 반경80 유지",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 40,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "10 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=DMN",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_DMN_HEXER",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "4번째 표식 대상과 인장 외곽선 등장",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "10.md:L100",
+        "source_effect": "SUM_DMN_HEXER BASE→SIGIL, 최대 유효 대상3→4; 반경80 유지"
+      },
+      {
+        "id": "UPG_NEC_RAISE",
+        "name": "일시 기병",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_CORPSE_RAISE / 해골: 토큰3 소비당 임시1, 임시상한3·토큰상한3",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 10,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [],
+        "visual_change": "처치 후 토큰 계기와 임시 해골 등장",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L73",
+        "source_effect": "EFF_CORPSE_RAISE / 해골: 토큰3 소비당 임시1, 임시상한3·토큰상한3"
+      },
+      {
+        "id": "UPG_NEC_BONE",
+        "name": "단단한 뼈",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_NEC_POWER / 모든 해골: 원천 피해 계수 레벨당 +0.25, 최대1.75배",
+        "max_level": 3,
+        "cost": {
+          "currency": "gold",
+          "base": 8,
+          "growth_rule": "linear",
+          "step": 8,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [],
+        "visual_change": "공격 정보와 적중 표시 수치 증가, 개체 크기 변화 없음",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L74",
+        "source_effect": "EFF_NEC_POWER / 모든 해골: 원천 피해 계수 레벨당 +0.25, 최대1.75배"
+      },
+      {
+        "id": "UPG_NEC_THRIFT",
+        "name": "알뜰한 소생",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_NEC_THRIFT / 소생 토큰비용3→2, 토큰상한3 유지",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 18,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_NEC_RAISE",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "계기가 3칸 중 2칸부터 소생 강조",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L75",
+        "source_effect": "EFF_NEC_THRIFT / 소생 토큰비용3→2, 토큰상한3 유지"
+      },
+      {
+        "id": "UPG_NEC_LEGION",
+        "name": "임시 군단 확장",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_NEC_TEMP_CAP / 임시상한 레벨당+1, 3→최대5",
+        "max_level": 2,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "linear",
+          "step": 20,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_NEC_RAISE",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "임시 군단 자리 표시와 실제 수 증가",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L76",
+        "source_effect": "EFF_NEC_TEMP_CAP / 임시상한 레벨당+1, 3→최대5"
+      },
+      {
+        "id": "UPG_NEC_GUARD",
+        "name": "해골 근위병",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_NEC_GUARD / 해골 BASE→GUARD, 원천 피해4→6",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 24,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_NEC_BONE",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "뼈검·어깨 실루엣 변경",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L77",
+        "source_effect": "EFF_NEC_GUARD / 해골 BASE→GUARD, 원천 피해4→6"
+      },
+      {
+        "id": "UPG_NEC_LICH",
+        "name": "리치 계약",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_UNLOCK_LICH / SUM_NEC_LICH 영구1 추가",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [],
+        "visual_change": "상점 카드와 다음 전투 지팡이 개체",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L78",
+        "source_effect": "EFF_UNLOCK_LICH / SUM_NEC_LICH 영구1 추가"
+      },
+      {
+        "id": "UPG_NEC_ARCHLICH",
+        "name": "대리치",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_NEC_ARCHLICH / 리치 BASE→ARCH, 원천피해8→12, single→splash80·최대3",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 40,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_NEC_LICH",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "탄의 테두리 폭발",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L79",
+        "source_effect": "EFF_NEC_ARCHLICH / 리치 BASE→ARCH, 원천피해8→12, single→splash80·최대3"
+      },
+      {
+        "id": "UPG_NEC_ARCHER",
+        "name": "망자 궁수 계약",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_UNLOCK_NEC_ARCHER / SUM_NEC_ARCHER 영구1 추가",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 16,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [],
+        "visual_change": "활 실루엣과 직선 탄",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L80",
+        "source_effect": "EFF_UNLOCK_NEC_ARCHER / SUM_NEC_ARCHER 영구1 추가"
+      },
+      {
+        "id": "UPG_NEC_SENTINEL",
+        "name": "무덤 파수꾼",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_NEC_SENTINEL / 궁수 BASE→SENTINEL, 쿨다운0.8→0.6초",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 30,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_NEC_ARCHER",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "활 형태와 발사 빈도 변화",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L81",
+        "source_effect": "EFF_NEC_SENTINEL / 궁수 BASE→SENTINEL, 쿨다운0.8→0.6초"
+      },
+      {
+        "id": "UPG_NEC_REVENANT",
+        "name": "망령 기사 계약",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_UNLOCK_NEC_REVENANT / SUM_NEC_REVENANT 영구1 추가",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 28,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [],
+        "visual_change": "대검 개체 등장",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L82",
+        "source_effect": "EFF_UNLOCK_NEC_REVENANT / SUM_NEC_REVENANT 영구1 추가"
+      },
+      {
+        "id": "UPG_NEC_REAPER",
+        "name": "수확의 낫",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_NEC_REAPER / 기사 BASE→REAPER, single→splash70·최대3, 피해10 유지",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 45,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_NEC_REVENANT",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "짧은 낫 베기 호, 원 밖은 비피해 장식",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L83",
+        "source_effect": "EFF_NEC_REAPER / 기사 BASE→REAPER, single→splash70·최대3, 피해10 유지"
+      },
+      {
+        "id": "UPG_NEC_CONDUCT",
+        "name": "리치의 지휘",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_NEC_CONDUCT / 리치와 RAISE 보유 시 모든 해골 기본피해+2(최종 1회), 토큰0이어도 활성",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 32,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_NEC_LICH",
+            "required_level": 1
+          },
+          {
+            "upgrade_id": "UPG_NEC_RAISE",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "리치·해골 카드 연결선과 적중 표시, 상시 장판 없음",
+        "type": "synergy",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L84",
+        "source_effect": "EFF_NEC_CONDUCT / 리치와 RAISE 보유 시 모든 해골 기본피해+2(최종 1회), 토큰0이어도 활성"
+      },
+      {
+        "id": "UPG_NEC_GOLEM",
+        "name": "납골 거인 계약",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_UNLOCK_NEC_GOLEM / SUM_NEC_GOLEM 영구1 추가, 기존 개체/토큰 소비 없음",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 60,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_NEC_GUARD",
+            "required_level": 1
+          },
+          {
+            "upgrade_id": "UPG_NEC_LICH",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "갈비뼈 거인 등장, 지정 원보다 아래 표시",
+        "type": "unlock",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L85",
+        "source_effect": "EFF_UNLOCK_NEC_GOLEM / SUM_NEC_GOLEM 영구1 추가, 기존 개체/토큰 소비 없음"
+      },
+      {
+        "id": "UPG_NEC_OSSUARY",
+        "name": "왕의 납골당",
+        "category": "summon",
+        "applies_to": "CLS_NEC",
+        "effects": "EFF_NEC_OSSUARY / 거인 BASE→OSSUARY, 피해12→18·반경70→100·최대3→4",
+        "max_level": 1,
+        "cost": {
+          "currency": "gold",
+          "base": 90,
+          "growth_rule": "one_shot",
+          "step": 0,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "11 가격 가정 유지"
+        },
+        "unlock_condition": "run_start AND selected_class=NEC",
+        "prerequisites": [
+          {
+            "upgrade_id": "UPG_NEC_GOLEM",
+            "required_level": 1
+          }
+        ],
+        "visual_change": "큰 갈비뼈 왕관·타격 원 확대",
+        "type": "evolve",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "11.md:L86",
+        "source_effect": "EFF_NEC_OSSUARY / 거인 BASE→OSSUARY, 피해12→18·반경70→100·최대3→4"
+      },
+      {
+        "id": "UPG_COM_COMMAND_RADIUS",
+        "name": "지휘 범위 확대",
+        "category": "game",
+        "applies_to": "ALL",
+        "effects": "EFF_COMMAND_GROW: command_radius=150+50×L 전장 단위; L=0~3, 최대300. 공격 사거리/효과 반경/골드 불변",
+        "max_level": 3,
+        "cost": {
+          "currency": "gold",
+          "base": 15,
+          "growth_rule": "linear",
+          "step": 15,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가정"
+        },
+        "unlock_condition": "run_start",
+        "prerequisites": [],
+        "visual_change": "커서 지정 원 150→200→250→300, 실제 피해 원과 구분",
+        "type": "repeat",
+        "scope": "mvp_candidate",
+        "status": "proposed",
+        "source_ref": "12.md §3; source §5",
+        "source_effect": "EFF_COMMAND_GROW: command_radius=150+50×L 전장 단위; L=0~3, 최대300. 공격 사거리/효과 반경/골드 불변"
+      },
+      {
+        "id": "UPG_COM_POWER",
+        "name": "소환 공통 화력",
+        "category": "summon",
+        "applies_to": "ALL",
+        "effects": "EFF_COM_POWER: 모든 출전 소환수(임시 포함)의 공통 피해계수 M_com=1+0.10×L, 최대1.30; 직업 계산 뒤 1회 곱",
+        "max_level": 3,
+        "cost": {
+          "currency": "gold",
+          "base": 10,
+          "growth_rule": "linear",
+          "step": 10,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가정"
+        },
+        "unlock_condition": "run_start",
+        "prerequisites": [],
+        "visual_change": "피해 정보/적중 숫자 증가, 개체·공격 형태 변화 없음",
+        "type": "repeat",
+        "scope": "mvp_candidate",
+        "status": "proposed",
+        "source_ref": "12.md §3; source §5",
+        "source_effect": "EFF_COM_POWER: 모든 출전 소환수(임시 포함)의 공통 피해계수 M_com=1+0.10×L, 최대1.30; 직업 계산 뒤 1회 곱"
+      },
+      {
+        "id": "UPG_COM_SUPPLY",
+        "name": "몬스터 공급 확장",
+        "category": "monster",
+        "applies_to": "ALL",
+        "effects": "EFF_COM_SUPPLY: 공급단계 s=L, L=0~2. 13.md s0/s1/s2 예약표 선택; BASIC 유지, DENSE 추가·s2 SPECIAL 예약. HP/골드 자동배수 없음",
+        "max_level": 2,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "linear",
+          "step": 30,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가정"
+        },
+        "unlock_condition": "run_start",
+        "prerequisites": [],
+        "visual_change": "다음 일반전 묵직한 잔영 증가, s2 황금 잔영 예약; 공격 대상으로 보이는 적 증가",
+        "type": "repeat",
+        "scope": "mvp_candidate",
+        "status": "proposed",
+        "source_ref": "12.md §3; source §5",
+        "source_effect": "EFF_COM_SUPPLY: 공급단계 s=L, L=0~2. 13.md s0/s1/s2 예약표 선택; BASIC 유지, DENSE 추가·s2 SPECIAL 예약. HP/골드 자동배수 없음"
+      },
+      {
+        "id": "UPG_COM_GOLD_YIELD",
+        "name": "처치 보상 강화",
+        "category": "gold",
+        "applies_to": "ALL",
+        "effects": "EFF_COM_GOLD_YIELD: 일반 적 보상 G=floor(g_base×(1+0.25×L)), L=0~3, 최대계수1.75; 사망별 1회, 보스/상자 제외",
+        "max_level": 3,
+        "cost": {
+          "currency": "gold",
+          "base": 20,
+          "growth_rule": "linear",
+          "step": 20,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가정"
+        },
+        "unlock_condition": "run_start",
+        "prerequisites": [],
+        "visual_change": "보상 정보와 즉시 잔액 변화만 증가, 동전 클릭·수집 원 없음",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "12.md §3; source §5",
+        "source_effect": "EFF_COM_GOLD_YIELD: 일반 적 보상 G=floor(g_base×(1+0.25×L)), L=0~3, 최대계수1.75; 사망별 1회, 보스/상자 제외"
+      },
+      {
+        "id": "UPG_COM_REACH",
+        "name": "공격 도달 강화",
+        "category": "summon",
+        "applies_to": "ALL",
+        "effects": "EFF_COM_REACH: 모든 출전 소환수 attack_range=기본 사거리+20×L, 최대+40 전장 단위; command_radius/효과 크기 불변",
+        "max_level": 2,
+        "cost": {
+          "currency": "gold",
+          "base": 25,
+          "growth_rule": "linear",
+          "step": 25,
+          "factor": 1,
+          "rounding": "ceil",
+          "status": "assumed",
+          "provenance": "P1-12 신규 가정"
+        },
+        "unlock_condition": "run_start",
+        "prerequisites": [],
+        "visual_change": "사거리 정보 증가, 이동 후 정지 위치 변화; 지정 원/폭발 크기는 그대로",
+        "type": "repeat",
+        "scope": "expansion_candidate",
+        "status": "proposed",
+        "source_ref": "12.md §3; source §5",
+        "source_effect": "EFF_COM_REACH: 모든 출전 소환수 attack_range=기본 사거리+20×L, 최대+40 전장 단위; command_radius/효과 크기 불변"
+      }
+    ],
+    "boss_required_set": {
+      "CLS_ELM": [
+        {
+          "upgrade_id": "UPG_COM_POWER",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_ELM_POWER",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_ELM_BLOOM",
+          "required_level": 1
+        }
+      ],
+      "CLS_DRG": [
+        {
+          "upgrade_id": "UPG_COM_POWER",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_DRG_POWER",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_DRG_ADULT",
+          "required_level": 1
+        },
+        {
+          "upgrade_id": "UPG_DRG_ANCIENT",
+          "required_level": 1
+        }
+      ],
+      "CLS_BST": [
+        {
+          "upgrade_id": "UPG_COM_POWER",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_BST_PACK",
+          "required_level": 2
+        },
+        {
+          "upgrade_id": "UPG_BST_FANG",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_BST_WOLF_LEADER",
+          "required_level": 1
+        },
+        {
+          "upgrade_id": "UPG_BST_CROWN",
+          "required_level": 1
+        }
+      ],
+      "CLS_DMN": [
+        {
+          "upgrade_id": "UPG_COM_POWER",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_DMN_POWER",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_DMN_IMP_CROWN",
+          "required_level": 1
+        },
+        {
+          "upgrade_id": "UPG_DMN_IMP_TWIN",
+          "required_level": 1
+        }
+      ],
+      "CLS_NEC": [
+        {
+          "upgrade_id": "UPG_COM_POWER",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_NEC_BONE",
+          "required_level": 3
+        },
+        {
+          "upgrade_id": "UPG_NEC_GUARD",
+          "required_level": 1
+        }
+      ]
+    },
+    "supply_stage": {
+      "upgrade_id": "UPG_COM_SUPPLY",
+      "mapping": {
+        "0": "13.md:s=0",
+        "1": "13.md:s=1",
+        "2": "13.md:s=2"
+      },
+      "boss_requirement": false
+    }
+  },
+  "prior": {
+    "document_id": "P1-14-ECON-v01",
+    "status": "assumptions_not_approved",
+    "combat_s": 30,
+    "boss_comparison_hp": 1000,
+    "boss_access_delay_s": 2,
+    "boss_fixture": "stationary, continuous cursor eligibility after delay, no cancellation, all ready after delay, flight at base reach; not sampled trajectories",
+    "shop_think_s": [
+      3,
+      8,
+      15
+    ],
+    "transition_s": 2,
+    "initial_gold": 0,
+    "gold_collection": "immediate grant, no collection-rate multiplier",
+    "normal_enemies": [
+      {
+        "id": "MON_BASIC",
+        "hp": 10,
+        "gold": 1,
+        "speed": 40
+      },
+      {
+        "id": "MON_DENSE",
+        "hp": 30,
+        "gold": 3,
+        "speed": 25
+      },
+      {
+        "id": "MON_SPECIAL",
+        "hp": 40,
+        "gold": 6,
+        "speed": 35
+      }
+    ],
+    "supply_reserved_counts": [
+      [
+        24,
+        0,
+        0
+      ],
+      [
+        24,
+        12,
+        0
+      ],
+      [
+        24,
+        24,
+        1
+      ]
+    ],
+    "simultaneous_enemy_cap": 48,
+    "roster": [
+      {
+        "id": "SUM_ELM_EMBER",
+        "class_id": "CLS_ELM",
+        "base_damage": 10,
+        "windup_s": 0.2,
+        "cooldown_s": 1,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 1,
+        "status": "assumed_not_approved",
+        "provenance": "ELM: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_ELM_SPARK",
+        "class_id": "CLS_ELM",
+        "base_damage": 7,
+        "windup_s": 0.2,
+        "cooldown_s": 1.4,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "chain",
+        "effect_size": 100,
+        "max_targets": 3,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "ELM: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_ELM_TIDE",
+        "class_id": "CLS_ELM",
+        "base_damage": 5,
+        "windup_s": 0.2,
+        "cooldown_s": 0.6,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "ELM: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_ELM_STONE",
+        "class_id": "CLS_ELM",
+        "base_damage": 24,
+        "windup_s": 0.2,
+        "cooldown_s": 2.2,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "ELM: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_ELM_PRISM",
+        "class_id": "CLS_ELM",
+        "base_damage": 18,
+        "windup_s": 0.2,
+        "cooldown_s": 2.8,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "splash",
+        "effect_size": 70,
+        "max_targets": 3,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "ELM: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_DRG_WHELP",
+        "class_id": "CLS_DRG",
+        "base_damage": 18,
+        "windup_s": 0.3,
+        "cooldown_s": 1.5,
+        "attack_range": 260,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 1,
+        "status": "assumed_not_approved",
+        "provenance": "DRG: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_DRG_WYVERN",
+        "class_id": "CLS_DRG",
+        "base_damage": 10,
+        "windup_s": 0.2,
+        "cooldown_s": 0.8,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "DRG: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_DRG_STONE",
+        "class_id": "CLS_DRG",
+        "base_damage": 28,
+        "windup_s": 0.4,
+        "cooldown_s": 2,
+        "attack_range": 250,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "splash",
+        "effect_size": 70,
+        "max_targets": 3,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "DRG: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_DRG_STORM",
+        "class_id": "CLS_DRG",
+        "base_damage": 12,
+        "windup_s": 0.2,
+        "cooldown_s": 1.4,
+        "attack_range": 280,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "chain",
+        "effect_size": 100,
+        "max_targets": 3,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "DRG: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_DRG_MOON",
+        "class_id": "CLS_DRG",
+        "base_damage": 32,
+        "windup_s": 0.3,
+        "cooldown_s": 1.8,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "DRG: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_BST_WOLF",
+        "class_id": "CLS_BST",
+        "base_damage": 6,
+        "windup_s": 0.2,
+        "cooldown_s": 0.8,
+        "attack_range": 40,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 1,
+        "status": "assumed_not_approved",
+        "provenance": "BST: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_BST_HAWK",
+        "class_id": "CLS_BST",
+        "base_damage": 5,
+        "windup_s": 0.2,
+        "cooldown_s": 1,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "BST: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_BST_BOAR",
+        "class_id": "CLS_BST",
+        "base_damage": 10,
+        "windup_s": 0.3,
+        "cooldown_s": 1.2,
+        "attack_range": 45,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "BST: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_BST_BEAR",
+        "class_id": "CLS_BST",
+        "base_damage": 16,
+        "windup_s": 0.4,
+        "cooldown_s": 1.6,
+        "attack_range": 50,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "BST: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_BST_STAG",
+        "class_id": "CLS_BST",
+        "base_damage": 6,
+        "windup_s": 0.15,
+        "cooldown_s": 0.65,
+        "attack_range": 45,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "BST: 14 new null-fill assumptions"
+      },
+      {
+        "id": "SUM_DMN_IMP",
+        "class_id": "CLS_DMN",
+        "base_damage": 10,
+        "windup_s": 0.2,
+        "cooldown_s": 1,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 1,
+        "status": "assumed_not_approved",
+        "provenance": "DMN: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_DMN_EXECUTOR",
+        "class_id": "CLS_DMN",
+        "base_damage": 20,
+        "windup_s": 0.3,
+        "cooldown_s": 1.5,
+        "attack_range": 40,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "DMN: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_DMN_HOUND",
+        "class_id": "CLS_DMN",
+        "base_damage": 6,
+        "windup_s": 0.1,
+        "cooldown_s": 0.7,
+        "attack_range": 40,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "DMN: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_DMN_HEXER",
+        "class_id": "CLS_DMN",
+        "base_damage": 8,
+        "windup_s": 0.3,
+        "cooldown_s": 1.7,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "splash",
+        "effect_size": 80,
+        "max_targets": 3,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "DMN: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_DMN_TYRANT",
+        "class_id": "CLS_DMN",
+        "base_damage": 30,
+        "windup_s": 0.5,
+        "cooldown_s": 2,
+        "attack_range": 180,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "cone",
+        "effect_size": 30,
+        "max_targets": 4,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "DMN: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_NEC_SKELETON",
+        "class_id": "CLS_NEC",
+        "base_damage": 4,
+        "windup_s": 0.2,
+        "cooldown_s": 1,
+        "attack_range": 40,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 1,
+        "status": "assumed_not_approved",
+        "provenance": "NEC: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_NEC_LICH",
+        "class_id": "CLS_NEC",
+        "base_damage": 8,
+        "windup_s": 0.2,
+        "cooldown_s": 1.2,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "NEC: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_NEC_ARCHER",
+        "class_id": "CLS_NEC",
+        "base_damage": 5,
+        "windup_s": 0.2,
+        "cooldown_s": 0.8,
+        "attack_range": 300,
+        "move_speed": 400,
+        "projectile_speed": 600,
+        "projectile_lifetime_s": 2,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "NEC: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_NEC_REVENANT",
+        "class_id": "CLS_NEC",
+        "base_damage": 10,
+        "windup_s": 0.2,
+        "cooldown_s": 1.5,
+        "attack_range": 50,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "single",
+        "effect_size": 0,
+        "max_targets": 1,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "NEC: 07/10/11 via 12 timing corrections"
+      },
+      {
+        "id": "SUM_NEC_GOLEM",
+        "class_id": "CLS_NEC",
+        "base_damage": 12,
+        "windup_s": 0.2,
+        "cooldown_s": 2,
+        "attack_range": 60,
+        "move_speed": 400,
+        "projectile_speed": null,
+        "projectile_lifetime_s": null,
+        "shape": "splash",
+        "effect_size": 70,
+        "max_targets": 3,
+        "initial_count": 0,
+        "status": "assumed_not_approved",
+        "provenance": "NEC: 07/10/11 via 12 timing corrections"
+      }
+    ],
+    "boss_vectors": {
+      "required": {
+        "ELM": [
+          {
+            "id": "SUM_ELM_EMBER",
+            "damage": "20.8",
+            "windup_s": "0.2",
+            "cooldown_s": "1",
+            "count": 1,
+            "flight_s": "1/2"
+          }
+        ],
+        "DRG": [
+          {
+            "id": "SUM_DRG_WHELP",
+            "damage": "37.44",
+            "windup_s": "0.3",
+            "cooldown_s": "1.5",
+            "count": 1,
+            "flight_s": "0"
+          }
+        ],
+        "BST": [
+          {
+            "id": "SUM_BST_WOLF",
+            "damage": "14.04",
+            "windup_s": "0.2",
+            "cooldown_s": "0.8",
+            "count": 3,
+            "flight_s": "0"
+          }
+        ],
+        "DMN": [
+          {
+            "id": "SUM_DMN_IMP",
+            "damage": "31.2",
+            "windup_s": "0.2",
+            "cooldown_s": "1",
+            "count": 2,
+            "flight_s": "1/2"
+          }
+        ],
+        "NEC": [
+          {
+            "id": "SUM_NEC_SKELETON",
+            "damage": "13.65",
+            "windup_s": "0.2",
+            "cooldown_s": "1",
+            "count": 1,
+            "flight_s": "0"
+          }
+        ]
+      },
+      "maximum": {
+        "ELM": [
+          {
+            "id": "SUM_ELM_EMBER",
+            "damage": "24.7",
+            "windup_s": "0.2",
+            "cooldown_s": "1",
+            "count": 1,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_ELM_SPARK",
+            "damage": "9.1",
+            "windup_s": "0.2",
+            "cooldown_s": "1.2",
+            "count": 1,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_ELM_TIDE",
+            "damage": "10.4",
+            "windup_s": "0.2",
+            "cooldown_s": "0.6",
+            "count": 1,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_ELM_STONE",
+            "damage": "31.2",
+            "windup_s": "0.2",
+            "cooldown_s": "2.2",
+            "count": 1,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_ELM_PRISM",
+            "damage": "23.4",
+            "windup_s": "0.2",
+            "cooldown_s": "2.8",
+            "count": 1,
+            "flight_s": "1/2"
+          }
+        ],
+        "DRG": [
+          {
+            "id": "SUM_DRG_WHELP",
+            "damage": "37.44",
+            "windup_s": "0.3",
+            "cooldown_s": "1.5",
+            "count": 1,
+            "flight_s": "0"
+          },
+          {
+            "id": "SUM_DRG_WYVERN",
+            "damage": "13",
+            "windup_s": "0.2",
+            "cooldown_s": "0.64",
+            "count": 1,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_DRG_STONE",
+            "damage": "36.4",
+            "windup_s": "0.4",
+            "cooldown_s": "2",
+            "count": 1,
+            "flight_s": "5/12"
+          },
+          {
+            "id": "SUM_DRG_STORM",
+            "damage": "15.6",
+            "windup_s": "0.2",
+            "cooldown_s": "1.4",
+            "count": 1,
+            "flight_s": "7/15"
+          },
+          {
+            "id": "SUM_DRG_MOON",
+            "damage": "60.32",
+            "windup_s": "0.3",
+            "cooldown_s": "1.8",
+            "count": 1,
+            "flight_s": "1/2"
+          }
+        ],
+        "BST": [
+          {
+            "id": "SUM_BST_WOLF",
+            "damage": "14.82",
+            "windup_s": "0.2",
+            "cooldown_s": "0.8",
+            "count": 3,
+            "flight_s": "0"
+          },
+          {
+            "id": "SUM_BST_HAWK",
+            "damage": "9.1",
+            "windup_s": "0.2",
+            "cooldown_s": "1",
+            "count": 2,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_BST_BOAR",
+            "damage": "16.9",
+            "windup_s": "0.3",
+            "cooldown_s": "1.2",
+            "count": 2,
+            "flight_s": "0"
+          },
+          {
+            "id": "SUM_BST_BEAR",
+            "damage": "27.04",
+            "windup_s": "0.4",
+            "cooldown_s": "1.6",
+            "count": 1,
+            "flight_s": "0"
+          },
+          {
+            "id": "SUM_BST_STAG",
+            "damage": "10.14",
+            "windup_s": "0.15",
+            "cooldown_s": "0.52",
+            "count": 1,
+            "flight_s": "0"
+          }
+        ],
+        "DMN": [
+          {
+            "id": "SUM_DMN_IMP",
+            "damage": "31.2",
+            "windup_s": "0.2",
+            "cooldown_s": "0.8",
+            "count": 2,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_DMN_EXECUTOR",
+            "damage": "41.6",
+            "windup_s": "0.3",
+            "cooldown_s": "1.2",
+            "count": 1,
+            "flight_s": "0"
+          },
+          {
+            "id": "SUM_DMN_HOUND",
+            "damage": "18.72",
+            "windup_s": "0.1",
+            "cooldown_s": "0.56",
+            "count": 1,
+            "flight_s": "0"
+          },
+          {
+            "id": "SUM_DMN_HEXER",
+            "damage": "16.64",
+            "windup_s": "0.3",
+            "cooldown_s": "1.36",
+            "count": 1,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_DMN_TYRANT",
+            "damage": "62.4",
+            "windup_s": "0.5",
+            "cooldown_s": "1.6",
+            "count": 1,
+            "flight_s": "0"
+          }
+        ],
+        "NEC": [
+          {
+            "id": "SUM_NEC_SKELETON",
+            "damage": "16.25",
+            "windup_s": "0.2",
+            "cooldown_s": "1",
+            "count": 1,
+            "flight_s": "0"
+          },
+          {
+            "id": "SUM_NEC_LICH",
+            "damage": "15.6",
+            "windup_s": "0.2",
+            "cooldown_s": "1.2",
+            "count": 1,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_NEC_ARCHER",
+            "damage": "6.5",
+            "windup_s": "0.2",
+            "cooldown_s": "0.6",
+            "count": 1,
+            "flight_s": "1/2"
+          },
+          {
+            "id": "SUM_NEC_REVENANT",
+            "damage": "13",
+            "windup_s": "0.2",
+            "cooldown_s": "1.5",
+            "count": 1,
+            "flight_s": "0"
+          },
+          {
+            "id": "SUM_NEC_GOLEM",
+            "damage": "23.4",
+            "windup_s": "0.2",
+            "cooldown_s": "2",
+            "count": 1,
+            "flight_s": "0"
+          }
+        ]
+      }
+    },
+    "caps": {
+      "ELM": [
+        5,
+        0
+      ],
+      "DRG": [
+        2,
+        0
+      ],
+      "BST": [
+        9,
+        0
+      ],
+      "DMN": [
+        6,
+        0
+      ],
+      "NEC": [
+        5,
+        5
+      ]
+    },
+    "new_shape_assumptions": {
+      "DRG_WHELP_ADULT": {
+        "shape": "cone",
+        "half_angle_deg": 30,
+        "length": 260,
+        "targets": 3,
+        "instant": true
+      },
+      "DRG_WHELP_ANCIENT": {
+        "half_angle_deg": 30,
+        "targets": 3
+      },
+      "DRG_CONE_max_half_angle_deg": 40,
+      "BST_BOAR_TUSK": {
+        "shape": "splash",
+        "radius": 60,
+        "targets": 3,
+        "secondary_ratio": 0.5
+      },
+      "BST_BEAR_SWEEP": {
+        "shape": "cone",
+        "half_angle_deg": 35,
+        "length": 50,
+        "targets": 3,
+        "secondary_ratio": 0.5
+      }
+    },
+    "source_sha256": {
+      "12-catalog.json": "2dd5c775a87ba661253df7e3421a82495f16257c2ee3107af427c648e2eca425",
+      "12.md": "1251ad63dcab08430b80517d75e9d310390b622d5e4e344c8b4f3b91272ce0fe",
+      "13.md": "911d9c9ed39c7abfb3d0c4787909088b5103dc6112f2f3e67b163d975d5a4a91",
+      "07.md": "e6d99364d70c25aa429cf56f9781445451ca9c652f29e5a24481982eaea3c965",
+      "08.md": "c64fcb715c95f9e8fe59557c54da5e3ff860fc19d609767fdc735cffd74c402b",
+      "09.md": "907285c373d3f33da7b0aa49765bf97310e1821fa5c01613b00e764d700333c1",
+      "10.md": "17c0deee850ac520b58a5446578a16aa28252932989e60aecc62b7c1bf780805",
+      "11.md": "c0e89c73d3a817fe00e273bd99cca622aebe9ccf8ca693235b0c99cefa9524f5"
+    }
+  },
+  "source_sha256": {
+    "12-catalog.json": "2dd5c775a87ba661253df7e3421a82495f16257c2ee3107af427c648e2eca425",
+    "14-inputs.json": "54c56a1baabdcd01e73d17312fdaf2a21b4d42edfdad12efa6638315a2bef8de",
+    "14-validation.json": "ddf6b27e55c9fa6d6461f41cb195ef071dd1e314d9014eb7265b028fa721b58d",
+    "14.md": "bc7c87d584fbde30d54094e0e1e58c77270ff42ec582b56379a51dafb6cbf4d0"
+  },
+  "budgets": [
+    60,
+    300,
+    900
+  ],
+  "turn_checkpoints": [
+    5,
+    15,
+    40
+  ],
+  "kill_tables": {
+    "low": [
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        6,
+        1,
+        0
+      ],
+      [
+        6,
+        2,
+        0
+      ]
+    ],
+    "base": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        12,
+        3,
+        0
+      ],
+      [
+        12,
+        6,
+        0
+      ]
+    ],
+    "high": [
+      [
+        24,
+        0,
+        0
+      ],
+      [
+        24,
+        12,
+        0
+      ],
+      [
+        24,
+        24,
+        1
+      ]
+    ]
+  },
+  "think_s": 8,
+  "transition_s": 2,
+  "boss_delay_s": [
+    2,
+    8,
+    30
+  ],
+  "cancel_fraction": [
+    "0",
+    "1/4",
+    "1/2"
+  ],
+  "scope": "static planning arithmetic; no actual kills observed"
+}

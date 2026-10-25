@@ -1,0 +1,166 @@
+{
+  "claims": [
+    {
+      "id": "O01",
+      "claim": "검을 마우스로 직접 이동시킴",
+      "evidence": [
+        {
+          "source_id": "S1-KO",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=koreana",
+          "quote": "마우스를 움직이면, 검이 따라옵니다.",
+          "exact_match": true
+        },
+        {
+          "source_id": "S1-EN",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=english",
+          "quote": "Move the mouse and the sword follows.",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "id": "O02",
+      "claim": "검과 적의 접촉으로 자동 공격, 공격 버튼 연타 불필요",
+      "evidence": [
+        {
+          "source_id": "S1-KO",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=koreana",
+          "quote": "검이 적에게 닿으면 자동으로 공격합니다.",
+          "exact_match": true
+        },
+        {
+          "source_id": "S1-EN",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=english",
+          "quote": "When it touches an enemy, it attacks automatically—no need to mash an attack button.",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "id": "O03",
+      "claim": "전투 중 제시된 각성 효과 중 하나를 선택",
+      "evidence": [
+        {
+          "source_id": "S1-KO",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=koreana",
+          "quote": "전투 중 제시되는 각성 효과 가운데 하나를 선택하세요.",
+          "exact_match": true
+        },
+        {
+          "source_id": "S1-EN",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=english",
+          "quote": "Choose one of the Awakening effects offered during combat.",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "id": "O04",
+      "claim": "각성 선택이 공격 방식과 성장 방향을 변경한다는 설명",
+      "evidence": [
+        {
+          "source_id": "S1-KO",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=koreana",
+          "quote": "선택한 효과에 따라 검의 공격 방식과 성장 방향이 달라집니다.",
+          "exact_match": true
+        },
+        {
+          "source_id": "S1-EN",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=english",
+          "quote": "The effect you choose changes how your sword attacks and how it develops.",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "id": "O05",
+      "claim": "전투 보상으로 검을 업그레이드",
+      "evidence": [
+        {
+          "source_id": "S1-KO",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=koreana",
+          "quote": "전투에서 획득한 보상으로 검을 업그레이드하세요.",
+          "exact_match": true
+        },
+        {
+          "source_id": "S1-EN",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=english",
+          "quote": "Use rewards earned in combat to upgrade your sword.",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "id": "O06",
+      "claim": "강화 후 레이드 도전과 보스 처치 후 다음 전투를 안내",
+      "evidence": [
+        {
+          "source_id": "S1-KO",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=koreana",
+          "quote": "검이 충분히 강해졌다면, 레이드를 진행하세요.",
+          "exact_match": true
+        },
+        {
+          "source_id": "S1-EN",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=english",
+          "quote": "Once your sword is strong enough, enter the Raid.",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "id": "O07",
+      "claim": "보스 처치가 다음 전투로 이어진다는 설명",
+      "evidence": [
+        {
+          "source_id": "S1-KO",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=koreana",
+          "quote": "보스를 처치하고 다음 전투로 나아가세요.",
+          "exact_match": true
+        },
+        {
+          "source_id": "S1-EN",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=english",
+          "quote": "Defeat the boss and move on to the next battle.",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "id": "O08",
+      "claim": "싱글플레이 지원 표기",
+      "evidence": [
+        {
+          "source_id": "S1-KO",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=koreana",
+          "quote": "싱글 플레이어",
+          "exact_match": true
+        },
+        {
+          "source_id": "S1-EN",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=english",
+          "quote": "Single-player",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "id": "O09",
+      "claim": "개발·배급 STAGE Games 표기",
+      "evidence": [
+        {
+          "source_id": "S1-KO",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=koreana",
+          "quote": "개발자:\nSTAGE Games",
+          "exact_match": true
+        },
+        {
+          "source_id": "S1-EN",
+          "url": "https://store.steampowered.com/app/3421660/ReBlade/?l=english",
+          "quote": "DEVELOPER:\nSTAGE Games",
+          "exact_match": true
+        }
+      ]
+    }
+  ]
+}

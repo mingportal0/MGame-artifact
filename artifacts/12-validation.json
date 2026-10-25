@@ -1,0 +1,352 @@
+{
+  "document_id": "P1-12-CATALOG-v01",
+  "passed": 45,
+  "total": 45,
+  "checks": [
+    {
+      "check": "69 records / unique IDs / required fields / enums / DAG / reachable / boss refs",
+      "passed": true
+    },
+    {
+      "check": "owner counts",
+      "passed": true
+    },
+    {
+      "check": "four categories",
+      "passed": true
+    },
+    {
+      "check": "four types",
+      "passed": true
+    },
+    {
+      "check": "07 source snapshot unchanged",
+      "passed": true
+    },
+    {
+      "check": "07 all source upgrade IDs preserved",
+      "passed": true
+    },
+    {
+      "check": "07 source effects exact",
+      "passed": true
+    },
+    {
+      "check": "08 source snapshot unchanged",
+      "passed": true
+    },
+    {
+      "check": "08 all source upgrade IDs preserved",
+      "passed": true
+    },
+    {
+      "check": "08 source effects exact",
+      "passed": true
+    },
+    {
+      "check": "09 source snapshot unchanged",
+      "passed": true
+    },
+    {
+      "check": "09 all source upgrade IDs preserved",
+      "passed": true
+    },
+    {
+      "check": "09 source effects exact",
+      "passed": true
+    },
+    {
+      "check": "10 source snapshot unchanged",
+      "passed": true
+    },
+    {
+      "check": "10 all source upgrade IDs preserved",
+      "passed": true
+    },
+    {
+      "check": "10 source effects exact",
+      "passed": true
+    },
+    {
+      "check": "11 source snapshot unchanged",
+      "passed": true
+    },
+    {
+      "check": "11 all source upgrade IDs preserved",
+      "passed": true
+    },
+    {
+      "check": "11 source effects exact",
+      "passed": true
+    },
+    {
+      "check": "all legal level prices positive and monotonic",
+      "passed": true
+    },
+    {
+      "check": "ELM former nulls priced, assumed not approved",
+      "passed": true
+    },
+    {
+      "check": "radius stages 150/200/250/300",
+      "passed": true
+    },
+    {
+      "check": "NEC cooldown mapping / sentinel interval",
+      "passed": true
+    },
+    {
+      "check": "damage ELM POWER3 DUET COM3",
+      "passed": true
+    },
+    {
+      "check": "damage DMN POWER1 CROWN COM3",
+      "passed": true
+    },
+    {
+      "check": "damage NEC GUARD BONE3 CONDUCT COM3",
+      "passed": true
+    },
+    {
+      "check": "damage symbolic DRG additive coefficients",
+      "passed": true
+    },
+    {
+      "check": "damage symbolic BST additive coefficients",
+      "passed": true
+    },
+    {
+      "check": "CLS_ELM boss closure finite affordable symbolic gold",
+      "passed": true
+    },
+    {
+      "check": "CLS_DRG boss closure finite affordable symbolic gold",
+      "passed": true
+    },
+    {
+      "check": "CLS_BST boss closure finite affordable symbolic gold",
+      "passed": true
+    },
+    {
+      "check": "CLS_DMN boss closure finite affordable symbolic gold",
+      "passed": true
+    },
+    {
+      "check": "CLS_NEC boss closure finite affordable symbolic gold",
+      "passed": true
+    },
+    {
+      "check": "boss sets exclude supply and synergy",
+      "passed": true
+    },
+    {
+      "check": "unboosted scheduled caps",
+      "passed": true
+    },
+    {
+      "check": "BASIC gold has dead levels",
+      "passed": true
+    },
+    {
+      "check": "supply reservations",
+      "passed": true
+    },
+    {
+      "check": "ledger immediate reward minus purchases",
+      "passed": true
+    },
+    {
+      "check": "negative duplicate",
+      "passed": true
+    },
+    {
+      "check": "negative missing field",
+      "passed": true
+    },
+    {
+      "check": "negative missing dependency",
+      "passed": true
+    },
+    {
+      "check": "negative self cycle",
+      "passed": true
+    },
+    {
+      "check": "negative unreachable required level",
+      "passed": true
+    },
+    {
+      "check": "negative empty boss set",
+      "passed": true
+    },
+    {
+      "check": "negative cross class boss",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "total": 69,
+    "by_owner": {
+      "ALL": 5,
+      "CLS_ELM": 13,
+      "CLS_DRG": 12,
+      "CLS_BST": 13,
+      "CLS_DMN": 12,
+      "CLS_NEC": 14
+    },
+    "by_category": {
+      "summon": 66,
+      "game": 1,
+      "monster": 1,
+      "gold": 1
+    },
+    "by_type": {
+      "evolve": 23,
+      "unlock": 23,
+      "repeat": 18,
+      "synergy": 5
+    }
+  },
+  "boss_budget_gold_assumed": {
+    "CLS_ELM": {
+      "closure": {
+        "UPG_COM_POWER": 3,
+        "UPG_ELM_POWER": 3,
+        "UPG_ELM_BLOOM": 1
+      },
+      "gold": 140
+    },
+    "CLS_DRG": {
+      "closure": {
+        "UPG_COM_POWER": 3,
+        "UPG_DRG_POWER": 3,
+        "UPG_DRG_ADULT": 1,
+        "UPG_DRG_ANCIENT": 1
+      },
+      "gold": 540
+    },
+    "CLS_BST": {
+      "closure": {
+        "UPG_COM_POWER": 3,
+        "UPG_BST_PACK": 2,
+        "UPG_BST_FANG": 3,
+        "UPG_BST_WOLF_LEADER": 1,
+        "UPG_BST_CROWN": 1
+      },
+      "gold": 345
+    },
+    "CLS_DMN": {
+      "closure": {
+        "UPG_COM_POWER": 3,
+        "UPG_DMN_POWER": 3,
+        "UPG_DMN_IMP_CROWN": 1,
+        "UPG_DMN_IMP_TWIN": 1
+      },
+      "gold": 195
+    },
+    "CLS_NEC": {
+      "closure": {
+        "UPG_COM_POWER": 3,
+        "UPG_NEC_BONE": 3,
+        "UPG_NEC_GUARD": 1
+      },
+      "gold": 132
+    }
+  },
+  "gold_caps_scheduled_not_actual": {
+    "0": {
+      "per_monster": [
+        1,
+        3,
+        6
+      ],
+      "scheduled_caps": [
+        24,
+        60,
+        102
+      ]
+    },
+    "1": {
+      "per_monster": [
+        1,
+        3,
+        7
+      ],
+      "scheduled_caps": [
+        24,
+        60,
+        103
+      ]
+    },
+    "2": {
+      "per_monster": [
+        1,
+        4,
+        9
+      ],
+      "scheduled_caps": [
+        24,
+        72,
+        129
+      ]
+    },
+    "3": {
+      "per_monster": [
+        1,
+        5,
+        10
+      ],
+      "scheduled_caps": [
+        24,
+        84,
+        154
+      ]
+    }
+  },
+  "negative_tests": [
+    {
+      "case": "duplicate",
+      "rejected": true,
+      "reason": "duplicate"
+    },
+    {
+      "case": "missing field",
+      "rejected": true,
+      "reason": "fields"
+    },
+    {
+      "case": "missing dependency",
+      "rejected": true,
+      "reason": "missing ref"
+    },
+    {
+      "case": "self cycle",
+      "rejected": true,
+      "reason": "cycle"
+    },
+    {
+      "case": "unreachable required level",
+      "rejected": true,
+      "reason": "unreachable level"
+    },
+    {
+      "case": "empty boss set",
+      "rejected": true,
+      "reason": "empty boss"
+    },
+    {
+      "case": "cross class boss",
+      "rejected": true,
+      "reason": "boss class"
+    }
+  ],
+  "scope": "문서 구조/원문보존/참조/DAG/조건도달성/가정 산술만. 게임·실제사용자·UX/기술 전문검토·성능·경제밸런스·클리어가능성 검증 아님. 용/동물 원천 공격값 미정.",
+  "not_performed": [
+    "게임코드/프로토타입",
+    "전투 시뮬레이션",
+    "사용자 테스트",
+    "Mia/Sam 검토",
+    "실측 성능",
+    "Slack 전달 확인"
+  ]
+}

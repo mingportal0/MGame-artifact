@@ -1,0 +1,26 @@
+id,class_id,base_damage,windup_s,cooldown_s,attack_range,move_speed,projectile_speed,projectile_lifetime_s,shape,effect_size,max_targets,initial_count,status,provenance
+SUM_ELM_EMBER,CLS_ELM,10,0.2,1,300,400,600,2,single,0,1,1,assumed_not_approved,ELM: 07/10/11 via 12 timing corrections
+SUM_ELM_SPARK,CLS_ELM,7,0.2,1.4,300,400,600,2,chain,100,3,0,assumed_not_approved,ELM: 07/10/11 via 12 timing corrections
+SUM_ELM_TIDE,CLS_ELM,5,0.2,0.6,300,400,600,2,single,0,1,0,assumed_not_approved,ELM: 07/10/11 via 12 timing corrections
+SUM_ELM_STONE,CLS_ELM,24,0.2,2.2,300,400,600,2,single,0,1,0,assumed_not_approved,ELM: 07/10/11 via 12 timing corrections
+SUM_ELM_PRISM,CLS_ELM,18,0.2,2.8,300,400,600,2,splash,70,3,0,assumed_not_approved,ELM: 07/10/11 via 12 timing corrections
+SUM_DRG_WHELP,CLS_DRG,18,0.3,1.5,260,400,600,2,single,0,1,1,assumed_not_approved,DRG: 14 new null-fill assumptions
+SUM_DRG_WYVERN,CLS_DRG,10,0.2,0.8,300,400,600,2,single,0,1,0,assumed_not_approved,DRG: 14 new null-fill assumptions
+SUM_DRG_STONE,CLS_DRG,28,0.4,2,250,400,600,2,splash,70,3,0,assumed_not_approved,DRG: 14 new null-fill assumptions
+SUM_DRG_STORM,CLS_DRG,12,0.2,1.4,280,400,600,2,chain,100,3,0,assumed_not_approved,DRG: 14 new null-fill assumptions
+SUM_DRG_MOON,CLS_DRG,32,0.3,1.8,300,400,600,2,single,0,1,0,assumed_not_approved,DRG: 14 new null-fill assumptions
+SUM_BST_WOLF,CLS_BST,6,0.2,0.8,40,400,,,single,0,1,1,assumed_not_approved,BST: 14 new null-fill assumptions
+SUM_BST_HAWK,CLS_BST,5,0.2,1,300,400,600,2,single,0,1,0,assumed_not_approved,BST: 14 new null-fill assumptions
+SUM_BST_BOAR,CLS_BST,10,0.3,1.2,45,400,,,single,0,1,0,assumed_not_approved,BST: 14 new null-fill assumptions
+SUM_BST_BEAR,CLS_BST,16,0.4,1.6,50,400,,,single,0,1,0,assumed_not_approved,BST: 14 new null-fill assumptions
+SUM_BST_STAG,CLS_BST,6,0.15,0.65,45,400,,,single,0,1,0,assumed_not_approved,BST: 14 new null-fill assumptions
+SUM_DMN_IMP,CLS_DMN,10,0.2,1,300,400,600,2,single,0,1,1,assumed_not_approved,DMN: 07/10/11 via 12 timing corrections
+SUM_DMN_EXECUTOR,CLS_DMN,20,0.3,1.5,40,400,,,single,0,1,0,assumed_not_approved,DMN: 07/10/11 via 12 timing corrections
+SUM_DMN_HOUND,CLS_DMN,6,0.1,0.7,40,400,,,single,0,1,0,assumed_not_approved,DMN: 07/10/11 via 12 timing corrections
+SUM_DMN_HEXER,CLS_DMN,8,0.3,1.7,300,400,600,2,splash,80,3,0,assumed_not_approved,DMN: 07/10/11 via 12 timing corrections
+SUM_DMN_TYRANT,CLS_DMN,30,0.5,2,180,400,,,cone,30,4,0,assumed_not_approved,DMN: 07/10/11 via 12 timing corrections
+SUM_NEC_SKELETON,CLS_NEC,4,0.2,1,40,400,,,single,0,1,1,assumed_not_approved,NEC: 07/10/11 via 12 timing corrections
+SUM_NEC_LICH,CLS_NEC,8,0.2,1.2,300,400,600,2,single,0,1,0,assumed_not_approved,NEC: 07/10/11 via 12 timing corrections
+SUM_NEC_ARCHER,CLS_NEC,5,0.2,0.8,300,400,600,2,single,0,1,0,assumed_not_approved,NEC: 07/10/11 via 12 timing corrections
+SUM_NEC_REVENANT,CLS_NEC,10,0.2,1.5,50,400,,,single,0,1,0,assumed_not_approved,NEC: 07/10/11 via 12 timing corrections
+SUM_NEC_GOLEM,CLS_NEC,12,0.2,2,60,400,,,splash,70,3,0,assumed_not_approved,NEC: 07/10/11 via 12 timing corrections

@@ -1,0 +1,41 @@
+{
+  "document_id": "P1-05-COMBAT-v01",
+  "date_kst": "2026-10-25",
+  "scope": "문서 구조 검색·기획자 수기 사건 추적·expr 산술 검사만 수행. 게임 실행 검증 아님.",
+  "structure_checks": [
+    {"tool": "search_files", "pattern": "^### B[0-9]{2}\\.", "expected_count": 10, "actual_count": 10, "result": "pass"},
+    {"tool": "search_files", "pattern": "^\\| V[0-9]{2} ", "expected_count": 14, "actual_count": 14, "result": "pass"},
+    {"tool": "search_files", "pattern": "^\\| TR[0-9]{2} \\|", "expected_count": 10, "actual_count": 10, "result": "pass"},
+    {"tool": "search_files", "pattern": "Q-S[1-6]:", "expected_count": 6, "actual_count": 6, "result": "pass"}
+  ],
+  "arithmetic_tool": "terminal: expr",
+  "arithmetic_checks": [
+    {"expression": "12 + 18 + 20", "actual": 50, "meaning": "원장 총 기본 수입", "result": "pass"},
+    {"expression": "6 + 10 + 12", "actual": 28, "meaning": "원장 총 구매 차감", "result": "pass"},
+    {"expression": "12 + 18 + 20 - 6 - 10 - 12", "actual": 22, "meaning": "원장 최종 잔액 보존", "result": "pass"},
+    {"expression": "10 + 3 + 4", "actual": 17, "meaning": "V03 동시 처치 지급", "result": "pass"},
+    {"expression": "5 + 3", "actual": 8, "meaning": "V05 종료 전 즉시 지급", "result": "pass"},
+    {"expression": "10 + 5", "actual": 15, "meaning": "V09/V10 상자 후보 지급", "result": "pass"},
+    {"expression": "0 + 12", "actual": 12, "meaning": "원장 일반전1", "result": "pass"},
+    {"expression": "12 - 6", "actual": 6, "meaning": "원장 상점1", "result": "pass"},
+    {"expression": "6 + 18", "actual": 24, "meaning": "원장 일반전2", "result": "pass"},
+    {"expression": "24 - 10", "actual": 14, "meaning": "원장 상점2", "result": "pass"},
+    {"expression": "14 + 0", "actual": 14, "meaning": "원장 무료 보스 실패", "result": "pass"},
+    {"expression": "14 + 20", "actual": 34, "meaning": "원장 일반전3", "result": "pass"},
+    {"expression": "34 - 12", "actual": 22, "meaning": "원장 상점3", "result": "pass"},
+    {"expression": "22 + 0", "actual": 22, "meaning": "원장 보스 승리 보상0 가정", "result": "pass"}
+  ],
+  "manual_cases": {
+    "ids": ["V01", "V02", "V03", "V04", "V05", "V06", "V07", "V08", "V09", "V10", "V11", "V12", "V13", "V14"],
+    "result": "기획자가 명세를 따라 수기 추적했으며 문서 내 모순을 발견하지 못함. 실제 기능 테스트 통과를 뜻하지 않음.",
+    "details": "05.md §7의 사전 상태·사건 순서·결과 참조"
+  },
+  "verification_limits": [
+    "일반 Python 검증 명령과 execute_code는 무인 실행 승인 정책으로 차단되어 실행되지 않았음. 정책·설정 변경이나 우회 없이 일반 검색 도구와 expr로 문서 수량·산술만 확인함.",
+    "구조 검색은 섹션/사례/변경표/질문 개수만 확인하며 전체 규칙의 의미적 정확성을 자동 증명하지 않음.",
+    "보스30초, 상자 보너스 정산, 반경/속도/주기 수치는 미승인 제안·가정.",
+    "사용자 플레이테스트, 게임 코드·프로토타입, Mia 전문 검토, Sam 전문 검토, 성능 실측, Slack 전달 확인은 수행하지 않았음."
+  ],
+  "approval_state": "G1 방향만 승인. 상세 명세·최종 GDD·G3 개발 미승인.",
+  "followup_reviews": {"Mia": "P1-16 / t_f509ccf0", "Sam": "P1-17 / t_0d34776d"}
+}

@@ -1,0 +1,8946 @@
+[
+  {
+    "id": "R-L001",
+    "line": 1,
+    "source": "다음 분야의 전문성을 활용해 새로운 게임을 기획해줘.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L003",
+    "line": 3,
+    "source": "1. 캐주얼 및 인크리멘탈 게임 설계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L004",
+    "line": 4,
+    "source": "2. 반복 전투와 성장 시스템 설계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L005",
+    "line": 5,
+    "source": "3. 소환수 기반 자동 전투 시스템 설계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L006",
+    "line": 6,
+    "source": "4. 직업별 스킬 및 업그레이드 설계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L007",
+    "line": 7,
+    "source": "5. 게임 경제 및 밸런스 설계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L008",
+    "line": 8,
+    "source": "6. UI/UX 및 플레이어 경험 설계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L009",
+    "line": 9,
+    "source": "7. 소규모 인디게임의 개발 범위 관리",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L011",
+    "line": 11,
+    "source": "목표는 단순한 아이디어 정리가 아니라 **실제로 개발 가능한 게임 기획서(GDD)를 완성하는 것**입니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L013",
+    "line": 13,
+    "source": "사용자가 제시한 핵심 아이디어를 우선 존중하되, 게임의 재미나 완성도를 저해하는 요소는 비판적으로 검토하고 개선안을 제안하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L015",
+    "line": 15,
+    "source": "아이디어를 무조건 확장하지 말고, 적은 콘텐츠로도 높은 성장 체감과 반복 플레이의 재미를 제공하는 방향을 우선하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L019",
+    "line": 19,
+    "source": "## 2. 프로젝트 기본 정보",
+    "kind": "구조/문맥",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L021",
+    "line": 21,
+    "source": "### 참고 게임",
+    "kind": "구조/문맥",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L023",
+    "line": 23,
+    "source": "Steam — Re:Blade",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L025",
+    "line": 25,
+    "source": "https://store.steampowered.com/app/3421660/ReBlade/",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L027",
+    "line": 27,
+    "source": "### 개발하려는 게임",
+    "kind": "구조/문맥",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L029",
+    "line": 29,
+    "source": "- 가제: 미정",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L030",
+    "line": 30,
+    "source": "- 플랫폼: Steam PC",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L031",
+    "line": 31,
+    "source": "- 장르: 캐주얼 / 인크리멘탈 / 자동 전투 / 성장",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L032",
+    "line": 32,
+    "source": "- 플레이 방식: 싱글플레이",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L033",
+    "line": 33,
+    "source": "- 조작: 마우스 중심",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L034",
+    "line": 34,
+    "source": "- 전투 공간: 고정된 정사각형 필드",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L035",
+    "line": 35,
+    "source": "- 핵심 요소: 직업 선택, 소환수, 몬스터 처치, 골드 수집, 업그레이드, 보스",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L037",
+    "line": 37,
+    "source": "### 게임의 목표",
+    "kind": "구조/문맥",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L039",
+    "line": 39,
+    "source": "Re:Blade가 제공하는 단순한 조작과 성장의 재미를 참고하되, 직접 검을 조작하는 대신 **소환사 직업을 선택하고 소환수를 성장시키는 게임**을 제작합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L041",
+    "line": 41,
+    "source": "처음에는 소환수 한 마리로 시작하지만 업그레이드를 통해 새로운 소환수를 추가하고, 기존 소환수를 강화하거나 진화시켜 강력한 소환 군단을 만들어갑니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L043",
+    "line": 43,
+    "source": "핵심 플레이 경험은 다음과 같습니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L045",
+    "line": 45,
+    "source": "**약한 소환수 1마리 → 몬스터 처치 → 골드 획득 → 업그레이드 → 소환수 강화·증식·진화 → 압도적인 전투력 → 최종 보스 처치**",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L047",
+    "line": 47,
+    "source": "게임은 복잡한 스토리나 조작보다 반복 전투, 성장, 시각적인 만족감에 집중합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "04"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L051",
+    "line": 51,
+    "source": "## 3. 현재 구상한 게임 진행 방식",
+    "kind": "구조/문맥",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L053",
+    "line": 53,
+    "source": "다음은 사용자가 구상한 기본 게임 루프입니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L055",
+    "line": 55,
+    "source": "1. 게임 시작 시 소환사 직업을 선택합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L056",
+    "line": 56,
+    "source": "2. 정사각형 전투 필드에 몬스터가 등장합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L057",
+    "line": 57,
+    "source": "3. 선택한 직업에 해당하는 기본 소환수 1마리가 소환됩니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L058",
+    "line": 58,
+    "source": "4. 소환수는 30초 동안 몬스터를 자동으로 공격합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L059",
+    "line": 59,
+    "source": "5. 몬스터를 처치하면 금화가 바닥에 떨어집니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "G1: 드랍 장식과 지급 분리, 즉시지급",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L060",
+    "line": 60,
+    "source": "6. 마우스 커서를 금화에 가까이 이동하면 금화를 획득합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "G1: 커서 수집 대신 드랍즉시기본자동지급",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L061",
+    "line": 61,
+    "source": "7. 획득한 금화를 사용해 업그레이드를 구매합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L062",
+    "line": 62,
+    "source": "8. 업그레이드에 따라 새로운 소환수, 공격 방식, 몬스터 등이 추가됩니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L063",
+    "line": 63,
+    "source": "9. 반복적인 전투와 업그레이드를 통해 점점 강해집니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L064",
+    "line": 64,
+    "source": "10. 마지막 업그레이드를 완료하면 최종 보스가 등장합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L065",
+    "line": 65,
+    "source": "11. 최종 보스를 처치하면 게임을 클리어합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L067",
+    "line": 67,
+    "source": "위 구조를 기본안으로 사용하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L069",
+    "line": 69,
+    "source": "다만 다음 규칙들은 아직 확정되지 않았으므로 비교 분석 후 구체화해야 합니다.",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L071",
+    "line": 71,
+    "source": "- 30초가 종료되면 어떤 일이 발생하는가?",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L072",
+    "line": 72,
+    "source": ": 업그레이드 구매하는 화면으로 이동한다.",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L073",
+    "line": 73,
+    "source": ": 업그레이드 구매를 고민한 후 다시 전투화면으로 이동 가능하다.",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L075",
+    "line": 75,
+    "source": "- 소환수의 이동과 공격은 완전 자동인가?",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L076",
+    "line": 76,
+    "source": ": 마우스를 가져다 대면 소환수가 공격한다.",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L078",
+    "line": 78,
+    "source": "- 몬스터는 소환수를 공격할 수 없다.",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L079",
+    "line": 79,
+    "source": "- 필드에 남아 있는 골드는 다음 턴에도 유지되지 않는다.",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "G1: 미수집바닥골드원장/손실 없음",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L080",
+    "line": 80,
+    "source": "- 보스를 처치하지 못하면 어떤 페널티가 있는가?",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L081",
+    "line": 81,
+    "source": ": 시간 내 처치하지 못하면 업그레이드 화면으로 이동하며 보스를 토벌할지 기존 전투 화면으로 갈지 선택 가능하다.",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L082",
+    "line": 82,
+    "source": "- 최종 보스 클리어 이후 플레이를 계속할 수 있는가?",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L083",
+    "line": 83,
+    "source": ": 통계 화면이 뜨고 확인을 누르면 메인 화면으로 이동한다.",
+    "kind": "원안·미확정 답변(결정 대기)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L085",
+    "line": 85,
+    "source": "모든 시스템을 복잡하게 만들 필요는 없습니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L087",
+    "line": 87,
+    "source": "각 질문에 대해 가장 단순하면서 재미있는 방식을 우선 검토하고, 권장 규칙을 선택하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "04",
+      "05",
+      "13",
+      "16"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L091",
+    "line": 91,
+    "source": "## 4. 직업 시스템",
+    "kind": "구조/문맥",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L093",
+    "line": 93,
+    "source": "현재 고려 중인 직업은 다섯 가지입니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L095",
+    "line": 95,
+    "source": "| 직업 | 기본 방향 |",
+    "kind": "구조/문맥",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L096",
+    "line": 96,
+    "source": "|---|---|",
+    "kind": "구조/문맥",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L097",
+    "line": 97,
+    "source": "| 정령소환사 | 원소와 마법 중심의 소환 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "07",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L098",
+    "line": 98,
+    "source": "| 용조련사 | 강력한 용의 성장과 진화 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "08",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L099",
+    "line": 99,
+    "source": "| 동물조련사 | 다양한 동물과 다수 소환 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "09",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L100",
+    "line": 100,
+    "source": "| 악마소환사 | 강력한 공격과 악마 간의 시너지 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "10",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L101",
+    "line": 101,
+    "source": "| 네크로멘서 | 언데드와 군단 증식 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "11",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L103",
+    "line": 103,
+    "source": "### 기획 요구사항",
+    "kind": "구조/문맥",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L105",
+    "line": 105,
+    "source": "각 직업에 대해 다음 항목을 설계하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L107",
+    "line": 107,
+    "source": "1. 직업 콘셉트",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L108",
+    "line": 108,
+    "source": "2. 초기 소환수",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L109",
+    "line": 109,
+    "source": "3. 기본 공격 방식",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L110",
+    "line": 110,
+    "source": "4. 직업 고유 메커니즘",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L111",
+    "line": 111,
+    "source": "5. 새로운 소환수 종류",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L112",
+    "line": 112,
+    "source": "6. 소환수 강화 방식",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L113",
+    "line": 113,
+    "source": "7. 소환수 진화 단계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L114",
+    "line": 114,
+    "source": "8. 직업 전용 업그레이드",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L115",
+    "line": 115,
+    "source": "9. 최종 소환수 또는 궁극기",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L116",
+    "line": 116,
+    "source": "10. 해당 직업만의 성장 재미",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L117",
+    "line": 117,
+    "source": "11. 다른 직업과 구분되는 장단점",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L119",
+    "line": 119,
+    "source": "### 직업별 차별화",
+    "kind": "구조/문맥",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L121",
+    "line": 121,
+    "source": "단순히 소환수 외형만 변경하는 것은 피해야 합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L123",
+    "line": 123,
+    "source": "예를 들어 다음과 같은 차이를 만들 수 있습니다.",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L125",
+    "line": 125,
+    "source": "- 정령소환사: 불·물·번개 등의 정령을 단계적으로 진화",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "07",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L126",
+    "line": 126,
+    "source": "- 용조련사: 적은 수의 강력한 용을 단계적으로 진화",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "08",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L127",
+    "line": 127,
+    "source": "- 동물조련사: 여러 종류의 동물을 소환하고 조합 효과 발동",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "09",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L128",
+    "line": 128,
+    "source": "- 악마소환사: 새로운 악마를 단계적으로 진화",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "10",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L129",
+    "line": 129,
+    "source": "- 네크로멘서: 언데드 군단을 소환하고 시체에서 추가적인 효과 발동",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "11",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L131",
+    "line": 131,
+    "source": "단, 위 내용은 예시일 뿐입니다.",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L133",
+    "line": 133,
+    "source": "기존 아이디어보다 재미있거나 독창적인 메커니즘이 있다면 새로운 대안을 제안하세요.",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L135",
+    "line": 135,
+    "source": "### 구체적인 결과물",
+    "kind": "구조/문맥",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L137",
+    "line": 137,
+    "source": "각 직업별로 다음 자료를 작성하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L139",
+    "line": 139,
+    "source": "- 기본 소환수 1종",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L140",
+    "line": 140,
+    "source": "- 추가 소환수 최소 4종",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L141",
+    "line": 141,
+    "source": "- 소환수별 공격 방식",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L142",
+    "line": 142,
+    "source": "- 직업 전용 업그레이드 최소 10종",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L143",
+    "line": 143,
+    "source": "- 대표적인 성장 빌드 2종",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L144",
+    "line": 144,
+    "source": "- 최종 성장 형태",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L145",
+    "line": 145,
+    "source": "- 다른 직업과의 차별화 요약",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L147",
+    "line": 147,
+    "source": "숫자는 최종 확정이 아닌 기획 후보 수량이며, MVP에서는 줄일 수 있습니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "18"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L151",
+    "line": 151,
+    "source": "## 5. 업그레이드 시스템",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "14",
+      "15"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L153",
+    "line": 153,
+    "source": "업그레이드는 기본적으로 몬스터 처치를 통해 획득한 골드로 구매합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "14",
+      "15"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L155",
+    "line": 155,
+    "source": "현재 고려하는 업그레이드는 네 가지 유형입니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "14",
+      "15"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L157",
+    "line": 157,
+    "source": "### A. 게임 업그레이드",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "14",
+      "15"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L159",
+    "line": 159,
+    "source": "기본 아이디어:",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "14",
+      "15"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L161",
+    "line": 161,
+    "source": "- 한 턴의 전투 시간 증가",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "14",
+      "15"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "G1: 시간증가보류",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L163",
+    "line": 163,
+    "source": "추가로 필요한 업그레이드가 있는지 검토하세요.",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "14",
+      "15"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L165",
+    "line": 165,
+    "source": "특히 턴 시간이 길어지는 것이 골드 획득량과 게임 템포에 어떤 영향을 주는지 분석하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "14",
+      "15"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L167",
+    "line": 167,
+    "source": "### B. 몬스터 업그레이드",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L169",
+    "line": 169,
+    "source": "기본 아이디어:",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L171",
+    "line": 171,
+    "source": "- 몬스터 등장 수 증가",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L172",
+    "line": 172,
+    "source": "- 새로운 몬스터 종류 추가",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L174",
+    "line": 174,
+    "source": "몬스터 업그레이드를 통해 처치할 수 있는 몬스터가 증가하고 골드 획득 기회가 늘어나는 구조를 고려합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L176",
+    "line": 176,
+    "source": "검토 항목:",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L178",
+    "line": 178,
+    "source": "- 몬스터 등장 수 증가의 위험과 보상",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L179",
+    "line": 179,
+    "source": "- 새로운 몬스터의 체력과 보상",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L180",
+    "line": 180,
+    "source": "- 일반 몬스터와 특수 몬스터의 차이",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L181",
+    "line": 181,
+    "source": "- 몬스터 증가 속도와 소환수 공격력의 관계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L182",
+    "line": 182,
+    "source": "- 몬스터가 너무 많아질 때의 성능 문제",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L184",
+    "line": 184,
+    "source": "### C. 골드 업그레이드",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L186",
+    "line": 186,
+    "source": "기본 아이디어:",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L188",
+    "line": 188,
+    "source": "- 골드 획득량 증가",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L189",
+    "line": 189,
+    "source": "- 골드 습득 범위 증가",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "G1: 수집반경 제거, 공격지정반경으로 구분",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L190",
+    "line": 190,
+    "source": "- 보물상자 드롭 확률 증가",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L192",
+    "line": 192,
+    "source": "보물상자는 몬스터 처치 시 일정 확률로 등장하며, 마우스로 클릭하면 금화 보상을 획득할 수 있습니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L194",
+    "line": 194,
+    "source": "추가 검토 항목:",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L196",
+    "line": 196,
+    "source": "- 골드 자동 수집 기능",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "G1: 자동수집은해금이아닌기본",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L197",
+    "line": 197,
+    "source": "- 골드 획득량 배수",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L198",
+    "line": 198,
+    "source": "- 보물상자 희귀도",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L199",
+    "line": 199,
+    "source": "- 보물상자 추가 보상",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L200",
+    "line": 200,
+    "source": "- 골드 수집의 편의성과 플레이 재미 사이의 균형",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "05",
+      "14",
+      "15",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L202",
+    "line": 202,
+    "source": "### D. 소환 스킬 업그레이드",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L204",
+    "line": 204,
+    "source": "기본 아이디어:",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L206",
+    "line": 206,
+    "source": "- 새로운 소환수 추가",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L207",
+    "line": 207,
+    "source": "- 소환수 소환 수 증가",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L208",
+    "line": 208,
+    "source": "- 소환수 데미지 증가",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L209",
+    "line": 209,
+    "source": "- 소환수 공격 범위 증가",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L210",
+    "line": 210,
+    "source": "- 새로운 공격 방식 추가",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L212",
+    "line": 212,
+    "source": "추가 검토 후보:",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L214",
+    "line": 214,
+    "source": "- 공격속도 증가",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L215",
+    "line": 215,
+    "source": "- 치명타",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L216",
+    "line": 216,
+    "source": "- 연쇄 공격",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L217",
+    "line": 217,
+    "source": "- 속성 공격",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L218",
+    "line": 218,
+    "source": "- 상태이상",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L219",
+    "line": 219,
+    "source": "- 소환수 간 시너지",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L220",
+    "line": 220,
+    "source": "- 소환수 진화",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L221",
+    "line": 221,
+    "source": "- 궁극 스킬 해금",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L223",
+    "line": 223,
+    "source": "모든 후보를 채택하지 마세요.",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L225",
+    "line": 225,
+    "source": "게임의 정체성과 개발 효율을 고려하여 적합한 업그레이드를 선정하세요.",
+    "kind": "검토 후보(미채택)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L227",
+    "line": 227,
+    "source": "### 업그레이드 설계 기준",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L229",
+    "line": 229,
+    "source": "모든 업그레이드에 다음 정보를 정의하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L231",
+    "line": 231,
+    "source": "| 항목 | 설명 |",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L232",
+    "line": 232,
+    "source": "|---|---|",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L233",
+    "line": 233,
+    "source": "| ID | 고유 식별자 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L234",
+    "line": 234,
+    "source": "| 이름 | 게임에 표시되는 업그레이드 이름 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L235",
+    "line": 235,
+    "source": "| 분류 | 게임 / 몬스터 / 골드 / 소환 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L236",
+    "line": 236,
+    "source": "| 적용 직업 | 공통 또는 특정 직업 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L237",
+    "line": 237,
+    "source": "| 효과 | 구체적인 능력 변화 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L238",
+    "line": 238,
+    "source": "| 최대 레벨 | 업그레이드 제한 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L239",
+    "line": 239,
+    "source": "| 비용 | 최초 비용 및 증가 방식 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L240",
+    "line": 240,
+    "source": "| 해금 조건 | 구매하기 위한 조건 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L241",
+    "line": 241,
+    "source": "| 선행 업그레이드 | 필요한 경우 정의 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L242",
+    "line": 242,
+    "source": "| 시각적 변화 | 전투 화면에서 달라지는 요소 |",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L244",
+    "line": 244,
+    "source": "특히 다음을 구분하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L246",
+    "line": 246,
+    "source": "1. 반복 구매형 업그레이드: 데미지 +10% 등",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L247",
+    "line": 247,
+    "source": "2. 기능 해금형 업그레이드: 새로운 소환수 등",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L248",
+    "line": 248,
+    "source": "3. 진화형 업그레이드: 소환수의 공격 형태 변화",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L249",
+    "line": 249,
+    "source": "4. 시너지형 업그레이드: 특정 소환수 조합 강화",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L251",
+    "line": 251,
+    "source": "수치형 업그레이드만 반복 구매하는 구조가 되지 않도록 설계하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L255",
+    "line": 255,
+    "source": "## 6. 업그레이드 구매 구조",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L257",
+    "line": 257,
+    "source": "플레이어가 업그레이드 메뉴에서 원하는 항목을 직접 구매합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "16"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L261",
+    "line": 261,
+    "source": "## 7. 소환수 자동 전투 시스템",
+    "kind": "구조/문맥",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L263",
+    "line": 263,
+    "source": "소환수는 기본적으로 자동으로 몬스터를 찾아 공격합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "G1: 현재커서범위안공격, 범위밖자동대체없음",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L265",
+    "line": 265,
+    "source": "플레이어가 개별 소환수를 직접 조작하지 않아도 전투가 진행되어야 합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L267",
+    "line": 267,
+    "source": "다음 시스템을 구체적으로 설계하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L269",
+    "line": 269,
+    "source": "1. 소환수 생성 위치",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L270",
+    "line": 270,
+    "source": "2. 몬스터 생성 위치",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L271",
+    "line": 271,
+    "source": "3. 소환수의 이동 방식",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L272",
+    "line": 272,
+    "source": "4. 공격 대상 선정 알고리즘",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L273",
+    "line": 273,
+    "source": "5. 근접 및 원거리 공격 방식",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L274",
+    "line": 274,
+    "source": "6. 몬스터 사망 처리",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L275",
+    "line": 275,
+    "source": "7. 골드 드롭 처리",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L276",
+    "line": 276,
+    "source": "8. 범위 공격 및 다중 공격",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L277",
+    "line": 277,
+    "source": "9. 소환수 수량 증가 시 배치 방식",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L278",
+    "line": 278,
+    "source": "10. 화면을 벗어나는 적이나 소환수 처리",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L280",
+    "line": 280,
+    "source": "### 플레이어의 역할",
+    "kind": "구조/문맥",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L282",
+    "line": 282,
+    "source": "자동 전투가 지나치게 수동적인 게임이 되는 문제를 검토하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L284",
+    "line": 284,
+    "source": "다음 네 가지 방식을 비교합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L286",
+    "line": 286,
+    "source": "- 금화 수집만 직접 수행",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L287",
+    "line": 287,
+    "source": "- 금화 수집과 보물상자 클릭",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L288",
+    "line": 288,
+    "source": "- 마우스로 공격 목표 지정",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L289",
+    "line": 289,
+    "source": "- 쿨타임이 있는 소환사 스킬 사용",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L291",
+    "line": 291,
+    "source": "핵심은 조작이 복잡하지 않으면서도 플레이어가 게임에 참여하고 있다고 느끼게 하는 것입니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L293",
+    "line": 293,
+    "source": "필요한 조작만 채택하고 불필요한 조작은 제외하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "03",
+      "04",
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L297",
+    "line": 297,
+    "source": "## 8. 성장과 게임 경제 시스템",
+    "kind": "구조/문맥",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L299",
+    "line": 299,
+    "source": "가장 중요한 목표는 **플레이어가 업그레이드를 구매할 때마다 강해지고 있다는 사실을 명확하게 체감하도록 만드는 것**입니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L301",
+    "line": 301,
+    "source": "다음 시스템을 설계하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L303",
+    "line": 303,
+    "source": "### 성장 요소",
+    "kind": "구조/문맥",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L305",
+    "line": 305,
+    "source": "- 기본 공격력",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L306",
+    "line": 306,
+    "source": "- 공격속도",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L307",
+    "line": 307,
+    "source": "- 공격 범위",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L308",
+    "line": 308,
+    "source": "- 동시 소환 수",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L309",
+    "line": 309,
+    "source": "- 몬스터 체력",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L310",
+    "line": 310,
+    "source": "- 몬스터 등장 수",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L311",
+    "line": 311,
+    "source": "- 골드 드롭량",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L312",
+    "line": 312,
+    "source": "- 골드 수집 범위",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "G1: 골드수집반경없음, R_cmd별개",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L313",
+    "line": 313,
+    "source": "- 새로운 소환수 해금",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L314",
+    "line": 314,
+    "source": "- 소환수 진화 단계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L316",
+    "line": 316,
+    "source": "### 수치 설계",
+    "kind": "구조/문맥",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L318",
+    "line": 318,
+    "source": "다음 항목의 계산식을 제안하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L320",
+    "line": 320,
+    "source": "1. 업그레이드 레벨별 비용",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L321",
+    "line": 321,
+    "source": "2. 레벨별 공격력 증가량",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L322",
+    "line": 322,
+    "source": "3. 몬스터 체력 증가량",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L323",
+    "line": 323,
+    "source": "4. 몬스터 처치 보상",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L324",
+    "line": 324,
+    "source": "5. 턴당 예상 골드 획득량",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L325",
+    "line": 325,
+    "source": "6. 다음 업그레이드까지 필요한 예상 플레이 시간",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L327",
+    "line": 327,
+    "source": "초기값을 합리적인 가정으로 설정하고 예시 시뮬레이션을 작성하세요.",
+    "kind": "가정/검증 구분 요구",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L329",
+    "line": 329,
+    "source": "### 밸런스 검증",
+    "kind": "구조/문맥",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L331",
+    "line": 331,
+    "source": "다음 문제를 반드시 검토하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L333",
+    "line": 333,
+    "source": "- 특정 업그레이드만 구매하는 것이 항상 유리하지 않은가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L334",
+    "line": 334,
+    "source": "- 골드 업그레이드가 공격 업그레이드보다 지나치게 강하지 않은가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L335",
+    "line": 335,
+    "source": "- 몬스터 수 증가가 사실상 무제한 골드 획득을 허용하지 않는가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L336",
+    "line": 336,
+    "source": "- 턴 시간 증가가 다른 업그레이드를 무의미하게 만들지 않는가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L337",
+    "line": 337,
+    "source": "- 직업에 따라 성장 속도가 지나치게 차이 나지 않는가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L338",
+    "line": 338,
+    "source": "- 후반에 골드 획득량이 과도하게 증가하지 않는가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L340",
+    "line": 340,
+    "source": "수치는 검증된 실제 데이터와 기획 가정값을 구분하여 작성하세요.",
+    "kind": "가정/검증 구분 요구",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "12",
+      "15",
+      "18"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L344",
+    "line": 344,
+    "source": "## 9. 몬스터 및 최종 보스 시스템",
+    "kind": "구조/문맥",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L346",
+    "line": 346,
+    "source": "### 일반 몬스터",
+    "kind": "구조/문맥",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L348",
+    "line": 348,
+    "source": "다음 사항을 설계하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L350",
+    "line": 350,
+    "source": "- 기본 몬스터 종류",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L351",
+    "line": 351,
+    "source": "- 몬스터별 체력",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L352",
+    "line": 352,
+    "source": "- 처치 시 획득 골드",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L353",
+    "line": 353,
+    "source": "- 몬스터별 크기와 이동 속도",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L354",
+    "line": 354,
+    "source": "- 새로운 몬스터의 해금 조건",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L355",
+    "line": 355,
+    "source": "- 특수 몬스터의 등장 조건",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L357",
+    "line": 357,
+    "source": "몬스터 수와 종류가 늘어나면서 전투가 시각적으로 화려해지되, 게임 화면의 가독성이 유지되도록 설계하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "16",
+      "17"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L359",
+    "line": 359,
+    "source": "### 최종 보스",
+    "kind": "구조/문맥",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L361",
+    "line": 361,
+    "source": "현재 구상은 모든 필수 업그레이드 완료 시 최종 보스가 등장하는 방식입니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L363",
+    "line": 363,
+    "source": "이 구조의 장단점을 분석하고 더 적합한 등장 조건이 있다면 제안하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L365",
+    "line": 365,
+    "source": "최종 보스는 단순히 체력이 높은 몬스터가 아니라, 성장시킨 소환수들의 능력을 확인할 수 있는 최종 도전이어야 합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "G1: 단순화력보스허용, 복잡보스의무아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L367",
+    "line": 367,
+    "source": "다음 사항을 구체화하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L369",
+    "line": 369,
+    "source": "1. 보스 등장 조건",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L370",
+    "line": 370,
+    "source": "2. 보스 공격 방식",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "무피격원안문맥상세화; 새피격체계는대표재확인",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L371",
+    "line": 371,
+    "source": "3. 보스 체력과 난이도",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L372",
+    "line": 372,
+    "source": "4. 소환수 조합과의 상호작용",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L373",
+    "line": 373,
+    "source": "5. 보스 도전 실패 시 처리",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L374",
+    "line": 374,
+    "source": "6. 보스 클리어 보상",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L375",
+    "line": 375,
+    "source": "7. 게임 클리어 연출",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "14",
+      "16"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L379",
+    "line": 379,
+    "source": "## 10. 클리어 이후의 콘텐츠",
+    "kind": "구조/문맥",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "18"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L381",
+    "line": 381,
+    "source": "기본 목표는 최종 보스를 처치하면 게임이 클리어되는 구조입니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "18"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L383",
+    "line": 383,
+    "source": "하지만 성장형 게임 특성상 클리어 이후에도 플레이하고 싶어질 가능성이 있습니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "18"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L385",
+    "line": 385,
+    "source": "다음 세 가지 모델을 비교하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "18"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L387",
+    "line": 387,
+    "source": "- 완전 클리어형: 보스를 처치하면 게임 종료",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "18"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L388",
+    "line": 388,
+    "source": "- 무한 성장형: 보스를 처치한 뒤에도 계속 성장 가능",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "18"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "G1: 무한성장제외",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L389",
+    "line": 389,
+    "source": "- 환생형: 일부 성장 요소를 유지한 채 다시 시작",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "18"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "G1: 환생제외",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L391",
+    "line": 391,
+    "source": "게임의 목표, 플레이 시간, 구현 난이도를 고려하여 가장 적절한 방안을 제안하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "18"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L393",
+    "line": 393,
+    "source": "사용자가 원하는 핵심 경험은 단순 반복과 강한 성장 체감이므로 시스템의 복잡도는 최소화하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "13",
+    "owner": "james",
+    "related": [
+      "04",
+      "18"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L397",
+    "line": 397,
+    "source": "## 11. UI/UX 기획",
+    "kind": "구조/문맥",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L399",
+    "line": 399,
+    "source": "PC에서 마우스만으로 대부분의 행동을 수행할 수 있도록 화면을 설계하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L401",
+    "line": 401,
+    "source": "필수 UI:",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L403",
+    "line": 403,
+    "source": "- 직업 선택 화면",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L404",
+    "line": 404,
+    "source": "- 정사각형 전투 필드",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L405",
+    "line": 405,
+    "source": "- 남은 전투 시간",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L406",
+    "line": 406,
+    "source": "- 보유 골드",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L407",
+    "line": 407,
+    "source": "- 업그레이드 메뉴",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L408",
+    "line": 408,
+    "source": "- 소환수 정보",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L409",
+    "line": 409,
+    "source": "- 업그레이드 레벨 및 비용",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L410",
+    "line": 410,
+    "source": "- 최종 보스 진척도",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L411",
+    "line": 411,
+    "source": "- 보물상자",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L412",
+    "line": 412,
+    "source": "- 게임 결과 화면",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L414",
+    "line": 414,
+    "source": "다음 사항을 중점적으로 검토하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L416",
+    "line": 416,
+    "source": "1. 전투 화면의 가시성을 확보하는 방법",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L417",
+    "line": 417,
+    "source": "2. 업그레이드 UI가 차지하는 공간",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L418",
+    "line": 418,
+    "source": "3. 골드 수집에 적합한 마우스 커서 크기",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "G1: 수집커서대신핫스폿/공격지정원분리",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L419",
+    "line": 419,
+    "source": "4. 업그레이드 구매 시 피드백",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L420",
+    "line": 420,
+    "source": "5. 소환수 성장 및 진화 연출",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L421",
+    "line": 421,
+    "source": "6. 후반 다수 소환수 등장 시 시각적 복잡도",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L423",
+    "line": 423,
+    "source": "가능하면 텍스트 기반 와이어프레임도 작성하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "05",
+      "12",
+      "13",
+      "17"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L427",
+    "line": 427,
+    "source": "## 12. MVP 기획",
+    "kind": "구조/문맥",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L429",
+    "line": 429,
+    "source": "소규모 인디 개발팀이 초기 버전을 제작한다고 가정하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L431",
+    "line": 431,
+    "source": "처음부터 모든 직업과 모든 시스템을 개발하지 않는 방향으로 검토합니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L433",
+    "line": 433,
+    "source": "MVP 후보 범위:",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L435",
+    "line": 435,
+    "source": "- 직업 1개",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L436",
+    "line": 436,
+    "source": "- 기본 소환수 1종",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L437",
+    "line": 437,
+    "source": "- 추가 소환수 2~3종",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L438",
+    "line": 438,
+    "source": "- 몬스터 2~3종",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L439",
+    "line": 439,
+    "source": "- 골드 수집",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L440",
+    "line": 440,
+    "source": "- 업그레이드 10~15개",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L441",
+    "line": 441,
+    "source": "- 30초 전투 루프",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L442",
+    "line": 442,
+    "source": "- 최종 보스 1종",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L444",
+    "line": 444,
+    "source": "위 범위는 예시이며 필요하면 조정하세요.",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L446",
+    "line": 446,
+    "source": "### MVP의 목적",
+    "kind": "구조/문맥",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L448",
+    "line": 448,
+    "source": "MVP는 게임의 모든 기능을 구현하는 것이 아니라 아래 가설을 검증하는 것입니다.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L450",
+    "line": 450,
+    "source": "1. 소환수 자동 전투를 보는 것이 재미있는가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L451",
+    "line": 451,
+    "source": "2. 골드를 수집하는 행동이 재미있는가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "G1: 수집재미가설→H2자동지급이해/부담",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L452",
+    "line": 452,
+    "source": "3. 업그레이드를 구매하고 강해지는 경험이 만족스러운가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L453",
+    "line": 453,
+    "source": "4. 플레이어가 다음 업그레이드를 기대하는가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L454",
+    "line": 454,
+    "source": "5. 동일한 루프를 반복해도 지루하지 않은가?",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L456",
+    "line": 456,
+    "source": "각 가설에 대해 플레이테스트 방법과 관찰 지표, 성공·실패 판단 기준을 설계하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L458",
+    "line": 458,
+    "source": "첫 번째로 구현할 직업을 추천하고 선정 이유도 설명하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L459",
+    "line": 459,
+    "source": "(대표 생각 : 처음엔 정령소환사를 하는 게 어떨까?)",
+    "kind": "원안·예시/후보(미채택)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "07",
+      "17"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "대표정령선호는질문/후보, 첫직업확정아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L463",
+    "line": 463,
+    "source": "## 13. 위험 요소와 개선안",
+    "kind": "구조/문맥",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "문맥 보존·해당 Part/원문에 연결",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L465",
+    "line": 465,
+    "source": "다음 문제를 반드시 비판적으로 검토하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L467",
+    "line": 467,
+    "source": "- 기존 Re:Blade와 지나치게 유사한 게임이 되는 문제",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L468",
+    "line": 468,
+    "source": "- 자동 전투로 인한 플레이어 참여 부족",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L469",
+    "line": 469,
+    "source": "- 골드를 수집하는 행동의 반복 피로",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "G1: 수집피로→지휘피로/이탈무효위험",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L470",
+    "line": 470,
+    "source": "- 단순 공격력 증가만 남는 업그레이드",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L471",
+    "line": 471,
+    "source": "- 직업별 실질적인 차별화 부족",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L472",
+    "line": 472,
+    "source": "- 몬스터 수 증가에 따른 성능 문제",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L473",
+    "line": 473,
+    "source": "- 소환수 다수 등장에 따른 시각적 혼잡",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L474",
+    "line": 474,
+    "source": "- 업그레이드 경제의 인플레이션",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L475",
+    "line": 475,
+    "source": "- 콘텐츠 부족으로 인한 빠른 클리어",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L476",
+    "line": 476,
+    "source": "- 콘텐츠를 과도하게 확장하여 개발이 지연되는 문제",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L478",
+    "line": 478,
+    "source": "각 위험에 대해 다음 내용을 작성하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L480",
+    "line": 480,
+    "source": "- 발생 원인",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L481",
+    "line": 481,
+    "source": "- 플레이 경험에 미치는 영향",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L482",
+    "line": 482,
+    "source": "- 발생 가능성과 심각도",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L483",
+    "line": 483,
+    "source": "- 예방 방법",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L484",
+    "line": 484,
+    "source": "- 구현 비용",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L485",
+    "line": 485,
+    "source": "- 가장 적절한 해결책",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L487",
+    "line": 487,
+    "source": "게임의 재미를 높이지 못하는 복잡한 시스템은 제거하는 방향으로 검토하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "02",
+      "03",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "통합 제안/가정·미검증(본문 세부 승인 구분 우선)",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L491",
+    "line": 491,
+    "source": "## 14. 최종 산출물",
+    "kind": "구조/문맥",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "21",
+      "22"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L493",
+    "line": 493,
+    "source": "분석을 마친 후 다음 순서에 맞춰 게임 기획서를 작성하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "21",
+      "22"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L495",
+    "line": 495,
+    "source": "### Part 1. 게임 콘셉트",
+    "kind": "구조/문맥",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L496",
+    "line": 496,
+    "source": "- 게임의 핵심 아이디어",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L497",
+    "line": 497,
+    "source": "- 장르 및 타깃 플레이어",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L498",
+    "line": 498,
+    "source": "- 핵심 재미 3가지",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L499",
+    "line": 499,
+    "source": "- Re:Blade와의 차별점",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L500",
+    "line": 500,
+    "source": "- 게임의 한 줄 소개",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "02",
+      "20"
+    ],
+    "gdd_part": 1,
+    "gdd_anchor": "20.md#p1",
+    "detail_sources": [
+      "02.md",
+      "04.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L502",
+    "line": 502,
+    "source": "### Part 2. 핵심 게임 루프",
+    "kind": "구조/문맥",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "05",
+      "13",
+      "20"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L503",
+    "line": 503,
+    "source": "- 게임 시작부터 클리어까지의 흐름",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "05",
+      "13",
+      "20"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L504",
+    "line": 504,
+    "source": "- 30초 전투 진행 방식",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "05",
+      "13",
+      "20"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L505",
+    "line": 505,
+    "source": "- 플레이어가 수행하는 행동",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "05",
+      "13",
+      "20"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L506",
+    "line": 506,
+    "source": "- 턴 종료 및 재시작 규칙",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "05",
+      "13",
+      "20"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L507",
+    "line": 507,
+    "source": "- 핵심 시스템 흐름도",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "03",
+    "owner": "james",
+    "related": [
+      "05",
+      "13",
+      "20"
+    ],
+    "gdd_part": 2,
+    "gdd_anchor": "20.md#p2",
+    "detail_sources": [
+      "05.md",
+      "13.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L509",
+    "line": 509,
+    "source": "### Part 3. 직업별 상세 기획",
+    "kind": "구조/문맥",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "20"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L510",
+    "line": 510,
+    "source": "- 5개 직업 비교표",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "20"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L511",
+    "line": 511,
+    "source": "- 직업별 소환수 및 스킬 구성",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "20"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L512",
+    "line": 512,
+    "source": "- 직업별 성장 방향",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "20"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L513",
+    "line": 513,
+    "source": "- 직업별 업그레이드 트리",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "20"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L514",
+    "line": 514,
+    "source": "- 직업별 최종 성장 형태",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "06",
+    "owner": "james",
+    "related": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "20"
+    ],
+    "gdd_part": 3,
+    "gdd_anchor": "20.md#p3",
+    "detail_sources": [
+      "06.md",
+      "07.md",
+      "08.md",
+      "09.md",
+      "10.md",
+      "11.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L516",
+    "line": 516,
+    "source": "### Part 4. 업그레이드 시스템",
+    "kind": "구조/문맥",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L517",
+    "line": 517,
+    "source": "- 업그레이드 분류",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L518",
+    "line": 518,
+    "source": "- 공통 업그레이드 목록",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L519",
+    "line": 519,
+    "source": "- 직업 전용 업그레이드 목록",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L520",
+    "line": 520,
+    "source": "- 구매 조건 및 비용",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L521",
+    "line": 521,
+    "source": "- 업그레이드 간 시너지",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "12",
+    "owner": "james",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 4,
+    "gdd_anchor": "20.md#p4",
+    "detail_sources": [
+      "12.md",
+      "12-catalog.json"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L523",
+    "line": 523,
+    "source": "### Part 5. 전투 및 몬스터",
+    "kind": "구조/문맥",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "13",
+      "20"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L524",
+    "line": 524,
+    "source": "- 소환수 자동 전투 규칙",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "13",
+      "20"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L525",
+    "line": 525,
+    "source": "- 몬스터 종류 및 능력치",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "13",
+      "20"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L526",
+    "line": 526,
+    "source": "- 몬스터 생성 및 처치 규칙",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "13",
+      "20"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L527",
+    "line": 527,
+    "source": "- 최종 보스 구조",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "05",
+    "owner": "james",
+    "related": [
+      "13",
+      "20"
+    ],
+    "gdd_part": 5,
+    "gdd_anchor": "20.md#p5",
+    "detail_sources": [
+      "05.md",
+      "13.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L529",
+    "line": 529,
+    "source": "### Part 6. 성장 및 밸런스",
+    "kind": "구조/문맥",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "15",
+      "20"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L530",
+    "line": 530,
+    "source": "- 성장 수치 설계",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "15",
+      "20"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L531",
+    "line": 531,
+    "source": "- 골드 경제 구조",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "15",
+      "20"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L532",
+    "line": 532,
+    "source": "- 업그레이드 비용 공식",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "15",
+      "20"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L533",
+    "line": 533,
+    "source": "- 예상 플레이 시간",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "15",
+      "20"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L534",
+    "line": 534,
+    "source": "- 초기 수치 시뮬레이션",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "14",
+    "owner": "james",
+    "related": [
+      "15",
+      "20"
+    ],
+    "gdd_part": 6,
+    "gdd_anchor": "20.md#p6",
+    "detail_sources": [
+      "14.md",
+      "15.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L536",
+    "line": 536,
+    "source": "### Part 7. UI/UX",
+    "kind": "구조/문맥",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L537",
+    "line": 537,
+    "source": "- 게임 화면 구성",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L538",
+    "line": 538,
+    "source": "- 직업 선택 화면",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L539",
+    "line": 539,
+    "source": "- 업그레이드 화면",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L540",
+    "line": 540,
+    "source": "- 보스 및 클리어 화면",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L541",
+    "line": 541,
+    "source": "- 핵심 인터랙션",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "16",
+    "owner": "mia",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 7,
+    "gdd_anchor": "20.md#p7",
+    "detail_sources": [
+      "16.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L543",
+    "line": 543,
+    "source": "### Part 8. MVP 개발 범위",
+    "kind": "구조/문맥",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "17",
+      "20"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L544",
+    "line": 544,
+    "source": "- 초기 구현 기능",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "17",
+      "20"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L545",
+    "line": 545,
+    "source": "- 제외할 기능",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "17",
+      "20"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L546",
+    "line": 546,
+    "source": "- 첫 번째 구현 직업",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "17",
+      "20"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L547",
+    "line": 547,
+    "source": "- 개발 우선순위",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "17",
+      "20"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L548",
+    "line": 548,
+    "source": "- 기능별 완료 기준",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "17",
+      "20"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L549",
+    "line": 549,
+    "source": "- 플레이테스트 계획",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "18",
+    "owner": "james",
+    "related": [
+      "17",
+      "20"
+    ],
+    "gdd_part": 8,
+    "gdd_anchor": "20.md#p8",
+    "detail_sources": [
+      "18.md",
+      "17.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L551",
+    "line": 551,
+    "source": "### Part 9. 비판적 검토",
+    "kind": "구조/문맥",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L552",
+    "line": 552,
+    "source": "- 현재 기획의 강점",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L553",
+    "line": 553,
+    "source": "- 가장 중요한 약점",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L554",
+    "line": 554,
+    "source": "- 기존 게임과의 유사성 위험",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L555",
+    "line": 555,
+    "source": "- 개발 난이도가 높은 요소",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L556",
+    "line": 556,
+    "source": "- 개선 우선순위 TOP 5",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "19",
+    "owner": "sophie",
+    "related": [
+      "20"
+    ],
+    "gdd_part": 9,
+    "gdd_anchor": "20.md#p9",
+    "detail_sources": [
+      "19.md",
+      "18.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L558",
+    "line": 558,
+    "source": "### Part 10. 최종 권장안",
+    "kind": "구조/문맥",
+    "lead": "22",
+    "owner": "james",
+    "related": [
+      "18",
+      "20",
+      "23"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L559",
+    "line": 559,
+    "source": "- 가장 적절한 게임 구조",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "22",
+    "owner": "james",
+    "related": [
+      "18",
+      "20",
+      "23"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L560",
+    "line": 560,
+    "source": "- 가장 적절한 성장 시스템",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "22",
+    "owner": "james",
+    "related": [
+      "18",
+      "20",
+      "23"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L561",
+    "line": 561,
+    "source": "- 우선 구현할 직업과 이유",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "22",
+    "owner": "james",
+    "related": [
+      "18",
+      "20",
+      "23"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L562",
+    "line": 562,
+    "source": "- 개발 착수 전 확정해야 할 사항",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "22",
+    "owner": "james",
+    "related": [
+      "18",
+      "20",
+      "23"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L563",
+    "line": 563,
+    "source": "- 실제 개발을 위한 첫 번째 작업 목록",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "22",
+    "owner": "james",
+    "related": [
+      "18",
+      "20",
+      "23"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L567",
+    "line": 567,
+    "source": "## 15. 작성 원칙",
+    "kind": "구조/문맥",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L569",
+    "line": 569,
+    "source": "다음 원칙을 반드시 준수하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L571",
+    "line": 571,
+    "source": "1. 모든 답변은 한국어로 작성합니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L572",
+    "line": 572,
+    "source": "2. 막연한 설명보다 구체적인 게임 규칙을 제시합니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L573",
+    "line": 573,
+    "source": "3. 시스템을 제안할 때 실제 플레이 예시를 함께 작성합니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L574",
+    "line": 574,
+    "source": "4. 중요한 설계 선택에는 최소 2가지 대안을 비교합니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L575",
+    "line": 575,
+    "source": "5. 장단점과 위험 요소를 분석한 후 하나의 권장안을 선택합니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L576",
+    "line": 576,
+    "source": "6. 사용자 원안과 새로 제안한 사항을 구분합니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L577",
+    "line": 577,
+    "source": "7. 확정되지 않은 수치는 예시 또는 가정으로 명시합니다.",
+    "kind": "가정/검증 구분 요구",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L578",
+    "line": 578,
+    "source": "8. 재미를 검증하지 않은 시스템을 필수 기능으로 확정하지 않습니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L579",
+    "line": 579,
+    "source": "9. 개발 규모를 불필요하게 키우지 않습니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L580",
+    "line": 580,
+    "source": "10. 게임 기획 단계이므로 별도 요청 전에는 실제 구현 코드를 작성하지 않습니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L581",
+    "line": 581,
+    "source": "11. 가능한 경우 표와 흐름도를 사용해 내용을 명확하게 작성합니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L582",
+    "line": 582,
+    "source": "12. 상충하는 규칙이나 밸런스 문제가 없는지 최종 점검합니다.",
+    "kind": "작성·검증 제약",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L584",
+    "line": 584,
+    "source": "**최종 목표는 플레이어가 계속 골드를 모으고 소환수를 강화하고 싶어지는, 직관적이면서 중독성 있는 성장형 게임을 만드는 것입니다.**",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L586",
+    "line": 586,
+    "source": "먼저 전체 게임 콘셉트와 핵심 게임 루프를 분석하고, 현재 아이디어의 가장 중요한 문제점 및 개선안을 제시한 다음 상세 기획을 진행하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  },
+  {
+    "id": "R-L588",
+    "line": 588,
+    "source": "추가 정보가 부족하더라도 합리적인 가정을 명시하고 기획을 진행하세요. 단, 사용자가 명시한 핵심 방향을 변경해야 할 경우에는 변경 이유와 원안을 유지하는 대안을 함께 제시하세요.",
+    "kind": "원안 요구(설계/비교/기재 의무)",
+    "lead": "20",
+    "owner": "james",
+    "related": [
+      "03",
+      "21",
+      "22"
+    ],
+    "gdd_part": 10,
+    "gdd_anchor": "20.md#p10",
+    "detail_sources": [
+      "18.md",
+      "19.md"
+    ],
+    "disposition": "지정목차/작성제약 대응·초안 완료, 승인 아님",
+    "unresolved": "U01~U07/D01~D10 중 관련 사항은20 Part9/10 참조; 실제검증없음"
+  }
+]

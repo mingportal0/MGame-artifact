@@ -1,0 +1,118 @@
+{
+  "document": "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/03.md",
+  "checked_at": "2026-10-25T00:27:35.806443+09:00",
+  "method": "document assertions and arithmetic cross-check of manually authored ledger; no gameplay execution",
+  "checks": {
+    "part1_2_required_sections": true,
+    "four_participation_options": true,
+    "eight_rule_choices": true,
+    "unresolved_ids_preserved": true,
+    "original_alternatives_and_examples": true,
+    "approval_and_evidence_limits": true,
+    "ledger_rows_parsed": true,
+    "each_wallet_transition": true,
+    "each_drop_partition": true,
+    "wallet_chain": true,
+    "global_conservation": true,
+    "boundary_scenarios": true,
+    "state_recovery_paths": true
+  },
+  "passed": 13,
+  "failed": 0,
+  "ledger": [
+    {
+      "event": "새 게임",
+      "before": 0,
+      "drop": 0,
+      "collected": 0,
+      "lost": 0,
+      "cost": 0,
+      "after": 0
+    },
+    {
+      "event": "일반전 1 종료",
+      "before": 0,
+      "drop": 12,
+      "collected": 9,
+      "lost": 3,
+      "cost": 0,
+      "after": 9
+    },
+    {
+      "event": "상점 1",
+      "before": 9,
+      "drop": 0,
+      "collected": 0,
+      "lost": 0,
+      "cost": 6,
+      "after": 3
+    },
+    {
+      "event": "일반전 2 종료",
+      "before": 3,
+      "drop": 18,
+      "collected": 15,
+      "lost": 3,
+      "cost": 0,
+      "after": 18
+    },
+    {
+      "event": "상점 2",
+      "before": 18,
+      "drop": 0,
+      "collected": 0,
+      "lost": 0,
+      "cost": 10,
+      "after": 8
+    },
+    {
+      "event": "보스 도전 시간초과",
+      "before": 8,
+      "drop": 0,
+      "collected": 0,
+      "lost": 0,
+      "cost": 0,
+      "after": 8
+    },
+    {
+      "event": "일반전 3 종료",
+      "before": 8,
+      "drop": 20,
+      "collected": 16,
+      "lost": 4,
+      "cost": 0,
+      "after": 24
+    },
+    {
+      "event": "상점 3",
+      "before": 24,
+      "drop": 0,
+      "collected": 0,
+      "lost": 0,
+      "cost": 12,
+      "after": 12
+    },
+    {
+      "event": "보스 처치",
+      "before": 12,
+      "drop": 0,
+      "collected": 0,
+      "lost": 0,
+      "cost": 0,
+      "after": 12
+    }
+  ],
+  "totals": {
+    "drop": 50,
+    "collected": 40,
+    "lost": 10,
+    "cost": 28
+  },
+  "final_wallet": 12,
+  "limits": [
+    "No player test",
+    "No prototype or game code",
+    "No UX/technical peer response",
+    "No approval inferred"
+  ]
+}

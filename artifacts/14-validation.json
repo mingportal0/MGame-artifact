@@ -1,0 +1,1299 @@
+{
+  "scope": "document arithmetic only, not game simulation, performance or user tests",
+  "boss": [
+    {
+      "class_id": "CLS_ELM",
+      "state": "required",
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_ELM_POWER": 3,
+        "UPG_ELM_BLOOM": 1
+      },
+      "budget_gold": 140,
+      "roster": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "20.8",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 1.2,
+          "hits_per_unit": 23,
+          "total_damage": 478.4
+        }
+      ],
+      "damage_30s": 478.4,
+      "ideal_zero_delay_damage": 520.0,
+      "hp1000_pass": false,
+      "hp600_pass": false,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 2.0903010033444818,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    },
+    {
+      "class_id": "CLS_ELM",
+      "state": "maximum",
+      "levels": {
+        "UPG_ELM_BLOOM": 1,
+        "UPG_ELM_SPARK": 1,
+        "UPG_ELM_TIDE": 1,
+        "UPG_ELM_STONE": 1,
+        "UPG_ELM_PRISM": 1,
+        "UPG_ELM_SPARK_ARC": 1,
+        "UPG_ELM_TIDE_WAVE": 1,
+        "UPG_ELM_STONE_MONOLITH": 1,
+        "UPG_ELM_PRISM_CROWN": 1,
+        "UPG_ELM_POWER": 3,
+        "UPG_ELM_TEMPO": 2,
+        "UPG_ELM_SPLASH": 2,
+        "UPG_ELM_DUET": 1,
+        "UPG_COM_COMMAND_RADIUS": 3,
+        "UPG_COM_POWER": 3,
+        "UPG_COM_SUPPLY": 2,
+        "UPG_COM_GOLD_YIELD": 3,
+        "UPG_COM_REACH": 2
+      },
+      "budget_gold": 1075,
+      "roster": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "24.7",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 1.2,
+          "hits_per_unit": 23,
+          "total_damage": 568.1
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "9.1",
+          "windup_s": "0.2",
+          "cooldown_s": "1.2",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 1.4,
+          "hits_per_unit": 20,
+          "total_damage": 182.0
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "10.4",
+          "windup_s": "0.2",
+          "cooldown_s": "0.6",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 0.8,
+          "hits_per_unit": 35,
+          "total_damage": 364.0
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "31.2",
+          "windup_s": "0.2",
+          "cooldown_s": "2.2",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 2.4,
+          "hits_per_unit": 12,
+          "total_damage": 374.4
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "23.4",
+          "windup_s": "0.2",
+          "cooldown_s": "2.8",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 3.0,
+          "hits_per_unit": 10,
+          "total_damage": 234.0
+        }
+      ],
+      "damage_30s": 1722.5,
+      "ideal_zero_delay_damage": 1852.5,
+      "hp1000_pass": true,
+      "hp600_pass": true,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 0.5805515239477503,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "required",
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_DRG_POWER": 3,
+        "UPG_DRG_ADULT": 1,
+        "UPG_DRG_ANCIENT": 1
+      },
+      "budget_gold": 540,
+      "roster": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "37.44",
+          "windup_s": "0.3",
+          "cooldown_s": "1.5",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.3,
+          "interval_s": 1.8,
+          "hits_per_unit": 16,
+          "total_damage": 599.04
+        }
+      ],
+      "damage_30s": 599.04,
+      "ideal_zero_delay_damage": 636.48,
+      "hp1000_pass": false,
+      "hp600_pass": false,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 1.669337606837607,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "maximum",
+      "levels": {
+        "UPG_DRG_POWER": 3,
+        "UPG_DRG_ADULT": 1,
+        "UPG_DRG_ANCIENT": 1,
+        "UPG_DRG_WYVERN": 1,
+        "UPG_DRG_STONE": 1,
+        "UPG_DRG_STORM": 1,
+        "UPG_DRG_MOON": 1,
+        "UPG_DRG_WING": 1,
+        "UPG_DRG_CONE": 2,
+        "UPG_DRG_RAPID": 2,
+        "UPG_DRG_FOCUS": 3,
+        "UPG_DRG_DUET": 1,
+        "UPG_COM_COMMAND_RADIUS": 3,
+        "UPG_COM_POWER": 3,
+        "UPG_COM_SUPPLY": 2,
+        "UPG_COM_GOLD_YIELD": 3,
+        "UPG_COM_REACH": 2
+      },
+      "budget_gold": 2185,
+      "roster": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "37.44",
+          "windup_s": "0.3",
+          "cooldown_s": "1.5",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.3,
+          "interval_s": 1.8,
+          "hits_per_unit": 16,
+          "total_damage": 599.04
+        },
+        {
+          "id": "SUM_DRG_MOON",
+          "damage": "60.32",
+          "windup_s": "0.3",
+          "cooldown_s": "1.8",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.8,
+          "interval_s": 2.1,
+          "hits_per_unit": 13,
+          "total_damage": 784.16
+        }
+      ],
+      "damage_30s": 1383.2,
+      "ideal_zero_delay_damage": 1541.28,
+      "hp1000_pass": true,
+      "hp600_pass": true,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 0.7229612492770388,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "required",
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_BST_PACK": 2,
+        "UPG_BST_FANG": 3,
+        "UPG_BST_WOLF_LEADER": 1,
+        "UPG_BST_CROWN": 1
+      },
+      "budget_gold": 345,
+      "roster": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "14.04",
+          "windup_s": "0.2",
+          "cooldown_s": "0.8",
+          "count": 3,
+          "flight_s": "0",
+          "first_hit_s": 2.2,
+          "interval_s": 1.0,
+          "hits_per_unit": 28,
+          "total_damage": 1179.36
+        }
+      ],
+      "damage_30s": 1179.36,
+      "ideal_zero_delay_damage": 1263.6,
+      "hp1000_pass": true,
+      "hp600_pass": true,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 0.8479175145841813,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "maximum",
+      "levels": {
+        "UPG_BST_PACK": 2,
+        "UPG_BST_HAWK": 1,
+        "UPG_BST_BOAR": 1,
+        "UPG_BST_BEAR": 1,
+        "UPG_BST_STAG": 1,
+        "UPG_BST_FANG": 3,
+        "UPG_BST_WOLF_LEADER": 1,
+        "UPG_BST_HAWK_TWIN": 1,
+        "UPG_BST_BOAR_TUSK": 1,
+        "UPG_BST_BEAR_SWEEP": 1,
+        "UPG_BST_STAG_ANTLER": 1,
+        "UPG_BST_SKY_GROUND": 1,
+        "UPG_BST_CROWN": 1,
+        "UPG_COM_COMMAND_RADIUS": 3,
+        "UPG_COM_POWER": 3,
+        "UPG_COM_SUPPLY": 2,
+        "UPG_COM_GOLD_YIELD": 3,
+        "UPG_COM_REACH": 2
+      },
+      "budget_gold": 1090,
+      "roster": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "14.82",
+          "windup_s": "0.2",
+          "cooldown_s": "0.8",
+          "count": 3,
+          "flight_s": "0",
+          "first_hit_s": 2.2,
+          "interval_s": 1.0,
+          "hits_per_unit": 28,
+          "total_damage": 1244.88
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "9.1",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 2,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 1.2,
+          "hits_per_unit": 23,
+          "total_damage": 418.6
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "16.9",
+          "windup_s": "0.3",
+          "cooldown_s": "1.2",
+          "count": 2,
+          "flight_s": "0",
+          "first_hit_s": 2.3,
+          "interval_s": 1.5,
+          "hits_per_unit": 19,
+          "total_damage": 642.2
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "27.04",
+          "windup_s": "0.4",
+          "cooldown_s": "1.6",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.4,
+          "interval_s": 2.0,
+          "hits_per_unit": 14,
+          "total_damage": 378.56
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "10.14",
+          "windup_s": "0.15",
+          "cooldown_s": "0.52",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.15,
+          "interval_s": 0.67,
+          "hits_per_unit": 42,
+          "total_damage": 425.88
+        }
+      ],
+      "damage_30s": 3110.12,
+      "ideal_zero_delay_damage": 3326.7,
+      "hp1000_pass": true,
+      "hp600_pass": true,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 0.3215310020192147,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "required",
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_DMN_POWER": 3,
+        "UPG_DMN_IMP_CROWN": 1,
+        "UPG_DMN_IMP_TWIN": 1
+      },
+      "budget_gold": 195,
+      "roster": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "31.2",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 2,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 1.2,
+          "hits_per_unit": 23,
+          "total_damage": 1435.2
+        }
+      ],
+      "damage_30s": 1435.2,
+      "ideal_zero_delay_damage": 1560.0,
+      "hp1000_pass": true,
+      "hp600_pass": true,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 0.6967670011148273,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "maximum",
+      "levels": {
+        "UPG_DMN_POWER": 3,
+        "UPG_DMN_EXECUTOR": 1,
+        "UPG_DMN_RELAY": 1,
+        "UPG_DMN_IMP_CROWN": 1,
+        "UPG_DMN_HOUND": 1,
+        "UPG_DMN_HEXER": 1,
+        "UPG_DMN_TYRANT": 1,
+        "UPG_DMN_EXECUTOR_CLEAVE": 1,
+        "UPG_DMN_HOUND_FANG": 1,
+        "UPG_DMN_IMP_TWIN": 1,
+        "UPG_DMN_PACT_FOCUS": 2,
+        "UPG_DMN_HEXER_SIGIL": 1,
+        "UPG_COM_COMMAND_RADIUS": 3,
+        "UPG_COM_POWER": 3,
+        "UPG_COM_SUPPLY": 2,
+        "UPG_COM_GOLD_YIELD": 3,
+        "UPG_COM_REACH": 2
+      },
+      "budget_gold": 945,
+      "roster": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "31.2",
+          "windup_s": "0.2",
+          "cooldown_s": "0.8",
+          "count": 2,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 1.0,
+          "hits_per_unit": 28,
+          "total_damage": 1747.2
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "41.6",
+          "windup_s": "0.3",
+          "cooldown_s": "1.2",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.3,
+          "interval_s": 1.5,
+          "hits_per_unit": 19,
+          "total_damage": 790.4
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "18.72",
+          "windup_s": "0.1",
+          "cooldown_s": "0.56",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.1,
+          "interval_s": 0.66,
+          "hits_per_unit": 43,
+          "total_damage": 804.96
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "16.64",
+          "windup_s": "0.3",
+          "cooldown_s": "1.36",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.8,
+          "interval_s": 1.66,
+          "hits_per_unit": 17,
+          "total_damage": 282.88
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "62.4",
+          "windup_s": "0.5",
+          "cooldown_s": "1.6",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.5,
+          "interval_s": 2.1,
+          "hits_per_unit": 14,
+          "total_damage": 873.6
+        }
+      ],
+      "damage_30s": 4499.04,
+      "ideal_zero_delay_damage": 4800.64,
+      "hp1000_pass": true,
+      "hp600_pass": true,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 0.2222696397453679,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "required",
+      "levels": {
+        "UPG_COM_POWER": 3,
+        "UPG_NEC_BONE": 3,
+        "UPG_NEC_GUARD": 1
+      },
+      "budget_gold": 132,
+      "roster": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "13.65",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.2,
+          "interval_s": 1.2,
+          "hits_per_unit": 24,
+          "total_damage": 327.6
+        }
+      ],
+      "damage_30s": 327.6,
+      "ideal_zero_delay_damage": 341.25,
+      "hp1000_pass": false,
+      "hp600_pass": false,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 3.0525030525030523,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "maximum",
+      "levels": {
+        "UPG_NEC_RAISE": 1,
+        "UPG_NEC_BONE": 3,
+        "UPG_NEC_THRIFT": 1,
+        "UPG_NEC_LEGION": 2,
+        "UPG_NEC_GUARD": 1,
+        "UPG_NEC_LICH": 1,
+        "UPG_NEC_ARCHLICH": 1,
+        "UPG_NEC_ARCHER": 1,
+        "UPG_NEC_SENTINEL": 1,
+        "UPG_NEC_REVENANT": 1,
+        "UPG_NEC_REAPER": 1,
+        "UPG_NEC_CONDUCT": 1,
+        "UPG_NEC_GOLEM": 1,
+        "UPG_NEC_OSSUARY": 1,
+        "UPG_COM_COMMAND_RADIUS": 3,
+        "UPG_COM_POWER": 3,
+        "UPG_COM_SUPPLY": 2,
+        "UPG_COM_GOLD_YIELD": 3,
+        "UPG_COM_REACH": 2
+      },
+      "budget_gold": 936,
+      "roster": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "16.25",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.2,
+          "interval_s": 1.2,
+          "hits_per_unit": 24,
+          "total_damage": 390.0
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "15.6",
+          "windup_s": "0.2",
+          "cooldown_s": "1.2",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 1.4,
+          "hits_per_unit": 20,
+          "total_damage": 312.0
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "6.5",
+          "windup_s": "0.2",
+          "cooldown_s": "0.6",
+          "count": 1,
+          "flight_s": "1/2",
+          "first_hit_s": 2.7,
+          "interval_s": 0.8,
+          "hits_per_unit": 35,
+          "total_damage": 227.5
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup_s": "0.2",
+          "cooldown_s": "1.5",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.2,
+          "interval_s": 1.7,
+          "hits_per_unit": 17,
+          "total_damage": 221.0
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "23.4",
+          "windup_s": "0.2",
+          "cooldown_s": "2",
+          "count": 1,
+          "flight_s": "0",
+          "first_hit_s": 2.2,
+          "interval_s": 2.2,
+          "hits_per_unit": 13,
+          "total_damage": 304.2
+        }
+      ],
+      "damage_30s": 1454.7,
+      "ideal_zero_delay_damage": 1558.05,
+      "hp1000_pass": true,
+      "hp600_pass": true,
+      "hp300_pass": true,
+      "damage_multiplier_for_1000": 0.6874269608854059,
+      "note": "DMN basic-only lower bound: no mark bonus; NEC temporary=0; DRG best legal two under this fixture"
+    }
+  ],
+  "sensitivity": [
+    {
+      "class_id": "CLS_ELM",
+      "state": "required",
+      "access_delay_s": 0,
+      "damage_30s": 520.0,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_ELM",
+      "state": "required",
+      "access_delay_s": 2,
+      "damage_30s": 478.4,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_ELM",
+      "state": "required",
+      "access_delay_s": 4,
+      "damage_30s": 457.6,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_ELM",
+      "state": "required",
+      "access_delay_s": 8,
+      "damage_30s": 374.4,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_ELM",
+      "state": "maximum",
+      "access_delay_s": 0,
+      "damage_30s": 1833.0,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_ELM",
+      "state": "maximum",
+      "access_delay_s": 2,
+      "damage_30s": 1722.5,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_ELM",
+      "state": "maximum",
+      "access_delay_s": 4,
+      "damage_30s": 1602.9,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_ELM",
+      "state": "maximum",
+      "access_delay_s": 8,
+      "damage_30s": 1339.0,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "required",
+      "access_delay_s": 0,
+      "damage_30s": 636.48,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "required",
+      "access_delay_s": 2,
+      "damage_30s": 599.04,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "required",
+      "access_delay_s": 4,
+      "damage_30s": 561.6,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "required",
+      "access_delay_s": 8,
+      "damage_30s": 486.72,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "maximum",
+      "access_delay_s": 0,
+      "damage_30s": 1480.96,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "maximum",
+      "access_delay_s": 2,
+      "damage_30s": 1383.2,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "maximum",
+      "access_delay_s": 4,
+      "damage_30s": 1285.44,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DRG",
+      "state": "maximum",
+      "access_delay_s": 8,
+      "damage_30s": 1150.24,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "required",
+      "access_delay_s": 0,
+      "damage_30s": 1263.6,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "required",
+      "access_delay_s": 2,
+      "damage_30s": 1179.36,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "required",
+      "access_delay_s": 4,
+      "damage_30s": 1095.12,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "required",
+      "access_delay_s": 8,
+      "damage_30s": 926.64,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "maximum",
+      "access_delay_s": 0,
+      "damage_30s": 3326.7,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "maximum",
+      "access_delay_s": 2,
+      "damage_30s": 3110.12,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "maximum",
+      "access_delay_s": 4,
+      "damage_30s": 2911.74,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_BST",
+      "state": "maximum",
+      "access_delay_s": 8,
+      "damage_30s": 2444.78,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "required",
+      "access_delay_s": 0,
+      "damage_30s": 1560.0,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "required",
+      "access_delay_s": 2,
+      "damage_30s": 1435.2,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "required",
+      "access_delay_s": 4,
+      "damage_30s": 1372.8,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "required",
+      "access_delay_s": 8,
+      "damage_30s": 1123.2,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "maximum",
+      "access_delay_s": 0,
+      "damage_30s": 4800.64,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "maximum",
+      "access_delay_s": 2,
+      "damage_30s": 4499.04,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "maximum",
+      "access_delay_s": 4,
+      "damage_30s": 4197.44,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_DMN",
+      "state": "maximum",
+      "access_delay_s": 8,
+      "damage_30s": 3536.0,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "required",
+      "access_delay_s": 0,
+      "damage_30s": 341.25,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "required",
+      "access_delay_s": 2,
+      "damage_30s": 327.6,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "required",
+      "access_delay_s": 4,
+      "damage_30s": 300.3,
+      "hp1000_pass": false,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "required",
+      "access_delay_s": 8,
+      "damage_30s": 259.35,
+      "hp1000_pass": false,
+      "hp300_pass": false
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "maximum",
+      "access_delay_s": 0,
+      "damage_30s": 1535.95,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "maximum",
+      "access_delay_s": 2,
+      "damage_30s": 1454.7,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "maximum",
+      "access_delay_s": 4,
+      "damage_30s": 1350.7,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    },
+    {
+      "class_id": "CLS_NEC",
+      "state": "maximum",
+      "access_delay_s": 8,
+      "damage_30s": 1136.85,
+      "hp1000_pass": true,
+      "hp300_pass": true
+    }
+  ],
+  "gold": [
+    {
+      "supply": 0,
+      "yield_level": 0,
+      "basic_reward": 1,
+      "dense_reward": 3,
+      "special_reward": 6,
+      "reservation_gold_ceiling": 24
+    },
+    {
+      "supply": 0,
+      "yield_level": 1,
+      "basic_reward": 1,
+      "dense_reward": 3,
+      "special_reward": 7,
+      "reservation_gold_ceiling": 24
+    },
+    {
+      "supply": 0,
+      "yield_level": 2,
+      "basic_reward": 1,
+      "dense_reward": 4,
+      "special_reward": 9,
+      "reservation_gold_ceiling": 24
+    },
+    {
+      "supply": 0,
+      "yield_level": 3,
+      "basic_reward": 1,
+      "dense_reward": 5,
+      "special_reward": 10,
+      "reservation_gold_ceiling": 24
+    },
+    {
+      "supply": 1,
+      "yield_level": 0,
+      "basic_reward": 1,
+      "dense_reward": 3,
+      "special_reward": 6,
+      "reservation_gold_ceiling": 60
+    },
+    {
+      "supply": 1,
+      "yield_level": 1,
+      "basic_reward": 1,
+      "dense_reward": 3,
+      "special_reward": 7,
+      "reservation_gold_ceiling": 60
+    },
+    {
+      "supply": 1,
+      "yield_level": 2,
+      "basic_reward": 1,
+      "dense_reward": 4,
+      "special_reward": 9,
+      "reservation_gold_ceiling": 72
+    },
+    {
+      "supply": 1,
+      "yield_level": 3,
+      "basic_reward": 1,
+      "dense_reward": 5,
+      "special_reward": 10,
+      "reservation_gold_ceiling": 84
+    },
+    {
+      "supply": 2,
+      "yield_level": 0,
+      "basic_reward": 1,
+      "dense_reward": 3,
+      "special_reward": 6,
+      "reservation_gold_ceiling": 102
+    },
+    {
+      "supply": 2,
+      "yield_level": 1,
+      "basic_reward": 1,
+      "dense_reward": 3,
+      "special_reward": 7,
+      "reservation_gold_ceiling": 103
+    },
+    {
+      "supply": 2,
+      "yield_level": 2,
+      "basic_reward": 1,
+      "dense_reward": 4,
+      "special_reward": 9,
+      "reservation_gold_ceiling": 129
+    },
+    {
+      "supply": 2,
+      "yield_level": 3,
+      "basic_reward": 1,
+      "dense_reward": 5,
+      "special_reward": 10,
+      "reservation_gold_ceiling": 154
+    }
+  ],
+  "wait": [
+    {
+      "class_id": "CLS_ELM",
+      "required_budget": 140,
+      "assumed_basic_kills_per_turn": 6,
+      "turns": 24,
+      "combat_s": 720,
+      "wall_s": 960
+    },
+    {
+      "class_id": "CLS_ELM",
+      "required_budget": 140,
+      "assumed_basic_kills_per_turn": 12,
+      "turns": 12,
+      "combat_s": 360,
+      "wall_s": 480
+    },
+    {
+      "class_id": "CLS_ELM",
+      "required_budget": 140,
+      "assumed_basic_kills_per_turn": 24,
+      "turns": 6,
+      "combat_s": 180,
+      "wall_s": 240
+    },
+    {
+      "class_id": "CLS_DRG",
+      "required_budget": 540,
+      "assumed_basic_kills_per_turn": 6,
+      "turns": 90,
+      "combat_s": 2700,
+      "wall_s": 3600
+    },
+    {
+      "class_id": "CLS_DRG",
+      "required_budget": 540,
+      "assumed_basic_kills_per_turn": 12,
+      "turns": 45,
+      "combat_s": 1350,
+      "wall_s": 1800
+    },
+    {
+      "class_id": "CLS_DRG",
+      "required_budget": 540,
+      "assumed_basic_kills_per_turn": 24,
+      "turns": 23,
+      "combat_s": 690,
+      "wall_s": 920
+    },
+    {
+      "class_id": "CLS_BST",
+      "required_budget": 345,
+      "assumed_basic_kills_per_turn": 6,
+      "turns": 58,
+      "combat_s": 1740,
+      "wall_s": 2320
+    },
+    {
+      "class_id": "CLS_BST",
+      "required_budget": 345,
+      "assumed_basic_kills_per_turn": 12,
+      "turns": 29,
+      "combat_s": 870,
+      "wall_s": 1160
+    },
+    {
+      "class_id": "CLS_BST",
+      "required_budget": 345,
+      "assumed_basic_kills_per_turn": 24,
+      "turns": 15,
+      "combat_s": 450,
+      "wall_s": 600
+    },
+    {
+      "class_id": "CLS_DMN",
+      "required_budget": 195,
+      "assumed_basic_kills_per_turn": 6,
+      "turns": 33,
+      "combat_s": 990,
+      "wall_s": 1320
+    },
+    {
+      "class_id": "CLS_DMN",
+      "required_budget": 195,
+      "assumed_basic_kills_per_turn": 12,
+      "turns": 17,
+      "combat_s": 510,
+      "wall_s": 680
+    },
+    {
+      "class_id": "CLS_DMN",
+      "required_budget": 195,
+      "assumed_basic_kills_per_turn": 24,
+      "turns": 9,
+      "combat_s": 270,
+      "wall_s": 360
+    },
+    {
+      "class_id": "CLS_NEC",
+      "required_budget": 132,
+      "assumed_basic_kills_per_turn": 6,
+      "turns": 22,
+      "combat_s": 660,
+      "wall_s": 880
+    },
+    {
+      "class_id": "CLS_NEC",
+      "required_budget": 132,
+      "assumed_basic_kills_per_turn": 12,
+      "turns": 11,
+      "combat_s": 330,
+      "wall_s": 440
+    },
+    {
+      "class_id": "CLS_NEC",
+      "required_budget": 132,
+      "assumed_basic_kills_per_turn": 24,
+      "turns": 6,
+      "combat_s": 180,
+      "wall_s": 240
+    }
+  ],
+  "roi": {
+    "yield_L1_s0_delta": 0,
+    "yield_L1_s1_delta": 0,
+    "yield_L1_s2_max_delta": 1,
+    "yield_L1_s2_best_payback_turns": 20,
+    "supply0_to1_all_killed_delta_gold": 36,
+    "supply0_to1_cost": 20,
+    "warning": "ceil ceilings only; supply/kill opportunity cost ignored; real kill counts must be supplied"
+  },
+  "checks": [
+    {
+      "name": "roster 25 unique ids",
+      "pass": true
+    },
+    {
+      "name": "positive finite attack fields",
+      "pass": true
+    },
+    {
+      "name": "boss 10 states",
+      "pass": true
+    },
+    {
+      "name": "all maximum basic-only vectors beat HP1000 in fixture",
+      "pass": true
+    },
+    {
+      "name": "NEC required cannot win even ideal fixture",
+      "pass": true
+    },
+    {
+      "name": "required budgets match catalog handoff",
+      "pass": true
+    },
+    {
+      "name": "DRG maximum respects two slots",
+      "pass": true
+    },
+    {
+      "name": "NEC boss has permanent only",
+      "pass": true
+    },
+    {
+      "name": "endpoint exact T excluded",
+      "pass": true
+    },
+    {
+      "name": "slow interval and empty horizon",
+      "pass": true
+    },
+    {
+      "name": "all max levels reject cost",
+      "pass": true
+    },
+    {
+      "name": "negative cost level rejects",
+      "pass": true
+    },
+    {
+      "name": "L0 supply gold ceilings",
+      "pass": true
+    },
+    {
+      "name": "gold L1 dead at s0 and s1",
+      "pass": true
+    },
+    {
+      "name": "basic reward never rises",
+      "pass": true
+    },
+    {
+      "name": "s2 reservation49 with no kills spawned48",
+      "pass": true
+    },
+    {
+      "name": "zero income infinity branch",
+      "pass": true
+    },
+    {
+      "name": "affordable no battle",
+      "pass": true
+    },
+    {
+      "name": "ceiling discrete turns",
+      "pass": true
+    },
+    {
+      "name": "max no next purchase",
+      "pass": true
+    },
+    {
+      "name": "common damage example",
+      "pass": true
+    },
+    {
+      "name": "wolf required damage",
+      "pass": true
+    },
+    {
+      "name": "NEC max damage",
+      "pass": true
+    },
+    {
+      "name": "NEC CD mapping",
+      "pass": true
+    },
+    {
+      "name": "R_cmd boundary included",
+      "pass": true
+    },
+    {
+      "name": "reach and radius independent",
+      "pass": true
+    },
+    {
+      "name": "yield L2 s1 ceiling72",
+      "pass": true
+    },
+    {
+      "name": "yield best payback arithmetic",
+      "pass": true
+    },
+    {
+      "name": "supply best gain arithmetic",
+      "pass": true
+    },
+    {
+      "name": "all maximum also pass with four second access delay",
+      "pass": true
+    },
+    {
+      "name": "all required pass HP300 in two second fixture",
+      "pass": true
+    },
+    {
+      "name": "zero interval rejected",
+      "pass": true
+    },
+    {
+      "name": "gold paid ceiling max154",
+      "pass": true
+    },
+    {
+      "name": "mixed kills grant immediately",
+      "pass": true
+    },
+    {
+      "name": "ledger conservation",
+      "pass": true
+    }
+  ],
+  "passed": 35,
+  "total": 35,
+  "not_performed": [
+    "trajectory/cursor simulation",
+    "mark-event simulation",
+    "purchase strategy optimization",
+    "playtesting",
+    "technical or UX review"
+  ]
+}

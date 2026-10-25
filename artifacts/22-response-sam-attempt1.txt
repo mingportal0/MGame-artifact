@@ -1,0 +1,7 @@
+ChatGPT or Codex Subscription rate-limited every one of 3 attempts — its usage limit resets in ~3h. Send /retry after that, or switch models with /model. To avoid this in future, add a backup provider with `hermes fallback add`.
+
+Provider said: HTTP 429: The usage limit has been reached
+
+Limit resets at 14:00 (in 2h 22m).
+
+session_id: 20261025_113820_c8c35f

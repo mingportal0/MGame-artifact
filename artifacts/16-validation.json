@@ -1,0 +1,212 @@
+{
+  "document_id": "P1-16-UX-v01",
+  "scope": "문서 구조/로컬 링크/명시 ID/가격 예시/가정 산술만 자동 검사. 의미 검토는 Mia 수기 워크스루. 게임 실행/렌더/실제 사용자/성능 검증 아님.",
+  "checks": [
+    {
+      "name": "UI unique ordered rows",
+      "passed": true
+    },
+    {
+      "name": "V unique ordered rows",
+      "passed": true
+    },
+    {
+      "name": "TR unique ordered rows",
+      "passed": true
+    },
+    {
+      "name": "wireframe W01",
+      "passed": true
+    },
+    {
+      "name": "wireframe W02",
+      "passed": true
+    },
+    {
+      "name": "wireframe W02-C",
+      "passed": true
+    },
+    {
+      "name": "wireframe W03",
+      "passed": true
+    },
+    {
+      "name": "wireframe W03-S",
+      "passed": true
+    },
+    {
+      "name": "wireframe W04",
+      "passed": true
+    },
+    {
+      "name": "wireframe W05",
+      "passed": true
+    },
+    {
+      "name": "section 1",
+      "passed": true
+    },
+    {
+      "name": "section 2",
+      "passed": true
+    },
+    {
+      "name": "section 3",
+      "passed": true
+    },
+    {
+      "name": "section 4",
+      "passed": true
+    },
+    {
+      "name": "section 5",
+      "passed": true
+    },
+    {
+      "name": "section 6",
+      "passed": true
+    },
+    {
+      "name": "section 7",
+      "passed": true
+    },
+    {
+      "name": "section 8",
+      "passed": true
+    },
+    {
+      "name": "section 9",
+      "passed": true
+    },
+    {
+      "name": "section 10",
+      "passed": true
+    },
+    {
+      "name": "J question rows",
+      "passed": true
+    },
+    {
+      "name": "S question rows",
+      "passed": true
+    },
+    {
+      "name": "Mia upstream responses",
+      "passed": true
+    },
+    {
+      "name": "all local source links exist",
+      "passed": true
+    },
+    {
+      "name": "exact referenced upgrade IDs exist",
+      "passed": true
+    },
+    {
+      "name": "BLOOM assumed base price 20",
+      "passed": true
+    },
+    {
+      "name": "SPARK assumed base price 25",
+      "passed": true
+    },
+    {
+      "name": "example ledger ending 4",
+      "passed": true
+    },
+    {
+      "name": "assumed floor rewards L0 L1",
+      "passed": true
+    },
+    {
+      "name": "affordability example",
+      "passed": true
+    },
+    {
+      "name": "no CJK mixed-script typo",
+      "passed": true
+    },
+    {
+      "name": "required boundary text 텍스트 와이어프레임",
+      "passed": true
+    },
+    {
+      "name": "required boundary text 실제 사용자",
+      "passed": true
+    },
+    {
+      "name": "required boundary text G3",
+      "passed": true
+    },
+    {
+      "name": "required boundary text 응답은 아직 없음",
+      "passed": true
+    },
+    {
+      "name": "required boundary text R_cmd",
+      "passed": true
+    },
+    {
+      "name": "required boundary text R_reach",
+      "passed": true
+    },
+    {
+      "name": "required boundary text R_fx",
+      "passed": true
+    },
+    {
+      "name": "required boundary text 미수집/손실/수집률원장은없다",
+      "passed": true
+    }
+  ],
+  "passed": 39,
+  "total": 39,
+  "manual_cases": 19,
+  "ui_rows": 10,
+  "change_rows": 12,
+  "upstream_response_rows": 10,
+  "peer_review_status": {
+    "James": "질문 게시, 응답 대기",
+    "Sam": "질문 게시, 응답 대기"
+  },
+  "arithmetic": {
+    "ledger": [
+      0,
+      24,
+      4,
+      4,
+      4,
+      4
+    ],
+    "L0_L1_gold_by_base": {
+      "1": [
+        1,
+        1
+      ],
+      "3": [
+        3,
+        3
+      ],
+      "6": [
+        6,
+        7
+      ]
+    },
+    "shortfall": 1
+  },
+  "sha256": {
+    "16.md": "75369597cedb267157a120f6219522ac451e89da10ece88356df83f993611464",
+    "05.md": "54ee4591f2f8fbe9eec8c5ccc8f7eea93ca5fb020c460eab60d03437f754fccf",
+    "12.md": "1251ad63dcab08430b80517d75e9d310390b622d5e4e344c8b4f3b91272ce0fe",
+    "12-catalog.json": "2dd5c775a87ba661253df7e3421a82495f16257c2ee3107af427c648e2eca425",
+    "13.md": "911d9c9ed39c7abfb3d0c4787909088b5103dc6112f2f3e67b163d975d5a4a91"
+  },
+  "not_performed": [
+    "게임 코드/프로토타입/프로젝트 초기화",
+    "UI 렌더링/클릭 기능 테스트",
+    "사용자 접촉/플레이테스트",
+    "성능/접근성 실측",
+    "James/Sam 동의 확인",
+    "Slack 전달 확인"
+  ]
+}

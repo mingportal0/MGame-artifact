@@ -1,0 +1,806 @@
+{
+  "document_id": "P1-14-ECON-v01",
+  "status": "assumptions_not_approved",
+  "combat_s": 30,
+  "boss_comparison_hp": 1000,
+  "boss_access_delay_s": 2,
+  "boss_fixture": "stationary, continuous cursor eligibility after delay, no cancellation, all ready after delay, flight at base reach; not sampled trajectories",
+  "shop_think_s": [
+    3,
+    8,
+    15
+  ],
+  "transition_s": 2,
+  "initial_gold": 0,
+  "gold_collection": "immediate grant, no collection-rate multiplier",
+  "normal_enemies": [
+    {
+      "id": "MON_BASIC",
+      "hp": 10,
+      "gold": 1,
+      "speed": 40
+    },
+    {
+      "id": "MON_DENSE",
+      "hp": 30,
+      "gold": 3,
+      "speed": 25
+    },
+    {
+      "id": "MON_SPECIAL",
+      "hp": 40,
+      "gold": 6,
+      "speed": 35
+    }
+  ],
+  "supply_reserved_counts": [
+    [
+      24,
+      0,
+      0
+    ],
+    [
+      24,
+      12,
+      0
+    ],
+    [
+      24,
+      24,
+      1
+    ]
+  ],
+  "simultaneous_enemy_cap": 48,
+  "roster": [
+    {
+      "id": "SUM_ELM_EMBER",
+      "class_id": "CLS_ELM",
+      "base_damage": 10,
+      "windup_s": 0.2,
+      "cooldown_s": 1,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 1,
+      "status": "assumed_not_approved",
+      "provenance": "ELM: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_ELM_SPARK",
+      "class_id": "CLS_ELM",
+      "base_damage": 7,
+      "windup_s": 0.2,
+      "cooldown_s": 1.4,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "chain",
+      "effect_size": 100,
+      "max_targets": 3,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "ELM: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_ELM_TIDE",
+      "class_id": "CLS_ELM",
+      "base_damage": 5,
+      "windup_s": 0.2,
+      "cooldown_s": 0.6,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "ELM: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_ELM_STONE",
+      "class_id": "CLS_ELM",
+      "base_damage": 24,
+      "windup_s": 0.2,
+      "cooldown_s": 2.2,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "ELM: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_ELM_PRISM",
+      "class_id": "CLS_ELM",
+      "base_damage": 18,
+      "windup_s": 0.2,
+      "cooldown_s": 2.8,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "splash",
+      "effect_size": 70,
+      "max_targets": 3,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "ELM: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_DRG_WHELP",
+      "class_id": "CLS_DRG",
+      "base_damage": 18,
+      "windup_s": 0.3,
+      "cooldown_s": 1.5,
+      "attack_range": 260,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 1,
+      "status": "assumed_not_approved",
+      "provenance": "DRG: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_DRG_WYVERN",
+      "class_id": "CLS_DRG",
+      "base_damage": 10,
+      "windup_s": 0.2,
+      "cooldown_s": 0.8,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "DRG: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_DRG_STONE",
+      "class_id": "CLS_DRG",
+      "base_damage": 28,
+      "windup_s": 0.4,
+      "cooldown_s": 2,
+      "attack_range": 250,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "splash",
+      "effect_size": 70,
+      "max_targets": 3,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "DRG: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_DRG_STORM",
+      "class_id": "CLS_DRG",
+      "base_damage": 12,
+      "windup_s": 0.2,
+      "cooldown_s": 1.4,
+      "attack_range": 280,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "chain",
+      "effect_size": 100,
+      "max_targets": 3,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "DRG: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_DRG_MOON",
+      "class_id": "CLS_DRG",
+      "base_damage": 32,
+      "windup_s": 0.3,
+      "cooldown_s": 1.8,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "DRG: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_BST_WOLF",
+      "class_id": "CLS_BST",
+      "base_damage": 6,
+      "windup_s": 0.2,
+      "cooldown_s": 0.8,
+      "attack_range": 40,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 1,
+      "status": "assumed_not_approved",
+      "provenance": "BST: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_BST_HAWK",
+      "class_id": "CLS_BST",
+      "base_damage": 5,
+      "windup_s": 0.2,
+      "cooldown_s": 1,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "BST: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_BST_BOAR",
+      "class_id": "CLS_BST",
+      "base_damage": 10,
+      "windup_s": 0.3,
+      "cooldown_s": 1.2,
+      "attack_range": 45,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "BST: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_BST_BEAR",
+      "class_id": "CLS_BST",
+      "base_damage": 16,
+      "windup_s": 0.4,
+      "cooldown_s": 1.6,
+      "attack_range": 50,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "BST: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_BST_STAG",
+      "class_id": "CLS_BST",
+      "base_damage": 6,
+      "windup_s": 0.15,
+      "cooldown_s": 0.65,
+      "attack_range": 45,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "BST: 14 new null-fill assumptions"
+    },
+    {
+      "id": "SUM_DMN_IMP",
+      "class_id": "CLS_DMN",
+      "base_damage": 10,
+      "windup_s": 0.2,
+      "cooldown_s": 1,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 1,
+      "status": "assumed_not_approved",
+      "provenance": "DMN: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_DMN_EXECUTOR",
+      "class_id": "CLS_DMN",
+      "base_damage": 20,
+      "windup_s": 0.3,
+      "cooldown_s": 1.5,
+      "attack_range": 40,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "DMN: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_DMN_HOUND",
+      "class_id": "CLS_DMN",
+      "base_damage": 6,
+      "windup_s": 0.1,
+      "cooldown_s": 0.7,
+      "attack_range": 40,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "DMN: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_DMN_HEXER",
+      "class_id": "CLS_DMN",
+      "base_damage": 8,
+      "windup_s": 0.3,
+      "cooldown_s": 1.7,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "splash",
+      "effect_size": 80,
+      "max_targets": 3,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "DMN: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_DMN_TYRANT",
+      "class_id": "CLS_DMN",
+      "base_damage": 30,
+      "windup_s": 0.5,
+      "cooldown_s": 2,
+      "attack_range": 180,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "cone",
+      "effect_size": 30,
+      "max_targets": 4,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "DMN: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_NEC_SKELETON",
+      "class_id": "CLS_NEC",
+      "base_damage": 4,
+      "windup_s": 0.2,
+      "cooldown_s": 1,
+      "attack_range": 40,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 1,
+      "status": "assumed_not_approved",
+      "provenance": "NEC: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_NEC_LICH",
+      "class_id": "CLS_NEC",
+      "base_damage": 8,
+      "windup_s": 0.2,
+      "cooldown_s": 1.2,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "NEC: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_NEC_ARCHER",
+      "class_id": "CLS_NEC",
+      "base_damage": 5,
+      "windup_s": 0.2,
+      "cooldown_s": 0.8,
+      "attack_range": 300,
+      "move_speed": 400,
+      "projectile_speed": 600,
+      "projectile_lifetime_s": 2,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "NEC: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_NEC_REVENANT",
+      "class_id": "CLS_NEC",
+      "base_damage": 10,
+      "windup_s": 0.2,
+      "cooldown_s": 1.5,
+      "attack_range": 50,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "single",
+      "effect_size": 0,
+      "max_targets": 1,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "NEC: 07/10/11 via 12 timing corrections"
+    },
+    {
+      "id": "SUM_NEC_GOLEM",
+      "class_id": "CLS_NEC",
+      "base_damage": 12,
+      "windup_s": 0.2,
+      "cooldown_s": 2,
+      "attack_range": 60,
+      "move_speed": 400,
+      "projectile_speed": null,
+      "projectile_lifetime_s": null,
+      "shape": "splash",
+      "effect_size": 70,
+      "max_targets": 3,
+      "initial_count": 0,
+      "status": "assumed_not_approved",
+      "provenance": "NEC: 07/10/11 via 12 timing corrections"
+    }
+  ],
+  "boss_vectors": {
+    "required": {
+      "ELM": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "20.8",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 1,
+          "flight_s": "1/2"
+        }
+      ],
+      "DRG": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "37.44",
+          "windup_s": "0.3",
+          "cooldown_s": "1.5",
+          "count": 1,
+          "flight_s": "0"
+        }
+      ],
+      "BST": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "14.04",
+          "windup_s": "0.2",
+          "cooldown_s": "0.8",
+          "count": 3,
+          "flight_s": "0"
+        }
+      ],
+      "DMN": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "31.2",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 2,
+          "flight_s": "1/2"
+        }
+      ],
+      "NEC": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "13.65",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 1,
+          "flight_s": "0"
+        }
+      ]
+    },
+    "maximum": {
+      "ELM": [
+        {
+          "id": "SUM_ELM_EMBER",
+          "damage": "24.7",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 1,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_ELM_SPARK",
+          "damage": "9.1",
+          "windup_s": "0.2",
+          "cooldown_s": "1.2",
+          "count": 1,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_ELM_TIDE",
+          "damage": "10.4",
+          "windup_s": "0.2",
+          "cooldown_s": "0.6",
+          "count": 1,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_ELM_STONE",
+          "damage": "31.2",
+          "windup_s": "0.2",
+          "cooldown_s": "2.2",
+          "count": 1,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_ELM_PRISM",
+          "damage": "23.4",
+          "windup_s": "0.2",
+          "cooldown_s": "2.8",
+          "count": 1,
+          "flight_s": "1/2"
+        }
+      ],
+      "DRG": [
+        {
+          "id": "SUM_DRG_WHELP",
+          "damage": "37.44",
+          "windup_s": "0.3",
+          "cooldown_s": "1.5",
+          "count": 1,
+          "flight_s": "0"
+        },
+        {
+          "id": "SUM_DRG_WYVERN",
+          "damage": "13",
+          "windup_s": "0.2",
+          "cooldown_s": "0.64",
+          "count": 1,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_DRG_STONE",
+          "damage": "36.4",
+          "windup_s": "0.4",
+          "cooldown_s": "2",
+          "count": 1,
+          "flight_s": "5/12"
+        },
+        {
+          "id": "SUM_DRG_STORM",
+          "damage": "15.6",
+          "windup_s": "0.2",
+          "cooldown_s": "1.4",
+          "count": 1,
+          "flight_s": "7/15"
+        },
+        {
+          "id": "SUM_DRG_MOON",
+          "damage": "60.32",
+          "windup_s": "0.3",
+          "cooldown_s": "1.8",
+          "count": 1,
+          "flight_s": "1/2"
+        }
+      ],
+      "BST": [
+        {
+          "id": "SUM_BST_WOLF",
+          "damage": "14.82",
+          "windup_s": "0.2",
+          "cooldown_s": "0.8",
+          "count": 3,
+          "flight_s": "0"
+        },
+        {
+          "id": "SUM_BST_HAWK",
+          "damage": "9.1",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 2,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_BST_BOAR",
+          "damage": "16.9",
+          "windup_s": "0.3",
+          "cooldown_s": "1.2",
+          "count": 2,
+          "flight_s": "0"
+        },
+        {
+          "id": "SUM_BST_BEAR",
+          "damage": "27.04",
+          "windup_s": "0.4",
+          "cooldown_s": "1.6",
+          "count": 1,
+          "flight_s": "0"
+        },
+        {
+          "id": "SUM_BST_STAG",
+          "damage": "10.14",
+          "windup_s": "0.15",
+          "cooldown_s": "0.52",
+          "count": 1,
+          "flight_s": "0"
+        }
+      ],
+      "DMN": [
+        {
+          "id": "SUM_DMN_IMP",
+          "damage": "31.2",
+          "windup_s": "0.2",
+          "cooldown_s": "0.8",
+          "count": 2,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_DMN_EXECUTOR",
+          "damage": "41.6",
+          "windup_s": "0.3",
+          "cooldown_s": "1.2",
+          "count": 1,
+          "flight_s": "0"
+        },
+        {
+          "id": "SUM_DMN_HOUND",
+          "damage": "18.72",
+          "windup_s": "0.1",
+          "cooldown_s": "0.56",
+          "count": 1,
+          "flight_s": "0"
+        },
+        {
+          "id": "SUM_DMN_HEXER",
+          "damage": "16.64",
+          "windup_s": "0.3",
+          "cooldown_s": "1.36",
+          "count": 1,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_DMN_TYRANT",
+          "damage": "62.4",
+          "windup_s": "0.5",
+          "cooldown_s": "1.6",
+          "count": 1,
+          "flight_s": "0"
+        }
+      ],
+      "NEC": [
+        {
+          "id": "SUM_NEC_SKELETON",
+          "damage": "16.25",
+          "windup_s": "0.2",
+          "cooldown_s": "1",
+          "count": 1,
+          "flight_s": "0"
+        },
+        {
+          "id": "SUM_NEC_LICH",
+          "damage": "15.6",
+          "windup_s": "0.2",
+          "cooldown_s": "1.2",
+          "count": 1,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_NEC_ARCHER",
+          "damage": "6.5",
+          "windup_s": "0.2",
+          "cooldown_s": "0.6",
+          "count": 1,
+          "flight_s": "1/2"
+        },
+        {
+          "id": "SUM_NEC_REVENANT",
+          "damage": "13",
+          "windup_s": "0.2",
+          "cooldown_s": "1.5",
+          "count": 1,
+          "flight_s": "0"
+        },
+        {
+          "id": "SUM_NEC_GOLEM",
+          "damage": "23.4",
+          "windup_s": "0.2",
+          "cooldown_s": "2",
+          "count": 1,
+          "flight_s": "0"
+        }
+      ]
+    }
+  },
+  "caps": {
+    "ELM": [
+      5,
+      0
+    ],
+    "DRG": [
+      2,
+      0
+    ],
+    "BST": [
+      9,
+      0
+    ],
+    "DMN": [
+      6,
+      0
+    ],
+    "NEC": [
+      5,
+      5
+    ]
+  },
+  "new_shape_assumptions": {
+    "DRG_WHELP_ADULT": {
+      "shape": "cone",
+      "half_angle_deg": 30,
+      "length": 260,
+      "targets": 3,
+      "instant": true
+    },
+    "DRG_WHELP_ANCIENT": {
+      "half_angle_deg": 30,
+      "targets": 3
+    },
+    "DRG_CONE_max_half_angle_deg": 40,
+    "BST_BOAR_TUSK": {
+      "shape": "splash",
+      "radius": 60,
+      "targets": 3,
+      "secondary_ratio": 0.5
+    },
+    "BST_BEAR_SWEEP": {
+      "shape": "cone",
+      "half_angle_deg": 35,
+      "length": 50,
+      "targets": 3,
+      "secondary_ratio": 0.5
+    }
+  },
+  "source_sha256": {
+    "12-catalog.json": "2dd5c775a87ba661253df7e3421a82495f16257c2ee3107af427c648e2eca425",
+    "12.md": "1251ad63dcab08430b80517d75e9d310390b622d5e4e344c8b4f3b91272ce0fe",
+    "13.md": "911d9c9ed39c7abfb3d0c4787909088b5103dc6112f2f3e67b163d975d5a4a91",
+    "07.md": "e6d99364d70c25aa429cf56f9781445451ca9c652f29e5a24481982eaea3c965",
+    "08.md": "c64fcb715c95f9e8fe59557c54da5e3ff860fc19d609767fdc735cffd74c402b",
+    "09.md": "907285c373d3f33da7b0aa49765bf97310e1821fa5c01613b00e764d700333c1",
+    "10.md": "17c0deee850ac520b58a5446578a16aa28252932989e60aecc62b7c1bf780805",
+    "11.md": "c0e89c73d3a817fe00e273bd99cca622aebe9ccf8ca693235b0c99cefa9524f5"
+  }
+}

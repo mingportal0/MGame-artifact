@@ -1,0 +1,36 @@
+{
+  "scope": "source fingerprints, link existence, exact board/comment/subscription readback; no game tests or rerun of22 validation",
+  "sources": {
+    "22.md": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88",
+    "22-addendum.md": "06cacfebff45809e5af753a25bf2ac9c0b004d91777c9953a0d087dfc87bfbf5",
+    "22-submit.md": "893c6562074e8259ecf08862d57f5b0e5a995bec81eb3284bc5f80e46f82f412",
+    "23.md": "da5baf0d3ff5710e6a2cae12ead38c7fa278d56dbdd2bfd3627af589e1fc7ec2"
+  },
+  "board": {
+    "id": "t_56f0f69e",
+    "status": "blocked",
+    "parents": [
+      "t_24b666de"
+    ],
+    "children": []
+  },
+  "subscription": [
+    {
+      "task_id": "t_56f0f69e",
+      "platform": "slack",
+      "chat_id": "C0C727NJWJJ",
+      "thread_id": "1792897659.074179",
+      "user_id": "U0C7413PEM8",
+      "user_id_alt": null,
+      "chat_type": "group",
+      "notifier_profile": "sophie",
+      "delivery_mode": "notify+wake",
+      "delivery_metadata": {},
+      "created_at": 1792921709,
+      "last_event_id": 696,
+      "last_ping_event_id": 0
+    }
+  ],
+  "final_g2_response": "not_received",
+  "g3": "not_approved"
+}

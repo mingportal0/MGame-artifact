@@ -1,0 +1,11 @@
+class,state,cost,damage
+ELM,required,140,478.4
+ELM,maximum,1075,1722.5
+DRG,required,540,599.04
+DRG,maximum,2185,1383.2
+BST,required,345,1179.36
+BST,maximum,1090,3110.12
+DMN,required,195,1435.2
+DMN,maximum,945,4499.04
+NEC,required,132,327.6
+NEC,maximum,936,1454.7

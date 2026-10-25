@@ -1,0 +1,908 @@
+{
+  "document_id": "P1-20-GDD-v01",
+  "checked_at": "2026-10-25T01:01:43.397974+00:00",
+  "passed": 126,
+  "total": 126,
+  "failed": [],
+  "checks": [
+    {
+      "name": "Part1~10 지정순서",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "01 전수 ID·원문·분류·원책임 완전보존",
+      "passed": true,
+      "detail": {
+        "rows": 399
+      }
+    },
+    {
+      "name": "전수ID 중복없음",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "원문 물리줄 일치",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "요구별 GDD 실재 앵커",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "전수 추적표 행 일대일",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "지정하위항목 496",
+      "passed": true,
+      "detail": {
+        "line": 496,
+        "part": 1,
+        "text": "게임의 핵심 아이디어"
+      }
+    },
+    {
+      "name": "지정하위항목 497",
+      "passed": true,
+      "detail": {
+        "line": 497,
+        "part": 1,
+        "text": "장르 및 타깃 플레이어"
+      }
+    },
+    {
+      "name": "지정하위항목 498",
+      "passed": true,
+      "detail": {
+        "line": 498,
+        "part": 1,
+        "text": "핵심 재미 3가지"
+      }
+    },
+    {
+      "name": "지정하위항목 499",
+      "passed": true,
+      "detail": {
+        "line": 499,
+        "part": 1,
+        "text": "Re:Blade와의 차별점"
+      }
+    },
+    {
+      "name": "지정하위항목 500",
+      "passed": true,
+      "detail": {
+        "line": 500,
+        "part": 1,
+        "text": "게임의 한 줄 소개"
+      }
+    },
+    {
+      "name": "지정하위항목 503",
+      "passed": true,
+      "detail": {
+        "line": 503,
+        "part": 2,
+        "text": "게임 시작부터 클리어까지의 흐름"
+      }
+    },
+    {
+      "name": "지정하위항목 504",
+      "passed": true,
+      "detail": {
+        "line": 504,
+        "part": 2,
+        "text": "30초 전투 진행 방식"
+      }
+    },
+    {
+      "name": "지정하위항목 505",
+      "passed": true,
+      "detail": {
+        "line": 505,
+        "part": 2,
+        "text": "플레이어가 수행하는 행동"
+      }
+    },
+    {
+      "name": "지정하위항목 506",
+      "passed": true,
+      "detail": {
+        "line": 506,
+        "part": 2,
+        "text": "턴 종료 및 재시작 규칙"
+      }
+    },
+    {
+      "name": "지정하위항목 507",
+      "passed": true,
+      "detail": {
+        "line": 507,
+        "part": 2,
+        "text": "핵심 시스템 흐름도"
+      }
+    },
+    {
+      "name": "지정하위항목 510",
+      "passed": true,
+      "detail": {
+        "line": 510,
+        "part": 3,
+        "text": "5개 직업 비교표"
+      }
+    },
+    {
+      "name": "지정하위항목 511",
+      "passed": true,
+      "detail": {
+        "line": 511,
+        "part": 3,
+        "text": "직업별 소환수 및 스킬 구성"
+      }
+    },
+    {
+      "name": "지정하위항목 512",
+      "passed": true,
+      "detail": {
+        "line": 512,
+        "part": 3,
+        "text": "직업별 성장 방향"
+      }
+    },
+    {
+      "name": "지정하위항목 513",
+      "passed": true,
+      "detail": {
+        "line": 513,
+        "part": 3,
+        "text": "직업별 업그레이드 트리"
+      }
+    },
+    {
+      "name": "지정하위항목 514",
+      "passed": true,
+      "detail": {
+        "line": 514,
+        "part": 3,
+        "text": "직업별 최종 성장 형태"
+      }
+    },
+    {
+      "name": "지정하위항목 517",
+      "passed": true,
+      "detail": {
+        "line": 517,
+        "part": 4,
+        "text": "업그레이드 분류"
+      }
+    },
+    {
+      "name": "지정하위항목 518",
+      "passed": true,
+      "detail": {
+        "line": 518,
+        "part": 4,
+        "text": "공통 업그레이드 목록"
+      }
+    },
+    {
+      "name": "지정하위항목 519",
+      "passed": true,
+      "detail": {
+        "line": 519,
+        "part": 4,
+        "text": "직업 전용 업그레이드 목록"
+      }
+    },
+    {
+      "name": "지정하위항목 520",
+      "passed": true,
+      "detail": {
+        "line": 520,
+        "part": 4,
+        "text": "구매 조건 및 비용"
+      }
+    },
+    {
+      "name": "지정하위항목 521",
+      "passed": true,
+      "detail": {
+        "line": 521,
+        "part": 4,
+        "text": "업그레이드 간 시너지"
+      }
+    },
+    {
+      "name": "지정하위항목 524",
+      "passed": true,
+      "detail": {
+        "line": 524,
+        "part": 5,
+        "text": "소환수 자동 전투 규칙"
+      }
+    },
+    {
+      "name": "지정하위항목 525",
+      "passed": true,
+      "detail": {
+        "line": 525,
+        "part": 5,
+        "text": "몬스터 종류 및 능력치"
+      }
+    },
+    {
+      "name": "지정하위항목 526",
+      "passed": true,
+      "detail": {
+        "line": 526,
+        "part": 5,
+        "text": "몬스터 생성 및 처치 규칙"
+      }
+    },
+    {
+      "name": "지정하위항목 527",
+      "passed": true,
+      "detail": {
+        "line": 527,
+        "part": 5,
+        "text": "최종 보스 구조"
+      }
+    },
+    {
+      "name": "지정하위항목 530",
+      "passed": true,
+      "detail": {
+        "line": 530,
+        "part": 6,
+        "text": "성장 수치 설계"
+      }
+    },
+    {
+      "name": "지정하위항목 531",
+      "passed": true,
+      "detail": {
+        "line": 531,
+        "part": 6,
+        "text": "골드 경제 구조"
+      }
+    },
+    {
+      "name": "지정하위항목 532",
+      "passed": true,
+      "detail": {
+        "line": 532,
+        "part": 6,
+        "text": "업그레이드 비용 공식"
+      }
+    },
+    {
+      "name": "지정하위항목 533",
+      "passed": true,
+      "detail": {
+        "line": 533,
+        "part": 6,
+        "text": "예상 플레이 시간"
+      }
+    },
+    {
+      "name": "지정하위항목 534",
+      "passed": true,
+      "detail": {
+        "line": 534,
+        "part": 6,
+        "text": "초기 수치 시뮬레이션"
+      }
+    },
+    {
+      "name": "지정하위항목 537",
+      "passed": true,
+      "detail": {
+        "line": 537,
+        "part": 7,
+        "text": "게임 화면 구성"
+      }
+    },
+    {
+      "name": "지정하위항목 538",
+      "passed": true,
+      "detail": {
+        "line": 538,
+        "part": 7,
+        "text": "직업 선택 화면"
+      }
+    },
+    {
+      "name": "지정하위항목 539",
+      "passed": true,
+      "detail": {
+        "line": 539,
+        "part": 7,
+        "text": "업그레이드 화면"
+      }
+    },
+    {
+      "name": "지정하위항목 540",
+      "passed": true,
+      "detail": {
+        "line": 540,
+        "part": 7,
+        "text": "보스 및 클리어 화면"
+      }
+    },
+    {
+      "name": "지정하위항목 541",
+      "passed": true,
+      "detail": {
+        "line": 541,
+        "part": 7,
+        "text": "핵심 인터랙션"
+      }
+    },
+    {
+      "name": "지정하위항목 544",
+      "passed": true,
+      "detail": {
+        "line": 544,
+        "part": 8,
+        "text": "초기 구현 기능"
+      }
+    },
+    {
+      "name": "지정하위항목 545",
+      "passed": true,
+      "detail": {
+        "line": 545,
+        "part": 8,
+        "text": "제외할 기능"
+      }
+    },
+    {
+      "name": "지정하위항목 546",
+      "passed": true,
+      "detail": {
+        "line": 546,
+        "part": 8,
+        "text": "첫 번째 구현 직업"
+      }
+    },
+    {
+      "name": "지정하위항목 547",
+      "passed": true,
+      "detail": {
+        "line": 547,
+        "part": 8,
+        "text": "개발 우선순위"
+      }
+    },
+    {
+      "name": "지정하위항목 548",
+      "passed": true,
+      "detail": {
+        "line": 548,
+        "part": 8,
+        "text": "기능별 완료 기준"
+      }
+    },
+    {
+      "name": "지정하위항목 549",
+      "passed": true,
+      "detail": {
+        "line": 549,
+        "part": 8,
+        "text": "플레이테스트 계획"
+      }
+    },
+    {
+      "name": "지정하위항목 552",
+      "passed": true,
+      "detail": {
+        "line": 552,
+        "part": 9,
+        "text": "현재 기획의 강점"
+      }
+    },
+    {
+      "name": "지정하위항목 553",
+      "passed": true,
+      "detail": {
+        "line": 553,
+        "part": 9,
+        "text": "가장 중요한 약점"
+      }
+    },
+    {
+      "name": "지정하위항목 554",
+      "passed": true,
+      "detail": {
+        "line": 554,
+        "part": 9,
+        "text": "기존 게임과의 유사성 위험"
+      }
+    },
+    {
+      "name": "지정하위항목 555",
+      "passed": true,
+      "detail": {
+        "line": 555,
+        "part": 9,
+        "text": "개발 난이도가 높은 요소"
+      }
+    },
+    {
+      "name": "지정하위항목 556",
+      "passed": true,
+      "detail": {
+        "line": 556,
+        "part": 9,
+        "text": "개선 우선순위 TOP 5"
+      }
+    },
+    {
+      "name": "지정하위항목 559",
+      "passed": true,
+      "detail": {
+        "line": 559,
+        "part": 10,
+        "text": "가장 적절한 게임 구조"
+      }
+    },
+    {
+      "name": "지정하위항목 560",
+      "passed": true,
+      "detail": {
+        "line": 560,
+        "part": 10,
+        "text": "가장 적절한 성장 시스템"
+      }
+    },
+    {
+      "name": "지정하위항목 561",
+      "passed": true,
+      "detail": {
+        "line": 561,
+        "part": 10,
+        "text": "우선 구현할 직업과 이유"
+      }
+    },
+    {
+      "name": "지정하위항목 562",
+      "passed": true,
+      "detail": {
+        "line": 562,
+        "part": 10,
+        "text": "개발 착수 전 확정해야 할 사항"
+      }
+    },
+    {
+      "name": "지정하위항목 563",
+      "passed": true,
+      "detail": {
+        "line": 563,
+        "part": 10,
+        "text": "실제 개발을 위한 첫 번째 작업 목록"
+      }
+    },
+    {
+      "name": "발췌정합 참고작 출처와 사실/미확인 경계",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 전투·소환수 상태와 시간 경계",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 직업별 행동·투자 차이 비교",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 정령: 고유 기제·5종·공격과 진화",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 정령: 트리·2빌드·최종형태",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 용: 보관/출전·진화·대안",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 용: 기본1+추가4종 구성",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 용: 트리·최종형태·2빌드",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 동물: 영구수·5종 구성",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 동물: 트리·2빌드·최종형태",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 악마: 표식·5종·공격",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 악마: 트리·2빌드·최종형태",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 언데드: 5종·토큰·증식·최종형태",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 언데드: 트리·2빌드·플레이예시",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 피해·주기·시너지·상한 연산",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 전체 공통·전용 업그레이드 전수표",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 좌표·자동전투 필수 B01~B10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 일반적·전체 공급·보스7항목·엔딩3모델",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 변수·6공식·공격양수가정·조건부시간",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 전체 카탈로그 전략·구매원장·손실·악용 계산 결과",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 필수 UI10·입력·직업선택/일반전·상자후보",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 상점·직업특수·보스·결과·성장피드백·접근성",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 첫직업 비교·정확한 포함/제외·축소공급·집합·DoD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 다섯 가설의 방법·지표·판정·중단·표본·원장",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 원문 R01~R10·TOP5·강약점·미합의 U01~U07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "발췌정합 James의 Mia/Sam 응답·남은 협의·경제 대안",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 source.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 01-trace.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 12-catalog.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 01.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 02.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 03.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 04.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 05.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 06.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 07.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 08.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 09.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 10.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 11.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 12.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 13.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 14.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 15.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 16.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 17.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 18.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 19.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 2026-10-25_phase1-g1_approved_v01.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "입력불변 2026-10-25_phase1-resume-card-gates_approved_v01.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "로컬 링크·명시 앵커 실재",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "통합69 전수표 원천순서·ID보존",
+      "passed": true,
+      "detail": {
+        "catalog": 69,
+        "table_rows": 69
+      }
+    },
+    {
+      "name": "업그레이드10필드/상태/유한레벨",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "업그레이드ID중복0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "본문UPG참조 유효",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "5직업ID",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "기본+추가4 각직업 종수",
+      "passed": true,
+      "detail": [
+        "SUM_BST_BEAR",
+        "SUM_BST_BOAR",
+        "SUM_BST_HAWK",
+        "SUM_BST_STAG",
+        "SUM_BST_WOLF",
+        "SUM_DMN_EXECUTOR",
+        "SUM_DMN_HEXER",
+        "SUM_DMN_HOUND",
+        "SUM_DMN_IMP",
+        "SUM_DMN_TYRANT",
+        "SUM_DRG_MOON",
+        "SUM_DRG_STONE",
+        "SUM_DRG_STORM",
+        "SUM_DRG_WHELP",
+        "SUM_DRG_WYVERN",
+        "SUM_ELM_EMBER",
+        "SUM_ELM_PRISM",
+        "SUM_ELM_SPARK",
+        "SUM_ELM_STONE",
+        "SUM_ELM_TIDE",
+        "SUM_NEC_ARCHER",
+        "SUM_NEC_GOLEM",
+        "SUM_NEC_LICH",
+        "SUM_NEC_REVENANT",
+        "SUM_NEC_SKELETON"
+      ]
+    },
+    {
+      "name": "원문G1변경행 구분",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "정정원장12행",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "위험10개/미합의7개/TOP5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "재미가설 H1~H5 실험방법/지표/기준/중단/표본",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "첫작업7/착수결정10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "축소 HP/손실 명시적 미판정",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "실제검증/승인경계 명시",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "축소 완매비용265",
+      "passed": true,
+      "detail": 265
+    },
+    {
+      "name": "축소 해금비용105",
+      "passed": true,
+      "detail": 105
+    },
+    {
+      "name": "축소예약24/36/48·지급천장24/60/96",
+      "passed": true,
+      "detail": [
+        {
+          "s": 0,
+          "reserved": 24,
+          "gold_ceiling": 24
+        },
+        {
+          "s": 1,
+          "reserved": 36,
+          "gold_ceiling": 60
+        },
+        {
+          "s": 2,
+          "reserved": 48,
+          "gold_ceiling": 96
+        }
+      ]
+    },
+    {
+      "name": "원장 24즉시지급-20구매·정산0·실패0=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "全카탈로그/축소안 혼용방지",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "선행산술 재실행을 주장하지않음",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "trace_rows": 399,
+  "part_subitems": 50,
+  "excerpts": 26,
+  "catalog_rows": 69,
+  "summon_definitions": 25,
+  "artifact_sha256": {
+    "20.md": "0d40dd6a5bf795b7984c742a6c8def8edce81d16d8973016a8d4a3237332ec87",
+    "20-trace.md": "426026afa21f54692f0a6363e5bbb08ab7bd4c94be703e7b01964dfa96442cea",
+    "20-trace.json": "e3c48d40bf6cde4fc5cf6b13e9c354ec99cbb402999d3864503ddc5efc5e1427",
+    "20-manifest.json": "c672cc7072e9b8ad5d46a7fa2701f388035ac65dc6a261d1cde6e87088e1404f",
+    "20-validate.py": "fff4f4ec6f6e9109580c495f031f3d1956eb0a7aaabde7b45550582fe3bb628e"
+  },
+  "scope": "문서구조·출처·변경추적·명시상태·ID·로컬링크·비용/공급/원장 산술만. 의미적 전문 승인·축소화력/HP손실·실제K·플레이·사용자·기능·성능·접근성·재미 검증 아님.",
+  "not_performed": [
+    "축소보스화력계산",
+    "동료신규검토/역동의",
+    "게임코드/프로토타입/프로젝트초기화",
+    "실제참가자접촉/실험",
+    "벤치마크/설치/유료/외부공개",
+    "후속카드실행/해제",
+    "Slack실제전달직접확인"
+  ]
+}

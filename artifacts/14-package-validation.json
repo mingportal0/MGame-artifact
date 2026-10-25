@@ -1,0 +1,170 @@
+{
+  "scope": "document package structure/source-snapshot verification, not game or player testing",
+  "passed": 38,
+  "total": 38,
+  "checks": [
+    {
+      "name": "arithmetic result35/35",
+      "pass": true
+    },
+    {
+      "name": "CSV roster exactly 25 data rows",
+      "pass": true
+    },
+    {
+      "name": "CSV boss exactly 10 data rows",
+      "pass": true
+    },
+    {
+      "name": "CSV gold exactly 12 data rows",
+      "pass": true
+    },
+    {
+      "name": "CSV wait exactly 15 data rows",
+      "pass": true
+    },
+    {
+      "name": "40 sensitivity rows",
+      "pass": true
+    },
+    {
+      "name": "formula F1 present",
+      "pass": true
+    },
+    {
+      "name": "formula F2 present",
+      "pass": true
+    },
+    {
+      "name": "formula F3 present",
+      "pass": true
+    },
+    {
+      "name": "formula F4 present",
+      "pass": true
+    },
+    {
+      "name": "formula F5 present",
+      "pass": true
+    },
+    {
+      "name": "formula F6 present",
+      "pass": true
+    },
+    {
+      "name": "all five classes have required+maximum states",
+      "pass": true
+    },
+    {
+      "name": "25 source stat vectors unique",
+      "pass": true
+    },
+    {
+      "name": "ELM table matches output damage/budgets",
+      "pass": true
+    },
+    {
+      "name": "DRG table matches output damage/budgets",
+      "pass": true
+    },
+    {
+      "name": "BST table matches output damage/budgets",
+      "pass": true
+    },
+    {
+      "name": "DMN table matches output damage/budgets",
+      "pass": true
+    },
+    {
+      "name": "NEC table matches output damage/budgets",
+      "pass": true
+    },
+    {
+      "name": "input snapshot still matches 12-catalog.json",
+      "pass": true
+    },
+    {
+      "name": "input snapshot still matches 12.md",
+      "pass": true
+    },
+    {
+      "name": "input snapshot still matches 13.md",
+      "pass": true
+    },
+    {
+      "name": "input snapshot still matches 07.md",
+      "pass": true
+    },
+    {
+      "name": "input snapshot still matches 08.md",
+      "pass": true
+    },
+    {
+      "name": "input snapshot still matches 09.md",
+      "pass": true
+    },
+    {
+      "name": "input snapshot still matches 10.md",
+      "pass": true
+    },
+    {
+      "name": "input snapshot still matches 11.md",
+      "pass": true
+    },
+    {
+      "name": "local link exists ../../../decisions/2026-10-25_phase1-g1_approved_v01.md",
+      "pass": true
+    },
+    {
+      "name": "local link exists ../../../decisions/2026-10-25_phase1-start_approved_v01.md",
+      "pass": true
+    },
+    {
+      "name": "local link exists ../source.txt",
+      "pass": true
+    },
+    {
+      "name": "local link exists 12.md",
+      "pass": true
+    },
+    {
+      "name": "local link exists 12-catalog.json",
+      "pass": true
+    },
+    {
+      "name": "local link exists 13.md",
+      "pass": true
+    },
+    {
+      "name": "local link exists 14-roster.csv",
+      "pass": true
+    },
+    {
+      "name": "local link exists 14-inputs.json",
+      "pass": true
+    },
+    {
+      "name": "local link exists 14-wait.csv",
+      "pass": true
+    },
+    {
+      "name": "approval boundary explicit",
+      "pass": true
+    },
+    {
+      "name": "failure runs disclosed",
+      "pass": true
+    }
+  ],
+  "files": {
+    "14-boss.csv": "5b632cd2cc4bdd3aadbe020ba5bdaa47ba2c2f996b50e2fb67807268d7e0fb22",
+    "14-calculate.py": "5b9fe06817fdc4d5fe8f4b0efe9a9511967ce191c7f3554d876aa062516e7cbf",
+    "14-gold.csv": "dcf9b1eb3acc472710dff917348f4f5ffc87aa99fd88584252e174e757ac1a62",
+    "14-inputs.json": "54c56a1baabdcd01e73d17312fdaf2a21b4d42edfdad12efa6638315a2bef8de",
+    "14-roster.csv": "4e899a28b6081c12255a75698e7ea34d4a5e15aa87a5e1aa35f5bb6c447d14ae",
+    "14-validation.json": "ddf6b27e55c9fa6d6461f41cb195ef071dd1e314d9014eb7265b028fa721b58d",
+    "14-verify.py": "f0315d020e9ba36257b7da084eaff77b70a4e1e782d92b4296d11c276f6673e8",
+    "14-wait.csv": "858be0c13b78ab2cffa494909a8bf109f4b56a936079bc572b3b3bc48dde36f9",
+    "14.md": "bc7c87d584fbde30d54094e0e1e58c77270ff42ec582b56379a51dafb6cbf4d0"
+  }
+}

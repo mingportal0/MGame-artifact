@@ -1,0 +1,12 @@
+[
+  {
+    "profile": "mia",
+    "exit_code": 0,
+    "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88"
+  },
+  {
+    "profile": "sam",
+    "exit_code": 0,
+    "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88"
+  }
+]

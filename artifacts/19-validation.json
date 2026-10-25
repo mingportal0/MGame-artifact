@@ -1,0 +1,636 @@
+{
+  "document_id": "P1-19-RISK-v01",
+  "scope": "Document structure, exact source risk headings, field presence, links and fingerprints only; no semantic expert approval, arithmetic balance recalculation, game, UX, performance or user tests.",
+  "risk_count": 10,
+  "risk_field_count": 12,
+  "top5_count": 5,
+  "passed": 70,
+  "total": 70,
+  "checks": [
+    {
+      "name": "ten_unique_risks",
+      "passed": true,
+      "detail": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "name": "R01_source_title",
+      "passed": true,
+      "detail": {
+        "line": 467,
+        "title": "기존 Re:Blade와 지나치게 유사한 게임이 되는 문제",
+        "source": "기존 Re:Blade와 지나치게 유사한 게임이 되는 문제"
+      }
+    },
+    {
+      "name": "R01_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R01_source_line",
+      "passed": true,
+      "detail": 467
+    },
+    {
+      "name": "R01_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R01_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "R02_source_title",
+      "passed": true,
+      "detail": {
+        "line": 468,
+        "title": "자동 전투로 인한 플레이어 참여 부족",
+        "source": "자동 전투로 인한 플레이어 참여 부족"
+      }
+    },
+    {
+      "name": "R02_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R02_source_line",
+      "passed": true,
+      "detail": 468
+    },
+    {
+      "name": "R02_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R02_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "R03_source_title",
+      "passed": true,
+      "detail": {
+        "line": 469,
+        "title": "골드를 수집하는 행동의 반복 피로",
+        "source": "골드를 수집하는 행동의 반복 피로"
+      }
+    },
+    {
+      "name": "R03_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R03_source_line",
+      "passed": true,
+      "detail": 469
+    },
+    {
+      "name": "R03_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R03_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "R04_source_title",
+      "passed": true,
+      "detail": {
+        "line": 470,
+        "title": "단순 공격력 증가만 남는 업그레이드",
+        "source": "단순 공격력 증가만 남는 업그레이드"
+      }
+    },
+    {
+      "name": "R04_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R04_source_line",
+      "passed": true,
+      "detail": 470
+    },
+    {
+      "name": "R04_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R04_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "R05_source_title",
+      "passed": true,
+      "detail": {
+        "line": 471,
+        "title": "직업별 실질적인 차별화 부족",
+        "source": "직업별 실질적인 차별화 부족"
+      }
+    },
+    {
+      "name": "R05_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R05_source_line",
+      "passed": true,
+      "detail": 471
+    },
+    {
+      "name": "R05_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R05_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "R06_source_title",
+      "passed": true,
+      "detail": {
+        "line": 472,
+        "title": "몬스터 수 증가에 따른 성능 문제",
+        "source": "몬스터 수 증가에 따른 성능 문제"
+      }
+    },
+    {
+      "name": "R06_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R06_source_line",
+      "passed": true,
+      "detail": 472
+    },
+    {
+      "name": "R06_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R06_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "R07_source_title",
+      "passed": true,
+      "detail": {
+        "line": 473,
+        "title": "소환수 다수 등장에 따른 시각적 혼잡",
+        "source": "소환수 다수 등장에 따른 시각적 혼잡"
+      }
+    },
+    {
+      "name": "R07_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R07_source_line",
+      "passed": true,
+      "detail": 473
+    },
+    {
+      "name": "R07_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R07_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "R08_source_title",
+      "passed": true,
+      "detail": {
+        "line": 474,
+        "title": "업그레이드 경제의 인플레이션",
+        "source": "업그레이드 경제의 인플레이션"
+      }
+    },
+    {
+      "name": "R08_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R08_source_line",
+      "passed": true,
+      "detail": 474
+    },
+    {
+      "name": "R08_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R08_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "R09_source_title",
+      "passed": true,
+      "detail": {
+        "line": 475,
+        "title": "콘텐츠 부족으로 인한 빠른 클리어",
+        "source": "콘텐츠 부족으로 인한 빠른 클리어"
+      }
+    },
+    {
+      "name": "R09_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R09_source_line",
+      "passed": true,
+      "detail": 475
+    },
+    {
+      "name": "R09_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R09_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "R10_source_title",
+      "passed": true,
+      "detail": {
+        "line": 476,
+        "title": "콘텐츠를 과도하게 확장하여 개발이 지연되는 문제",
+        "source": "콘텐츠를 과도하게 확장하여 개발이 지연되는 문제"
+      }
+    },
+    {
+      "name": "R10_all_fields",
+      "passed": true,
+      "detail": [
+        "원문",
+        "원인",
+        "플레이 영향",
+        "가능성",
+        "심각도",
+        "예방",
+        "구현비용",
+        "권고책",
+        "책임자",
+        "근거",
+        "검증·종결조건",
+        "잔여위험"
+      ]
+    },
+    {
+      "name": "R10_source_line",
+      "passed": true,
+      "detail": 476
+    },
+    {
+      "name": "R10_specialist_citation",
+      "passed": true,
+      "detail": "named existing document citation"
+    },
+    {
+      "name": "R10_downstream_action",
+      "passed": true,
+      "detail": "20 and review route"
+    },
+    {
+      "name": "top5_exact",
+      "passed": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "name": "unresolved7",
+      "passed": true,
+      "detail": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07"
+      ]
+    },
+    {
+      "name": "change12",
+      "passed": true,
+      "detail": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "name": "decisions5",
+      "passed": true,
+      "detail": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05"
+      ]
+    },
+    {
+      "name": "local_link:../../../decisions/2026-10-25_phase1-g1_approved_v01.md",
+      "passed": true,
+      "detail": "../../../decisions/2026-10-25_phase1-g1_approved_v01.md"
+    },
+    {
+      "name": "local_link:../../../decisions/2026-10-25_phase1-start_approved_v01.md",
+      "passed": true,
+      "detail": "../../../decisions/2026-10-25_phase1-start_approved_v01.md"
+    },
+    {
+      "name": "local_link:../source.txt",
+      "passed": true,
+      "detail": "../source.txt"
+    },
+    {
+      "name": "local_link:02.md",
+      "passed": true,
+      "detail": "02.md"
+    },
+    {
+      "name": "local_link:15.md",
+      "passed": true,
+      "detail": "15.md"
+    },
+    {
+      "name": "local_link:16.md",
+      "passed": true,
+      "detail": "16.md"
+    },
+    {
+      "name": "local_link:17.md",
+      "passed": true,
+      "detail": "17.md"
+    },
+    {
+      "name": "local_link:18.md",
+      "passed": true,
+      "detail": "18.md"
+    },
+    {
+      "name": "local_link:19-validate.py",
+      "passed": true,
+      "detail": "19-validate.py"
+    },
+    {
+      "name": "local_link:19-validation.json",
+      "passed": true,
+      "detail": "19-validation.json"
+    },
+    {
+      "name": "G1_boundary",
+      "passed": true,
+      "detail": "approval and non-measurement disclaimers"
+    },
+    {
+      "name": "required_critical_review",
+      "passed": true,
+      "detail": "source Part9 topics"
+    },
+    {
+      "name": "reduced_not_full_damage",
+      "passed": true,
+      "detail": "full/reduced distinction"
+    },
+    {
+      "name": "index_links_exist",
+      "passed": true,
+      "detail": [
+        "AGENTS.md",
+        "kanban/game-planning-phase1/plan.md",
+        "decisions/2026-10-25_phase1-g1_approved_v01.md",
+        "kanban/game-planning-phase1/artifacts/04.md",
+        "decisions/2026-10-25_phase1-start_approved_v01.md",
+        "kanban/game-planning-phase1/source.txt",
+        "kanban/game-planning-phase1/artifacts/01.md",
+        "kanban/game-planning-phase1/artifacts/01-trace.json",
+        "kanban/game-planning-phase1/artifacts/01-validation.json",
+        "kanban/game-planning-phase1/artifacts/02.md",
+        "kanban/game-planning-phase1/artifacts/02-claims.json",
+        "kanban/game-planning-phase1/artifacts/02-validation.json",
+        "kanban/game-planning-phase1/artifacts/02-source-ko.json",
+        "kanban/game-planning-phase1/artifacts/02-source-en.json",
+        "kanban/game-planning-phase1/artifacts/03.md",
+        "kanban/game-planning-phase1/artifacts/03-validation.json",
+        "kanban/game-planning-phase1/artifacts/06.md",
+        "kanban/game-planning-phase1/artifacts/06-validation.json",
+        "kanban/game-planning-phase1/artifacts/05.md",
+        "kanban/game-planning-phase1/artifacts/05-validation.json",
+        "kanban/game-planning-phase1/artifacts/15.md",
+        "kanban/game-planning-phase1/artifacts/15-inputs.json",
+        "kanban/game-planning-phase1/artifacts/15-validation.json",
+        "kanban/game-planning-phase1/artifacts/15-package-validation.json",
+        "kanban/game-planning-phase1/artifacts/16.md",
+        "kanban/game-planning-phase1/artifacts/16-validation.json",
+        "kanban/game-planning-phase1/artifacts/16-validate.py",
+        "kanban/game-planning-phase1/artifacts/17.md",
+        "kanban/game-planning-phase1/artifacts/17-validation.json",
+        "kanban/game-planning-phase1/artifacts/18.md",
+        "kanban/game-planning-phase1/artifacts/18-validation.json",
+        "kanban/game-planning-phase1/artifacts/19.md",
+        "kanban/game-planning-phase1/artifacts/19-validation.json",
+        "kanban/game-planning-phase1/artifacts/19-validate.py"
+      ]
+    },
+    {
+      "name": "index_15_to_19",
+      "passed": true,
+      "detail": "15-19 document index present"
+    }
+  ],
+  "sha256": {
+    "/home/mj/.hermes/company/README.md": "7a7727099f14b98e52bb80724fa9e9c4b8d1aa7c2ee8b585e86725e50df26b53",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/source.txt": "8ae99c2a78ba5435023962378afb9383d4aa1e3558a6a7fcbafcb02b7b7d8fd2",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/02.md": "03ebb736c5d52a9bb3d3506b8187d845620739ed731eadb42c3b82e63e083b71",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/15.md": "46ce40eaa8c4b362f9b41a7a1dde73e3602c6c0a906b76b6f64d6038fa66d38a",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/16.md": "75369597cedb267157a120f6219522ac451e89da10ece88356df83f993611464",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/17.md": "80c56537b34003608ae041b97545ad6640626761955c24aaa8d0f50bd49906a1",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/18.md": "7491d059cdcddbc7b3a62675794a9a7be7e4a69483d829a00bdd16131abf34e3",
+    "/home/mj/.hermes/company/decisions/2026-10-25_phase1-g1_approved_v01.md": "2df0fd534b1d46a94520fffe1ec8a077aee25c46b5a2337701d6787cca348d05",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/19.md": "e2e0402c788eca15dcfa06c756355bc4f650e8ca8b53c838554ee85262930368",
+    "/home/mj/.hermes/company/kanban/game-planning-phase1/artifacts/19-validate.py": "375af7477348f2b68d006f34872c64f4c9bfd9f9e3b9cc0649802e7e6438dad9"
+  },
+  "unresolved": [
+    "reduced MVP damage and natural economy unverified",
+    "U01-U07 peer followup pending",
+    "art effort and representative quality undefined",
+    "MVP/GDD/G3 and participant contact unapproved"
+  ],
+  "not_performed": [
+    "game code/prototype/project initialization",
+    "reduced combat arithmetic",
+    "peer assent collection",
+    "user/performance/accessibility tests",
+    "paid work/publication/contact",
+    "Slack delivery verification"
+  ]
+}

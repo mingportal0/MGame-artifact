@@ -1,0 +1,47 @@
+{
+  "document_id": "P1-17-TECH-v01",
+  "scope": "문서 검색/원문 대조/가정 산술/입력 지문만. 게임 기능·성능·경제·UX 검증 아님.",
+  "methods": ["read_file 원문/승인/선행 문서 읽기", "search_files 구조 및 응답행 검사", "terminal expr 산술", "terminal sha256sum 입력 고정", "terminal test -f 보조 링크 존재"],
+  "blocked_attempt": {"tool": "execute_code", "result": "무인 세션 임의 Python 실행 정책으로 실행 전 차단", "tool_calls_made": 0, "response": "정책/설정 변경 또는 임의 Python 대체 실행 없이 정상 검색·expr·sha256sum 도구로 한정 검증"},
+  "structure": {
+    "row_search_total": 52,
+    "risk_alternative_rows": 9,
+    "james_response_rows": 6,
+    "mia_response_rows": 5,
+    "functional_boundary_performance_plan_rows": 9,
+    "change_trace_rows": 13,
+    "manual_document_walkthrough_rows": 10,
+    "sections": 11,
+    "result": "명시 행과 각 절 존재 확인. 검색 결과는 의미 정확성/자동 전수 테스트 통과를 뜻하지 않음"
+  },
+  "arithmetic": {
+    "command": "terminal expr",
+    "exit_code": 0,
+    "effort_low_sum": 18,
+    "effort_high_sum": 32,
+    "effort_low_buffer_hundredths": 2250,
+    "effort_high_buffer_hundredths": 4800,
+    "effort_buffer_interpretation": "2250/100=22.5,4800/100=48 개발 인일 후보. 실제 견적 아님.",
+    "individual_or_shared_nearest_full": 480,
+    "shared_nearest_k12": 120,
+    "shared_full_checks_per_second_assumed_60": 31680,
+    "frame_budget_integer_microseconds_60fps": 16666,
+    "frame_budget_integer_microseconds_30fps": 33333,
+    "result": "본문 작업량 합/여유범위·탐색 작업수와 일치. 성능 측정치 아님. 프레임 값은 정수 나눗셈 절삭 결과이며 본문 ms 값은 근사 표기."
+  },
+  "sha256": {
+    "source.txt": "8ae99c2a78ba5435023962378afb9383d4aa1e3558a6a7fcbafcb02b7b7d8fd2",
+    "G1_decision": "2df0fd534b1d46a94520fffe1ec8a077aee25c46b5a2337701d6787cca348d05",
+    "05.md": "54ee4591f2f8fbe9eec8c5ccc8f7eea93ca5fb020c460eab60d03437f754fccf",
+    "12.md": "1251ad63dcab08430b80517d75e9d310390b622d5e4e344c8b4f3b91272ce0fe",
+    "12-catalog.json": "2dd5c775a87ba661253df7e3421a82495f16257c2ee3107af427c648e2eca425",
+    "13.md": "911d9c9ed39c7abfb3d0c4787909088b5103dc6112f2f3e67b163d975d5a4a91",
+    "16.md": "75369597cedb267157a120f6219522ac451e89da10ece88356df83f993611464",
+    "17.md": "80c56537b34003608ae041b97545ad6640626761955c24aaa8d0f50bd49906a1"
+  },
+  "links": {"result": "승인문서/선행문서/source는 실제 read_file,카탈로그와착수승인은test -f exit0으로 존재 확인.17-validation.json은본기록생성으로제공.자동마크다운링크전수검사는미실행"},
+  "unresolved": ["엄격 이탈·논리시각/입력 정밀도·표식 동시사건의 James 수용", "놓음/별도구매/재진입잠금의 James/Mia 수용", "14/15 원천null·골드무효레벨·최종유한전력 보스처치 검토", "실제 하드웨어/렌더·개체상한·가독성 실측", "MVP/저장/엔진/플랫폼/최종GDD/G3 별도 대표 승인"],
+  "not_performed": ["게임코드/프로토타입/프로젝트초기화/설치", "벤치마크/기능테스트/접근성실측/플레이테스트", "사용자접촉/외부공개/유료작업", "James/Mia 역동의", "Slack 전달 직접 확인"],
+  "downstream_inspected": ["t_70944175", "t_a71cf5c7"],
+  "index_handoff": "공유 README/선행 원본 수정 없음. Sophie 단일 색인 등록 필요."
+}

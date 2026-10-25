@@ -1,0 +1,227 @@
+# P1-22 原지적 전수 대응/재확인
+
+상태 review, 최종수치/GDD/G3 미승인. 채택은 문서수정 방향이며 결함해소와 다름. original severity 유지; 중복주제도 원ID별 보존. James 자신의7지적은 실제 작성자 자체재검토이며 독립리뷰라고 부르지 않음. Mia/Sam은 실제 새프로필 응답만 연결.
+
+현재 집계: {"partial_open": 17, "document_satisfied": 10}
+
+## 최종 제출 정정 부록
+[22-addendum.md](22-addendum.md)를 본문과 함께 읽는다. 본문/실제 검토 지문은 보존하고 E01 옛 구매오류, E02 질문순서, E03 확장 부분전달, E04 보스/집합 채택제한을 정정한다. v01 담당 판정을 소급 변경하지 않으며 부록 재검토는 별도 응답만 증거로 인정한다.
+
+## JAMES-01 / 치명 / 미판정 보존은 완료 근거이지만 최종 완주 채택 근거가 아니다
+원문: 21-review-james.md L115 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 축소 ID/상태/정확 타격/HP별/합성손실을 새로 계산. 해금과 최대 동일 단일보스화력 확인.
+수정 위치: 22.md L796
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_parent_james_self_review_not_independent", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-james.md", "verdict": "partial_open", "reason": "채택: 축소 ID/상태/정확 타격/HP별/합성손실을 새로 계산. 해금과 최대 동일 단일보스화력 확인.", "remaining": "치명 유지: B개화단독 a2 q0 피해299<HP300; 자연경제·실제손실/완주 미검증·대표HP/집합 선택 필요."}
+현재 상태: partial_open; 남은 위험: 치명 유지: B개화단독 a2 q0 피해299<HP300; 자연경제·실제손실/완주 미검증·대표HP/집합 선택 필요.
+
+## JAMES-02 / 높음 / I07의 노출 보장과 자연 선택 기대가 섞인다
+원문: 21-review-james.md L127 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: AND A/대표성장 OR B/화력 C 논리식·가격·X/Y와 필수동기/장면기대 코딩 분리. B 권고.
+수정 위치: 22.md L515
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_parent_james_self_review_not_independent", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-james.md", "verdict": "partial_open", "reason": "채택: AND A/대표성장 OR B/화력 C 논리식·가격·X/Y와 필수동기/장면기대 코딩 분리. B 권고.", "remaining": "높음 유지: B의 선택경로 도달성 반례. 집합 선택 대표 미승인. A에서 선택은 순서라는 한계."}
+현재 상태: partial_open; 남은 위험: 높음 유지: B의 선택경로 도달성 반례. 집합 선택 대표 미승인. A에서 선택은 순서라는 한계.
+
+## JAMES-03 / 높음 / H3 총괄 식별 통과가 특정 핵심 성장의 실패를 가릴 수 있다
+원문: 21-review-james.md L139 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 3종 총괄뿐 아니라 5ID 개인표·불변/반경오해veto·전원미식별 항목실패. 이해/만족/미적 분리.
+수정 위치: 22.md L938
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_parent_james_self_review_not_independent", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-james.md", "verdict": "partial_open", "reason": "채택: 3종 총괄뿐 아니라 5ID 개인표·불변/반경오해veto·전원미식별 항목실패. 이해/만족/미적 분리.", "remaining": "실제 식별/대표품질 관찰 없음. 특정항목 미식별을 총괄지지로 숨기지 않음."}
+현재 상태: partial_open; 남은 위험: 실제 식별/대표품질 관찰 없음. 특정항목 미식별을 총괄지지로 숨기지 않음.
+
+## JAMES-04 / 중간 / run_id 분리만으로 H4/H5의 사전 과제 노출은 사라지지 않는다
+원문: 21-review-james.md L151 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 자연경제 선행 B권고·각 participant 노출목록·H4질문이 H5도 오염함을 명시.
+수정 위치: 22.md L932
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_parent_james_self_review_not_independent", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-james.md", "verdict": "partial_open", "reason": "채택: 자연경제 선행 B권고·각 participant 노출목록·H4질문이 H5도 오염함을 명시.", "remaining": "과제순서 실제 사용성 확인/접촉 미실행. 미노출 신규유입·유지율 일반화 금지."}
+현재 상태: partial_open; 남은 위험: 과제순서 실제 사용성 확인/접촉 미실행. 미노출 신규유입·유지율 일반화 금지.
+
+## JAMES-05 / 높음 / 공급 선구매의 위험은 적었지만 ‘진척 회복 가능’의 수용조건은 없다
+원문: 21-review-james.md L163 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 공급 선구매 직후부터 다음화력까지 BASIC/DENSE 예약/가정생성/처치/지급/부족액 CSV. 3전투 회복가정/4중단사유 구별.
+수정 위치: 22.md L824
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_parent_james_self_review_not_independent", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-james.md", "verdict": "partial_open", "reason": "채택: 공급 선구매 직후부터 다음화력까지 BASIC/DENSE 예약/가정생성/처치/지급/부족액 CSV. 3전투 회복가정/4중단사유 구별.", "remaining": "높음 유지: 외생K 현금흐름일뿐 실제 K/slot/집중 경로 미측정. 환불·선행·단계선택 미채택."}
+현재 상태: partial_open; 남은 위험: 높음 유지: 외생K 현금흐름일뿐 실제 K/slot/집중 경로 미측정. 환불·선행·단계선택 미채택.
+
+## JAMES-06 / 중간 / 공통 사망 단계와 NEC 보스 승리 우선의 예외 위치가 어긋난다
+원문: 21-review-james.md L175 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 같은t 합산피해 뒤 terminal결정 우선·보스토큰/생성 이벤트 자체0. 일반동시사망 규칙 별도.
+수정 위치: 22.md L751
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_parent_james_self_review_not_independent", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-james.md", "verdict": "partial_open", "reason": "채택: 같은t 합산피해 뒤 terminal결정 우선·보스토큰/생성 이벤트 자체0. 일반동시사망 규칙 별도.", "remaining": "문서 정렬 제안·확장기능 미시험·U01 최소시각 미정. 정령 비활성으로 전체해결 간주금지."}
+현재 상태: partial_open; 남은 위험: 문서 정렬 제안·확장기능 미시험·U01 최소시각 미정. 정령 비활성으로 전체해결 간주금지.
+
+## JAMES-07 / 중간 / H1의 ‘첫60초’가 어떤 시간인지 판정할 수 없다
+원문: 21-review-james.md L187 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택·측정안 명료화: 첫combat진행 t0 활성벽시계60초, 상점포함/준비·정지제외, 첫성공=유효지정 발사·처치별도. 도움/결측/실패 사례.
+수정 위치: 22.md L936
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_parent_james_self_review_not_independent", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-james.md", "verdict": "partial_open", "reason": "채택·측정안 명료화: 첫combat진행 t0 활성벽시계60초, 상점포함/준비·정지제외, 첫성공=유효지정 발사·처치별도. 도움/결측/실패 사례.", "remaining": "Mia/Sam 계측/과제 수용은 실제재검토만 반영. 접촉·관찰 미실행."}
+현재 상태: partial_open; 남은 위험: Mia/Sam 계측/과제 수용은 실제재검토만 반영. 접촉·관찰 미실행.
+
+## MIA-01 / 높음 / 축소 X/Y 정정과 옛 바인딩의 근접 전달 충돌
+원문: 21-review-mia.md L45 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: W03 가까이에 역사집합 축소복사금지·A3조건/B2조건과 정확X 계산 정본.
+수정 위치: 22.md L851
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "mia", "session_id": "20261025_140433_dd2331", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-mia.json", "id": "MIA-01", "verdict": "document_satisfied", "location": "22.md L511-535, L851-854", "reason": "구성 정본 CFG22-A/B와 W03 인접 바인딩을 분리했다. A는 POWER3/BLOOM1/SPARK1 조건수 X/3, B는 POWER3 AND(BLOOM1 OR SPARK1) X/2이며, 반경/공급 제외·ELM_POWER 참조0·역사 전체 바인딩 복사 금지가 명시됐다. POWER1/2, POWER3 단독, BLOOM 단독, 전부 충족 사례가 있다.", "remaining": "표시 계약의 문서 수용만이다. 실제 UI/로그가 같은 variant를 읽는지 미검사. B 집합·HP 동시 채택 및 완주 가능성은 미합의/대표 결정 대상이다."}
+현재 상태: document_satisfied; 남은 위험: 원지적 A집합의 표시수용과 B집합 채택은 구별. 대표 집합 선택 미승인.
+
+## MIA-02 / 중간 / 새 상점 예시가 구매 성공 뒤 상태를 일관되게 읽히지 않게 한다
+원문: 21-review-mia.md L55 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: rev10 전24/0/3/1부족, rev11 후4/1/3/21부족을 초기상태 포함 분리.
+수정 위치: 22.md L856
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "mia", "session_id": "20261025_140433_dd2331", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-mia.json", "id": "MIA-02", "verdict": "partial_open", "location": "22.md L553; L856-861", "reason": "현재 W03은 rev10 24G/BLOOM0/X0/번개1G부족과 rev11 4G/BLOOM1/X1/번개21G부족을 올바르게 분리했다. 그러나 Part4 재수록 예시 L553에는 BLOOM 성공으로4G가 된 뒤 SPARK25를1G부족이라고 쓰는 옛 오류가 남았다. 상위 정본으로 해석할 수 있어도 본문 전체의 구매 인과 설명이 완전히 정합하지는 않다.", "remaining": "권한 있는 작성자가 L553을 역사적 오류로 인접 표시하거나 현재 예시와 맞춰 정정해야 한다. 본 실행에서는22 본문을 수정하지 않았다. 실제 원장/성공 배지 동기화는 미검사."}
+현재 상태: partial_open; 남은 위험: 실제 UI 렌더·동기화 미시험.
+
+## MIA-03 / 높음 / 접근성 원칙은 있으나 대체 표현·확대 범위의 검사 계약이 부족하다
+원문: 21-review-mia.md L65 / 단일 책임 Mia / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 기본/무음/모션축소/동시 정적대체·확대후보·긴문구/버튼도달·중심 경계표.
+수정 위치: 22.md L869
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "mia", "session_id": "20261025_140433_dd2331", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-mia.json", "id": "MIA-03", "verdict": "document_satisfied", "location": "22.md L736-738, L849, L869-881, L924", "reason": "기본/무음/모션축소/동시 옵션의 지정·접근·무효·처치·구매성공·실패 대체표가 있다. 확대 배율/해상도는 검사 후보로 한정하고 긴 한글·조건3행·최대잔액·고정버튼/스크롤 분리 및 큰 보스 중심/경계/겹침 기대값을 제시했다.", "remaining": "렌더·대비·인지·마우스 도달성은 전부 미검증. 최대 잔액 자릿수와 포맷은 L832에서 미정이므로 실제 확대 fixture 확정 전 접근성 합격이나 지원 해상도 보장으로 전용 불가."}
+현재 상태: document_satisfied; 남은 위험: 실제 대비/렌더/인지 미측정·해상도 지원확정 아님.
+
+## MIA-04 / 중간 / U03: A 재진입 기본 강제보다 B 새 클릭을 현재 추천
+원문: 21-review-mia.md L75 / 단일 책임 Mia / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: B 새클릭 권고/갱신중 비활성·명령쌍·별개더블클릭 오구매 위험/측정 분리.
+수정 위치: 22.md L867
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "mia", "session_id": "20261025_140433_dd2331", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-mia.json", "id": "MIA-04", "verdict": "document_satisfied", "location": "22.md L863-867, L919, L982, L1004", "reason": "구매 안전 계약과 UX A/B를 분리했다. 새 누름/놓음, 밖놓음·홀드·doubleclick 중복·갱신중 입력·포커스·화면세대·재배치·최대 소멸·다음전투 경합을 다룬다. 같은 요청 재전달과 갱신 후 새 의도를 구별하며 사용자 비교 전 우열 미판정을 보존한다.", "remaining": "Mia는 구매 B를 조건부 동의/현재 추천한다. 고정 영역의 새 가격/레벨/잔액을 읽고 난 뒤의 새 입력쌍만 허용하고 오구매를 별도 관찰해야 한다. 실제 편안함·오구매 우열, Sam 기술 수용, 최종 채택은 확인하지 않았다."}
+현재 상태: document_satisfied; 남은 위험: 사용자우열 미판정·Sam 실제재검토 외 합의 추정금지.
+
+## MIA-05 / 높음 / U04: 과부하 반복 정지의 탈출·재개 가능 상태가 빠져 있다
+원문: 21-review-mia.md L85 / 단일 책임 Sam / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 정상/정지/재개가능/복구불가/반복/탈출 구별·보존문구 제한.
+수정 위치: 22.md L883
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "mia", "session_id": "20261025_140433_dd2331", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-mia.json", "id": "MIA-05", "verdict": "partial_open", "location": "22.md L883-895, L922, L983", "reason": "정상→과부하정지→복구불가/재개가능→재개준비→반복정지 상태와 큐 보존·원장 미확인 시 성공문구 금지·계속 비활성·별도 탈출 후보를 추가했다. 그러나 발동/해제 수치·반복 판단·안전 체크포인트가 미정이고 탈출/런 손실 정책도 미채택이라 진행 가능한 복구 경로가 확정된 것은 아니다.", "remaining": "Sam의 실제 안전 경계·큐/원장 보존 가능성과 기기 근거가 필요하다. 중단→상점 또는 메인 복귀의 손실·경제 정책은 대표 확인 필요. 계속 버튼 존재를 회복 보장으로 인정하지 않는다."}
+현재 상태: partial_open; 남은 위험: 높음 유지: 측정임계치/안전경계/탈출 런경제 정책 미채택. 계속연타를 복구라고 하지 않음.
+
+## MIA-06 / 높음 / U05: 대표적 표현 품질과 자산의 납품 단위가 미정
+원문: 21-review-mia.md L95 / 단일 책임 Mia / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 제한 대표품질 묶음·상태/포맷/프레임 필드·인일 미산정 근거·담당 재개조건.
+수정 위치: 22.md L897
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "mia", "session_id": "20261025_140433_dd2331", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-mia.json", "id": "MIA-06", "verdict": "partial_open", "location": "22.md L897-902, L984, L1005-1006, L1021-1032", "reason": "제한 대표품질 패키지와 자산 레코드 필드, 논리 중심/margin과 그림 분리, 출처 원장, Mia/Sam 역할, 미산정 비용 경계를 제시했다. 재사용 우선 및 임시도형으로 미적 합격 불가에는 동의한다. 하지만 자산별 실제 수량 단위·목표 표시크기·포맷·프레임·수정회차·합격 담당 값이 채워진 납품 명세는 아직 없다.", "remaining": "Mia는 자산 인터페이스 원칙에 조건부 동의한다. 자산별 상태행·원본/출력 포맷·해상도/목표크기·수정회차·신규/재사용·권리/담당을 확정한 뒤만 제작량 산정 가능하다. 인일/총비용/최종 비주얼 미정이며 18~32를 새 확약으로 인정하지 않는다."}
+현재 상태: partial_open; 남은 위험: 높음 유지: 품질/방식/사용권/제작량·인일 미정·실물 없음.
+
+## MIA-07 / 중간 / 5항목 전후 명세와 H3 관찰 범위가 일치하지 않는다
+원문: 21-review-mia.md L122 / 단일 책임 Mia / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 정확5항목 전후·불변·입력/배치고정/공급예외·숫자숨김 정보·단일보스 오해 구분.
+수정 위치: 22.md L942
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "mia", "session_id": "20261025_140433_dd2331", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-mia.json", "id": "MIA-07", "verdict": "document_satisfied", "location": "22.md L938, L942-951", "reason": "5항목별 전후/불변/관측 근거를 제공하고 공급 비교만 공급을 변경하는 예외, POWER 수치 정보 접근, 단일보스의 개화/연쇄 배수0을 명시했다. 개인×5항목 표와 공급/화력 미측정 보존, 이해/구매만족/미적만족 분리로 원문 누락을 보완했다.", "remaining": "실제 H3 자료·자가구매·식별·만족 자료 없음. 대표품질 전 미적 판정 불가. 반경 핵심 veto는 JAMES-03 보조 검토로 별도 확인했으며 모든 규칙 오해를 단일 총괄 통과로 숨기면 안 된다."}
+현재 상태: document_satisfied; 남은 위험: 실제 화력/공급/전체H3 관찰 없음·3종지표를 5종으로 확대금지.
+
+## MIA-08 / 높음 / 새 화면 입력은 막지만 시작/복귀의 UI→필드 이동 비용은 남는다
+원문: 21-review-mia.md L141 / 단일 책임 Mia / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 준비/재개준비/진행·시계0/새확인 소비·UI→필드 손실의 A/B 명시. B권고.
+수정 위치: 22.md L65
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "mia", "session_id": "20261025_140433_dd2331", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-mia.json", "id": "MIA-08", "verdict": "document_satisfied", "location": "22.md L65-67, L738, L887-895, L994, L1004", "reason": "시작/재개준비 B에서 시간·적 이동·공격·지급0, 진입/초점만 자동 시작0, 새 확인을 UI명령1회로 소비, 현재 좌표 재검증·중첩 정지 사유 전부 해제·종료잠금 유지가 명시됐다. A 대안의 UI→필드 이동 손실도 공개했다. 옛 탄 재진입 복원0은 L738로 연결된다.", "remaining": "Mia는 복귀 B에 조건부 동의한다. 전투 공격 클릭이 아닌 준비 확인이어야 하며 자동 클릭전파/옛 탄 부활/마지막 C 고정은 불허. 실제 동작·절차 부담·Sam 비용·대표 핵심변경 판단 미확인. 과부하 복구 가능 판정 자체는 MIA-05로 열림."}
+현재 상태: document_satisfied; 남은 위험: 높음 유지: 추가절차/오차/원복귀비용 검토·대표 핵심변경 확인 전 미채택.
+
+## MIA-09 / 중간 / 출처 경계는 양호하나 자체 자산별 출처·근접성 확인 절차는 비어 있다
+원문: 21-review-mia.md L151 / 단일 책임 Mia / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: asset별 제작자/URL/날짜/라이선스/수정배포/사용위치·폰트음향/미확인제한.
+수정 위치: 22.md L901
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "mia", "session_id": "20261025_140433_dd2331", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-mia.json", "id": "MIA-09", "verdict": "document_satisfied", "location": "22.md L40-45, L900-902, L958, L970", "reason": "자산별 ID/제작자와 자체제작 또는 출처URL·확인일/라이선스/수정·게임배포조건/사용위치/확인상태를 연결하고 폰트·음향을 포함했다. 자체 제작근거와 표현 비교, 실물 없음/근접성 미비교/법률 판정 미실행을 구별한다.", "remaining": "절차의 문서 보완만 수용한다. 실제 원장 레코드·권리 증빙·실물 근접성·법률/시장 독자성은 미검증. 사용/구매/공개 허가 또는 비침해 보증이 아니다."}
+현재 상태: document_satisfied; 남은 위험: 실물근접성/독자성/법률검토 미실행, 외부사용허가 아님.
+
+## SAM-01 / 높음 / U01: 입력 적용시각과 관측 경로 계약이 비어 있음
+원문: 21-review-sam.md L79 / 단일 책임 Sam / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 수신순/시간/좌표세대/무효사유·정지·관측안밖안 보존/양끝만 보장한계·재생원장필드.
+수정 위치: 22.md L775
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-01", "verdict": "partial_open", "location": "22.md L775-L780; L736-L737; L980", "reason": "수신순 계단식 C, 입력 필드, 같은 t 전이 보존, 정지/크기변경/포커스 처리와 재생 비교 필드가 추가됐다. 그러나 received_monotonic에서 assigned_logical_time으로의 실제 매핑과 늦은 입력의 적용/폐기가 여전히 후보라 동일 기록의 유일한 결과 계약은 닫히지 않았다.", "remaining": "시계 매핑, 늦은 입력의 단일 정책, UI 포획/필드 이탈의 세부 적용 경계, 시간 정밀도와 규칙/UX 합의. 실제 입력 재생 미실행."}
+현재 상태: partial_open; 남은 위험: 높음 유지: 매핑/지연/동일t 의미·장치시계 구체수치 미확정.
+
+## SAM-02 / 높음 / U01: 연속교차·T 경계·수치 오차의 공통 계약 부재
+원문: 21-review-sam.md L89 / 단일 책임 Sam / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 연속구간과 T/수명/접선/반사 경계 기대표, 고정60Hz 대체금지·수치 미정 명시.
+수정 위치: 22.md L778
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-02", "verdict": "partial_open", "location": "22.md L737-L739; L753-L759; L778-L780; L917", "reason": "연속구간 분할/최초교차, 거리 경계 포함, T 유예 금지와 경계 기대사례를 명시했다. 시간 단위, 양자화 방향, 좌표 표현, 교차 오차, 동시성 허용과 추적 갱신 주기는 미정이라고 정확히 남겼다.", "remaining": "수치 표현과 오차/동률 계약 및 t'>t 최소 단위 확정. 접선/반사/이탈/수명 경계의 구현 정확성과 렌더 독립성은 미검증."}
+현재 상태: partial_open; 남은 위험: 높음 유지: 양자화/교차오차/최소t/갱신주기 미정으로 구현사양 고정불가.
+
+## SAM-03 / 높음 / U02: 표식의 개선 의견이 공통 배치 정본으로 통합되지 않음
+원문: 21-review-sam.md L99 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 공통 순서에 만료/스냅샷/기본양수/ID→attack/합산/생존재적용/새t 정본+사례.
+수정 위치: 22.md L751
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-03", "verdict": "partial_open", "location": "22.md L72; L751-L773; 대조 L352-L365, L580-L586", "reason": "C22-BATCH가 만료/스냅샷→양수 기본피해 자격→source_entity_id/attack_id 선점→전체 피해합산→생존 대상 소비/최대 만료 갱신을 정본으로 제시했다. 같은 t 뒤 콜백과 basic_hit 재발행도 금지한다. 다만 같은 아군/다른 attack_id, 중복, 만료 재적용 사례의 피해합·소비 수·최종 표식 수치 기대값이 원문 수용기준만큼 모두 명시되지 않았다.", "remaining": "생략된 사례별 완전한 기대 원장, 최소 t 단위(SAM-02), 연출 연결 확인. 구조에 조건부 동의하되 확장 기능 또는 타 전문가 합의 완료 아님."}
+현재 상태: partial_open; 남은 위험: 높음 잔여가능: 일반공격·효과 중복키 세부/수치 t·표식 예외 최신 실제 Sam응답 우선. 비활성이라해결이라고 하지 않음.
+
+## SAM-04 / 높음 / U02: 보스 사망 잠금과 NEC 생성의 일반 순서가 충돌할 여지
+원문: 21-review-sam.md L109 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 전체같은t피해합산후 terminal 먼저·허용보상1·보스토큰/생성 자체0·늦은death0.
+수정 위치: 22.md L758
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-04", "verdict": "document_satisfied", "location": "22.md L72; L751-L771; 대조 역사 부록 L465-L473, L586", "reason": "단계4 같은 t 전체 피해/사망 확정 뒤 단계5 terminal을 먼저 결정하고 NEC 토큰 적립/생성 이벤트 자체0을 정했다. 일반 사망은 비terminal 단계6으로 분리했고 T/늦은 death/청소 재발행0 기대값이 있다. 생성 후 청소하는 잘못된 해석을 막는 문서 순서 보완에 동의한다.", "remaining": "문서 순서 충돌 보완에 한정. 실제 생성0/승리1회 테스트, U01 정밀도, NEC 확장 구현 및 보스 보상0의 대표 채택은 별개다."}
+현재 상태: document_satisfied; 남은 위험: 문서정합 범위와 실제 기능검증 별개·최소t/보상0 대표미승인.
+
+## SAM-05 / 높음 / U03: 안전 요청 계약이 참조 수준에 머물고 UX 잠금과 섞일 위험
+원문: 21-review-sam.md L119 / 단일 책임 Sam / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 요청ID/세대/revision/상태 재검사·중복/결과불명·늦은응답/명령순서·입력취소 정본.
+수정 위치: 22.md L863
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-05", "verdict": "document_satisfied", "location": "22.md L856-L867; L919", "reason": "구매 요청 필드, 같은 의도 재전달/새 의도, 결과불명/알려진 실패, 단일 갱신 재검사, 명령 수신순 직렬화 및 옛 세대 응답의 원장/연출 분리가 문서 계약으로 구체화됐다. 밖 놓음·전환·초점·재배치·홀드·중복 콜백도 구별한다.", "remaining": "purchase B에 조건부 동의: 완료 상태 갱신 뒤 시작한 새 입력쌍만 다음 레벨 구매, 자동/홀드 반복0이 조건이다. 별개 더블클릭 오구매와 A/B 사용성 우열, 실제 원자성/저장 복구는 미검증."}
+현재 상태: document_satisfied; 남은 위험: 안전 의미제안·구현/저장복구 미증명. A/B UX우열 별도.
+
+## SAM-06 / 높음 / U04: 과부하 진입·재개·반복정지 탈출 규칙이 없음
+원문: 21-review-sam.md L129 / 단일 책임 Sam / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 완결t배치 정지·접수큐보존/추가벽시계0·다른복구조건·중첩정지·반복탈출안.
+수정 위치: 22.md L883
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-06", "verdict": "partial_open", "location": "22.md L65-L66; L883-L895; L922; L983", "reason": "완결 배치 경계 정지, 합법 미처리 큐 보존, 추가 벽시계 누적0, 복구불가/재개가능/반복정지와 탈출 후보를 분리했다. 그러나 발동/해제/반복 숫자와 안전 체크포인트는 미정이고 요청했던 사례별 큐·시각·지급 기대표 대신 재검토 목록으로 남았다.", "remaining": "측정 지표/임계치/히스테리시스, 단일 배치를 완료할 수 없는 지속 부하의 처리/중단 경계, 사례별 원장, 런 손실 정책과 비용. 복귀 B는 조건부 동의하나 진행 가능성/성능 보장은 반대."}
+현재 상태: partial_open; 남은 위험: 높음 유지: 발동/해제 실제수치/원장복구/자기탈출경로 확정전 충분성보장불가.
+
+## SAM-07 / 높음 / U06: 동일 ID의 전체/축소 구성 선택을 식별하는 계약 부족
+원문: 21-review-sam.md L139 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 원ID보존+variant/schema/data/hash·override·포함/비활성/공급/집합·보존식.
+수정 위치: 22.md L515
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-07", "verdict": "document_satisfied", "location": "22.md L511-L535; L742-L749; L851-L854; L921", "reason": "FULL20-HISTORY와 CFG22-A/B, schema/data revision·input_hash 기록 의무, override와 자동 fallback 금지, 비활성 ID 및 공급을 단일 정본에 연결했다. A의 X/3과 새 B의 OR 조건 X/2도 분리했다. 원문의 A 검사식을 B에 무조건 적용하지 않는 변경 이유가 명확하다.", "remaining": "문서상 구성 식별/보존식 보완만 수용. 실제 구성 데이터·지문·상점·원장 연결 테스트, 공급/집합/OR의 재미와 대표 채택은 별개다. 전체 원천 데이터 변경 없음."}
+현재 상태: document_satisfied; 남은 위험: A/B 미선택, 실제payload/검사기 구현없음. 별도선택 없이혼합금지.
+
+## SAM-08 / 높음 / U07: 축소 완주 가능성은 여전히 미판정이며 형식상 해금으로 대체 불가
+원문: 21-review-sam.md L149 / 단일 책임 James / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 전체값 복사없음·해금/최대/선택경로·첫타/비행/손실/HP표·입력지문.
+수정 위치: 22.md L796
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-08", "verdict": "partial_open", "location": "22.md L796-L828; L923; L986; L1002-L1003; 22-balance.json L847-L857; 22-boss-hits.csv L809-L831", "reason": "축소 해금/최대/OR 두 경로의 조건부 산술이 생겼고 전체 ELM 재사용을 금지했다. B_bloom_unlock a=2 q=0의 23타×13=299로 HP300 부족을 CSV/JSON/본문에서 대조했다. B/HP300 동시 채택의 치명 잔여를 숨기지 않은 점은 적절하나 완주 사양은 아직 열려 있다.", "remaining": "실제 K·취소·이동/지연·자연경제·합법 공급 선구매 회복, HP/집합/전력 동시 대표 결정 및 실제 완주. HP300 또는 B를 승인 수치/재미 합격으로 인정하지 않는다."}
+현재 상태: partial_open; 남은 위험: 높음 유지: 자연경제/실제전력여유/HP·집합 채택미승인. B개화단독치명잔여는JAMES01과중복주제.
+
+## SAM-09 / 중간 / U05: 자산 목록은 있으나 판정과 독립된 납품 인터페이스 부족
+원문: 21-review-sam.md L159 / 단일 책임 Mia / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 논리앵커/margin과pivot/바운드 분리·사건읽기/대체표현·납품/권리 필드.
+수정 위치: 22.md L900
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-09", "verdict": "partial_open", "location": "22.md L737; L869-L902; L1029-L1032", "reason": "콘텐츠 margin_radius와 그림 바운드 분리, 자산 필드/상태/품질 책임/권리 원장, 애니메이션과 피해/지급 독립을 명시했다. 이 인터페이스 방향에는 조건부 동의한다. 다만 필드 목록이지 자산별 확정 레코드가 아니고 포맷/프레임/대표품질/수량과 연결 QA 비용은 미정이다.", "remaining": "실제 자산별 pivot/anchor/scale/layer/수명/대체표현 매핑, 보스 margin, 품질 샘플·담당 수용, 라이선스 실물 확인 및 연결/렌더 QA 재추정. 아트 인일0 또는 기존 개발량 포함으로 간주 금지."}
+현재 상태: partial_open; 남은 위험: 실제납품포맷/수량·Mia수용·Sam연결/비용확인 미정은실제응답에만근거.
+
+## SAM-10 / 높음 / 범위·성능·개발인일: 최신 범위는 재검토했지만 이전 숫자를 확정 재사용할 수 없음
+원문: 21-review-sam.md L169 / 단일 책임 Sam / open_not_fixed
+채택/미채택: adopted_with_open_limits — 채택: 각과거묶음에데이터/유지/추가검증/재추정 연결·제외·5배/축소중복차감금지.
+수정 위치: 22.md L1021
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-10", "verdict": "document_satisfied", "location": "22.md L749; L909-L910; L959-L969; L1021-L1032", "reason": "과거 작업묶음별 데이터 수정/추가 검증/재추정 영향을 연결했고 18~32/22.5~48을 저신뢰 역사 비교폭으로 제한한다. 이미 정령2/5항목 전제였으므로 중복 절감/5배 환산 금지, 아트·저장·출시 등 제외와 상단 초과/총비용 미산정, 성능 실측 필드를 명시했다.", "remaining": "확정 견적/납기/성능 보장으로 재사용하지 않는 문서 조건만 충족. 표현 연결 기존 포함/추가분, 기기/엔진/입력 계약과 아트 비용 확정 뒤 재추정 필요. 신규 숫자 견적은 내지 않았다."}
+현재 상태: document_satisfied; 남은 위험: 높음 유지: 현재확정견적/납기/기기성능 근거없음·아트미산정.
+
+## SAM-11 / 중간 / 저장 제외와 무관하게 장기 메모리 원장·정수 상한 정책 필요
+원문: 21-review-sam.md L184 / 단일 책임 Sam / open_not_fixed
+채택/미채택: partially_adopted_explicitly_deferred — 부분채택: 잘못된정수거부·몰래포화금지·세대/중복키/로그수명 구별·미정공개.
+수정 위치: 22.md L830
+재검증: 22-validate.py structure/provenance/independent arithmetic; real reviewer response below
+실제 담당 응답: {"kind": "actual_named_profile_review", "profile": "sam", "session_id": "20261025_140433_b831d2", "target_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88", "response_file": "22-review-sam.json", "id": "SAM-11", "verdict": "partial_open", "location": "22.md L830-L833; L925; L1025; L1032", "reason": "잘못된 재화 입력 거부·몰래 포화 금지, 종료 세대 거부/중복키 수명 후보, 관찰 증거와 런타임 분리 및 강제종료 복구 미보장을 추가했다. 그러나 잔액/ID/revision의 표현 범위·초과와 로그 저장 경로/용량/실패/책임은 명시적으로 미정이다.", "remaining": "정수/ID/revision 범위와 넘침 처리, 결과불명 구매키의 수명, 최대 자릿수 UI, 로그 용량·실패 처리·보존 책임. 경제상한/저장 추가는 대표 확인 대상."}
+현재 상태: partial_open; 남은 위험: 구체표현범위/초과/ID수명/관찰로그 용량실패/보존책임 미정. 정책결정·Sam확인필요.
+
+## 미채택/보류 이유 요약
+原지적의 문제제기 자체를 기각한 건은 없다. 해결수단을 전부 무조건 채택하지는 않았다. I07 A 강제유지는 역사비교로 보존/B는권고만; 정밀도·정수상한·과부하수치를 근거없이 메우는 안, 환불/공급선행/단계선택 UI 추가, 참가자 추가나 미술인일 생성, 원밖명중·시간증가·실패농사는 미채택/보류한다. 전자는 실제기기/전문담당·대표 결정이 없고, 후자는 G1/최소범위/측정권한을 침범하기 때문이다. 잔여를 닫지 않은 채 검토패키지로 제출한다.

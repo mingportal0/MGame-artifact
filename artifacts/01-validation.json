@@ -1,0 +1,42 @@
+{
+  "timestamp_kst": "2026-10-25T00:15:32+09:00",
+  "source_sha256": "8ae99c2a78ba5435023962378afb9383d4aa1e3558a6a7fcbafcb02b7b7d8fd2",
+  "source_physical_lines": 588,
+  "trace_rows_including_context": 399,
+  "checks": {
+    "exact_source_line_coverage": true,
+    "unique_requirement_ids": true,
+    "source_text_preserved": true,
+    "valid_card_refs": true,
+    "single_owner_no_blanks": true,
+    "sections_2_to_15": true,
+    "parts_1_to_10": true,
+    "required_conflicts_present": true
+  },
+  "all_passed": true,
+  "scope": "document traceability only; not game validation or approval",
+  "mapped_cards": [
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23"
+  ]
+}

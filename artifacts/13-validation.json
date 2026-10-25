@@ -1,0 +1,55 @@
+{
+  "document_id": "P1-13-ENCOUNTER-v01",
+  "task_id": "t_f085ed12",
+  "validator": "James",
+  "status": "document_checks_completed_not_gameplay_validation",
+  "inputs_read": ["company/AGENTS.md", "company/README.md", "decisions/2026-10-25_phase1-start_approved_v01.md", "decisions/2026-10-25_phase1-g1_approved_v01.md", "source.txt", "artifacts/05.md", "artifacts/06.md"],
+  "structure_checks": {
+    "tool": "search_files output_mode=count",
+    "boss_section_pattern": "^### B0[1-7]",
+    "boss_sections_expected": 7,
+    "boss_sections_observed": 7,
+    "walkthrough_pattern": "^\\| V[0-9]{2} \\|",
+    "walkthrough_expected": 16,
+    "walkthrough_observed": 16,
+    "change_trace_pattern": "^\\| TR[0-9]{2} \\|",
+    "change_trace_expected": 12,
+    "change_trace_observed": 12,
+    "scope": "항목 수 검색만 수행. 의미적 정합성의 자동 증명은 아님."
+  },
+  "arithmetic_checks": {
+    "tool": "terminal expr",
+    "workdir": "/home/mj/.hermes/kanban/boards/game-planning-phase1/workspaces/t_f085ed12",
+    "exit_code": 0,
+    "expressions_and_actual_outputs": [
+      {"expression": "6 * 4", "output": 24},
+      {"expression": "6 * (4 + 2)", "output": 36},
+      {"expression": "6 * (4 + 4) + 1", "output": 49},
+      {"expression": "24 + 12 * 3", "output": 60},
+      {"expression": "24 + 24 * 3 + 6", "output": 102},
+      {"expression": "30 - 2", "output": 28},
+      {"expression": "28 * 30", "output": 840},
+      {"expression": "28 * 40", "output": 1120},
+      {"expression": "1000 * 100 / 30 + 200", "output": 3533, "interpretation": "expr 정수 나눗셈. 1/100초 단위 절삭값, 문서의 약35.33초 근사 확인용. 실제 이산 공격 완료 시각 아님."},
+      {"expression": "1000 / 40 + 2", "output": 27},
+      {"expression": "24 + 18", "output": 42},
+      {"expression": "14 + 20", "output": 34},
+      {"expression": "42 - 34", "output": 8},
+      {"expression": "24 - 14", "output": 10},
+      {"expression": "10 + 18", "output": 28},
+      {"expression": "28 - 20", "output": 8}
+    ]
+  },
+  "manual_review": {
+    "method": "기획자가 문서 규칙으로 사건을 수기 추적. 실행 시뮬레이션 아님.",
+    "paths": ["보스 실패→상점→무료 재도전", "보스 실패→상점→일반전→구매→보스 승리→통계→메인"],
+    "boundary_rules": ["T 미만 사망 승리·정확히 T 피해 불가", "비행 중 지정 이탈 즉시 무효·재진입 복원 금지", "단일 보스 entity_id에 공격ID당 최대1회", "종료 청소 보상 없음", "부분피해·실패·재도전·통계 재진입 수입 없음"],
+    "permanent_blocking": "자원0 재도전/일반전 경로는 문서상 유지. 최종 성장에서도 보스 처치 불가능한 경우는 미해결 밸런스 위험으로 명시, P1-14/15에서 검사 전 해결 주장 금지.",
+    "approval_review": "G1과 해금/HP/보상0/연출/공급수치 제안을 분리. 완전클리어 유지, 무한/환생 재도입 없음."
+  },
+  "tool_issue": "첫 terminal 호출은 기본 작업 경로가 존재하지 않아 exit126. 이후 task의 정확한 workspace를 workdir로 명시한 pwd가 exit0. 설정 수정 없이 동일 workspace에서 expr 검증 완료.",
+  "downstream_cards_read": ["t_bcb68d12", "t_f509ccf0", "t_0d34776d"],
+  "not_performed": ["게임 코드 작성", "프로토타입", "게임 기능 테스트", "실제 사용자 테스트", "Mia UX 전문 검토", "Sam 기술 전문 검토", "성능 실측", "직업별 정확한 이산 피해/경제 시뮬레이션", "저장/앱 재실행 복구 검증", "Slack 실제 전달 확인"],
+  "unresolved": ["필수 업그레이드 정확한 ID·레벨·비용·선행 그래프", "공급 단계 업그레이드 연결", "HP1000/보스30초 및 직업별 유한 최종 전력 처치 가능성", "보스 선택 도전·보상0·구체 연출 수용", "상한48의 UX·기술 타당성", "저장/새 런 정책", "최종 GDD/P1-23 및 별도 G3 승인"],
+  "approval_status": "G2 상세 초안 완료, 최종 사양/개발 미승인"
+}

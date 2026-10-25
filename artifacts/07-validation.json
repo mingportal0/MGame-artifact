@@ -1,0 +1,92 @@
+{
+  "scope": "문서 구조·참조·선행 DAG·빌드 경로·예시 산술만",
+  "counts": {
+    "summons": 5,
+    "exclusive_upgrades": 13,
+    "builds": 2
+  },
+  "checks": {
+    "five_unique_summons": true,
+    "at_least_ten_exclusive_upgrades": true,
+    "unique_upgrade_ids": true,
+    "all_table_fields_present": true,
+    "common_required_fields": true,
+    "four_upgrade_types": true,
+    "valid_prerequisites": true,
+    "all_reachable_no_cycle": true,
+    "build_A_legal": true,
+    "build_B_legal": true,
+    "reserved_ids_preserved": true,
+    "evolution_upgrade_references": true,
+    "ten_trace_rows": true,
+    "eight_boundary_cases": true,
+    "example_arithmetic": true
+  },
+  "passed": 15,
+  "total": 15,
+  "builds": {
+    "A": {
+      "path": [
+        "UPG_ELM_BLOOM",
+        "UPG_ELM_SPLASH",
+        "UPG_ELM_POWER",
+        "UPG_ELM_TIDE",
+        "UPG_ELM_TIDE_WAVE",
+        "UPG_ELM_DUET",
+        "UPG_ELM_SPLASH",
+        "UPG_ELM_POWER",
+        "UPG_ELM_POWER"
+      ],
+      "levels": {
+        "UPG_ELM_BLOOM": 1,
+        "UPG_ELM_SPLASH": 2,
+        "UPG_ELM_POWER": 3,
+        "UPG_ELM_TIDE": 1,
+        "UPG_ELM_TIDE_WAVE": 1,
+        "UPG_ELM_DUET": 1
+      },
+      "errors": []
+    },
+    "B": {
+      "path": [
+        "UPG_ELM_SPARK",
+        "UPG_ELM_TEMPO",
+        "UPG_ELM_SPARK_ARC",
+        "UPG_ELM_BLOOM",
+        "UPG_ELM_PRISM",
+        "UPG_ELM_PRISM_CROWN",
+        "UPG_ELM_TEMPO",
+        "UPG_ELM_STONE",
+        "UPG_ELM_STONE_MONOLITH"
+      ],
+      "levels": {
+        "UPG_ELM_SPARK": 1,
+        "UPG_ELM_TEMPO": 2,
+        "UPG_ELM_SPARK_ARC": 1,
+        "UPG_ELM_BLOOM": 1,
+        "UPG_ELM_PRISM": 1,
+        "UPG_ELM_PRISM_CROWN": 1,
+        "UPG_ELM_STONE": 1,
+        "UPG_ELM_STONE_MONOLITH": 1
+      },
+      "errors": []
+    }
+  },
+  "arithmetic": {
+    "ember_A_damage": 19,
+    "ember_A_radius": 80,
+    "spark_B_cd": 1.2,
+    "spark_B_interval": 1.4,
+    "bloom_three": 30,
+    "spark_four": 28,
+    "gold": 7
+  },
+  "not_performed": [
+    "게임 실행/기능 테스트",
+    "실제 사용자 테스트",
+    "Mia/Sam 전문 검토",
+    "경제/가격/소요시간 검증",
+    "성능 실측",
+    "Slack 전달 확인"
+  ]
+}

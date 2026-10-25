@@ -1,0 +1,24 @@
+{
+  "document_id": "P1-22-GDD-v01",
+  "status": "review_not_approved",
+  "document_sha256": "a825709c2277bfe62abf3955e081e815b36b61909fdfd23e319143dc6d9b1e88",
+  "preserved_baseline": {
+    "20.md": "0d40dd6a5bf795b7984c742a6c8def8edce81d16d8973016a8d4a3237332ec87",
+    "21.md": "6004dbd976b61f7dfe7b3431edd2737c02ab2ff213092fb59fd987dd17d89c45",
+    "21-defects.json": "9a33fc25c3251f0cfb76b25428a46a6fa81a52a9e0e87b3b35c82c7a81b7e49c",
+    "20-trace.json": "e3c48d40bf6cde4fc5cf6b13e9c354ec99cbb402999d3864503ddc5efc5e1427",
+    "../source.txt": "8ae99c2a78ba5435023962378afb9383d4aa1e3558a6a7fcbafcb02b7b7d8fd2"
+  },
+  "approval": "D-20261025-P1-22-EXEC permits22 only; finalGDD/G3/23 not approved",
+  "scope": "planning documents and conditional arithmetic, not executable game",
+  "not_performed": [
+    "game/prototype/project",
+    "real user or render/performance test",
+    "spend/contact/external publication",
+    "23 execution/approval",
+    "README/plan edits"
+  ],
+  "package_entry": "22-submit.md",
+  "addendum_sha256": "06cacfebff45809e5af753a25bf2ac9c0b004d91777c9953a0d087dfc87bfbf5",
+  "addendum_review": "author correction; original named-profile v01 verdicts preserved; no implied addendum re-review"
+}
