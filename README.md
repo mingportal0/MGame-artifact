@@ -4,6 +4,8 @@
 
 ## 최신 상태
 
+- **[Unity MCP 연결·Cube 생성/정리 검증](replan/artifacts/D02-unity-environment.md)**: Windows Editor와 Sam 프로필 연결, 실제 도구 호출, Scene View 확인, 임시 Cube 삭제 후 0개를 검증했습니다. 대표 요청에 따라 기존 D02를 재개합니다. 게임 데모·빌드 완료는 아니며 씬 미저장 표시·추가 진단 API 오류·빌드 검증은 별도입니다. D03/R03~R15 승인 경계는 유지합니다.
+
 - **[D01 보완·Unity 데모 개발 승인](replan/D02-authorization.md)**: 대표의 명시 지시에 따라 Sam에게 최소 보완 후 Unity 실행물 구현을 배정했습니다. 보완·빌드·기능 검증 완료 보고는 아직 아닙니다. D03 및 R03~R15는 별도 승인 전 실행하지 않습니다. 아래 기술/G3/D02 미승인·미등록 표시는 이번 지시 이전 기록입니다.
 
 - 추가 스킬을 적용한 **[D01·후속 데모 경로 재검토](replan/artifacts/D01-skill-review.md)**와 [문서·조건부 산술 검증](replan/artifacts/D01-skill-review-validation.json)을 제출했습니다. James/Mia/Sam 모두 조건부 보완 권고입니다. 기본 전투·둔화/파쇄 의존성·실행환경 계약을 먼저 짧게 보완하고 D02 구현→D03 실제 관찰 경로는 유지합니다. Unity 스킬 설치는 엔진 선택이 아닙니다. D01 업무 done·원문 review, D02/D03 미등록·미승인 제안, R03~R15 blocked 유지입니다. 이번에는 개발·실제 플레이를 하지 않았습니다. 아래 D01 v01은 비교 기준 원문입니다.
