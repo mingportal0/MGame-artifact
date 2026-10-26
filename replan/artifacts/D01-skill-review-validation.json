@@ -1,0 +1,355 @@
+{
+  "scope": "Document integrity, links, privacy-pattern checks, read-only board status and conditional exact-expectation arithmetic only. No game code/runtime, random simulation, measured performance, real-player testing or product approval.",
+  "checks_passed": 49,
+  "checks_total": 49,
+  "checks": [
+    {
+      "check": "frozen input kanban/game-planning-phase1/replan/artifacts/D01.md",
+      "pass": true
+    },
+    {
+      "check": "frozen input decisions/2026-10-26_d01-execution-enemy-upgrades_approved_v01.md",
+      "pass": true
+    },
+    {
+      "check": "three named reviewers",
+      "pass": true
+    },
+    {
+      "check": "review process james",
+      "pass": true
+    },
+    {
+      "check": "nonempty conditional review james",
+      "pass": true
+    },
+    {
+      "check": "review process mia",
+      "pass": true
+    },
+    {
+      "check": "nonempty conditional review mia",
+      "pass": true
+    },
+    {
+      "check": "review process sam",
+      "pass": true
+    },
+    {
+      "check": "nonempty conditional review sam",
+      "pass": true
+    },
+    {
+      "check": "D01 done",
+      "pass": true
+    },
+    {
+      "check": "no D02 D03 registered",
+      "pass": true
+    },
+    {
+      "check": "R03 to R15 exact blocked set",
+      "pass": true
+    },
+    {
+      "check": "8 distinct combinations",
+      "pass": true
+    },
+    {
+      "check": "combined conditional values",
+      "pass": true
+    },
+    {
+      "check": "finding G01",
+      "pass": true
+    },
+    {
+      "check": "finding G02",
+      "pass": true
+    },
+    {
+      "check": "finding G03",
+      "pass": true
+    },
+    {
+      "check": "finding G04",
+      "pass": true
+    },
+    {
+      "check": "finding G05",
+      "pass": true
+    },
+    {
+      "check": "finding G06",
+      "pass": true
+    },
+    {
+      "check": "no private routing or secrets README.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/artifacts/D01-skill-review.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/artifacts/D01-skill-review-validation.json",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/artifacts/D01.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/artifacts/D01-evidence.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/artifacts/D01-validation.json",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/D01-authorization.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/artifacts/R01.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/artifacts/R01-validation.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/artifacts/R02.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/demo-first-plan.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/plan.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/cards.json",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/board-validation.json",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/authorization.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> replan/baseline-decision.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> artifacts/23.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> artifacts/22-submit.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> artifacts/22.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> artifacts/22-addendum.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> artifacts/22-resolutions.md",
+      "pass": true
+    },
+    {
+      "check": "link README.md -> artifacts/",
+      "pass": true
+    },
+    {
+      "check": "no private routing or secrets replan/demo-first-plan.md",
+      "pass": true
+    },
+    {
+      "check": "link replan/demo-first-plan.md -> artifacts/D01-skill-review.md",
+      "pass": true
+    },
+    {
+      "check": "no private routing or secrets replan/artifacts/D01-skill-review.md",
+      "pass": true
+    },
+    {
+      "check": "link replan/artifacts/D01-skill-review.md -> D01.md",
+      "pass": true
+    },
+    {
+      "check": "link replan/artifacts/D01-skill-review.md -> D01-evidence.md",
+      "pass": true
+    },
+    {
+      "check": "link replan/artifacts/D01-skill-review.md -> ../demo-first-plan.md",
+      "pass": true
+    },
+    {
+      "check": "link replan/artifacts/D01-skill-review.md -> D01-skill-review-validation.json",
+      "pass": true
+    }
+  ],
+  "conditional_eight_combinations": [
+    {
+      "U10": 0,
+      "U11": 0,
+      "U12": 0,
+      "slots": [
+        15,
+        15,
+        0,
+        0
+      ],
+      "base_hp": 300,
+      "expected_hp": 300,
+      "max_hp": 300,
+      "expected_gold_only_if_all_killed": 30,
+      "purchase_cost": 0
+    },
+    {
+      "U10": 0,
+      "U11": 0,
+      "U12": 1,
+      "slots": [
+        15,
+        15,
+        0,
+        0
+      ],
+      "base_hp": 300,
+      "expected_hp": 420.0,
+      "max_hp": 900,
+      "expected_gold_only_if_all_killed": 54.0,
+      "purchase_cost": 30
+    },
+    {
+      "U10": 0,
+      "U11": 1,
+      "U12": 0,
+      "slots": [
+        10,
+        10,
+        5,
+        5
+      ],
+      "base_hp": 400,
+      "expected_hp": 400,
+      "max_hp": 400,
+      "expected_gold_only_if_all_killed": 50,
+      "purchase_cost": 25
+    },
+    {
+      "U10": 0,
+      "U11": 1,
+      "U12": 1,
+      "slots": [
+        10,
+        10,
+        5,
+        5
+      ],
+      "base_hp": 400,
+      "expected_hp": 560.0,
+      "max_hp": 1200,
+      "expected_gold_only_if_all_killed": 90.0,
+      "purchase_cost": 55
+    },
+    {
+      "U10": 1,
+      "U11": 0,
+      "U12": 0,
+      "slots": [
+        23,
+        22,
+        0,
+        0
+      ],
+      "base_hp": 450,
+      "expected_hp": 450,
+      "max_hp": 450,
+      "expected_gold_only_if_all_killed": 45,
+      "purchase_cost": 20
+    },
+    {
+      "U10": 1,
+      "U11": 0,
+      "U12": 1,
+      "slots": [
+        23,
+        22,
+        0,
+        0
+      ],
+      "base_hp": 450,
+      "expected_hp": 630.0,
+      "max_hp": 1350,
+      "expected_gold_only_if_all_killed": 81.0,
+      "purchase_cost": 50
+    },
+    {
+      "U10": 1,
+      "U11": 1,
+      "U12": 0,
+      "slots": [
+        15,
+        15,
+        8,
+        7
+      ],
+      "base_hp": 600,
+      "expected_hp": 600,
+      "max_hp": 600,
+      "expected_gold_only_if_all_killed": 75,
+      "purchase_cost": 45
+    },
+    {
+      "U10": 1,
+      "U11": 1,
+      "U12": 1,
+      "slots": [
+        15,
+        15,
+        8,
+        7
+      ],
+      "base_hp": 600,
+      "expected_hp": 840.0,
+      "max_hp": 1800,
+      "expected_gold_only_if_all_killed": 135.0,
+      "purchase_cost": 75
+    }
+  ],
+  "review_processes": [
+    {
+      "profile": "james",
+      "exit_code": 0
+    },
+    {
+      "profile": "mia",
+      "exit_code": 0
+    },
+    {
+      "profile": "sam",
+      "exit_code": 0
+    }
+  ],
+  "artifact_sha256": {
+    "README.md": "d0778b33c21123a427f4fdd35ba4c8b5897089103306cfbb39278c60302a2108",
+    "replan/demo-first-plan.md": "cc9fac8007e4605cb1cb400f1c67f13f99e3399cb96d73e3b6d8c90a6a158a52",
+    "replan/artifacts/D01-skill-review.md": "4f3a6e7fc1e918c4f1f78c8cacc4d14554a93070bf1e9a533c49dd513a2d8675"
+  },
+  "development_authorized": false,
+  "D02_D03_registered": false,
+  "R03_R15_blocked_count": 13
+}
