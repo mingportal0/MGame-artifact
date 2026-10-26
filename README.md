@@ -4,6 +4,8 @@
 
 ## 최신 상태
 
+- **[D01 보완·Unity 데모 개발 승인](replan/D02-authorization.md)**: 대표의 명시 지시에 따라 Sam에게 최소 보완 후 Unity 실행물 구현을 배정했습니다. 보완·빌드·기능 검증 완료 보고는 아직 아닙니다. D03 및 R03~R15는 별도 승인 전 실행하지 않습니다. 아래 기술/G3/D02 미승인·미등록 표시는 이번 지시 이전 기록입니다.
+
 - 추가 스킬을 적용한 **[D01·후속 데모 경로 재검토](replan/artifacts/D01-skill-review.md)**와 [문서·조건부 산술 검증](replan/artifacts/D01-skill-review-validation.json)을 제출했습니다. James/Mia/Sam 모두 조건부 보완 권고입니다. 기본 전투·둔화/파쇄 의존성·실행환경 계약을 먼저 짧게 보완하고 D02 구현→D03 실제 관찰 경로는 유지합니다. Unity 스킬 설치는 엔진 선택이 아닙니다. D01 업무 done·원문 review, D02/D03 미등록·미승인 제안, R03~R15 blocked 유지입니다. 이번에는 개발·실제 플레이를 하지 않았습니다. 아래 D01 v01은 비교 기준 원문입니다.
 
 - 지금 볼 문서는 [D01 한 장 중심 데모 범위·개발 승인 요청](replan/artifacts/D01.md), [실제 전문 자문·검증 범위](replan/artifacts/D01-evidence.md), [문서·조건부 산술 검사](replan/artifacts/D01-validation.json)입니다. [D01 문서 작성 승인 범위](replan/D01-authorization.md) 안에서 취합했습니다. James/Mia/Sam 실제 자문을 반영했으며 문서는 review·대표 채택 대기입니다. 일반적4종·독립12개 표본·적투자3축·화염부터 해금 경로·기술 후보를 제안합니다. 표본·가격/확률·수치·기술·G3/D02/D03는 별도 결정 전 실행하지 않습니다. 게임 개발·실제 플레이·성능 검증은 미수행입니다.
