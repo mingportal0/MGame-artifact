@@ -1,0 +1,991 @@
+{
+  "scope": "Stationary goal geometry and draft structure only. Not safe-area arc solver, movement, Unity runtime, readability, income or fun validation. Boundary failures are expected counterexamples, not fixed.",
+  "checks": {
+    "all_goals_on_circle": true,
+    "all_center_goals_inside": true,
+    "all_stationary_pair_spacing_ge_1": true,
+    "fixed_angle_boundary_counterexample_found": true,
+    "all_three_spirit_corners_have_clipping_counterexample": true,
+    "exact_three_comparison_rows": true,
+    "consultations_not_fabricated": true,
+    "specific_unresolved_choices_present": true
+  },
+  "passed": 8,
+  "failed": 0,
+  "geometry_cases": 54,
+  "world_boundary_counterexamples": 36,
+  "cases": [
+    {
+      "radius": 2.0,
+      "count": 1,
+      "location": "center",
+      "points": [
+        [
+          1.2246467991473532e-16,
+          2.0
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.0,
+      "count": 1,
+      "location": "TL",
+      "points": [
+        [
+          -8.0,
+          6.0
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.0,
+      "count": 1,
+      "location": "TR",
+      "points": [
+        [
+          8.0,
+          6.0
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.0,
+      "count": 1,
+      "location": "BL",
+      "points": [
+        [
+          -8.0,
+          -2.0
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.0,
+      "count": 1,
+      "location": "BR",
+      "points": [
+        [
+          8.0,
+          -2.0
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.0,
+      "count": 1,
+      "location": "top",
+      "points": [
+        [
+          1.2246467991473532e-16,
+          6.0
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.0,
+      "count": 1,
+      "location": "bottom",
+      "points": [
+        [
+          1.2246467991473532e-16,
+          -2.0
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.0,
+      "count": 1,
+      "location": "left",
+      "points": [
+        [
+          -8.0,
+          2.0
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.0,
+      "count": 1,
+      "location": "right",
+      "points": [
+        [
+          8.0,
+          2.0
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.0,
+      "count": 2,
+      "location": "center",
+      "points": [
+        [
+          1.2246467991473532e-16,
+          2.0
+        ],
+        [
+          -1.7320508075688772,
+          -1.0000000000000002
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": 3.464101615137755
+    },
+    {
+      "radius": 2.0,
+      "count": 2,
+      "location": "TL",
+      "points": [
+        [
+          -8.0,
+          6.0
+        ],
+        [
+          -9.732050807568877,
+          3.0
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377544
+    },
+    {
+      "radius": 2.0,
+      "count": 2,
+      "location": "TR",
+      "points": [
+        [
+          8.0,
+          6.0
+        ],
+        [
+          6.267949192431123,
+          3.0
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377544
+    },
+    {
+      "radius": 2.0,
+      "count": 2,
+      "location": "BL",
+      "points": [
+        [
+          -8.0,
+          -2.0
+        ],
+        [
+          -9.732050807568877,
+          -5.0
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377544
+    },
+    {
+      "radius": 2.0,
+      "count": 2,
+      "location": "BR",
+      "points": [
+        [
+          8.0,
+          -2.0
+        ],
+        [
+          6.267949192431123,
+          -5.0
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377544
+    },
+    {
+      "radius": 2.0,
+      "count": 2,
+      "location": "top",
+      "points": [
+        [
+          1.2246467991473532e-16,
+          6.0
+        ],
+        [
+          -1.7320508075688772,
+          3.0
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.464101615137755
+    },
+    {
+      "radius": 2.0,
+      "count": 2,
+      "location": "bottom",
+      "points": [
+        [
+          1.2246467991473532e-16,
+          -2.0
+        ],
+        [
+          -1.7320508075688772,
+          -5.0
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.464101615137755
+    },
+    {
+      "radius": 2.0,
+      "count": 2,
+      "location": "left",
+      "points": [
+        [
+          -8.0,
+          2.0
+        ],
+        [
+          -9.732050807568877,
+          -1.0000000000000002
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377544
+    },
+    {
+      "radius": 2.0,
+      "count": 2,
+      "location": "right",
+      "points": [
+        [
+          8.0,
+          2.0
+        ],
+        [
+          6.267949192431123,
+          -1.0000000000000002
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377544
+    },
+    {
+      "radius": 2.0,
+      "count": 3,
+      "location": "center",
+      "points": [
+        [
+          1.2246467991473532e-16,
+          2.0
+        ],
+        [
+          -1.7320508075688772,
+          -1.0000000000000002
+        ],
+        [
+          1.7320508075688767,
+          -1.0000000000000009
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": 3.464101615137754
+    },
+    {
+      "radius": 2.0,
+      "count": 3,
+      "location": "TL",
+      "points": [
+        [
+          -8.0,
+          6.0
+        ],
+        [
+          -9.732050807568877,
+          3.0
+        ],
+        [
+          -6.267949192431123,
+          2.999999999999999
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377535
+    },
+    {
+      "radius": 2.0,
+      "count": 3,
+      "location": "TR",
+      "points": [
+        [
+          8.0,
+          6.0
+        ],
+        [
+          6.267949192431123,
+          3.0
+        ],
+        [
+          9.732050807568877,
+          2.999999999999999
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377535
+    },
+    {
+      "radius": 2.0,
+      "count": 3,
+      "location": "BL",
+      "points": [
+        [
+          -8.0,
+          -2.0
+        ],
+        [
+          -9.732050807568877,
+          -5.0
+        ],
+        [
+          -6.267949192431123,
+          -5.000000000000001
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377535
+    },
+    {
+      "radius": 2.0,
+      "count": 3,
+      "location": "BR",
+      "points": [
+        [
+          8.0,
+          -2.0
+        ],
+        [
+          6.267949192431123,
+          -5.0
+        ],
+        [
+          9.732050807568877,
+          -5.000000000000001
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377535
+    },
+    {
+      "radius": 2.0,
+      "count": 3,
+      "location": "top",
+      "points": [
+        [
+          1.2246467991473532e-16,
+          6.0
+        ],
+        [
+          -1.7320508075688772,
+          3.0
+        ],
+        [
+          1.7320508075688767,
+          2.999999999999999
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.464101615137754
+    },
+    {
+      "radius": 2.0,
+      "count": 3,
+      "location": "bottom",
+      "points": [
+        [
+          1.2246467991473532e-16,
+          -2.0
+        ],
+        [
+          -1.7320508075688772,
+          -5.0
+        ],
+        [
+          1.7320508075688767,
+          -5.000000000000001
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.464101615137754
+    },
+    {
+      "radius": 2.0,
+      "count": 3,
+      "location": "left",
+      "points": [
+        [
+          -8.0,
+          2.0
+        ],
+        [
+          -9.732050807568877,
+          -1.0000000000000002
+        ],
+        [
+          -6.267949192431123,
+          -1.0000000000000009
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377535
+    },
+    {
+      "radius": 2.0,
+      "count": 3,
+      "location": "right",
+      "points": [
+        [
+          8.0,
+          2.0
+        ],
+        [
+          6.267949192431123,
+          -1.0000000000000002
+        ],
+        [
+          9.732050807568877,
+          -1.0000000000000009
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 3.4641016151377535
+    },
+    {
+      "radius": 2.5,
+      "count": 1,
+      "location": "center",
+      "points": [
+        [
+          1.5308084989341916e-16,
+          2.5
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.5,
+      "count": 1,
+      "location": "TL",
+      "points": [
+        [
+          -8.0,
+          6.5
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.5,
+      "count": 1,
+      "location": "TR",
+      "points": [
+        [
+          8.0,
+          6.5
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.5,
+      "count": 1,
+      "location": "BL",
+      "points": [
+        [
+          -8.0,
+          -1.5
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.5,
+      "count": 1,
+      "location": "BR",
+      "points": [
+        [
+          8.0,
+          -1.5
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.5,
+      "count": 1,
+      "location": "top",
+      "points": [
+        [
+          1.5308084989341916e-16,
+          6.5
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.5,
+      "count": 1,
+      "location": "bottom",
+      "points": [
+        [
+          1.5308084989341916e-16,
+          -1.5
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.5,
+      "count": 1,
+      "location": "left",
+      "points": [
+        [
+          -8.0,
+          2.5
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.5,
+      "count": 1,
+      "location": "right",
+      "points": [
+        [
+          8.0,
+          2.5
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": null
+    },
+    {
+      "radius": 2.5,
+      "count": 2,
+      "location": "center",
+      "points": [
+        [
+          1.5308084989341916e-16,
+          2.5
+        ],
+        [
+          -2.1650635094610964,
+          -1.2500000000000002
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 2,
+      "location": "TL",
+      "points": [
+        [
+          -8.0,
+          6.5
+        ],
+        [
+          -10.165063509461095,
+          2.75
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 2,
+      "location": "TR",
+      "points": [
+        [
+          8.0,
+          6.5
+        ],
+        [
+          5.834936490538904,
+          2.75
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 2,
+      "location": "BL",
+      "points": [
+        [
+          -8.0,
+          -1.5
+        ],
+        [
+          -10.165063509461095,
+          -5.25
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 2,
+      "location": "BR",
+      "points": [
+        [
+          8.0,
+          -1.5
+        ],
+        [
+          5.834936490538904,
+          -5.25
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 2,
+      "location": "top",
+      "points": [
+        [
+          1.5308084989341916e-16,
+          6.5
+        ],
+        [
+          -2.1650635094610964,
+          2.75
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 2,
+      "location": "bottom",
+      "points": [
+        [
+          1.5308084989341916e-16,
+          -1.5
+        ],
+        [
+          -2.1650635094610964,
+          -5.25
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 2,
+      "location": "left",
+      "points": [
+        [
+          -8.0,
+          2.5
+        ],
+        [
+          -10.165063509461095,
+          -1.2500000000000002
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 2,
+      "location": "right",
+      "points": [
+        [
+          8.0,
+          2.5
+        ],
+        [
+          5.834936490538904,
+          -1.2500000000000002
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 3,
+      "location": "center",
+      "points": [
+        [
+          1.5308084989341916e-16,
+          2.5
+        ],
+        [
+          -2.1650635094610964,
+          -1.2500000000000002
+        ],
+        [
+          2.165063509461096,
+          -1.250000000000001
+        ]
+      ],
+      "within_world": true,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 3,
+      "location": "TL",
+      "points": [
+        [
+          -8.0,
+          6.5
+        ],
+        [
+          -10.165063509461095,
+          2.75
+        ],
+        [
+          -5.8349364905389045,
+          2.749999999999999
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922191
+    },
+    {
+      "radius": 2.5,
+      "count": 3,
+      "location": "TR",
+      "points": [
+        [
+          8.0,
+          6.5
+        ],
+        [
+          5.834936490538904,
+          2.75
+        ],
+        [
+          10.165063509461095,
+          2.749999999999999
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922192
+    },
+    {
+      "radius": 2.5,
+      "count": 3,
+      "location": "BL",
+      "points": [
+        [
+          -8.0,
+          -1.5
+        ],
+        [
+          -10.165063509461095,
+          -5.25
+        ],
+        [
+          -5.8349364905389045,
+          -5.250000000000001
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922191
+    },
+    {
+      "radius": 2.5,
+      "count": 3,
+      "location": "BR",
+      "points": [
+        [
+          8.0,
+          -1.5
+        ],
+        [
+          5.834936490538904,
+          -5.25
+        ],
+        [
+          10.165063509461095,
+          -5.250000000000001
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922192
+    },
+    {
+      "radius": 2.5,
+      "count": 3,
+      "location": "top",
+      "points": [
+        [
+          1.5308084989341916e-16,
+          6.5
+        ],
+        [
+          -2.1650635094610964,
+          2.75
+        ],
+        [
+          2.165063509461096,
+          2.749999999999999
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 3,
+      "location": "bottom",
+      "points": [
+        [
+          1.5308084989341916e-16,
+          -1.5
+        ],
+        [
+          -2.1650635094610964,
+          -5.25
+        ],
+        [
+          2.165063509461096,
+          -5.250000000000001
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922193
+    },
+    {
+      "radius": 2.5,
+      "count": 3,
+      "location": "left",
+      "points": [
+        [
+          -8.0,
+          2.5
+        ],
+        [
+          -10.165063509461095,
+          -1.2500000000000002
+        ],
+        [
+          -5.8349364905389045,
+          -1.250000000000001
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922191
+    },
+    {
+      "radius": 2.5,
+      "count": 3,
+      "location": "right",
+      "points": [
+        [
+          8.0,
+          2.5
+        ],
+        [
+          5.834936490538904,
+          -1.2500000000000002
+        ],
+        [
+          10.165063509461095,
+          -1.250000000000001
+        ]
+      ],
+      "within_world": false,
+      "on_circle": true,
+      "minimum_spacing": 4.330127018922192
+    }
+  ]
+}
