@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">F02 전체화면 중앙 시작 트리 와이어프레임</title><desc id="desc">구현 UI가 아닌 정적 와이어프레임. 잔액15G, 화염 기본 보유, 화염 집중 선택. 모든 실선은 필수 선행이며 강화끼리 연결하지 않는다.</desc>
+<style>@font-face{font-family:NotoKR;src:url(https://fonts.gstatic.com/s/notosanskr/v40/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzuoyeLQ.ttf)}text{font-family:NotoKR,sans-serif;fill:#18212d;font-size:17px}.title{font-size:24px;font-weight:bold}.small{font-size:15px}.node{fill:white;stroke:#506070;stroke-width:2}.locked{stroke-dasharray:5 4}.edge{fill:none;stroke:#758493;stroke-width:1.5;marker-end:url(#arrow)}.head{font-size:19px;font-weight:bold}</style>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#758493"/></marker></defs>
+<rect width="1440" height="900" fill="#f2f5f7"/>
+<text x="24" y="32" class="title">상점 · 다음 성장을 선택하세요</text><text x="600" y="32">보유 15G　|　다음 전투 정령: 화염</text><text x="24" y="60" class="small">F02 v01 · 정적 와이어프레임 / 구현 UI·최종 비주얼 아님</text>
+<path d="M0 76H1440M1088 76V808M0 808H1440" stroke="#a5afb8"/>
+<!-- Only authoritative prerequisite edges; shared trunks do not imply sibling dependencies. -->
+<g class="edge">
+<path d="M440 390H226V223H206"/><path d="M440 415H226V311H206"/><path d="M440 440H206"/>
+<path d="M530 370V300"/>
+<path d="M530 234V201H337V170"/><path d="M530 234V170"/>
+<path d="M620 267H716"/>
+<path d="M798 234V170"/><path d="M798 234V200H985V170"/>
+<path d="M468 450V545H259V582"/><path d="M490 450V555H440V582"/>
+<path d="M570 450V535H637V582"/><path d="M595 450V520H818V582"/><path d="M620 430H1080V555H1000V582"/>
+</g>
+<text x="26" y="188" class="head">火 화염 · 독립 강화</text>
+<g><rect x="34" y="198" width="172" height="64" rx="8" class="node" stroke="#18212d"/><text x="46" y="222">U01 화염 집중</text><text x="46" y="247" class="small">+ 구매 가능 · 10G</text></g>
+<g><rect x="34" y="280" width="172" height="64" rx="8" class="node"/><text x="46" y="304">U02 화염 확산</text><text x="46" y="329" class="small">! 10G 부족 · 25G</text></g>
+<g><rect x="34" y="400" width="172" height="64" rx="8" class="node"/><text x="46" y="424">U03 화염 잔불</text><text x="46" y="449" class="small">! 20G 부족 · 35G</text></g>
+<text x="280" y="88" class="head">雪 얼음 · 둔화 / 파쇄</text>
+<g><rect x="252" y="106" width="172" height="64" rx="8" class="node locked"/><text x="264" y="130">U06 얼음 둔화</text><text x="264" y="155" class="small">[잠김] S01 필요 · 20G</text></g>
+<g><rect x="444" y="106" width="172" height="64" rx="8" class="node locked"/><text x="456" y="130">U07 얼음 파쇄</text><text x="456" y="155" class="small">[잠김] S01 필요 · 40G</text></g>
+<g><rect x="444" y="234" width="172" height="66" rx="8" class="node"/><text x="456" y="258">S01 얼음 소환</text><text x="456" y="283" class="small">! 5G 부족 · 20G*</text></g>
+<text x="730" y="88" class="head">雷 번개 · 연쇄 / 속도</text>
+<g><rect x="716" y="106" width="172" height="64" rx="8" class="node locked"/><text x="728" y="130">U08 번개 연쇄</text><text x="728" y="155" class="small">[잠김] S02 필요 · 35G</text></g>
+<g><rect x="904" y="106" width="172" height="64" rx="8" class="node locked"/><text x="916" y="130">U09 번개 신속</text><text x="916" y="155" class="small">[잠김] S02 필요 · 45G</text></g>
+<g><rect x="716" y="234" width="172" height="66" rx="8" class="node locked"/><text x="728" y="258">S02 번개 소환</text><text x="728" y="283" class="small">[잠김] S01 필요 · 40G*</text></g>
+<g><rect x="440" y="370" width="180" height="80" rx="20" class="node" stroke="#18212d"/><text x="458" y="398" class="head">ROOT 시작</text><text x="458" y="428">✓ 화염 기본 보유</text></g>
+<text x="170" y="570" class="head">◎ 공통 · 독립 강화</text>
+<g><rect x="174" y="582" width="172" height="64" rx="8" class="node"/><text x="186" y="606">U04 공통 신속</text><text x="186" y="631" class="small">! 15G 부족 · 30G</text></g>
+<g><rect x="356" y="582" width="172" height="64" rx="8" class="node"/><text x="368" y="606">U05 지휘 범위</text><text x="368" y="631" class="small">+ 구매 가능 · 15G</text></g>
+<text x="556" y="570" class="head">◇ 적 투자 · 구매 후 무료 ON/OFF</text>
+<g><rect x="552" y="582" width="172" height="64" rx="8" class="node"/><text x="564" y="606">U10 적 수 투자</text><text x="564" y="631" class="small">! 5G 부족 · 20G</text></g>
+<g><rect x="734" y="582" width="172" height="64" rx="8" class="node"/><text x="746" y="606">U11 새 적 투자</text><text x="746" y="631" class="small">! 10G 부족 · 25G</text></g>
+<g><rect x="916" y="582" width="172" height="64" rx="8" class="node"/><text x="928" y="606">U12 엘리트 투자</text><text x="928" y="631" class="small">! 15G 부족 · 30G</text></g>
+<text x="30" y="708">실선+화살촉: 필수 선행　|　강화끼리 선행 없음　|　* 소환20/40G는 시험 제안</text>
+<text x="30" y="744">추천: 화염 집중 → 얼음 소환 → 번개 소환</text><text x="30" y="772" class="small">추천은 구매 제한이 아닙니다. 모든 가지를 획득할 수 있습니다.</text>
+<text x="1110" y="112" class="head">선택 · 화염 집중</text><text x="1110" y="148">+ 구매 가능　10G</text><text x="1110" y="184">필수: 화염 기본 보유 ✓</text><text x="1110" y="234" class="head">다음 전투 효과</text><text x="1110" y="270">화염 피해 7 → 10.5</text><text x="1110" y="307">다른 강화 구매 불필요</text><text x="1110" y="354">구매 후 잔액: 5G</text><rect x="1110" y="394" width="302" height="52" rx="8" fill="#18212d"/><text x="1183" y="427" style="fill:white">10G로 구매</text>
+<text x="1110" y="493" class="small">노드 선택만으로 결제되지 않음</text><text x="1110" y="526" class="small">성공: ✓ 보유 + [다음] 배지</text><text x="1110" y="558" class="small">적 투자는 별도 무료 스위치</text>
+<text x="24" y="842">다음 전투 적용: 신규 구매 0건　|　적 다음 설정: 모두 OFF</text><text x="24" y="875" class="small">앱 종료 / 새 게임 시 진행 초기화 · 저장 미지원</text>
+<rect x="1110" y="826" width="302" height="54" rx="8" fill="#18212d"/><text x="1150" y="860" style="fill:white">다음 전투 시작 (무료)</text>
+</svg>
