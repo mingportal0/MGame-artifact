@@ -39,6 +39,6 @@
 <text x="30" y="744">추천: 화염 집중 → 얼음 소환 → 번개 소환</text><text x="30" y="772" class="small">추천은 구매 제한이 아닙니다. 모든 가지를 획득할 수 있습니다.</text>
 <text x="1110" y="112" class="head">선택 · 화염 집중</text><text x="1110" y="148">+ 구매 가능　10G</text><text x="1110" y="184">필수: 화염 기본 보유 ✓</text><text x="1110" y="234" class="head">다음 전투 효과</text><text x="1110" y="270">화염 피해 7 → 10.5</text><text x="1110" y="307">다른 강화 구매 불필요</text><text x="1110" y="354">구매 후 잔액: 5G</text><rect x="1110" y="394" width="302" height="52" rx="8" fill="#18212d"/><text x="1183" y="427" style="fill:white">10G로 구매</text>
 <text x="1110" y="493" class="small">노드 선택만으로 결제되지 않음</text><text x="1110" y="526" class="small">성공: ✓ 보유 + [다음] 배지</text><text x="1110" y="558" class="small">적 투자는 별도 무료 스위치</text>
-<text x="24" y="842">다음 전투 적용: 신규 구매 0건　|　적 다음 설정: 모두 OFF</text><text x="24" y="875" class="small">앱 종료 / 새 게임 시 진행 초기화 · 저장 미지원</text>
+<text x="24" y="842">신규 구매 0건　|　적 다음 설정: 모두 OFF</text><text x="24" y="875" class="small">앱 종료 / 새 게임 시 진행 초기화 · 저장 미지원</text>
 <rect x="1110" y="826" width="302" height="54" rx="8" fill="#18212d"/><text x="1150" y="860" style="fill:white">다음 전투 시작 (무료)</text>
 </svg>
