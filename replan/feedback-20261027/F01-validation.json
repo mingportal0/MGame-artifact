@@ -1,0 +1,107 @@
+{
+  "scope": "design graph / reference transaction / conditional kill arithmetic only; no new Unity or human test",
+  "passed": 18,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "14 unique paid nodes",
+      "passed": true
+    },
+    {
+      "name": "12 existing prices preserved",
+      "passed": true
+    },
+    {
+      "name": "all positive costs",
+      "passed": true
+    },
+    {
+      "name": "valid predecessor references",
+      "passed": true
+    },
+    {
+      "name": "only elemental gates",
+      "passed": true
+    },
+    {
+      "name": "acyclic complete graph",
+      "passed": true
+    },
+    {
+      "name": "no permanent partial-state dead end",
+      "passed": true
+    },
+    {
+      "name": "all nodes jointly obtainable",
+      "passed": true
+    },
+    {
+      "name": "U07 independent of U06",
+      "passed": true
+    },
+    {
+      "name": "U08 independent of U09",
+      "passed": true
+    },
+    {
+      "name": "reference rejects locked",
+      "passed": true
+    },
+    {
+      "name": "reference rejects short",
+      "passed": true
+    },
+    {
+      "name": "reference rejects battle",
+      "passed": true
+    },
+    {
+      "name": "reference rejects invalid",
+      "passed": true
+    },
+    {
+      "name": "reference repeated purchases deduct once",
+      "passed": true
+    },
+    {
+      "name": "ordinary 2 and 5 purchases grant no spirit",
+      "passed": true
+    },
+    {
+      "name": "conditional natural-income route costs 60",
+      "passed": true
+    },
+    {
+      "name": "past fire-only evidence is present",
+      "passed": true
+    }
+  ],
+  "paid_nodes": 14,
+  "existing_cost": 330,
+  "new_unlock_cost": 60,
+  "all_paid_cost": 390,
+  "reachable_ownership_states": 5376,
+  "legal_purchase_edges": 32000,
+  "conditional_route": [
+    {
+      "purchase": "S01",
+      "cumulative_valid_1G_kills": 20,
+      "balance": 0,
+      "next_battle_spirits": 2
+    },
+    {
+      "purchase": "S02",
+      "cumulative_valid_1G_kills": 60,
+      "balance": 0,
+      "next_battle_spirits": 3
+    }
+  ],
+  "source_sha256": "58e0f0eaf782d31b9dba9f7fc0a268d5d0c98ba407fd83ee8d46624fd49670b7",
+  "design_sha256": "eb7b7085fc1562415e65c44d1adc14a1b28841940879ad6a4ccaf099ab041fa1",
+  "limitations": [
+    "positive kill income remains a condition, not guaranteed for every player or seed",
+    "new route requires F06 isolated runtime test",
+    "reference duplicate rejection is not product verification",
+    "no peer acceptance yet"
+  ]
+}
