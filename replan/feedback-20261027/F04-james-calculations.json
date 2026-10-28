@@ -1,0 +1,650 @@
+{
+  "scope": "Existing evidence read-only arithmetic audit; no Unity or game tests rerun. Fixed-30s comparison is a same-reward counterfactual, not a new baseline run.",
+  "rounds": [
+    {
+      "round": 1,
+      "ticks": 1800,
+      "gold": 20,
+      "seconds": 30.0,
+      "gold_per_active_minute": 40.0,
+      "fixed_30s_counterfactual_gold_per_minute": 40,
+      "efficiency_increase_percent": 0.0,
+      "removed_wait_seconds": 0.0
+    },
+    {
+      "round": 2,
+      "ticks": 1306,
+      "gold": 30,
+      "seconds": 21.766666666666666,
+      "gold_per_active_minute": 82.69525267993875,
+      "fixed_30s_counterfactual_gold_per_minute": 60,
+      "efficiency_increase_percent": 37.82542113323124,
+      "removed_wait_seconds": 8.233333333333334
+    },
+    {
+      "round": 3,
+      "ticks": 1308,
+      "gold": 30,
+      "seconds": 21.8,
+      "gold_per_active_minute": 82.56880733944953,
+      "fixed_30s_counterfactual_gold_per_minute": 60,
+      "efficiency_increase_percent": 37.61467889908256,
+      "removed_wait_seconds": 8.2
+    },
+    {
+      "round": 4,
+      "ticks": 1126,
+      "gold": 30,
+      "seconds": 18.766666666666666,
+      "gold_per_active_minute": 95.91474245115454,
+      "fixed_30s_counterfactual_gold_per_minute": 60,
+      "efficiency_increase_percent": 59.85790408525755,
+      "removed_wait_seconds": 11.233333333333334
+    }
+  ],
+  "purchases": [
+    {
+      "round": 1,
+      "tick": 1800,
+      "event": "buy U01 cost=10 balance=10"
+    },
+    {
+      "round": 2,
+      "tick": 1306,
+      "event": "buy U05 cost=15 balance=25"
+    },
+    {
+      "round": 2,
+      "tick": 1306,
+      "event": "buy U06 cost=20 balance=5"
+    },
+    {
+      "round": 3,
+      "tick": 1308,
+      "event": "buy U02 cost=25 balance=10"
+    },
+    {
+      "round": 4,
+      "tick": 1126,
+      "event": "buy U04 cost=30 balance=10"
+    }
+  ],
+  "gross_gold": 110,
+  "spend": 100,
+  "balance": 10,
+  "active_seconds": 92.33333333333333,
+  "fixed_counterfactual_seconds": 120,
+  "removed_wait_seconds": 27.66666666666667,
+  "active_time_reduction_percent": 23.055555555555564,
+  "gold_per_active_minute": 71.48014440433214,
+  "fixed_counterfactual_gold_per_minute": 55.0,
+  "efficiency_increase_percent": 29.963898916967512,
+  "ice_unlock_cumulative_active_seconds": 51.766666666666666,
+  "wall_clock_session_measured": false,
+  "checks": [
+    {
+      "name": "report-counts-0",
+      "passed": true
+    },
+    {
+      "name": "natural-events-identical-0",
+      "passed": true
+    },
+    {
+      "name": "report-counts-1",
+      "passed": true
+    },
+    {
+      "name": "natural-events-identical-1",
+      "passed": true
+    },
+    {
+      "name": "report-counts-2",
+      "passed": true
+    },
+    {
+      "name": "natural-events-identical-2",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-1",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-2",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-3",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-4",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-5",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-6",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-7",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-8",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-9",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-10",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-11",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-12",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-13",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-14",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-15",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-16",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-17",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-18",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-19",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-20",
+      "passed": true
+    },
+    {
+      "name": "buy-ledger-0",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-21",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-22",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-23",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-24",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-25",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-26",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-27",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-28",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-29",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-30",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-31",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-32",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-33",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-34",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-35",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-36",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-37",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-38",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-39",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-40",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-41",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-42",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-43",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-44",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-45",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-46",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-47",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-48",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-49",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-50",
+      "passed": true
+    },
+    {
+      "name": "buy-ledger-1",
+      "passed": true
+    },
+    {
+      "name": "buy-ledger-2",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-51",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-52",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-53",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-54",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-55",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-56",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-57",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-58",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-59",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-60",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-61",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-62",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-63",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-64",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-65",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-66",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-67",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-68",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-69",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-70",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-71",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-72",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-73",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-74",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-75",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-76",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-77",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-78",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-79",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-80",
+      "passed": true
+    },
+    {
+      "name": "buy-ledger-3",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-81",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-82",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-83",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-84",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-85",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-86",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-87",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-88",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-89",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-90",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-91",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-92",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-93",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-94",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-95",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-96",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-97",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-98",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-99",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-100",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-101",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-102",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-103",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-104",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-105",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-106",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-107",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-108",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-109",
+      "passed": true
+    },
+    {
+      "name": "kill-ledger-110",
+      "passed": true
+    },
+    {
+      "name": "buy-ledger-4",
+      "passed": true
+    },
+    {
+      "name": "four-ends-once",
+      "passed": true
+    },
+    {
+      "name": "expected-end-ticks",
+      "passed": true
+    },
+    {
+      "name": "settlement",
+      "passed": true
+    },
+    {
+      "name": "grants-once",
+      "passed": true
+    },
+    {
+      "name": "delivery-execution.json",
+      "passed": true
+    },
+    {
+      "name": "player-execution.json",
+      "passed": true
+    },
+    {
+      "name": "build-execution.json",
+      "passed": true
+    },
+    {
+      "name": "edit-final.xml",
+      "passed": true
+    },
+    {
+      "name": "play.xml",
+      "passed": true
+    },
+    {
+      "name": "original-protection",
+      "passed": true
+    }
+  ],
+  "checks_passed": 131,
+  "nunit": {
+    "edit-final.xml": {
+      "id": "2",
+      "testcasecount": "4",
+      "result": "Passed",
+      "total": "4",
+      "passed": "4",
+      "failed": "0",
+      "inconclusive": "0",
+      "skipped": "0",
+      "asserts": "0",
+      "engine-version": "3.5.0.0",
+      "clr-version": "4.0.30319.42000",
+      "start-time": "2026-10-27 14:02:54Z",
+      "end-time": "2026-10-27 14:02:55Z",
+      "duration": "0.9771781"
+    },
+    "play.xml": {
+      "id": "2",
+      "testcasecount": "1",
+      "result": "Passed",
+      "total": "1",
+      "passed": "1",
+      "failed": "0",
+      "inconclusive": "0",
+      "skipped": "0",
+      "asserts": "0",
+      "engine-version": "3.5.0.0",
+      "clr-version": "4.0.30319.42000",
+      "start-time": "2026-10-27 14:03:18Z",
+      "end-time": "2026-10-27 14:04:52Z",
+      "duration": "93.767449"
+    }
+  },
+  "input_sha256": {
+    "delivery-report.json": "1d32569af0755a185d63fab7f24eb64995ee0ee1a89e53157ac2267ca9eaf31e",
+    "player-report.json": "1d32569af0755a185d63fab7f24eb64995ee0ee1a89e53157ac2267ca9eaf31e",
+    "play-playmode-report.json": "239ba3f9a40d709eb39ba32232d38fad49ffc43dff682f3a27c4706f622b3b8a"
+  }
+}
