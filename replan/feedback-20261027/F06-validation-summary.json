@@ -1,0 +1,82 @@
+{
+  "document_id": "P1-F06-VALIDATION-v02",
+  "environment": "Unity 6000.6.7f1 Windows64 isolated copy",
+  "edit_nunit": {
+    "passed": 12,
+    "failed": 0
+  },
+  "play_nunit": {
+    "passed": 3,
+    "failed": 0
+  },
+  "internal_play_f06": {
+    "passed": 121,
+    "failed": 0
+  },
+  "internal_language_regression": {
+    "passed": 24,
+    "failed": 0
+  },
+  "player_runs": {
+    "player-7": {
+      "passed": 125,
+      "failed": 0,
+      "route_income": 80,
+      "route_spend": 70,
+      "route_final_gold": 10,
+      "rounds": 3
+    },
+    "delivery-v02": {
+      "passed": 125,
+      "failed": 0,
+      "route_income": 80,
+      "route_spend": 70,
+      "route_final_gold": 10,
+      "rounds": 3
+    },
+    "zip-extracted-v02": {
+      "passed": 125,
+      "failed": 0,
+      "route_income": 80,
+      "route_spend": 70,
+      "route_final_gold": 10,
+      "rounds": 3
+    }
+  },
+  "identity": {
+    "gameplay_dll_sha256": "4a98d053b71651d03ba3d5b675a7be2571c10d4ffea376278d312c7d65e9ed8c",
+    "zip_sha256": "c0d123dbd7ec654da44c2cd45724586234d5d60046561e82fb102195d1ad6630",
+    "source_manifest_sha256": "7cab1da4767ec0e781d881c00817b424e0a5516de5ceb4398e958d355055df49",
+    "build_manifest_sha256": "9917d01ff649962775482d477b2cdd962e15ec1620d33549990c6149ad0a4e86"
+  },
+  "original_unchanged_files": 75,
+  "matching_build_files": 201,
+  "matching_mgame_source_files": 59,
+  "zip_crc_and_extracted_execution": true,
+  "combat_step_unchanged": true,
+  "resolutions": [
+    "1920x1080",
+    "1440x900",
+    "1280x720",
+    "960x540",
+    "640x480"
+  ],
+  "languages": [
+    "ko",
+    "en"
+  ],
+  "historical_failure": {
+    "run": "player-5",
+    "passed": 114,
+    "failed": 4,
+    "reason": "compact ROOT label containment"
+  },
+  "not_proven": [
+    "physical OS input/focus",
+    "human UX/fun",
+    "all DPI",
+    "F07 formation",
+    "final balance adoption",
+    "D02/F08 acceptance"
+  ]
+}
