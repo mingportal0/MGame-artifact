@@ -1,0 +1,120 @@
+{
+  "schema": "F07-verification-v1",
+  "nunit": {
+    "edit-final": {
+      "id": "2",
+      "testcasecount": "14",
+      "result": "Passed",
+      "total": "14",
+      "passed": "14",
+      "failed": "0",
+      "inconclusive": "0",
+      "skipped": "0",
+      "asserts": "0",
+      "engine-version": "3.5.0.0",
+      "clr-version": "4.0.30319.42000",
+      "start-time": "2026-10-29 05:11:32Z",
+      "end-time": "2026-10-29 05:17:50Z",
+      "duration": "377.7046157"
+    },
+    "play-final": {
+      "id": "2",
+      "testcasecount": "4",
+      "result": "Passed",
+      "total": "4",
+      "passed": "4",
+      "failed": "0",
+      "inconclusive": "0",
+      "skipped": "0",
+      "asserts": "0",
+      "engine-version": "3.5.0.0",
+      "clr-version": "4.0.30319.42000",
+      "start-time": "2026-10-29 05:27:47Z",
+      "end-time": "2026-10-29 05:31:36Z",
+      "duration": "229.5092751"
+    }
+  },
+  "reports": {
+    "player-5": {
+      "passed": 335,
+      "failed": 0,
+      "seconds": 106.77686476707458,
+      "natural_rounds": 3,
+      "natural_income": 77,
+      "natural_spend": 70,
+      "natural_gold": 7
+    },
+    "delivery-v01": {
+      "passed": 335,
+      "failed": 0,
+      "seconds": 106.71652865409851,
+      "natural_rounds": 3,
+      "natural_income": 77,
+      "natural_spend": 70,
+      "natural_gold": 7
+    },
+    "zip-extracted-v01": {
+      "passed": 335,
+      "failed": 0,
+      "seconds": 106.57978940010071,
+      "natural_rounds": 3,
+      "natural_income": 77,
+      "natural_spend": 70,
+      "natural_gold": 7
+    }
+  },
+  "economy": {
+    "paired_cases": 288,
+    "invariant_failures": 0,
+    "james_review_groups": 10,
+    "individual_rate_warnings": 50,
+    "natural_routes": [
+      {
+        "implementation": "F06",
+        "reached": true,
+        "totalTicks": 5493,
+        "gold": 40,
+        "spend": 70,
+        "iceGrants": 1,
+        "lightningGrants": 1
+      },
+      {
+        "implementation": "F07",
+        "reached": true,
+        "totalTicks": 5543,
+        "gold": 38,
+        "spend": 70,
+        "iceGrants": 1,
+        "lightningGrants": 1
+      }
+    ]
+  },
+  "identity": {
+    "gameplay_dll_sha256": "7bdc250997ea1680c1ca0cf2e4275400094c31c6023f0b59a09a86cb10c3e3aa",
+    "zip_sha256": "f425e501f20fec9c990660e5d75fdf2f7a5c8273cc99420952d5b91951bd3520",
+    "source_manifest_sha256": "ba3efd8e8f811b677ddff8a1dc2fd1b5dde70307cab367e5021c87470b824955",
+    "build_manifest_sha256": "3f294ee32b9a83508fddb310bc8620ae45d7063223b665bb18d33dd015ac73f5"
+  },
+  "matching_build_files": 201,
+  "matching_mgame_source_files": 78,
+  "effects_rewards_intervals_unchanged": true,
+  "font_unchanged": true,
+  "original_unchanged_files": 75,
+  "closing_delivery_check": {
+    "passed": 335,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "review": {
+    "james": "target and economy diagnosis accepted; not final balance",
+    "mia": "v02 supported-space UX and v03 specified approach/shot frames accepted; not human UX"
+  },
+  "not_validated": [
+    "human fun/dynamic command understanding",
+    "all movement overlap/high-density readability",
+    "physical OS input/focus/Alt-Tab",
+    "all DPI",
+    "agreed performance/probability/independent technical acceptance",
+    "final visuals and D02/F08 acceptance"
+  ]
+}
